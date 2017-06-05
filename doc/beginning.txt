@@ -8,6 +8,6 @@
 
 Для начала я создам новый под-прокет [tram-adapt: http://marketram.acunote.com/projects/52881/sprints] на последних технологиях [ruby: https://www.ruby-lang.org/ru/] и [rails: http://rubyonrails.org/]. 
 Он будет поддерживать достпуп к различным брокерам через адаптеры. 
-Вот он в открытом доступе на [github: adapt]
+Вот он в открытом доступе на [github: https://github.com/emarkine/adapt].
 
 [Started.png]
