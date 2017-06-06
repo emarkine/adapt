@@ -1,0 +1,45 @@
+Я удивлен как все быстро движется, если поставить себе короткие цели в спринте. Сегодня у меня одновременно вторник и пятница. Второй день работы над [спринтом: http://marketram.acunote.com/projects/52881/sprints/223040/show] и он же последний перед выходным. 
+
+[Вчера: tram/adapt/beginning] у меня получилось запустить проект локально и отдеплоить его на [сервер: http://adapt.marketram.com/], который пока лишь выдает вот это 'Internal server error'. 
+
+В логах я вижу вот это: 
+Missing `secret_key_base` for 'production' environment.  
+
+Это уже встречалось у меня в проекте [guestsbook: http://guestsbook.eu/] и я так и не победил тогда эту проблему.
+Дело в том, что вызов в bash переменной, находящийся в config/secrets.yml дает вполне правильный ответ.
+09:54 tram-adapt@eugenelab:~ $ echo $SECRET_KEY_BASE
+c8d90...
+
+То же самое происходит при работе с интерпретарором, переменная устанвлена и она видима:
+Loading production environment (Rails 5.1.1)                                                                    
+2.4.0 :001 > ENV["SECRET_KEY_BASE"]
+c8d90...
+
+Нифига не понимаю в этой ошибке! Она то появляется, то нет. 
+
+Запустил, как предписано, на сервере. Получил целую простыню с инструкциями:
+11:24 tram-adapt@eugenelab:~ $ bin/rails secrets:setup
+Adding config/secrets.yml.key to store the encryption key: 3cf915c446c991f02af7479f22d69694
+Save this in a password manager your team can access.
+If you lose the key, no one, including you, can access any encrypted secrets.
+create  config/secrets.yml.key
+IMPORTANT: Don't commit config/secrets.yml.key. Add this to your ignore file:
+# Ignore encrypted secrets key file.
+config/secrets.yml.key
+Adding config/secrets.yml.enc to store secrets that needs to be encrypted.
+create  config/secrets.yml.enc
+For now the file contains this but it's been encrypted with the generated key:
+# See `secrets.yml` for tips on generating suitable keys.
+# production:
+#  external_api_key: 1466aac22e6a869134be3d09b9e89232fc2c2289…
+You can edit encrypted secrets with `bin/rails secrets:edit`.
+Add this to your config/environments/production.rb:
+config.read_encrypted_secrets = true
+
+А потом понял, что это надо запускать в среде разработки.
+
+Вроде бы все пофиксилось. Всего лишь надо было добавить секрет в .bashrc. 
+
+Блин, сколько же времени это у меня заняло! 
+
+Впрочем оно всегда так, с тем, что не понимаешь. Эта фигня нужна для того, чтобы куки перписывались, когда что-то существенное в сайте меняется. Вещь конечно же нужная, но очень уж геморойно сделано. Особенно удручает то, что это не работает в Rails из коробки. 
