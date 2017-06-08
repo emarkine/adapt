@@ -7,3 +7,11 @@
  Authentication
 Я бы хотел поробовать [Sorcery: https://github.com/Sorcery/sorcery]  вместо [Devise: https://github.com/plataformatec/devise]. К последнему у меня не раз воникали вопросы, да и вообще хочется попробовать что-то новое. 
 
+Воткнул Sorcery. 
+Вот что получил при загрузики на сервер:
+Post-install message from sorcery:
+As of version 1.0 oauth/oauth2 won't be automatically bundled so you may need to add those dependencies to your Gemfile.
+You may need oauth2 if you use external providers such as any of these: https://github.com/Sorcery/sorcery/tree/master/lib/sorcery/providers
+Yarn executable was not detected in the system.
+
+Это все интерсно, но мне важно не увязнуть во всех этих возможностях. Главное теперь контроллер и его тестирование. 
