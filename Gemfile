@@ -38,11 +38,13 @@ gem 'redis', '~> 3.0'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
+  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'watir-rspec'
+  gem 'watir', '~> 6.0'
+
 end
 
 group :development do
@@ -54,6 +56,12 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :test do
+  gem 'database_cleaner'
+end
+
 gem 'dotenv-rails'
+gem 'email_validator', require: 'email_validator/strict'
 gem 'haml'
+gem 'sorcery'
 gem 'thin'
