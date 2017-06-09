@@ -42,6 +42,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
+  gem 'capybara'
   gem 'watir-rspec'
   gem 'watir', '~> 6.0'
 

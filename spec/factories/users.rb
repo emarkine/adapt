@@ -13,6 +13,15 @@ FactoryGirl.define do
     end
   end
 
+  factory :admin, class: User do
+    first_name 'Seper'
+    last_name 'Admin'
+    mobile '0612345678'
+    email 'admin@marketram.com'
+    password '123456'
+    password_confirmation '123456'
+  end
+
   factory :eugene, class: User do
     first_name 'Eugene'
     last_name 'Markine'

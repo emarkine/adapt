@@ -20,8 +20,8 @@ RSpec.describe User, type: :model do
   end
 
   it 'has a valid password' do
-    eugene = FactoryGirl.create :eugene
-    expect(eugene.valid_password?('secret123')).to be true
+    admin = FactoryGirl.create :admin
+    expect(admin.valid_password?('123456')).to be true
   end
 
 end
