@@ -63,6 +63,6 @@ end
 
 gem 'dotenv-rails'
 gem 'email_validator', require: 'email_validator/strict'
-gem 'haml'
+gem 'haml-rails'
 gem 'sorcery'
 gem 'thin'
