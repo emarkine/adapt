@@ -14,18 +14,16 @@ RSpec.feature 'Login management: ', type: :feature do
     expect(url).to end_with '/profile'
     # expect(div(class: 'notice').text).to 'Login successful'
   end
-  #
-  # let(:wrong_user) { build(:user, login: 'user', password: 'wrong') }
-  #
-  # scenario 'Signing in with wrong credentials' do
-  #   @browser.text_field( id: 'user_login').set wrong_user.login
-  #   @browser.text_field( id: 'user_password').set wrong_user.password
-  #   @browser.button(text: 'Login').click
-  #   @browser.wait
-  #   expect(@browser.url).not_to end_with '/cassettes/new'
-  #   expect(@browser.div(class: 'alert').text).to end_with 'Invalid Login or password.'
-  # end
-  #
+
+  scenario 'Signing in with wrong credentials' do
+    text_field( id: 'user_email').set 'test@marketram.com'
+    text_field( id: 'user_password').set 'bad password'
+    button(text: 'login').click
+    wait
+    expect(url).to end_with '/login'
+    # expect(div(class: 'alert').text).to end_with 'Invalid Login or password.'
+  end
+
   # scenario 'User logged out' do
   #   till_name = user_first_till(user)
   #   # link = @browser.a('data-sweet-alert-type' => 'info')
