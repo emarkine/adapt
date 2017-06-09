@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+user = User.create(first_name: 'Test', last_name: 'User',
+                   mobile: '0612345678', email: 'test@marketram.com',
+                   password: 'password', password_confirmation: 'password' )
+user.save!

@@ -14,7 +14,7 @@ FactoryGirl.define do
   end
 
   factory :admin, class: User do
-    first_name 'Seper'
+    first_name 'Super'
     last_name 'Admin'
     mobile '0612345678'
     email 'admin@marketram.com'
