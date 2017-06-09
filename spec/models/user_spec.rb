@@ -19,7 +19,9 @@ RSpec.describe User, type: :model do
     expect(build(:user, email: 'info@blah')).not_to be_valid
   end
 
-  # it 'has a valid password' do
-  #   expect(user.valid_password?(user.password)).to be true
-  # end
+  it 'has a valid password' do
+    eugene = FactoryGirl.create :eugene
+    expect(eugene.valid_password?('secret123')).to be true
+  end
+
 end
