@@ -1,5 +1,5 @@
 ---
-chdir: /home/tram-adapt
+chdir: /home/adapt
 environment: production
 address: 0.0.0.0
 port: 12100
