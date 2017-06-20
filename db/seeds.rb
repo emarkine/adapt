@@ -10,3 +10,10 @@ user = User.create({ name: 'Test', surname: 'User',
                    mobile: '0612345678', email: 'test@marketram.com',
                    password: 'password', password_confirmation: 'password' } )
 user.save!
+
+
+user = User.create({ name: 'Eugene', surname: 'Markine',
+                     mobile: '0628736786', email: 'eugene@markine.nl',
+                     password: 'password', password_confirmation: 'password' } )
+user.save!
+
