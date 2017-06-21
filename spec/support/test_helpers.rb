@@ -1,10 +1,11 @@
 module TestHelpers
   module Features
     def login_user(user, password)
-      visit user_sessions_url
-      fill_in 'email',    with: user.email
-      fill_in 'password', with: password
-      click_button 'Login'
+      goto 'localhost:3001/login'
+      text_field( id: 'user_email').set 'test@marketram.com'
+      text_field( id: 'user_password').set 'password'
+      button(text: 'login').click
+      wait
     end
   end
 end

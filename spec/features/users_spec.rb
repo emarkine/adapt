@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.feature 'User management: ', type: :feature do
 
   before do
-    login_user(User.first,'password')
+    login_user
   end
 
   scenario 'Shows profile data' do
