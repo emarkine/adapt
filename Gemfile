@@ -42,7 +42,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'faker'
   gem 'rspec-rails'
-  # gem 'capybara'
+  gem 'capybara'
   gem 'watir-rspec'
   gem 'watir', '~> 6.0'
 
@@ -60,6 +60,11 @@ end
 group :test do
   gem 'database_cleaner'
 end
+
+# IB libraries
+# gem 'ib-ruby'
+# gem 'activemodel-serializers-xml'
+# gem 'active_model_serializers'
 
 gem 'dotenv-rails'
 gem 'email_validator', require: 'email_validator/strict'

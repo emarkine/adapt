@@ -12,7 +12,7 @@ RSpec.feature 'Login management: ', type: :feature do
     button(text: 'login').click
     wait
     expect(url).to end_with '/profile'
-    # expect(div(class: 'notice').text).to 'Login successful'
+    expect(div(class: 'notice').text).to 'Login successful'
   end
 
   scenario 'Signing in with wrong credentials' do
@@ -21,7 +21,7 @@ RSpec.feature 'Login management: ', type: :feature do
     button(text: 'login').click
     wait
     expect(url).to end_with '/login'
-    # expect(div(class: 'alert').text).to end_with 'Invalid Login or password.'
+    expect(div(class: 'alert').text).to end_with 'Invalid Login or password.'
   end
 
   # scenario 'User logged out' do

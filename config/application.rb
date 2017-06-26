@@ -12,9 +12,15 @@ require "action_cable/engine"
 require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
+# require File.expand_path('../boot', __FILE__)
+# require 'rails/all'
+# require 'ib'
+
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
+
 
 module TramAdapt
   class Application < Rails::Application
