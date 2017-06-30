@@ -1,5 +1,6 @@
 class Country < ActiveRecord::Base
-  validates :name, :code, :presence => true
+  validates :name, presence: true, uniqueness: true
+  validates :code, presence: true, uniqueness: true
 
   def self.list
     list = Country.all.collect {|a| [ a.name, a.id ] }

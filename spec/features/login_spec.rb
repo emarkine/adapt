@@ -7,8 +7,8 @@ RSpec.feature 'Login management: ', type: :feature do
   end
 
   scenario 'Signing in with correct credentials' do
-    text_field( id: 'user_email').set 'test@marketram.com'
-    text_field( id: 'user_password').set 'password'
+    text_field( id: 'email').set 'test@marketram.com'
+    text_field( id: 'password').set 'password'
     button(text: 'login').click
     wait
     expect(url).to end_with '/profile'
@@ -16,8 +16,8 @@ RSpec.feature 'Login management: ', type: :feature do
   end
 
   scenario 'Signing in with wrong credentials' do
-    text_field( id: 'user_email').set 'test@marketram.com'
-    text_field( id: 'user_password').set 'bad password'
+    text_field( id: 'email').set 'test@marketram.com'
+    text_field( id: 'password').set 'bad password'
     button(text: 'login').click
     wait
     expect(url).to end_with '/login'

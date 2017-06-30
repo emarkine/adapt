@@ -1,0 +1,23 @@
+!!! 5
+%html
+  %head
+    %title Adapt
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    %link{:rel => 'icon', :href => image_path('favicon.ico'), :type => 'image/ico'}
+
+  %body
+    .nav
+      - if current_user
+        = link_to 'Profile', '/profile'
+        = link_to 'Logout', :logout, method: :post
+      - else
+        = link_to 'Register', new_user_path
+        = link_to 'Login', :login
+
+    .flash
+      .notice= flash[:notice]
+      .alert= flash[:alert]
+
+    = yield

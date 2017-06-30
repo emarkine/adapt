@@ -4,9 +4,11 @@ class ApplicationController < ActionController::Base
 
   def init
     @controller = params[:controller]
-    @object_name = @controller.singularize
-    @model = @controller.singularize.split('/').map { |c| c.capitalize }.join('::').constantize if @controller
-    @object = @model.find_by_id(params[:id]) if (params[:id] && @model)
+    if not %w(site user_sessions).include?(@controller)
+      @object_name = @controller.singularize
+      @model = @controller.singularize.split('/').map {|c| c.capitalize}.join('::').constantize if @controller
+      @object = @model.find_by_id(params[:id]) if (params[:id] && @model)
+    end
   end
 
 end
