@@ -1,6 +1,11 @@
 en:
   login: login
   logout: logout
+  profile: profile
+  register: register
+  login_success: Login successful
+  login_failed: Login failed
+  logged_out: Logged out
 
   activerecord:
     models:

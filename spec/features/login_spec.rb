@@ -3,36 +3,34 @@ require 'rails_helper'
 RSpec.feature 'Login management: ', type: :feature do
 
   before do
-    goto 'localhost:3001/login'
   end
 
   scenario 'Signing in with correct credentials' do
+    goto 'localhost:3001/login'
     text_field( id: 'email').set 'test@marketram.com'
     text_field( id: 'password').set 'password'
-    button(text: 'login').click
+    button(text: I18n.t(:login)).click
     wait
     expect(url).to end_with '/profile'
-    expect(div(class: 'notice').text).to 'Login successful'
+    expect(div(class: 'notice').text).to have_text I18n.t(:login_success)
   end
 
   scenario 'Signing in with wrong credentials' do
+    goto 'localhost:3001/login'
     text_field( id: 'email').set 'test@marketram.com'
     text_field( id: 'password').set 'bad password'
-    button(text: 'login').click
+    button(text: I18n.t(:login)).click
     wait
-    expect(url).to end_with '/login'
-    expect(div(class: 'alert').text).to end_with 'Invalid Login or password.'
+    expect(url).to end_with 'user_sessions'
+    expect(div(class: 'alert').text).to have_text I18n.t(:login_failed)
   end
 
-  # scenario 'User logged out' do
-  #   till_name = user_first_till(user)
-  #   # link = @browser.a('data-sweet-alert-type' => 'info')
-  #   link = @browser.a(text: till_name)
-  #   link.click
-  #   pause
-  #   @browser.button(class: 'swal2-confirm styled').click
-  #   @browser.wait
-  #   expect(@browser.text.include? 'Je dient in te loggen of je in te schrijven.').to be true
-  # end
+  scenario 'User logged out' do
+    login
+    expect(url).to end_with '/profile'
+    a( text: I18n.t(:logout)).click
+    wait
+    expect(div(class: 'notice').text).to have_text I18n.t(:logged_out)
+  end
 
 end

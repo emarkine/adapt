@@ -10,11 +10,11 @@
   %body
     .nav
       - if current_user
-        = link_to 'Profile', '/profile'
-        = link_to 'Logout', :logout, method: :post
+        = link_to t(:profile), '/profile'
+        = link_to t(:logout), :logout, method: :post
       - else
-        = link_to 'Register', new_user_path
-        = link_to 'Login', :login
+        = link_to t(:register), new_user_path
+        = link_to t(:login), :login
 
     .flash
       .notice= flash[:notice]
