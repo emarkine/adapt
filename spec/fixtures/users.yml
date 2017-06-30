@@ -5,10 +5,26 @@ user_1:
   birthday: 
   mobile: 0612345678
   site: 
+  currency_id: 2
   balance: 
   email: test@marketram.com
-  crypted_password: $2a$10$rpfEmbyX5KaIbCa7J2T/1.qicBw2/44lJRifhcDDZHN.ail4U845y
-  salt: XaLegm439zZ3xt2Ce6Ge
-  created_at: 2017-06-19 11:58:14 UTC
-  updated_at: 2017-06-19 11:58:14 UTC
+  crypted_password: $2a$10$d7bI9l9DfrDgjCJzUpUMv.djN4jWQSfTqY2Re5VLLsz8TX1/rgEJC
+  salt: dn6VNTHLssQJbXkWsyfz
+  created_at: 2017-06-30 12:12:11 UTC
+  updated_at: 2017-06-30 12:12:11 UTC
+
+user_2:
+  id: 2
+  name: Eugene
+  surname: Markine
+  birthday: 
+  mobile: 0628736786
+  site: 
+  currency_id: 1
+  balance: 
+  email: eugene@markine.nl
+  crypted_password: $2a$10$bOnLM/rdMMLVy6V.nlbcoONYc6TX1i9Of6v9eKTqTXBPyXKwDIPLm
+  salt: FTnTm45fsKk6mi2vKGsb
+  created_at: 2017-06-30 12:12:11 UTC
+  updated_at: 2017-06-30 12:12:11 UTC
 
