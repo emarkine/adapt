@@ -1,7 +1,5 @@
 class Currency < ActiveRecord::Base
   belongs_to :country
-  has_many :funds
-
   validates :name,
             :presence => true,
             :uniqueness => true
@@ -10,6 +8,7 @@ class Currency < ActiveRecord::Base
             :uniqueness => true
   validates :country_id,
             :presence => true
+  has_many :funds
 
   def self.USD
     Currency.find_by_code 'USD'

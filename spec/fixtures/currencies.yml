@@ -4,158 +4,109 @@ EUR:
   code: EUR
   sign: €
   country_id: 153
-  state: market
-
 USD:
   name: United States Dollar
   code: USD
   sign: $
   country_id: 228
-  state: market
-
 LVL:
   name: Latvian Lats
   code: LVL
   sign: Ls
   country_id: 119
-  state: expired
-
 RUB:
   name: Russian Ruble
   code: RUB
   sign: R
   country_id: 180
-  state: market
-
 UAH:
   name: Ukraine Hryvnia
   code: UAH
   sign: 
   country_id: 225
-  state: maintain
-
 BGN:
   name: Bulgarian Lev
   code: BGN
   sign: lev
   country_id: 33
-  state: maintain
-
 LTL:
   name: Lithuanian Litas
   code: LTL
   sign: Lt
   country_id: 125
-  state: maintain
-
 CHF:
   name: Swiss Frank
   code: CHF
   sign: Fr
   country_id: 209
-  state: market
-
 HRK:
   name: Croatian Kuna
   code: HRK
   sign: kn
   country_id: 54
-  state: maintain
-
 SEK:
   name: Swedish Krona
   code: SEK
   sign: kr
   country_id: 208
-  state: market
-
 HKD:
   name: Hong Kong Dollar
   code: HKD
   sign: $
   country_id: 97
-  state: market
-
 GBP:
   name: Pound Sterling
   code: GBP
   sign: £
   country_id: 227
-  state: market
-
 JPY:
   name: Japanese Yen
   code: JPY
   sign: ¥
   country_id: 108
-  state: market
-
 INR:
   name: India Rupees
   code: INR
   sign: ₹
   country_id: 100
-  state: market
-
 NZD:
   name: New Zealand dollar
   code: NZD
   sign: NZ$
   country_id: 156
-  state: market
-
 KRW:
   name: South Korean Won
   code: KRW
   sign: ₩
   country_id: 114
-  state: market
-
 AUD:
   name: Australian Dollar
   code: AUD
   sign: A$
   country_id: 13
-  state: market
-
 CAD:
   name: Canadian Dollar
   code: CAD
   sign: C$
   country_id: 38
-  state: market
-
 CNY:
   name: Chinese Yuan
   code: CNY
   sign: CN¥
   country_id: 44
-  state: market
-
-CNY:
-  name: Chinese Yuan
-  code: CNY
-  sign: CN¥
-  country_id: 44
-  state: market
-
 PLN:
   name: Polish złoty
   code: PLN
   sign: zł
   country_id: 174
-  state:
-
 MTM:
   name: Market Tram Money
   code: MTM
   sign: ξ
   country: Gryzland
-  state:
 
 #:
 #  name:
 #  code:
 #  sign:
 #  country_id:
-#  state:

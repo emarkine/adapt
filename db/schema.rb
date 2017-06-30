@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20120315132739) do
   create_table "countries", force: :cascade do |t|
     t.string "name"
     t.string "code"
+    t.index ["code"], name: "index_countries_on_code", unique: true
   end
 
   create_table "currencies", force: :cascade do |t|
@@ -25,7 +26,7 @@ ActiveRecord::Schema.define(version: 20120315132739) do
     t.string "code"
     t.string "sign"
     t.bigint "country_id"
-    t.string "state"
+    t.index ["code"], name: "index_currencies_on_code", unique: true
     t.index ["country_id"], name: "index_currencies_on_country_id"
   end
 

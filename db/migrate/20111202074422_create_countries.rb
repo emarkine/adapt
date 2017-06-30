@@ -4,5 +4,6 @@ class CreateCountries < ActiveRecord::Migration[5.1]
       t.string :name
       t.string :code
     end
+    add_index :countries, :code, unique: true
   end
 end

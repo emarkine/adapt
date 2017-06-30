@@ -5,7 +5,7 @@ class CreateCurrencies < ActiveRecord::Migration[5.1]
       t.string :code
       t.string :sign
       t.references :country
-      t.string :state
     end
+    add_index :currencies, :code, unique: true
   end
 end
