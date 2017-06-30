@@ -1,19 +1,25 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+require 'rake'
 
-user = User.create({ name: 'Test', surname: 'User',
+# Rake::Task['db:model:load'].invoke('country')
+# Rake::Task['db:model:load'].invoke('currency')
+
+US = Country.create( name: 'United States', code: 'US' )
+US.save!
+USD = Currency.create( name: 'United States Dollar', code: 'USD', sign: '$', country: US, state: 'market' )
+USD.save!
+NL = Country.create( name: 'Netherlands', code: 'NL' )
+NL.save!
+EUR = Currency.create( name: 'Euro', code: 'EUR', sign: '€', country: NL, state: 'market' )
+EUR.save!
+
+USER_TEST = User.create({ name: 'Test', surname: 'User', currency: EUR,
                    mobile: '0612345678', email: 'test@marketram.com',
                    password: 'password', password_confirmation: 'password' } )
-user.save!
+USER_TEST.save!
 
 
-user = User.create({ name: 'Eugene', surname: 'Markine',
+USER_EUGENE = User.create({ name: 'Eugene', surname: 'Markine', currency: USD,
                      mobile: '0628736786', email: 'eugene@markine.nl',
                      password: 'password', password_confirmation: 'password' } )
-user.save!
+USER_EUGENE.save!
 

@@ -6,6 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.date :birthday
       t.string :mobile
       t.string :site
+      t.references :currency, null: false
       t.decimal :balance, precision: 10, scale: 2
       t.string :email, null: false
       t.string :crypted_password
