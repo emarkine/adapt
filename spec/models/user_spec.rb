@@ -24,8 +24,16 @@ RSpec.describe User, type: :model do
   end
 
   it 'has a valid password' do
-    admin = FactoryGirl.create :admin
+    admin = User.find_by_name 'Admin'
     expect(admin.valid_password?('123456')).to be true
+  end
+
+  it 'is invalid without a currency' do
+    expect(build(:user, currency: nil)).not_to be_valid
+  end
+
+  it 'has a currency' do
+    expect(user.currency).to be_instance_of Currency
   end
 
 end
