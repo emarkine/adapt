@@ -16,15 +16,15 @@ EUR = Currency.create( name: 'Euro', code: 'EUR', sign: '€', country: NL )
 EUR.save!
 
 User.destroy_all
-USER_TEST = User.create({ name: 'Test', surname: 'User', currency: EUR,
+USER_TEST = User.create({ name: 'Test', currency: EUR,
                    mobile: '0612345678', email: 'test@marketram.com',
                    password: 'password', password_confirmation: 'password' } )
 USER_TEST.save!
-USER_ADMIN = User.create({ name: 'Admin', surname: 'User', currency: EUR,
+USER_ADMIN = User.create({ name: 'Admin', currency: EUR,
                            mobile: '0612345678', email: 'admin@marketram.com',
                            password: '123456', password_confirmation: '123456' } )
 USER_ADMIN.save!
-USER_EUGENE = User.create({ name: 'Eugene', surname: 'Markine', currency: USD,
+USER_EUGENE = User.create({ name: 'Eugene Markine', currency: USD,
                      mobile: '0628736786', email: 'eugene@markine.nl',
                      password: 'secret123', password_confirmation: 'secret123' } )
 USER_EUGENE.save!

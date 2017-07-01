@@ -1,9 +1,13 @@
 .line= gravatar_for @user
-- line :name
-- line :surname
-- line :email
-- line :site
-- line :birthday
-- line_amount :balance
+.line= mail_to @user.email, @user.name
+.line
+  = @user.currency.sign
+  = number_with_precision(@user.balance, :precision => 2, :separator => '.', :delimiter => '')
+
+-#.line=
+-#- line :email
+-#- line :site
+-#- line :birthday
+-#
 -#.line
   = button_tag 'logout'

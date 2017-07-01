@@ -16,28 +16,27 @@ ActiveRecord::Schema.define(version: 20120315132739) do
   enable_extension "plpgsql"
 
   create_table "countries", force: :cascade do |t|
-    t.string "name"
-    t.string "code"
+    t.string "name", null: false
+    t.string "code", null: false
     t.index ["code"], name: "index_countries_on_code", unique: true
   end
 
   create_table "currencies", force: :cascade do |t|
-    t.string "name"
-    t.string "code"
-    t.string "sign"
-    t.bigint "country_id"
+    t.string "name", null: false
+    t.string "code", null: false
+    t.string "sign", null: false
+    t.bigint "country_id", null: false
     t.index ["code"], name: "index_currencies_on_code", unique: true
     t.index ["country_id"], name: "index_currencies_on_country_id"
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "surname"
+    t.string "name", null: false
     t.date "birthday"
     t.string "mobile"
     t.string "site"
     t.bigint "currency_id", null: false
-    t.decimal "balance", precision: 10, scale: 2
+    t.decimal "balance", precision: 10, scale: 2, default: "0.0"
     t.string "email", null: false
     t.string "crypted_password"
     t.string "salt"

@@ -6,5 +6,8 @@ class User < ApplicationRecord
   validates :password_confirmation, presence: true, if: -> { new_record? || changes[:crypted_password] }
   validates :email, email: true, presence: true, uniqueness: true
   validates :name, presence: true
-  validates :currency, presence: true
+  validates :currency_id, presence: true
+  validates :balance, presence: true
+
+
 end

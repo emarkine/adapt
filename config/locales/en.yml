@@ -15,10 +15,13 @@ en:
         other: users
     attributes:
       user:
-        name: name
-        first_name: first_name
-        last_name: last_name
-        mobile: mobile
         email: email
         password: password
         password_confirmation: confirmation
+        name: Full Name
+        mobile: mobile
+        birthday: birthday
+        site: site
+        currency: currency
+        currency_id: currency
+        balance: balance
