@@ -6,6 +6,7 @@ en:
   login_success: Login successful
   login_failed: Login failed
   logged_out: Logged out
+  not_authenticated: Please login first
 
   activerecord:
     models:

@@ -1,11 +1,12 @@
 module TestHelpers
   module Features
+    URL = 'localhost:3001'
     def login
       user = User.find_by_name 'Test'
       login_user(user, 'password')
     end
     def login_user(user, password)
-      goto 'localhost:3001/login'
+      goto "#{URL}/login"
       text_field( id: 'email').set 'test@marketram.com'
       text_field( id: 'password').set 'password'
       button(text: 'login').click
