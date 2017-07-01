@@ -1,7 +1,5 @@
 class Currency < ActiveRecord::Base
   belongs_to :country
-  # has_many :users
-  # has_many :funds
   validates :name,
             :presence => true,
             :uniqueness => true
