@@ -11,13 +11,13 @@ class Currency < ActiveRecord::Base
   validates :country_id,
             :presence => true
 
-  # def self.USD
-  #   Currency.find_by_code 'USD'
-  # end
-  #
-  # def self.EUR
-  #   Currency.find_by_code 'EUR'
-  # end
+  def self.USD
+    Currency.find_by_code 'USD'
+  end
+
+  def self.EUR
+    Currency.find_by_code 'EUR'
+  end
 
   def rate(currency=nil)
     if currency

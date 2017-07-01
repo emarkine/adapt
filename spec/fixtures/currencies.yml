@@ -22,7 +22,7 @@ RUB:
 UAH:
   name: Ukraine Hryvnia
   code: UAH
-  sign: 
+  sign: ₴
   country_id: 225
 BGN:
   name: Bulgarian Lev

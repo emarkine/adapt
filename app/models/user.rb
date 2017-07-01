@@ -8,6 +8,4 @@ class User < ApplicationRecord
   validates :name, presence: true
   validates :currency_id, presence: true
   validates :balance, presence: true
-
-
 end

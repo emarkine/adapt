@@ -1,2 +1,4 @@
 config/secrets.yml.key
 config/secrets.yml.enc
+spec/fixtures/users.yml
+

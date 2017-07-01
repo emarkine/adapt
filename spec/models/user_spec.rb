@@ -36,4 +36,8 @@ RSpec.describe User, type: :model do
     expect(user.currency).to be_instance_of Currency
   end
 
+  it 'has a balance' do
+    expect(user.balance).not_to be_nil
+  end
+
 end
