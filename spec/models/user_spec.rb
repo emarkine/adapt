@@ -36,6 +36,14 @@ RSpec.describe User, type: :model do
     expect(user.currency).to be_instance_of Currency
   end
 
+  it 'is invalid without a country' do
+    expect(build(:user, country: nil)).not_to be_valid
+  end
+
+  it 'has a country' do
+    expect(user.country).to be_instance_of Country
+  end
+
   it 'has a balance' do
     expect(user.balance).not_to be_nil
   end

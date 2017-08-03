@@ -38,12 +38,14 @@ ActiveRecord::Schema.define(version: 20120315132739) do
     t.string "mobile"
     t.string "site"
     t.bigint "currency_id", null: false
+    t.bigint "country_id", null: false
     t.decimal "balance", precision: 10, scale: 2, default: "0.0", null: false
     t.string "email", null: false
     t.string "crypted_password"
     t.string "salt"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["country_id"], name: "index_users_on_country_id"
     t.index ["currency_id"], name: "index_users_on_currency_id"
     t.index ["email"], name: "index_users_on_email", unique: true
   end

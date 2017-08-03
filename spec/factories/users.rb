@@ -6,6 +6,7 @@ FactoryGirl.define do
     sequence(:name) {Faker::Name.first_name}
     sequence(:mobile) {Faker::PhoneNumber.cell_phone}
     currency
+    country
     sequence(:email) {Faker::Internet.email}
     sequence(:password) {Faker::Internet.password}
     after(:build) do |user|

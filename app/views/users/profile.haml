@@ -1,5 +1,6 @@
 .line= gravatar_for @user
 .line= mail_to @user.email, @user.name
+-
 .line
   = @user.currency.sign
   = number_with_precision(@user.balance, :precision => 2, :separator => '.', :delimiter => '')

@@ -6,7 +6,8 @@ user_1:
   birthday: 
   mobile: 0612345678
   site: 
-  currency_id: 12
+  currency: USD
+  country_id: 153
   balance: 0.0
   email: test@marketram.com
   crypted_password: $2a$10$DjUuwSP1S.6PgDSY9GaEXeoJUhScW3mcC8gCI.oPhBK1Xpx4UXgwS
@@ -22,7 +23,8 @@ user_2:
   birthday: 
   mobile: 0612345678
   site: 
-  currency_id: 12
+  currency: USD
+  country_id: 153
   balance: 0.0
   email: admin@marketram.com
   crypted_password: $2a$10$G71NdmPpM4Kfx5JOZgj.deE74O4xDAXwu6fQlugmJv1D5T.6Y7qLG
@@ -38,7 +40,8 @@ user_3:
   birthday: 
   mobile: 0628736786
   site: 
-  currency_id: 11
+  currency: USD
+  country_id: 153
   balance: 0.0
   email: eugene@markine.nl
   crypted_password: $2a$10$PPN57fyoJ.Q90kidEeBHNuisjsaBia9BJTU47fwOw9GXA1ENUNZS2
