@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 20120315132739) do
     t.string "mobile"
     t.string "site"
     t.bigint "currency_id", null: false
-    t.decimal "balance", precision: 10, scale: 2, default: "0.0"
+    t.decimal "balance", precision: 10, scale: 2, default: "0.0", null: false
     t.string "email", null: false
     t.string "crypted_password"
     t.string "salt"
