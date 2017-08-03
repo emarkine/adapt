@@ -1,42 +1,48 @@
 user_1:
   id: 1
   name: Test
+  username: test
+  password: 
   birthday: 
   mobile: 0612345678
   site: 
-  currency_id: 1040990393
-  balance: 
+  currency_id: 12
+  balance: 0.0
   email: test@marketram.com
-  crypted_password: $2a$10$K3QQxw.2KHc2cimyAalR/uLU2Vf50SpE23P2CpEmWAUlGsvmY/ila
-  salt: XHQaa1BWxVw6mWMUb8aW
-  created_at: 2017-07-01 10:43:50 UTC
-  updated_at: 2017-07-01 10:43:50 UTC
+  crypted_password: $2a$10$DjUuwSP1S.6PgDSY9GaEXeoJUhScW3mcC8gCI.oPhBK1Xpx4UXgwS
+  salt: KMGzFwCaRwqc2RFzKreh
+  created_at: 2017-07-01 18:59:12 UTC
+  updated_at: 2017-07-01 18:59:12 UTC
 
 user_2:
   id: 2
   name: Admin
+  username: admin
+  password: 
   birthday: 
   mobile: 0612345678
   site: 
-  currency_id: 1040990393
-  balance: 
+  currency_id: 12
+  balance: 0.0
   email: admin@marketram.com
-  crypted_password: $2a$10$FweCXtzC2HoNERW6YJesGO4Z4wl5d.1f6t.Z9ZzUyDLa3VoM2D42a
-  salt: 2ay4N582Ni3fvA9XKs5x
-  created_at: 2017-07-01 10:43:50 UTC
-  updated_at: 2017-07-01 10:43:50 UTC
+  crypted_password: $2a$10$G71NdmPpM4Kfx5JOZgj.deE74O4xDAXwu6fQlugmJv1D5T.6Y7qLG
+  salt: yBRfkqQiD8-ZWkn4bmCo
+  created_at: 2017-07-01 18:59:12 UTC
+  updated_at: 2017-07-01 18:59:12 UTC
 
 user_3:
   id: 3
   name: Eugene Markine
-  birthday: 1968-10-16
+  username: emarkine
+  password: 1q2w3e4r5t
+  birthday: 
   mobile: 0628736786
   site: 
-  currency_id: 1040990392
-  balance: 
+  currency_id: 11
+  balance: 0.0
   email: eugene@markine.nl
-  crypted_password: $2a$10$CxvULN331xeC235pS/wj8OgO4YZoDlS1oM.w1W5up4nT8oYua9kj2
-  salt: wzvQHiGjGn2zn4EcYe3Y
-  created_at: 2017-07-01 10:43:50 UTC
-  updated_at: 2017-07-01 10:43:50 UTC
+  crypted_password: $2a$10$PPN57fyoJ.Q90kidEeBHNuisjsaBia9BJTU47fwOw9GXA1ENUNZS2
+  salt: 5Qnwxysujtw6z4CC46xE
+  created_at: 2017-07-01 18:59:12 UTC
+  updated_at: 2017-07-01 18:59:12 UTC
 

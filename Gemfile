@@ -71,3 +71,6 @@ gem 'email_validator', require: 'email_validator/strict'
 gem 'haml-rails'
 gem 'sorcery'
 gem 'thin'
+
+gem 'db-model'
+gem 'nodes', '~> 0.2.3'
