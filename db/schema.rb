@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161124102804) do
+ActiveRecord::Schema.define(version: 20170712092306) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -177,6 +177,13 @@ ActiveRecord::Schema.define(version: 20161124102804) do
     t.float "factor", default: 1.0
     t.index ["edge_id", "position"], name: "neurons_index", unique: true
     t.index ["edge_id"], name: "index_neurons_on_edge_id"
+  end
+
+  create_table "nodes", force: :cascade do |t|
+    t.string "name"
+    t.string "title"
+    t.string "file"
+    t.date "date"
   end
 
   create_table "points", force: :cascade do |t|
