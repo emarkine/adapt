@@ -51,6 +51,13 @@ ActiveRecord::Schema.define(version: 20141221183931) do
     t.index ["country_id"], name: "index_currencies_on_country_id"
   end
 
+  create_table "frames", force: :cascade do |t|
+    t.string "name"
+    t.string "unit"
+    t.integer "duration"
+    t.index ["name"], name: "index_frames_on_name", unique: true
+  end
+
   create_table "funds", force: :cascade do |t|
     t.string "name"
     t.string "short_name"
@@ -121,7 +128,6 @@ ActiveRecord::Schema.define(version: 20141221183931) do
     t.index ["frame_id"], name: "index_points_on_frame_id"
     t.index ["fund_id"], name: "index_points_on_fund_id"
     t.index ["service_id"], name: "index_points_on_service_id"
-    t.index ["setting_id", "fund_id", "frame_id", "time"], name: "points_index", unique: true
     t.index ["setting_id"], name: "index_points_on_setting_id"
   end
 

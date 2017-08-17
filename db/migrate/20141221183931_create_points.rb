@@ -25,7 +25,7 @@ class CreatePoints < ActiveRecord::Migration[5.1]
       t.integer :prev_id # предыдущая точка
       t.integer :next_id # следующая точка
     end
-    add_index(:points, [:setting_id, :fund_id, :frame_id, :time], :unique => true, :name => 'points_index')
+    # add_index(:points, [:setting_id, :fund_id, :frame_id, :time], :unique => true, :name => 'points_index')
     # add_index(:points, [:fund_id, :frame_id, :ms], :unique => true, :name => 'points_index')
   end
 end
