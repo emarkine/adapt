@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141221183931) do
+ActiveRecord::Schema.define(version: 20150410033726) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -102,6 +102,26 @@ ActiveRecord::Schema.define(version: 20141221183931) do
     t.index ["name"], name: "index_funds_on_name", unique: true
   end
 
+  create_table "hosts", force: :cascade do |t|
+    t.string "name"
+    t.string "model"
+    t.string "ip"
+    t.string "speed"
+    t.string "processor"
+    t.string "ram"
+    t.string "hd"
+    t.string "os"
+    t.string "os_kernel"
+    t.string "os_name"
+    t.string "os_version"
+    t.string "location"
+    t.string "user"
+    t.text "ssh_public_key"
+    t.date "date"
+    t.text "description"
+    t.index ["name"], name: "hosts_index", unique: true
+  end
+
   create_table "neurons", force: :cascade do |t|
     t.string "type", null: false
     t.bigint "edge_id", null: false
@@ -129,6 +149,37 @@ ActiveRecord::Schema.define(version: 20141221183931) do
     t.index ["fund_id"], name: "index_points_on_fund_id"
     t.index ["service_id"], name: "index_points_on_service_id"
     t.index ["setting_id"], name: "index_points_on_setting_id"
+  end
+
+  create_table "services", force: :cascade do |t|
+    t.string "name"
+    t.bigint "setting_id"
+    t.bigint "fund_id", null: false
+    t.bigint "frame_id", default: 60, null: false
+    t.integer "position"
+    t.integer "trigger_id"
+    t.string "ngroup"
+    t.bigint "host_id", default: 1, null: false
+    t.boolean "active"
+    t.boolean "single"
+    t.string "action"
+    t.integer "refresh"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["frame_id"], name: "index_services_on_frame_id"
+    t.index ["fund_id"], name: "index_services_on_fund_id"
+    t.index ["host_id"], name: "index_services_on_host_id"
+    t.index ["setting_id", "fund_id", "frame_id"], name: "unique_service", unique: true
+    t.index ["setting_id"], name: "index_services_on_setting_id"
+  end
+
+  create_table "statuses", force: :cascade do |t|
+    t.string "name"
+    t.string "message"
+    t.bigint "service_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_statuses_on_service_id"
   end
 
   create_table "ticks", force: :cascade do |t|
@@ -166,4 +217,5 @@ ActiveRecord::Schema.define(version: 20141221183931) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  add_foreign_key "statuses", "services"
 end

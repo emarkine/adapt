@@ -1,0 +1,3638 @@
+service_91:
+  id: 91
+  name: aex.bar.15m
+  setting_id: 922717355
+  fund_id: 203819921
+  frame_id: 900
+  position: 
+  trigger_id: 7
+  ngroup: aex.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-27 06:37:40.000000000 Z
+  updated_at: &5 2016-06-10 09:41:02.000000000 Z
+
+service_92:
+  id: 92
+  name: aex.bar.1h
+  setting_id: 922717355
+  fund_id: 203819921
+  frame_id: 3600
+  position: 
+  trigger_id: 7
+  ngroup: aex.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-27 06:38:01.000000000 Z
+  updated_at: &5 2016-07-08 11:28:40.000000000 Z
+
+service_89:
+  id: 89
+  name: aex.bar.1m
+  setting_id: 922717355
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 7
+  ngroup: aex.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-27 06:36:53.000000000 Z
+  updated_at: &5 2016-06-10 09:37:17.000000000 Z
+
+service_90:
+  id: 90
+  name: aex.bar.5m
+  setting_id: 922717355
+  fund_id: 203819921
+  frame_id: 300
+  position: 
+  trigger_id: 7
+  ngroup: aex.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-27 06:37:17.000000000 Z
+  updated_at: &5 2016-06-10 09:37:55.000000000 Z
+
+service_142:
+  id: 142
+  name: aex.bol.1m
+  setting_id: 309566535
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-01 20:58:42.000000000 Z
+  updated_at: &5 2016-06-10 09:44:41.000000000 Z
+
+service_107:
+  id: 107
+  name: aex.ema.12.5s
+  setting_id: 421779419
+  fund_id: 203819921
+  frame_id: 5
+  position: 
+  trigger_id: 7
+  ngroup: aex.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2015-10-01 11:03:00.000000000 Z
+  updated_at: &5 2016-06-10 09:38:38.000000000 Z
+
+service_106:
+  id: 106
+  name: aex.ema.15.1m
+  setting_id: 122110586
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 11:01:27.000000000 Z
+  updated_at: &5 2016-11-25 11:01:28.000000000 Z
+
+service_105:
+  id: 105
+  name: aex.ema.30.1m
+  setting_id: 85709944
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 11:10:47.000000000 Z
+  updated_at: &5 2016-06-10 09:47:11.000000000 Z
+
+service_156:
+  id: 156
+  name: aex.ema.365.1m
+  setting_id: 843125330
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-07 13:20:25.000000000 Z
+  updated_at: &5 2016-07-07 13:20:25.000000000 Z
+
+service_104:
+  id: 104
+  name: aex.ema.60.1m
+  setting_id: 946610226
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 10:59:43.000000000 Z
+  updated_at: &5 2016-06-10 09:48:17.000000000 Z
+
+service_226:
+  id: 226
+  name: aex.line.1m
+  setting_id: 286569721
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 15:51:55.000000000 Z
+  updated_at: &5 2016-10-28 15:51:55.000000000 Z
+
+service_110:
+  id: 110
+  name: aex.macd.1m
+  setting_id: 621989106
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-02 16:31:43.000000000 Z
+  updated_at: &5 2016-06-10 09:50:20.000000000 Z
+
+service_122:
+  id: 122
+  name: aex.rsi.1m
+  setting_id: 407410407
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-13 09:04:45.000000000 Z
+  updated_at: &5 2016-06-10 09:51:52.000000000 Z
+
+service_144:
+  id: 144
+  name: aex.sar.1m
+  setting_id: 723207662
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-01 21:04:56.000000000 Z
+  updated_at: &5 2016-06-10 09:53:48.000000000 Z
+
+service_143:
+  id: 143
+  name: aex.sma.200.1m
+  setting_id: 3984119
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-01 21:02:32.000000000 Z
+  updated_at: &5 2016-06-10 09:54:48.000000000 Z
+
+service_121:
+  id: 121
+  name: aex.sol5m.1m
+  setting_id: 199911235
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-13 09:03:37.000000000 Z
+  updated_at: &5 2016-10-28 10:58:57.000000000 Z
+
+service_7:
+  id: 7
+  name: aex.tick
+  setting_id: 380606668
+  fund_id: 203819921
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: aex.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-05 20:51:18.000000000 Z
+  updated_at: &5 2016-06-10 09:36:59.000000000 Z
+
+service_227:
+  id: 227
+  name: aex.trend.1m
+  setting_id: 888877993
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: aex.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 15:52:53.000000000 Z
+  updated_at: &5 2016-10-28 15:52:53.000000000 Z
+
+service_83:
+  id: 83
+  name: aud.bar.15m
+  setting_id: 922717355
+  fund_id: 736843643
+  frame_id: 900
+  position: 
+  trigger_id: 25
+  ngroup: aud.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-27 06:28:46.000000000 Z
+  updated_at: &5 2016-10-27 09:28:28.000000000 Z
+
+service_84:
+  id: 84
+  name: aud.bar.1h
+  setting_id: 922717355
+  fund_id: 736843643
+  frame_id: 3600
+  position: 
+  trigger_id: 25
+  ngroup: aud.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-27 06:29:14.000000000 Z
+  updated_at: &5 2016-10-27 09:28:48.000000000 Z
+
+service_81:
+  id: 81
+  name: aud.bar.1m
+  setting_id: 922717355
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 25
+  ngroup: aud.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-27 06:27:49.000000000 Z
+  updated_at: &5 2016-10-27 09:27:32.000000000 Z
+
+service_82:
+  id: 82
+  name: aud.bar.5m
+  setting_id: 922717355
+  fund_id: 736843643
+  frame_id: 300
+  position: 
+  trigger_id: 25
+  ngroup: aud.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-27 06:28:21.000000000 Z
+  updated_at: &5 2016-10-27 09:28:03.000000000 Z
+
+service_192:
+  id: 192
+  name: aud.bol.1m
+  setting_id: 309566535
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 09:36:28.000000000 Z
+  updated_at: &5 2016-10-27 09:36:28.000000000 Z
+
+service_102:
+  id: 102
+  name: aud.ema.12.5s
+  setting_id: 421779419
+  fund_id: 736843643
+  frame_id: 5
+  position: 
+  trigger_id: 25
+  ngroup: aud.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2015-10-01 11:03:00.000000000 Z
+  updated_at: &5 2016-10-27 09:38:21.000000000 Z
+
+service_101:
+  id: 101
+  name: aud.ema.15.1m
+  setting_id: 122110586
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 11:01:27.000000000 Z
+  updated_at: &5 2016-11-25 11:04:57.000000000 Z
+
+service_100:
+  id: 100
+  name: aud.ema.30.1m
+  setting_id: 85709944
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 11:10:47.000000000 Z
+  updated_at: &5 2016-10-27 09:50:51.000000000 Z
+
+service_195:
+  id: 195
+  name: aud.ema.365.1m
+  setting_id: 843125330
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 10:24:37.000000000 Z
+  updated_at: &5 2016-10-27 10:24:37.000000000 Z
+
+service_99:
+  id: 99
+  name: aud.ema.60.1m
+  setting_id: 946610226
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 10:59:43.000000000 Z
+  updated_at: &5 2016-10-27 09:51:19.000000000 Z
+
+service_193:
+  id: 193
+  name: aud.line.1m
+  setting_id: 286569721
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 10:07:02.000000000 Z
+  updated_at: &5 2016-10-27 19:02:59.000000000 Z
+
+service_109:
+  id: 109
+  name: aud.macd.1m
+  setting_id: 621989106
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-02 16:30:55.000000000 Z
+  updated_at: &5 2016-10-27 09:52:23.000000000 Z
+
+service_120:
+  id: 120
+  name: aud.rsi.1m
+  setting_id: 407410407
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-12 09:09:14.000000000 Z
+  updated_at: &5 2016-10-27 10:20:55.000000000 Z
+
+service_194:
+  id: 194
+  name: aud.sar.1m
+  setting_id: 723207662
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 10:22:59.000000000 Z
+  updated_at: &5 2016-10-27 10:22:59.000000000 Z
+
+service_196:
+  id: 196
+  name: aud.sma.200.1m
+  setting_id: 3984119
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 10:25:37.000000000 Z
+  updated_at: &5 2016-10-27 10:25:37.000000000 Z
+
+service_118:
+  id: 118
+  name: aud.sol5m.1m
+  setting_id: 199911235
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-07 18:11:36.000000000 Z
+  updated_at: &5 2016-10-28 10:59:10.000000000 Z
+
+service_25:
+  id: 25
+  name: aud.tick
+  setting_id: 380606668
+  fund_id: 736843643
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: aud.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 19:16:58.000000000 Z
+  updated_at: &5 2016-10-27 09:25:53.000000000 Z
+
+service_198:
+  id: 198
+  name: aud.trend.1m
+  setting_id: 888877993
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 81
+  ngroup: aud.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 10:28:28.000000000 Z
+  updated_at: &5 2016-10-28 10:57:27.000000000 Z
+
+service_64:
+  id: 64
+  name: audusd.history.15m
+  setting_id: 666529867
+  fund_id: 736843643
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-25 08:54:37.000000000 Z
+  updated_at: &5 2015-08-25 08:54:37.000000000 Z
+
+service_65:
+  id: 65
+  name: audusd.history.1h
+  setting_id: 666529867
+  fund_id: 736843643
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-25 08:55:07.000000000 Z
+  updated_at: &5 2015-08-25 08:55:07.000000000 Z
+
+service_26:
+  id: 26
+  name: audusd.history.1m
+  setting_id: 666529867
+  fund_id: 736843643
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 19:17:26.000000000 Z
+  updated_at: &5 2015-08-06 19:17:26.000000000 Z
+
+service_63:
+  id: 63
+  name: audusd.history.5m
+  setting_id: 666529867
+  fund_id: 736843643
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-25 08:54:04.000000000 Z
+  updated_at: &5 2015-08-25 08:54:04.000000000 Z
+
+service_75:
+  id: 75
+  name: dax.bar.15m
+  setting_id: 922717355
+  fund_id: 317700056
+  frame_id: 900
+  position: 
+  trigger_id: 5
+  ngroup: dax.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-26 18:11:47.000000000 Z
+  updated_at: &5 2016-06-10 09:34:48.000000000 Z
+
+service_73:
+  id: 73
+  name: dax.bar.1m
+  setting_id: 922717355
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 5
+  ngroup: dax.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-26 18:10:56.000000000 Z
+  updated_at: &5 2016-06-10 09:23:18.000000000 Z
+
+service_74:
+  id: 74
+  name: dax.bar.5m
+  setting_id: 922717355
+  fund_id: 317700056
+  frame_id: 300
+  position: 
+  trigger_id: 5
+  ngroup: dax.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-26 18:11:19.000000000 Z
+  updated_at: &5 2016-06-10 09:31:13.000000000 Z
+
+service_146:
+  id: 146
+  name: dax.bol.1m
+  setting_id: 309566535
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:44:27.000000000 Z
+  updated_at: &5 2016-06-10 09:44:27.000000000 Z
+
+service_145:
+  id: 145
+  name: dax.ema.12.5s
+  setting_id: 421779419
+  fund_id: 317700056
+  frame_id: 5
+  position: 
+  trigger_id: 5
+  ngroup: dax.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2016-06-10 09:20:46.000000000 Z
+  updated_at: &5 2016-06-10 09:20:46.000000000 Z
+
+service_147:
+  id: 147
+  name: dax.ema.15.1m
+  setting_id: 122110586
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:45:43.000000000 Z
+  updated_at: &5 2016-11-25 11:04:30.000000000 Z
+
+service_148:
+  id: 148
+  name: dax.ema.30.1m
+  setting_id: 85709944
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:47:02.000000000 Z
+  updated_at: &5 2016-06-10 09:47:02.000000000 Z
+
+service_157:
+  id: 157
+  name: dax.ema.365.1m
+  setting_id: 843125330
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-07 13:21:12.000000000 Z
+  updated_at: &5 2016-07-08 11:59:41.000000000 Z
+
+service_149:
+  id: 149
+  name: dax.ema.60.1m
+  setting_id: 946610226
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:48:08.000000000 Z
+  updated_at: &5 2016-06-10 09:48:08.000000000 Z
+
+service_224:
+  id: 224
+  name: dax.line.1m
+  setting_id: 286569721
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 15:42:01.000000000 Z
+  updated_at: &5 2016-10-28 15:42:01.000000000 Z
+
+service_136:
+  id: 136
+  name: dax.macd.1m
+  setting_id: 621989106
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-05-12 19:25:38.000000000 Z
+  updated_at: &5 2016-06-10 09:50:09.000000000 Z
+
+service_151:
+  id: 151
+  name: dax.rsi.1m
+  setting_id: 407410407
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:51:41.000000000 Z
+  updated_at: &5 2016-06-10 09:51:41.000000000 Z
+
+service_137:
+  id: 137
+  name: dax.sar.1m
+  setting_id: 723207662
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-05-12 19:37:01.000000000 Z
+  updated_at: &5 2016-06-10 09:53:34.000000000 Z
+
+service_153:
+  id: 153
+  name: dax.sma.200.1m
+  setting_id: 3984119
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:54:42.000000000 Z
+  updated_at: &5 2016-06-10 09:54:42.000000000 Z
+
+service_154:
+  id: 154
+  name: dax.sol5m.1m
+  setting_id: 199911235
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-06-10 09:55:55.000000000 Z
+  updated_at: &5 2016-10-28 10:59:21.000000000 Z
+
+service_5:
+  id: 5
+  name: dax.tick
+  setting_id: 380606668
+  fund_id: 317700056
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: dax.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-05 20:49:22.000000000 Z
+  updated_at: &5 2016-06-10 09:23:48.000000000 Z
+
+service_225:
+  id: 225
+  name: dax.trend.1m
+  setting_id: 888877993
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 73
+  ngroup: dax.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 15:42:44.000000000 Z
+  updated_at: &5 2016-10-28 15:42:44.000000000 Z
+
+service_14:
+  id: 14
+  name: es.history.1m
+  setting_id: 666529867
+  fund_id: 274705821
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 09:47:03.000000000 Z
+  updated_at: &5 2015-08-06 09:47:03.000000000 Z
+
+service_13:
+  id: 13
+  name: es.tick
+  setting_id: 380606668
+  fund_id: 274705821
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: ticker.future
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 09:46:08.000000000 Z
+  updated_at: &5 2016-05-12 20:53:52.000000000 Z
+
+service_40:
+  id: 40
+  name: eur.bar.15m
+  setting_id: 922717355
+  fund_id: 84417837
+  frame_id: 900
+  position: 
+  trigger_id: 15
+  ngroup: eur.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-17 14:16:50.000000000 Z
+  updated_at: &5 2016-06-10 10:28:19.000000000 Z
+
+service_41:
+  id: 41
+  name: eur.bar.1h
+  setting_id: 922717355
+  fund_id: 84417837
+  frame_id: 3600
+  position: 
+  trigger_id: 15
+  ngroup: eur.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-17 14:17:28.000000000 Z
+  updated_at: &5 2016-07-08 13:45:30.000000000 Z
+
+service_38:
+  id: 38
+  name: eur.bar.1m
+  setting_id: 922717355
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 15
+  ngroup: eur.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-17 14:14:31.000000000 Z
+  updated_at: &5 2016-05-31 12:02:16.000000000 Z
+
+service_39:
+  id: 39
+  name: eur.bar.5m
+  setting_id: 922717355
+  fund_id: 84417837
+  frame_id: 300
+  position: 
+  trigger_id: 15
+  ngroup: eur.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-17 14:15:47.000000000 Z
+  updated_at: &5 2016-06-10 10:29:27.000000000 Z
+
+service_123:
+  id: 123
+  name: eur.bol.1m
+  setting_id: 309566535
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-13 14:09:10.000000000 Z
+  updated_at: &5 2016-06-02 07:50:43.000000000 Z
+
+service_97:
+  id: 97
+  name: eur.ema.12.5s
+  setting_id: 421779419
+  fund_id: 84417837
+  frame_id: 5
+  position: 
+  trigger_id: 15
+  ngroup: eur.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2015-10-01 11:03:00.000000000 Z
+  updated_at: &5 2016-05-31 12:03:03.000000000 Z
+
+service_96:
+  id: 96
+  name: eur.ema.15.1m
+  setting_id: 122110586
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 11:01:27.000000000 Z
+  updated_at: &5 2016-11-25 10:59:17.000000000 Z
+
+service_95:
+  id: 95
+  name: eur.ema.30.1m
+  setting_id: 85709944
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 11:10:47.000000000 Z
+  updated_at: &5 2016-06-02 07:46:16.000000000 Z
+
+service_155:
+  id: 155
+  name: eur.ema.365.1m
+  setting_id: 843125330
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-07 13:12:42.000000000 Z
+  updated_at: &5 2016-07-07 13:12:42.000000000 Z
+
+service_94:
+  id: 94
+  name: eur.ema.60.1m
+  setting_id: 946610226
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 10:59:43.000000000 Z
+  updated_at: &5 2016-06-02 07:46:31.000000000 Z
+
+service_44:
+  id: 44
+  name: eur.history.15m
+  setting_id: 666529867
+  fund_id: 84417837
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: eur.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:22:31.000000000 Z
+  updated_at: &5 2016-09-01 20:23:40.000000000 Z
+
+service_190:
+  id: 190
+  name: eur.history.1d
+  setting_id: 666529867
+  fund_id: 84417837
+  frame_id: 86400
+  position: 
+  trigger_id: 
+  ngroup: eur.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-09-01 20:24:17.000000000 Z
+  updated_at: &5 2016-09-01 20:24:17.000000000 Z
+
+service_45:
+  id: 45
+  name: eur.history.1h
+  setting_id: 666529867
+  fund_id: 84417837
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: eur.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:23:39.000000000 Z
+  updated_at: &5 2016-09-01 20:25:37.000000000 Z
+
+service_16:
+  id: 16
+  name: eur.history.1m
+  setting_id: 666529867
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: eur.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 09:48:46.000000000 Z
+  updated_at: &5 2016-09-01 20:25:49.000000000 Z
+
+service_43:
+  id: 43
+  name: eur.history.5m
+  setting_id: 666529867
+  fund_id: 84417837
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: eur.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:21:52.000000000 Z
+  updated_at: &5 2016-09-01 20:26:00.000000000 Z
+
+service_135:
+  id: 135
+  name: eur.history.5s
+  setting_id: 666529867
+  fund_id: 84417837
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: eur.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-05-08 16:17:56.000000000 Z
+  updated_at: &5 2016-09-01 20:26:11.000000000 Z
+
+service_172:
+  id: 172
+  name: eur.line.1m
+  setting_id: 286569721
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 13:34:45.000000000 Z
+  updated_at: &5 2016-10-27 15:53:19.000000000 Z
+
+service_108:
+  id: 108
+  name: eur.macd.1m
+  setting_id: 621989106
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-01 13:41:40.000000000 Z
+  updated_at: &5 2016-06-02 07:49:29.000000000 Z
+
+service_119:
+  id: 119
+  name: eur.rsi.1m
+  setting_id: 407410407
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-09 15:41:50.000000000 Z
+  updated_at: &5 2016-06-02 07:49:48.000000000 Z
+
+service_140:
+  id: 140
+  name: eur.rsi.5s
+  setting_id: 407410407
+  fund_id: 84417837
+  frame_id: 5
+  position: 
+  trigger_id: 15
+  ngroup: eur
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2016-05-16 19:09:34.000000000 Z
+  updated_at: &5 2016-05-16 21:24:31.000000000 Z
+
+service_132:
+  id: 132
+  name: eur.sar.1m
+  setting_id: 723207662
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-05-08 01:16:50.000000000 Z
+  updated_at: &5 2016-06-02 07:47:38.000000000 Z
+
+service_134:
+  id: 134
+  name: eur.sma.200.1m
+  setting_id: 3984119
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-05-08 15:10:56.000000000 Z
+  updated_at: &5 2016-06-02 07:47:50.000000000 Z
+
+service_138:
+  id: 138
+  name: eur.sol.60.5s
+  setting_id: 797352518
+  fund_id: 84417837
+  frame_id: 5
+  position: 
+  trigger_id: 15
+  ngroup: eur
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2016-05-12 20:23:59.000000000 Z
+  updated_at: &5 2016-05-16 09:29:05.000000000 Z
+
+service_117:
+  id: 117
+  name: eur.sol5m.1m
+  setting_id: 199911235
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-07 17:59:39.000000000 Z
+  updated_at: &5 2016-10-28 10:59:31.000000000 Z
+
+service_15:
+  id: 15
+  name: eur.tick
+  setting_id: 380606668
+  fund_id: 84417837
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: eur.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 09:48:00.000000000 Z
+  updated_at: &5 2016-05-31 12:02:06.000000000 Z
+
+service_197:
+  id: 197
+  name: eur.trend.1m
+  setting_id: 888877993
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 38
+  ngroup: eur.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 10:27:43.000000000 Z
+  updated_at: &5 2016-10-28 10:57:38.000000000 Z
+
+service_76:
+  id: 76
+  name: fdax.bar.1h
+  setting_id: 922717355
+  fund_id: 317700056
+  frame_id: 3600
+  position: 
+  trigger_id: 5
+  ngroup: dax.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-26 18:12:11.000000000 Z
+  updated_at: &5 2016-07-08 11:22:27.000000000 Z
+
+service_59:
+  id: 59
+  name: fdax.history.15m
+  setting_id: 666529867
+  fund_id: 317700056
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 17:02:52.000000000 Z
+  updated_at: &5 2015-08-21 17:02:52.000000000 Z
+
+service_60:
+  id: 60
+  name: fdax.history.1h
+  setting_id: 666529867
+  fund_id: 317700056
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 17:03:18.000000000 Z
+  updated_at: &5 2015-08-21 17:03:18.000000000 Z
+
+service_6:
+  id: 6
+  name: fdax.history.1m
+  setting_id: 666529867
+  fund_id: 317700056
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-05 20:50:19.000000000 Z
+  updated_at: &5 2015-08-06 09:43:32.000000000 Z
+
+service_58:
+  id: 58
+  name: fdax.history.5m
+  setting_id: 666529867
+  fund_id: 317700056
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 17:02:31.000000000 Z
+  updated_at: &5 2015-08-21 17:02:31.000000000 Z
+
+service_53:
+  id: 53
+  name: fti.history.15m
+  setting_id: 666529867
+  fund_id: 203819921
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:34:36.000000000 Z
+  updated_at: &5 2015-08-21 16:37:07.000000000 Z
+
+service_54:
+  id: 54
+  name: fti.history.1h
+  setting_id: 666529867
+  fund_id: 203819921
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:35:50.000000000 Z
+  updated_at: &5 2015-08-21 16:35:50.000000000 Z
+
+service_8:
+  id: 8
+  name: fti.history.1m
+  setting_id: 666529867
+  fund_id: 203819921
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-05 20:53:15.000000000 Z
+  updated_at: &5 2015-08-06 09:44:14.000000000 Z
+
+service_52:
+  id: 52
+  name: fti.history.5m
+  setting_id: 666529867
+  fund_id: 203819921
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:33:50.000000000 Z
+  updated_at: &5 2015-08-21 16:33:50.000000000 Z
+
+service_126:
+  id: 126
+  name: gbpusd.bar.15m
+  setting_id: 922717355
+  fund_id: 805912383
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: gbpusd
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2016-02-29 16:09:20.000000000 Z
+  updated_at: &5 2016-02-29 16:09:20.000000000 Z
+
+service_127:
+  id: 127
+  name: gbpusd.bar.1h
+  setting_id: 922717355
+  fund_id: 805912383
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: gbpusd
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2016-02-29 16:10:10.000000000 Z
+  updated_at: &5 2016-02-29 16:10:10.000000000 Z
+
+service_124:
+  id: 124
+  name: gbpusd.bar.1m
+  setting_id: 922717355
+  fund_id: 805912383
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: gbpusd
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-02-29 16:07:58.000000000 Z
+  updated_at: &5 2016-02-29 16:07:58.000000000 Z
+
+service_125:
+  id: 125
+  name: gbpusd.bar.5m
+  setting_id: 922717355
+  fund_id: 805912383
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: gbpusd
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2016-02-29 16:08:47.000000000 Z
+  updated_at: &5 2016-02-29 16:08:47.000000000 Z
+
+service_129:
+  id: 129
+  name: gbpusd.history.15m
+  setting_id: 666529867
+  fund_id: 805912383
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-02-29 16:12:56.000000000 Z
+  updated_at: &5 2016-02-29 16:12:56.000000000 Z
+
+service_131:
+  id: 131
+  name: gbpusd.history.1d
+  setting_id: 666529867
+  fund_id: 805912383
+  frame_id: 86400
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-02-29 16:15:33.000000000 Z
+  updated_at: &5 2016-02-29 16:15:33.000000000 Z
+
+service_130:
+  id: 130
+  name: gbpusd.history.1h
+  setting_id: 666529867
+  fund_id: 805912383
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-02-29 16:13:55.000000000 Z
+  updated_at: &5 2016-02-29 16:13:55.000000000 Z
+
+service_20:
+  id: 20
+  name: gbpusd.history.1m
+  setting_id: 666529867
+  fund_id: 805912383
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 18:57:14.000000000 Z
+  updated_at: &5 2015-08-06 18:57:14.000000000 Z
+
+service_128:
+  id: 128
+  name: gbpusd.history.5m
+  setting_id: 666529867
+  fund_id: 805912383
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-02-29 16:12:22.000000000 Z
+  updated_at: &5 2016-02-29 16:12:22.000000000 Z
+
+service_19:
+  id: 19
+  name: gbpusd.tick
+  setting_id: 380606668
+  fund_id: 805912383
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: gbpusd
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 18:56:20.000000000 Z
+  updated_at: &5 2016-02-29 16:04:32.000000000 Z
+
+service_33:
+  id: 33
+  name: gold.bar.15m
+  setting_id: 922717355
+  fund_id: 128523602
+  frame_id: 900
+  position: 
+  trigger_id: 1
+  ngroup: gold.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-07 20:02:18.000000000 Z
+  updated_at: &5 2016-08-15 08:53:58.000000000 Z
+
+service_35:
+  id: 35
+  name: gold.bar.1h
+  setting_id: 922717355
+  fund_id: 128523602
+  frame_id: 3600
+  position: 
+  trigger_id: 1
+  ngroup: gold.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-07 20:33:08.000000000 Z
+  updated_at: &5 2016-08-15 08:53:43.000000000 Z
+
+service_37:
+  id: 37
+  name: gold.bar.1m
+  setting_id: 922717355
+  fund_id: 128523602
+  frame_id: 60
+  position: 
+  trigger_id: 1
+  ngroup: gold.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-12 07:52:21.000000000 Z
+  updated_at: &5 2016-08-15 08:52:38.000000000 Z
+
+service_30:
+  id: 30
+  name: gold.bar.5m
+  setting_id: 922717355
+  fund_id: 128523602
+  frame_id: 300
+  position: 
+  trigger_id: 1
+  ngroup: gold.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-07 15:19:02.000000000 Z
+  updated_at: &5 2016-08-15 08:53:24.000000000 Z
+
+service_230:
+  id: 230
+  name: gold.binary1m.5s
+  setting_id: 270950609
+  fund_id: 128523602
+  frame_id: 5
+  position: 2
+  trigger_id: 
+  ngroup: gold.crystal
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 5
+  created_at: &4 2016-12-15 12:03:28.000000000 Z
+  updated_at: &5 2016-12-23 07:29:09.000000000 Z
+
+service_175:
+  id: 175
+  name: gold.bol.1m
+  setting_id: 309566535
+  fund_id: 128523602
+  frame_id: 60
+  position: 7
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 09:09:21.000000000 Z
+  updated_at: &5 2016-12-22 07:54:51.000000000 Z
+
+service_233:
+  id: 233
+  name: gold.crystal.5s
+  setting_id: 558685874
+  fund_id: 128523602
+  frame_id: 5
+  position: 5
+  trigger_id: 
+  ngroup: gold.crystal
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 5
+  created_at: &4 2016-12-15 13:28:54.000000000 Z
+  updated_at: &5 2016-12-23 16:47:35.000000000 Z
+
+service_115:
+  id: 115
+  name: gold.ema.12.5s
+  setting_id: 421779419
+  fund_id: 128523602
+  frame_id: 5
+  position: 
+  trigger_id: 1
+  ngroup: gold.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2015-10-06 18:05:35.000000000 Z
+  updated_at: &5 2016-11-25 10:56:04.000000000 Z
+
+service_229:
+  id: 229
+  name: gold.ema.15.1m
+  setting_id: 122110586
+  fund_id: 128523602
+  frame_id: 60
+  position: 1
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-11-23 17:55:58.000000000 Z
+  updated_at: &5 2016-12-22 07:51:53.000000000 Z
+
+service_113:
+  id: 113
+  name: gold.ema.30.1m
+  setting_id: 85709944
+  fund_id: 128523602
+  frame_id: 60
+  position: 2
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-06 18:04:20.000000000 Z
+  updated_at: &5 2016-12-22 07:52:01.000000000 Z
+
+service_173:
+  id: 173
+  name: gold.ema.365.1m
+  setting_id: 843125330
+  fund_id: 128523602
+  frame_id: 60
+  position: 4
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 09:03:19.000000000 Z
+  updated_at: &5 2016-12-22 07:52:18.000000000 Z
+
+service_112:
+  id: 112
+  name: gold.ema.60.1m
+  setting_id: 946610226
+  fund_id: 128523602
+  frame_id: 60
+  position: 3
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-06 17:40:23.000000000 Z
+  updated_at: &5 2016-12-22 07:52:10.000000000 Z
+
+service_34:
+  id: 34
+  name: gold.history.15m
+  setting_id: 666529867
+  fund_id: 128523602
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: gold.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-07 20:02:58.000000000 Z
+  updated_at: &5 2016-09-05 10:23:35.000000000 Z
+
+service_191:
+  id: 191
+  name: gold.history.1d
+  setting_id: 666529867
+  fund_id: 128523602
+  frame_id: 86400
+  position: 
+  trigger_id: 
+  ngroup: gold.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2016-09-05 10:22:59.000000000 Z
+  updated_at: &5 2016-09-05 10:22:59.000000000 Z
+
+service_36:
+  id: 36
+  name: gold.history.1h
+  setting_id: 666529867
+  fund_id: 128523602
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: gold.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-07 20:34:31.000000000 Z
+  updated_at: &5 2016-09-05 10:22:21.000000000 Z
+
+service_2:
+  id: 2
+  name: gold.history.1m
+  setting_id: 666529867
+  fund_id: 128523602
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: gold.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-05 20:35:34.000000000 Z
+  updated_at: &5 2016-09-05 10:23:19.000000000 Z
+
+service_32:
+  id: 32
+  name: gold.history.5m
+  setting_id: 666529867
+  fund_id: 128523602
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: gold.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-07 18:58:37.000000000 Z
+  updated_at: &5 2016-09-05 10:23:10.000000000 Z
+
+service_42:
+  id: 42
+  name: gold.history.5s
+  setting_id: 666529867
+  fund_id: 128523602
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: gold.history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-20 10:50:36.000000000 Z
+  updated_at: &5 2016-09-05 10:22:51.000000000 Z
+
+service_200:
+  id: 200
+  name: gold.line.1m
+  setting_id: 286569721
+  fund_id: 128523602
+  frame_id: 60
+  position: 10
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 19:19:29.000000000 Z
+  updated_at: &5 2016-12-22 07:55:51.000000000 Z
+
+service_116:
+  id: 116
+  name: gold.macd.1m
+  setting_id: 621989106
+  fund_id: 128523602
+  frame_id: 60
+  position: 6
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-10-06 18:18:53.000000000 Z
+  updated_at: &5 2016-12-22 07:52:35.000000000 Z
+
+service_231:
+  id: 231
+  name: gold.overlap.5s
+  setting_id: 2327581
+  fund_id: 128523602
+  frame_id: 5
+  position: 1
+  trigger_id: 
+  ngroup: gold.crystal
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 5
+  created_at: &4 2016-12-15 12:04:36.000000000 Z
+  updated_at: &5 2016-12-23 07:28:50.000000000 Z
+
+service_228:
+  id: 228
+  name: gold.random.5s
+  setting_id: 373021397
+  fund_id: 128523602
+  frame_id: 5
+  position: 4
+  trigger_id: 
+  ngroup: gold.crystal
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 5
+  created_at: &4 2016-11-22 11:14:53.000000000 Z
+  updated_at: &5 2016-12-23 17:29:23.000000000 Z
+
+service_176:
+  id: 176
+  name: gold.rsi.1m
+  setting_id: 407410407
+  fund_id: 128523602
+  frame_id: 60
+  position: 8
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 09:10:09.000000000 Z
+  updated_at: &5 2016-12-22 07:55:00.000000000 Z
+
+service_180:
+  id: 180
+  name: gold.sar.1m
+  setting_id: 723207662
+  fund_id: 128523602
+  frame_id: 60
+  position: 9
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 12:20:45.000000000 Z
+  updated_at: &5 2016-12-22 07:55:08.000000000 Z
+
+service_174:
+  id: 174
+  name: gold.sma.200.1m
+  setting_id: 3984119
+  fund_id: 128523602
+  frame_id: 60
+  position: 5
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 09:06:35.000000000 Z
+  updated_at: &5 2016-12-22 07:52:26.000000000 Z
+
+service_232:
+  id: 232
+  name: gold.sol1m.5s
+  setting_id: 797352518
+  fund_id: 128523602
+  frame_id: 5
+  position: 3
+  trigger_id: 
+  ngroup: gold.crystal
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 5
+  created_at: &4 2016-12-15 13:01:14.000000000 Z
+  updated_at: &5 2016-12-23 18:04:13.000000000 Z
+
+service_177:
+  id: 177
+  name: gold.sol5m.1m
+  setting_id: 199911235
+  fund_id: 128523602
+  frame_id: 60
+  position: 12
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 09:10:58.000000000 Z
+  updated_at: &5 2016-12-22 10:31:57.000000000 Z
+
+service_1:
+  id: 1
+  name: gold.tick
+  setting_id: 380606668
+  fund_id: 128523602
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: gold.tick
+  host_id: 1
+  active: true
+  single: false
+  action: stop
+  refresh: 60
+  created_at: &4 2015-08-05 20:31:54.000000000 Z
+  updated_at: &5 2016-08-15 08:51:24.000000000 Z
+
+service_201:
+  id: 201
+  name: gold.trend.1m
+  setting_id: 888877993
+  fund_id: 128523602
+  frame_id: 60
+  position: 11
+  trigger_id: 37
+  ngroup: gold.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-27 19:20:35.000000000 Z
+  updated_at: &5 2016-12-22 07:55:59.000000000 Z
+
+service_71:
+  id: 71
+  name: nq.bar.15m
+  setting_id: 922717355
+  fund_id: 497358206
+  frame_id: 900
+  position: 
+  trigger_id: 11
+  ngroup: nq.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-26 18:05:26.000000000 Z
+  updated_at: &5 2016-07-08 11:17:53.000000000 Z
+
+service_72:
+  id: 72
+  name: nq.bar.1h
+  setting_id: 922717355
+  fund_id: 497358206
+  frame_id: 3600
+  position: 
+  trigger_id: 11
+  ngroup: nq.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-26 18:06:07.000000000 Z
+  updated_at: &5 2016-07-08 11:19:56.000000000 Z
+
+service_69:
+  id: 69
+  name: nq.bar.1m
+  setting_id: 922717355
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 11
+  ngroup: nq.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-26 18:04:10.000000000 Z
+  updated_at: &5 2016-07-08 11:19:06.000000000 Z
+
+service_70:
+  id: 70
+  name: nq.bar.5m
+  setting_id: 922717355
+  fund_id: 497358206
+  frame_id: 300
+  position: 
+  trigger_id: 11
+  ngroup: nq.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-26 18:04:53.000000000 Z
+  updated_at: &5 2016-07-08 11:18:46.000000000 Z
+
+service_223:
+  id: 223
+  name: nq.bol.1m
+  setting_id: 309566535
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 13:56:11.000000000 Z
+  updated_at: &5 2016-10-28 13:56:11.000000000 Z
+
+service_159:
+  id: 159
+  name: nq.ema.12.5s
+  setting_id: 421779419
+  fund_id: 497358206
+  frame_id: 5
+  position: 
+  trigger_id: 11
+  ngroup: nq.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2016-07-08 11:52:05.000000000 Z
+  updated_at: &5 2016-07-08 11:52:17.000000000 Z
+
+service_166:
+  id: 166
+  name: nq.ema.15.1m
+  setting_id: 122110586
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:25:09.000000000 Z
+  updated_at: &5 2016-11-25 11:04:45.000000000 Z
+
+service_167:
+  id: 167
+  name: nq.ema.30.1m
+  setting_id: 85709944
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:26:00.000000000 Z
+  updated_at: &5 2016-07-08 12:26:00.000000000 Z
+
+service_170:
+  id: 170
+  name: nq.ema.365.1m
+  setting_id: 843125330
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:29:37.000000000 Z
+  updated_at: &5 2016-07-08 12:29:37.000000000 Z
+
+service_168:
+  id: 168
+  name: nq.ema.60.1m
+  setting_id: 946610226
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:26:54.000000000 Z
+  updated_at: &5 2016-07-08 12:26:54.000000000 Z
+
+service_47:
+  id: 47
+  name: nq.history.15m
+  setting_id: 666529867
+  fund_id: 497358206
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:27:25.000000000 Z
+  updated_at: &5 2015-08-21 16:27:25.000000000 Z
+
+service_48:
+  id: 48
+  name: nq.history.1h
+  setting_id: 666529867
+  fund_id: 497358206
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:27:51.000000000 Z
+  updated_at: &5 2015-08-21 16:27:51.000000000 Z
+
+service_12:
+  id: 12
+  name: nq.history.1m
+  setting_id: 666529867
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-05 20:57:20.000000000 Z
+  updated_at: &5 2015-08-06 09:44:28.000000000 Z
+
+service_46:
+  id: 46
+  name: nq.history.5m
+  setting_id: 666529867
+  fund_id: 497358206
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:26:58.000000000 Z
+  updated_at: &5 2015-08-21 16:26:58.000000000 Z
+
+service_171:
+  id: 171
+  name: nq.line.1m
+  setting_id: 286569721
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 13:15:49.000000000 Z
+  updated_at: &5 2016-10-28 13:53:08.000000000 Z
+
+service_164:
+  id: 164
+  name: nq.macd.1m
+  setting_id: 621989106
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:06:08.000000000 Z
+  updated_at: &5 2016-07-08 12:06:08.000000000 Z
+
+service_163:
+  id: 163
+  name: nq.rsi.1m
+  setting_id: 407410407
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:05:12.000000000 Z
+  updated_at: &5 2016-07-08 12:05:12.000000000 Z
+
+service_162:
+  id: 162
+  name: nq.sar.1m
+  setting_id: 723207662
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:04:10.000000000 Z
+  updated_at: &5 2016-07-08 12:04:10.000000000 Z
+
+service_169:
+  id: 169
+  name: nq.sma.200.1m
+  setting_id: 3984119
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:27:49.000000000 Z
+  updated_at: &5 2016-07-08 12:27:49.000000000 Z
+
+service_161:
+  id: 161
+  name: nq.sol5m.1m
+  setting_id: 199911235
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-07-08 12:02:57.000000000 Z
+  updated_at: &5 2016-10-28 10:59:52.000000000 Z
+
+service_11:
+  id: 11
+  name: nq.tick
+  setting_id: 380606668
+  fund_id: 497358206
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: nq.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-05 20:56:53.000000000 Z
+  updated_at: &5 2016-07-08 11:47:05.000000000 Z
+
+service_222:
+  id: 222
+  name: nq.trend.1m
+  setting_id: 888877993
+  fund_id: 497358206
+  frame_id: 60
+  position: 
+  trigger_id: 69
+  ngroup: nq.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 13:53:58.000000000 Z
+  updated_at: &5 2016-10-28 13:53:58.000000000 Z
+
+service_29:
+  id: 29
+  name: nzdusd.history.1m
+  setting_id: 666529867
+  fund_id: 418214526
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 19:19:16.000000000 Z
+  updated_at: &5 2015-08-06 19:19:16.000000000 Z
+
+service_27:
+  id: 27
+  name: nzdusd.tick
+  setting_id: 380606668
+  fund_id: 418214526
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: ticker.valuta
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 19:18:19.000000000 Z
+  updated_at: &5 2015-08-25 09:28:24.000000000 Z
+
+service_79:
+  id: 79
+  name: oil.bar.15m
+  setting_id: 922717355
+  fund_id: 217163923
+  frame_id: 900
+  position: 
+  trigger_id: 3
+  ngroup: oil.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-27 05:51:27.000000000 Z
+  updated_at: &5 2016-08-15 09:57:06.000000000 Z
+
+service_80:
+  id: 80
+  name: oil.bar.1h
+  setting_id: 922717355
+  fund_id: 217163923
+  frame_id: 3600
+  position: 
+  trigger_id: 3
+  ngroup: oil.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-27 05:51:51.000000000 Z
+  updated_at: &5 2016-08-15 09:57:25.000000000 Z
+
+service_77:
+  id: 77
+  name: oil.bar.1m
+  setting_id: 922717355
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 3
+  ngroup: oil.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-27 05:50:31.000000000 Z
+  updated_at: &5 2016-08-15 09:56:27.000000000 Z
+
+service_78:
+  id: 78
+  name: oil.bar.5m
+  setting_id: 922717355
+  fund_id: 217163923
+  frame_id: 300
+  position: 
+  trigger_id: 3
+  ngroup: oil.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-27 05:51:03.000000000 Z
+  updated_at: &5 2016-08-15 09:56:45.000000000 Z
+
+service_189:
+  id: 189
+  name: oil.bol.1m
+  setting_id: 309566535
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 18:00:55.000000000 Z
+  updated_at: &5 2016-08-15 18:00:55.000000000 Z
+
+service_178:
+  id: 178
+  name: oil.ema.12.5s
+  setting_id: 421779419
+  fund_id: 217163923
+  frame_id: 5
+  position: 
+  trigger_id: 3
+  ngroup: oil.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2016-08-15 09:58:31.000000000 Z
+  updated_at: &5 2016-08-15 09:58:31.000000000 Z
+
+service_179:
+  id: 179
+  name: oil.ema.15.1m
+  setting_id: 122110586
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 12:19:22.000000000 Z
+  updated_at: &5 2016-11-25 11:04:15.000000000 Z
+
+service_181:
+  id: 181
+  name: oil.ema.30.1m
+  setting_id: 85709944
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:36:50.000000000 Z
+  updated_at: &5 2016-08-15 17:36:50.000000000 Z
+
+service_183:
+  id: 183
+  name: oil.ema.365.1m
+  setting_id: 843125330
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:38:12.000000000 Z
+  updated_at: &5 2016-08-15 17:38:12.000000000 Z
+
+service_182:
+  id: 182
+  name: oil.ema.60.1m
+  setting_id: 946610226
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:37:28.000000000 Z
+  updated_at: &5 2016-08-15 17:37:28.000000000 Z
+
+service_56:
+  id: 56
+  name: oil.history.15m
+  setting_id: 666529867
+  fund_id: 217163923
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 17:00:27.000000000 Z
+  updated_at: &5 2015-08-21 17:00:27.000000000 Z
+
+service_57:
+  id: 57
+  name: oil.history.1h
+  setting_id: 666529867
+  fund_id: 217163923
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 17:00:53.000000000 Z
+  updated_at: &5 2015-08-21 17:00:53.000000000 Z
+
+service_4:
+  id: 4
+  name: oil.history.1m
+  setting_id: 666529867
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-05 20:39:15.000000000 Z
+  updated_at: &5 2015-08-06 09:43:24.000000000 Z
+
+service_55:
+  id: 55
+  name: oil.history.5m
+  setting_id: 666529867
+  fund_id: 217163923
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:59:59.000000000 Z
+  updated_at: &5 2015-08-21 16:59:59.000000000 Z
+
+service_202:
+  id: 202
+  name: oil.line.1m
+  setting_id: 286569721
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 08:47:20.000000000 Z
+  updated_at: &5 2016-10-28 08:47:20.000000000 Z
+
+service_185:
+  id: 185
+  name: oil.macd.1m
+  setting_id: 621989106
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:56:10.000000000 Z
+  updated_at: &5 2016-08-15 17:56:10.000000000 Z
+
+service_186:
+  id: 186
+  name: oil.rsi.1m
+  setting_id: 407410407
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:56:47.000000000 Z
+  updated_at: &5 2016-08-15 17:56:47.000000000 Z
+
+service_187:
+  id: 187
+  name: oil.sar.1m
+  setting_id: 723207662
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:57:30.000000000 Z
+  updated_at: &5 2016-08-15 17:57:30.000000000 Z
+
+service_184:
+  id: 184
+  name: oil.sma.200.1m
+  setting_id: 3984119
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:38:54.000000000 Z
+  updated_at: &5 2016-08-15 17:38:54.000000000 Z
+
+service_188:
+  id: 188
+  name: oil.sol5m.1m
+  setting_id: 199911235
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-08-15 17:58:40.000000000 Z
+  updated_at: &5 2016-10-28 11:00:05.000000000 Z
+
+service_3:
+  id: 3
+  name: oil.tick
+  setting_id: 380606668
+  fund_id: 217163923
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: oil.tick
+  host_id: 1
+  active: true
+  single: false
+  action: stop
+  refresh: 60
+  created_at: &4 2015-08-05 20:36:42.000000000 Z
+  updated_at: &5 2016-08-15 09:42:42.000000000 Z
+
+service_203:
+  id: 203
+  name: oil.trend.1m
+  setting_id: 888877993
+  fund_id: 217163923
+  frame_id: 60
+  position: 
+  trigger_id: 77
+  ngroup: oil.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 08:48:06.000000000 Z
+  updated_at: &5 2016-10-28 08:49:07.000000000 Z
+
+service_50:
+  id: 50
+  name: usdcad.history.15m
+  setting_id: 666529867
+  fund_id: 481512774
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:30:43.000000000 Z
+  updated_at: &5 2015-08-21 16:30:43.000000000 Z
+
+service_51:
+  id: 51
+  name: usdcad.history.1h
+  setting_id: 666529867
+  fund_id: 481512774
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:31:35.000000000 Z
+  updated_at: &5 2015-08-21 16:31:35.000000000 Z
+
+service_24:
+  id: 24
+  name: usdcad.history.1m
+  setting_id: 666529867
+  fund_id: 481512774
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 19:02:38.000000000 Z
+  updated_at: &5 2015-08-06 19:02:38.000000000 Z
+
+service_49:
+  id: 49
+  name: usdcad.history.5m
+  setting_id: 666529867
+  fund_id: 481512774
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-21 16:30:03.000000000 Z
+  updated_at: &5 2015-08-21 16:30:03.000000000 Z
+
+service_23:
+  id: 23
+  name: usdcad.tick
+  setting_id: 380606668
+  fund_id: 481512774
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: ticker.valuta
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 19:02:09.000000000 Z
+  updated_at: &5 2015-08-25 09:28:07.000000000 Z
+
+service_22:
+  id: 22
+  name: usdchf.history.1m
+  setting_id: 666529867
+  fund_id: 595564323
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 18:58:53.000000000 Z
+  updated_at: &5 2015-08-06 18:58:53.000000000 Z
+
+service_21:
+  id: 21
+  name: usdchf.tick
+  setting_id: 380606668
+  fund_id: 595564323
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: ticker.valuta
+  host_id: 1
+  active: false
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 18:58:20.000000000 Z
+  updated_at: &5 2015-08-25 09:27:57.000000000 Z
+
+service_87:
+  id: 87
+  name: usdjpy.bar.15m
+  setting_id: 922717355
+  fund_id: 599603460
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: usdjpy
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2015-08-27 06:34:40.000000000 Z
+  updated_at: &5 2015-08-27 06:34:40.000000000 Z
+
+service_88:
+  id: 88
+  name: usdjpy.bar.1h
+  setting_id: 922717355
+  fund_id: 599603460
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: usdjpy
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2015-08-27 06:35:04.000000000 Z
+  updated_at: &5 2015-08-27 06:35:04.000000000 Z
+
+service_85:
+  id: 85
+  name: usdjpy.bar.1m
+  setting_id: 922717355
+  fund_id: 599603460
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: usdjpy
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-27 06:33:51.000000000 Z
+  updated_at: &5 2015-08-27 06:33:51.000000000 Z
+
+service_86:
+  id: 86
+  name: usdjpy.bar.5m
+  setting_id: 922717355
+  fund_id: 599603460
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: usdjpy
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2015-08-27 06:34:14.000000000 Z
+  updated_at: &5 2015-08-27 06:34:14.000000000 Z
+
+service_67:
+  id: 67
+  name: usdjpy.history.15m
+  setting_id: 666529867
+  fund_id: 599603460
+  frame_id: 900
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-25 09:25:28.000000000 Z
+  updated_at: &5 2015-08-25 09:25:28.000000000 Z
+
+service_68:
+  id: 68
+  name: usdjpy.history.1h
+  setting_id: 666529867
+  fund_id: 599603460
+  frame_id: 3600
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-25 09:26:08.000000000 Z
+  updated_at: &5 2015-08-25 09:26:08.000000000 Z
+
+service_18:
+  id: 18
+  name: usdjpy.history.1m
+  setting_id: 666529867
+  fund_id: 599603460
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-06 09:50:51.000000000 Z
+  updated_at: &5 2015-08-06 09:50:51.000000000 Z
+
+service_66:
+  id: 66
+  name: usdjpy.history.5m
+  setting_id: 666529867
+  fund_id: 599603460
+  frame_id: 300
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-25 09:25:02.000000000 Z
+  updated_at: &5 2015-08-25 09:25:02.000000000 Z
+
+service_17:
+  id: 17
+  name: usdjpy.tick
+  setting_id: 380606668
+  fund_id: 599603460
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: usdjpy
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-06 09:49:43.000000000 Z
+  updated_at: &5 2015-08-27 06:33:32.000000000 Z
+
+service_206:
+  id: 206
+  name: ym.bar.15m
+  setting_id: 922717355
+  fund_id: 203935143
+  frame_id: 900
+  position: 
+  trigger_id: 9
+  ngroup: ym.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 900
+  created_at: &4 2016-10-28 10:29:36.000000000 Z
+  updated_at: &5 2016-10-28 10:29:36.000000000 Z
+
+service_207:
+  id: 207
+  name: ym.bar.1h
+  setting_id: 922717355
+  fund_id: 203935143
+  frame_id: 3600
+  position: 
+  trigger_id: 9
+  ngroup: ym.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 3600
+  created_at: &4 2016-10-28 10:30:22.000000000 Z
+  updated_at: &5 2016-10-28 10:30:22.000000000 Z
+
+service_204:
+  id: 204
+  name: ym.bar.1m
+  setting_id: 922717355
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 9
+  ngroup: ym.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:25:42.000000000 Z
+  updated_at: &5 2016-10-28 10:25:42.000000000 Z
+
+service_205:
+  id: 205
+  name: ym.bar.5m
+  setting_id: 922717355
+  fund_id: 203935143
+  frame_id: 300
+  position: 
+  trigger_id: 9
+  ngroup: ym.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 300
+  created_at: &4 2016-10-28 10:28:52.000000000 Z
+  updated_at: &5 2016-10-28 10:28:52.000000000 Z
+
+service_215:
+  id: 215
+  name: ym.bol.1m
+  setting_id: 309566535
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:44:50.000000000 Z
+  updated_at: &5 2016-10-28 10:44:50.000000000 Z
+
+service_208:
+  id: 208
+  name: ym.ema.12.5s
+  setting_id: 421779419
+  fund_id: 203935143
+  frame_id: 5
+  position: 
+  trigger_id: 9
+  ngroup: ym.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 
+  created_at: &4 2016-10-28 10:31:35.000000000 Z
+  updated_at: &5 2016-10-28 10:31:35.000000000 Z
+
+service_209:
+  id: 209
+  name: ym.ema.15.1m
+  setting_id: 122110586
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:34:15.000000000 Z
+  updated_at: &5 2016-11-25 11:01:43.000000000 Z
+
+service_210:
+  id: 210
+  name: ym.ema.30.1m
+  setting_id: 85709944
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:34:49.000000000 Z
+  updated_at: &5 2016-10-28 10:34:49.000000000 Z
+
+service_213:
+  id: 213
+  name: ym.ema.365.1m
+  setting_id: 843125330
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:36:47.000000000 Z
+  updated_at: &5 2016-10-28 10:36:47.000000000 Z
+
+service_211:
+  id: 211
+  name: ym.ema.60.1m
+  setting_id: 946610226
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:35:21.000000000 Z
+  updated_at: &5 2016-10-28 10:35:21.000000000 Z
+
+service_10:
+  id: 10
+  name: ym.history.1m
+  setting_id: 666529867
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 
+  ngroup: history
+  host_id: 1
+  active: false
+  single: true
+  action: 
+  refresh: 
+  created_at: &4 2015-08-05 20:56:26.000000000 Z
+  updated_at: &5 2015-08-06 09:44:21.000000000 Z
+
+service_218:
+  id: 218
+  name: ym.line.1m
+  setting_id: 286569721
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:51:06.000000000 Z
+  updated_at: &5 2016-10-28 10:51:06.000000000 Z
+
+service_214:
+  id: 214
+  name: ym.macd.1m
+  setting_id: 621989106
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:44:05.000000000 Z
+  updated_at: &5 2016-10-28 10:44:05.000000000 Z
+
+service_217:
+  id: 217
+  name: ym.rsi.1m
+  setting_id: 407410407
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:50:13.000000000 Z
+  updated_at: &5 2016-10-28 10:50:13.000000000 Z
+
+service_216:
+  id: 216
+  name: ym.sar.1m
+  setting_id: 723207662
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:47:37.000000000 Z
+  updated_at: &5 2016-10-28 10:47:37.000000000 Z
+
+service_212:
+  id: 212
+  name: ym.sma.200.1m
+  setting_id: 3984119
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:36:10.000000000 Z
+  updated_at: &5 2016-10-28 10:36:10.000000000 Z
+
+service_220:
+  id: 220
+  name: ym.sol5m.1m
+  setting_id: 199911235
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:55:03.000000000 Z
+  updated_at: &5 2016-10-28 10:55:03.000000000 Z
+
+service_9:
+  id: 9
+  name: ym.tick
+  setting_id: 380606668
+  fund_id: 203935143
+  frame_id: 5
+  position: 
+  trigger_id: 
+  ngroup: ym.tick
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2015-08-05 20:55:47.000000000 Z
+  updated_at: &5 2016-10-28 10:24:17.000000000 Z
+
+service_219:
+  id: 219
+  name: ym.trend.1m
+  setting_id: 888877993
+  fund_id: 203935143
+  frame_id: 60
+  position: 
+  trigger_id: 204
+  ngroup: ym.ind
+  host_id: 1
+  active: true
+  single: false
+  action: 
+  refresh: 60
+  created_at: &4 2016-10-28 10:53:51.000000000 Z
+  updated_at: &5 2016-10-28 10:53:51.000000000 Z
+

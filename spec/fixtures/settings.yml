@@ -1,0 +1,803 @@
+#----------------------------------------------------- Crystal -----------------------------------------------------------
+
+сrystal:
+  name: crystal
+  indicator: crystal
+  position: 0
+
+binary:
+  name: binary
+  indicator: crystal
+  position: 1
+
+binary1m:
+  name: binary1m
+  indicator: crystal
+  delta: 60
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 2
+
+binary2m:
+  name: binary2m
+  indicator: crystal
+  delta: 120
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 3
+
+binary5m:
+  name: binary5m
+  indicator: crystal
+  delta: 300
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 4
+
+binary10m:
+  name: binary10m
+  indicator: crystal
+  delta: 600
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 5
+
+binary15m:
+  name: binary15m
+  indicator: crystal
+  delta: 900
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 6
+
+overlap:
+  name: overlap
+  indicator: crystal
+  position: 7
+
+#----------------------------------------------------- Asset -----------------------------------------------------------
+
+asset:
+  name: asset
+  indicator: asset
+  position: 0
+
+#----------------------------------------------------- Point -----------------------------------------------------------
+
+point:
+  name: point
+  indicator: ipoint
+  position: 1
+
+point_angle:
+  name: angle
+  indicator: ipoint
+  position: 2
+  separate: true
+  color: blue
+  line_width: 1
+  radius: 1
+
+point_sign:
+  name: sign
+  indicator: ipoint
+  position: 3
+  separate: true
+  color: gray
+  line_width: 1
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  chart: true
+  radius: 1
+
+point_turn:
+  name: turn
+  indicator: ipoint
+  position: 4
+  separate: true
+  color: darkcyan
+  line_dash: 2
+  line_width: 1
+#  radius: 1
+
+point_trend:
+  name: ptrend
+  indicator: ipoint
+  position: 5
+  separate: true
+  color: darkgreen
+  line_dash: 2
+  line_width: 1
+#  radius: 1
+
+point_level:
+  name: level
+  indicator: ipoint
+  position: 6
+  separate: true
+  color: gray
+#  line_dash: 3
+  line_width: 1
+  grid: true
+  radius: 1
+
+
+#-------------------------------------------------- Random ------------------------------------------------------------
+
+random:
+  name: random
+  indicator: random
+  position: 1
+  separate: true
+  color: gray
+  line_width: 1
+  grid: true
+#  radius: 1
+
+#random_rate:
+#  name: rnd_rate
+##  indicator: rate
+#  min: 20
+#  max: 100
+
+#--------------------------------------------------- Rate -------------------------------------------------------------
+
+rate:
+  name: rate
+  indicator: rate
+  position: 0
+
+tick:
+  name: tick
+  indicator: rate
+
+bar:
+  name: bar
+  indicator: rate
+
+link:
+  name: link
+  indicator: rate
+
+history:
+  name: history
+  indicator: rate
+
+sol1m:
+  name: sol1m
+  indicator: rate
+  delta: 60
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 1
+
+sol5m:
+  name: sol5m
+  indicator: rate
+  delta: 300
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 2
+
+#----------------------------------------------------- Line -----------------------------------------------------------
+
+line:
+  name: line
+  indicator: line
+  position: 0
+
+line_support_resistance:
+  name: line_support_resistance
+  indicator: line
+  color: blue
+#  line_dash: 1
+  line_width: 1
+  link: 'http://ta.mql4.com/ru/linestudies/support'
+  description: Line support and resistance
+  position: 1
+
+line_previous_close:
+  name: line_previous_close
+  indicator: line
+  color: Coral
+#  line_dash: 1
+  line_width: 1
+  link: 'http://www.investopedia.com/terms/p/previousclose.asp'
+  description: Line previous close
+  position: 2
+
+line_opening_price:
+  name: line_opening_price
+  indicator: line
+  color: Aquamarine
+#  line_dash: 3
+  line_width: 1
+  link: 'http://www.investopedia.com/terms/o/openingprice.asp'
+  description: Line today opening price
+  position: 3
+
+line_fibonacci:
+  name: line_fibonacci
+  indicator: line
+  color: yellow
+  line_width: 1
+  link: 'http://ta.mql4.com/ru/linestudies/fibonacci_retracement'
+  description: Line Fibonacci Retracement
+  position: 1
+
+
+
+#-------------------------------------------------- Trend -------------------------------------------------------------
+
+trend:
+  name: trend
+  indicator: trend
+  position: 0
+  level_depth: 2
+
+# настройки прорисовки линий для trend индикатора
+#trend_middle:
+#  name: middle
+#  indicator: trend
+#  color: lightblue
+#  line_width: 1
+#  position: 1
+
+trend_bar_high:
+  name: trend_bar_high
+  indicator: trend
+  position: 1
+  color: green # '#0c0'
+  fill: white
+  line_width: 0.3
+  radius: 2
+
+trend_bar_low:
+  name: trend_bar_low
+  indicator: trend
+  position: 2
+  color: red # '#f44'
+  fill: white
+  line_width: 0.3
+  radius: 2
+
+#trend_tick_high:
+#  name: tick_high
+#  indicator: trend
+#  color: green
+#  line_width: 0.4
+#  radius: 2
+#
+#trend_tick_low:
+#  name: tick_low
+#  indicator: trend
+#  color: red
+#  line_width: 0.4
+#  radius: 2
+
+# настройки индикатора trend для разных фондов
+#trend_default:
+#  name: trend_default
+#  indicator: trend
+#  level: 1
+#  depth: 10
+#  last_depth: 5
+#  position: -1
+
+#
+#trend_fti:
+#  name: fti
+#  indicator: trend
+#  level: 1
+#  depth: 7
+#  last_depth: 3
+#
+#trend_fdax:
+#  name: fdax
+#  indicator: trend
+#  level: 1
+#  depth: 12
+#  last_depth: 4
+#
+#trend_nq:
+#  name: nq
+#  indicator: trend
+#  level: 1
+#  depth: 16
+#  last_depth: 8
+#
+#trend_fdax:
+#  name: ym
+#  indicator: trend
+#  level: 1
+#  depth: 14
+#  last_depth: 5
+#
+#trend_gold:
+#  name: gold
+#  indicator: trend
+#  level: 1
+#  depth: 10
+#  last_depth: 5
+#
+#trend_oil:
+#  name: oil
+#  indicator: trend
+#  level: 1
+#  depth: 14
+#  last_depth: 4
+
+
+#--------------------------------------------------- SAR --------------------------------------------------------------
+
+sar:
+  name: sar
+  indicator: sar
+  incremental_step: 0.02
+  initial_step: 0.02
+  maximum_step: 0.2
+  color: gray
+#  color: lightblue
+  fill: lightblue
+  line_width: 1
+  radius: 2
+
+#------------------------------------------------ Bollinger ----------------------------------------------------------
+
+bol:
+  name: bol
+  indicator: bol
+  standard_deviations: 2.2
+  period: 30
+  method: exponential
+  color: lightblue
+  line_width: 1
+  position: 0
+
+bol_high:
+  name: bol_high
+  indicator: bol
+  color: red
+  line_width: 1
+  line_dash: 3
+  position: 1
+
+bol_low:
+  name: bol_low
+  indicator: bol
+  color: green
+  line_width: 1
+  line_dash: 3
+  position: 2
+
+bol_width:
+  name: bol_width
+  indicator: bol
+  separate: true
+  color: gray
+  line_width: 1
+  radius: 1
+  position: 3
+
+
+#------------------------------------------- Relative Strength Index ---------------------------------------------------
+
+rsi:
+  name: rsi
+  indicator: rsi
+  period: 20
+#  method: exponential
+  method: simple
+  separate: true
+  color: dodgerblue
+  line_width: 1
+#  line_dash: 0
+  radius: 1
+#  factor: 0.02
+
+
+#------------------------------------ Moving Average Convergence/Divergence -------------------------------------------
+
+macd:
+  name: macd
+  indicator: macd
+  position: 0
+  first: ema15
+  second: ema30
+
+macd_macd:
+  name: macd_macd
+  indicator: macd
+  position: 2
+  separate: true
+  color: green
+  line_width: 1
+  line_dash: 0
+  radius: 1
+  grid: true
+
+macd_signal:
+  name: macd_signal
+  indicator: macd
+  position: 3
+  separate: true
+  method: simple
+  period: 10
+  color: red
+  line_width: 1
+  line_dash: 0
+  radius: 1
+
+macd_chart:
+  name: macd_chart
+  indicator: macd
+  position: 4
+  separate: true
+  color: gray
+  fill: lightgray
+  line_width: 1
+  line_dash: 0
+  radius: 1
+  chart: true
+
+#----------------------------------------------- Moving Average --------------------------------------------------------
+
+ma:
+  name: ma
+  indicator: ma
+  position: 0
+
+ema12:
+  name: ema12
+  indicator: ma
+  position: 1
+  method: exponential
+  period: 12
+  color: LightGray
+  line_width: 1
+
+ema24:
+  name: ema24
+  indicator: ma
+  position: 2
+  method: exponential
+  period: 24
+  color: Gray
+  line_width: 1
+
+ema15:
+  name: ema15
+  indicator: ma
+  position: 3
+  method: exponential
+  period: 15
+  color: LightBlue
+  line_width: 1
+
+ema30:
+  name: ema30
+  indicator: ma
+  position: 4
+  method: exponential
+  period: 30
+  color: DodgerBlue
+  line_width: 1
+
+ema60:
+  name: ema60
+  indicator: ma
+  position: 5
+  method: exponential
+  period: 60
+  color: Blue
+  line_width: 1
+
+sma200:
+  name: sma200
+  position: 6
+  indicator: ma
+  method: simple
+  period: 200
+  color: LightSlateGray
+  line_width: 1
+
+ema365:
+  name: ema365
+  indicator: ma
+  position: 7
+  method: exponential
+  period: 365
+  color: DarkBlue
+  line_width: 1
+
+#ema24:
+#  name: ema24
+#  indicator: ma
+#  method: exponential
+#  period: 24
+#  color: Gray
+#  line_width: 1
+
+#ema180:
+#  name: ema180
+#  indicator: ma
+#  method: exponential
+#  period: 180
+#  color: DarkBlue
+#  line_width: 1
+#
+#ema360:
+#  name: ema360
+#  indicator: ma
+#  method: exponential
+#  period: 360
+#  color: DarkBlue
+#  line_width: 1
+
+#ema20t:
+#  name: ema20t
+#  indicator: ma
+#  method: exponential
+#  period: 20
+#  color: goldenrod
+#  line_width: 1
+#
+#ema60t:
+#  name: ema60t
+#  indicator: ma
+#  method: exponential
+#  period: 60
+#  color: sienna
+#  line_width: 1
+#
+#ema9_1m:
+#  name: ema9_1m
+#  indicator: ma
+#  method: exponential
+#  period: 9
+#  color: dodgerblue
+#  line_width: 1
+#  line_dash: 1
+#
+#ema12_30s:
+#  name: ema12_30s
+#  indicator: ma
+#  method: exponential
+#  period: 12
+#  source: midpoint
+#  color: dodgerblue
+#  line_width: 0.5
+#  line_dash: 2
+#  radius: 1
+#
+#ema12_1m:
+#  name: ema12_1m
+#  indicator: ma
+#  method: exponential
+#  period: 12
+#  source: midpoint
+#  color: dodgerblue
+#  line_width: 1
+#  line_dash: 2
+#
+#ema24_30s:
+#  name: ema24_30s
+#  indicator: ma
+#  method: exponential
+#  period: 24
+#  source: midpoint
+#  color: dodgerblue
+#  line_width: 0.5
+#  line_dash: 4
+#  radius: 1
+#
+#ema24_1m:
+#  name: ema24_1m
+#  indicator: ma
+#  method: exponential
+#  period: 24
+#  source: midpoint
+#  color: dodgerblue
+#  line_width: 1
+#  line_dash: 4
+#
+#sma20_1m:
+#  name: sma20_1m
+#  indicator: ma
+#  method: simple
+#  period: 20
+#  color: LightSlateGray
+#  line_width: 1
+#  line_dash: 2
+#
+#sma50_1m:
+#  name: sma50_1m
+#  indicator: ma
+#  method: simple
+#  period: 50
+#  color: LightSlateGray
+#  line_width: 1
+#  line_dash: 4
+##  radius: 1
+#
+#ema150_30s:
+#  name: ema150_30s
+#  indicator: ma
+#  method: exponential
+#  period: 150
+#  color: dodgerblue
+#  line_width: 0.5
+#
+#ema150_1m:
+#  name: ema150_1m
+#  indicator: ma
+#  method: exponential
+#  period: 150
+#  color: dodgerblue
+#  line_width: 1
+#
+#ema150_2m:
+#  name: ema150_2m
+#  indicator: ma
+#  method: exponential
+#  period: 150
+#  color: dodgerblue
+#  line_width: 2
+#
+#ema150_3m:
+#  name: ema150_3m
+#  indicator: ma
+#  method: exponential
+#  period: 150
+#  color: dodgerblue
+#  line_width: 3
+#
+#ema150_5m:
+#  name: ema150_5m
+#  indicator: ma
+#  method: exponential
+#  period: 150
+#  color: dodgerblue
+#  line_width: 4
+#
+#ema150_15m:
+#  name: ema150_15m
+#  indicator: ma
+#  method: exponential
+#  period: 150
+#  color: dodgerblue
+#  line_width: 5
+#
+#sma200_30s:
+#  name: sma200_30s
+#  indicator: ma
+#  method: simple
+#  period: 200
+#  color: LightSlateGray
+#  line_width: 0.5
+#
+#ema365_30s:
+#  name: ema365_30s
+#  indicator: ma
+#  method: exponential
+#  period: 365
+#  color: blue
+#  line_width: 0.5
+#
+#ema365_1m:
+#  name: ema365_1m
+#  indicator: ma
+#  method: exponential
+#  period: 365
+#  color: blue
+#  line_width: 1
+
+
+#--------------------------------------------------- Rainbow ----------------------------------------------------------
+
+#rainbow:
+#  name: rainbow
+#  indicator: rainbow
+#
+#rainbow_one:
+#  name: rainbow_one
+#  indicator: rainbow
+#  method: exponential
+#  period: 6
+#  color: gold
+#  line_width: 1
+#  line_dash: 0
+#
+#rainbow_two:
+#  name: rainbow_two
+#  indicator: rainbow
+#  method: exponential
+#  period: 13
+#  color: goldenrod
+#  line_width: 1
+#  line_dash: 0
+#
+#rainbow_three:
+#  name: rainbow_three
+#  indicator: rainbow
+#  method: exponential
+#  period: 26
+#  color: sienna
+#  line_width: 1
+#  line_dash: 0
+
+
+#--------------------------------------------------- Stochastic --------------------------------------------------------
+
+#stochastic:
+#  name: line
+#  indicator: stochastic
+#
