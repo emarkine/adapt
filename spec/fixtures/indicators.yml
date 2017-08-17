@@ -1,0 +1,229 @@
+crystal:
+  name: crystal
+  type: Indicator::Crystal
+  title: Crystal
+  full_name: Crystal
+  link: http://marketram.com/indicator/crystal
+  position: 0
+  displayed: true
+
+ma:
+  name: ma
+  type: Indicator::MovingAverage
+  title: MA
+  full_name: Moving Average
+  link: https://ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+  position: 2
+  displayed: true
+
+macd:
+  name: macd
+  type: Indicator::Macd
+  title: MACD
+  full_name: Moving Average Convergence/Divergence
+  canvas: Moving Average Convergence/Divergence
+  table: true
+  link: https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80_MACD
+  position: 3
+  displayed: true
+
+bol:
+  name: bol
+  type: Indicator::Bollinger
+  title: Bollinger
+  full_name: Bollinger Bands
+  canvas: Bollinger Bands Width
+  link: https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B8%D0%B8_%D0%91%D0%BE%D0%BB%D0%BB%D0%B8%D0%BD%D0%B4%D0%B6%D0%B5%D1%80%D0%B0
+  position: 4
+  displayed: true
+
+sar:
+  name: sar
+  type: Indicator::Sar
+  title: SAR
+  full_name: Parabolic Stop And Reverse
+  link: https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D1%80%D0%B0%D0%B1%D0%BE%D0%BB%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0_SAR
+  position: 5
+  displayed: true
+
+rsi:
+  name: rsi
+  type: Indicator::Rsi
+  title: RSI
+  full_name: Relative Strength Index
+  canvas: Relative Strength Index
+  link: https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81_%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9_%D1%81%D0%B8%D0%BB%D1%8B
+  position: 6
+  displayed: true
+
+line:
+  name: line
+  type: Indicator::Line
+  title: Line
+  full_name: Lines
+  link: http://www.investopedia.com/terms/p/previousclose.asp
+  position: 7
+  displayed: true
+
+trend:
+  name: trend
+  type: Indicator::Trend
+  title: TL
+  full_name: Trend Lines
+  link: https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B8%D0%B8_%D1%82%D1%80%D0%B5%D0%BD%D0%B4%D0%B0
+  position: 8
+  displayed: true
+
+rate:
+  name: rate
+  type: Indicator::Rate
+  title: Rate
+  full_name: Rate & Solution
+  canvas: Solutuion
+  link: http://marketram.com/indicator/rate
+  position: 9
+  displayed: true
+
+random:
+  name: random
+  type: Indicator::Random
+  title: Random
+  full_name: Random
+  canvas: Random
+  link: http://marketram.com/indicator/random
+  position: 10
+  displayed: true
+
+asset:
+  name: asset
+  type: Indicator::Asset
+  title: Asset
+  full_name: Asset
+  canvas: Asset
+  link: http://marketram.com/indicator/asset
+  position: 11
+  displayed: false
+
+
+#rainbow:
+#  name: rainbow
+#  type: Indicator::Rainbow
+#  title: Rainbow
+#  full_name: Rainbow Exponential Moving Average (6,13,26)
+#  link:
+#  position: 9
+
+#stochastic:
+#  name: stochastic
+#  type: Indicator::Stochastic
+#  title: Stochastic
+#  full_name: Stochastic Oscillator
+#  link: https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%BE%D1%85%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BE%D1%81%D1%86%D0%B8%D0%BB%D0%BB%D1%8F%D1%82%D0%BE%D1%80
+#  position:
+
+
+
+#2:
+#  id: 2
+#  type: FibonacciIndicator
+#  name: fib
+#  title: Fibonacci
+#  full_name: Fibonacci Retracement
+#  http: //ta.mql4.com/ru/linestudies/fibonacci_retracement
+#
+#
+#8:
+#  id: 8
+#  type: FrequencyIndicator
+#  name: freq
+#  title: Frequency
+#  full_name: Frequency Fourier Transformation
+#  https: //ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%A4%D1%83%D1%80%D1%8C%D0%B5
+#
+#9:
+#  id: 9
+#  type: VolumeIndicator
+#  name: vol
+#  title: Volume
+#  full_name: Volume
+#  https: //ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D1%91%D0%BC_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2
+#
+#
+#
+#
+#11:
+#  id: 11
+#  type: MovingAverageIndicator
+#  name: ma
+#  title: MA
+#  full_name: Moving Average
+#  https: //ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+#
+
+
+#
+#11:
+#  id: 11
+#  type: MovingAverageIndicator
+##  type: ExponentialMovingAverageIndicator
+#  name: ema365
+#  title: EMA365
+#  full_name: Exponential Moving Average 365
+#  https: //ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+#
+#12:
+#  id: 12
+#  type: MovingAverageIndicator
+##  type: SimpleMovingAverageIndicator
+#  name: sma200
+#  title: SMA200
+#  full_name: Simple Moving Average 200
+#  https: //ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+#
+#13:
+#  id: 13
+##  type: ExponentialMovingAverageIndicator
+#  type: MovingAverageIndicator
+#  name: ema150
+#  title: EMA150
+#  full_name: Exponential Moving Average 150
+#  https: //ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+#
+#14:
+#  id: 14
+#  type: MovingAverageIndicator
+#  name: sma20
+#  title: SMA20
+#  full_name: Simple Moving Average 20
+#  https: //ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+#
+#15:
+#  id: 15
+#  type: MovingAverageIndicator
+#  name: ema9
+#  title: EMA9
+#  full_name: Exponential Moving Average 9
+#  https: //ru.wikipedia.org/wiki/%D0%A1%D0%BA%D0%BE%D0%BB%D1%8C%D0%B7%D1%8F%D1%89%D0%B0%D1%8F_%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D1%8F%D1%8F
+
+#
+#der:
+#  id: 6
+#  name: der
+#  title: Derivative
+#  full_name: Derivative of a Function of a Real Variable
+#  wiki: https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%BD%D0%B0%D1%8F_%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8
+#
+#
+#kel:
+#  id: 13
+#  name: kel
+#  title: Keltner
+#  full_name: Keltner Channel
+#  wiki: https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BD%D0%B0%D0%BB_%D0%9A%D0%B5%D0%BB%D1%8C%D1%82%D0%BD%D0%B5%D1%80%D0%B0
+
+#:
+#  id:
+#  name:
+#  title:
+#  full_name:
+#  wiki:

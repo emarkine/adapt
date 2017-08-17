@@ -1,0 +1,241 @@
+#===================================================== Crystal ========================================================#
+
+crystal:
+  setting: crystal
+
+overlap:
+  setting: overlap
+
+binary:
+  setting: binary
+
+binary1m:
+  setting: binary1m
+
+binary2m:
+  setting: binary2m
+
+binary5m:
+  setting: binary5m
+
+binary10m:
+  setting: binary10m
+
+binary15m:
+  setting: binary15m
+
+#----------------------------------------------------- Random ---------------------------------------------------------#
+
+random:
+  setting: random
+# crystal: random
+# position: 0
+
+#----------------------------------------------------- Random ---------------------------------------------------------#
+
+random:
+  setting: random
+# crystal: random
+# position: 0
+
+#--------------------------------------------------- Rate -------------------------------------------------------------
+
+rate:
+  setting: rate
+# crystal: rate
+# position: 0
+
+sol1m:
+  setting: sol1m
+# crystal: rate
+# position: 1
+
+sol5m:
+  setting: sol5m
+# crystal: rate
+# position: 2
+
+
+#------------------------------------------------------- MA -----------------------------------------------------------#
+
+ma:
+  setting: ma
+# crystal: ma
+# position: 0
+
+ma_ema12:
+  setting: ema12
+# crystal: ma
+# position: 1
+
+ma_ema15:
+  setting: ema15
+# crystal: ma
+# position: 2
+
+ma_ema30:
+  setting: ema30
+# crystal: ma
+# position: 3
+
+ma_ema60:
+  setting: ema60
+# crystal: ma
+# position: 4
+
+ma_sma200:
+  setting: sma200
+# crystal: ma
+# position: 5
+
+ma_ema365:
+  setting: ema365
+# crystal: ma
+# position: 6
+
+
+#===================================================== Robots =========================================================#
+
+#------------------------------------------------------ Treda ---------------------------------------------------------#
+#
+#treda_top:
+#  id: 100
+#  setting: ∑
+#  crystal_id: 1
+#
+##treda_sign:
+##  id: 110
+##  setting: sign
+##  crystal_id: 1
+##
+##treda_level:
+##  id: 120
+##  setting: level
+##  crystal_id: 1
+#
+#treda_sar:
+#  id: 140
+#  setting: sar
+#  crystal_id: 1
+#
+#treda_trend_high:
+#  id: 150
+#  setting: trend high
+#  crystal_id: 1
+#
+#treda_trend_low:
+#  id: 160
+#  setting: trend low
+#  crystal_id: 1
+#
+#treda_trend_tick_high:
+#  id: 170
+#  setting: tick high
+#  crystal_id: 1
+#
+#treda_trend_tick_low:
+#  id: 180
+#  setting: tick low
+#  crystal_id: 1
+#
+##treda_rate:
+##  id: 170
+##  setting: rate
+##  crystal_id: 1
+#
+##-------------------------------------------------- Bollisa ----------------------------------------------------------
+#
+#bollisa_top:
+#  id: 200
+#  setting: ∑
+#  crystal_id: 2
+#
+#bollisa_bol:
+#  id: 210
+#  setting: bollinger
+#  crystal_id: 2
+#
+##bollisa_sar:
+##  id: 220
+##  setting: sar
+##  crystal_id: 2
+#
+##---------------------------------------------------- Nura -----------------------------------------------------------
+#
+#nura_top:
+#  id: 300
+#  setting: top
+#  crystal_id: 3
+#
+##---------------------------------------------------- Mila -----------------------------------------------------------
+#
+#mila_macd_macd:
+#  id: 410
+#  setting: macd
+#  crystal_id: 4
+#  setting_id: 701
+#
+#mila_macd_signal:
+#  id: 420
+#  setting: signal
+#  crystal_id: 4
+#  setting_id: 702
+#
+#mila_macd_chart:
+#  id: 430
+#  setting: chart
+#  crystal_id: 4
+#  setting_id: 703
+#
+#mila_macd:
+#  id: 440
+#  setting: ∑ macd
+#  crystal_id: 4
+#  setting_id: 700
+#
+#mila_sum:
+#  id: 490
+#  setting: ∑
+#  crystal_id: 4
+#
+##---------------------------------------------------- Rita -----------------------------------------------------------
+#
+#rita_top:
+#  id: 500
+#  setting: ∑
+#  crystal_id: 5
+#
+#rita_rate:
+#  id: 510
+#  setting: rate
+#  crystal_id: 5
+#
+#rita_rsi:
+#  id: 520
+#  setting: rsi
+#  crystal_id: 5
+#
+#rita_sar:
+#  id: 530
+#  setting: sar
+#  crystal_id: 5
+#
+#rita_rainbow:
+#  id: 540
+#  setting: rainbow
+#  crystal_id: 5
+#
+##------------------------------------------------------ I -------------------------------------------------------------
+#
+#I_top:
+#  id: 600
+#  setting: eugene
+#  crystal_id: 6
+#
+#
+##---------------------------------------------------- Lucy -------------------------------------------------------------
+#
+#lucy_sum:
+#  id: 700
+#  setting: ∑
+#  crystal_id: 7

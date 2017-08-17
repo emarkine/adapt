@@ -1,0 +1,122 @@
+# https://www.interactivebrokers.com/en/software/api/apiguide/tables/historical_data_limitations.htm
+#Duration	Minimum Bar Size
+#1 min	1 second
+#5 mins	1 second
+#15 mins	1 second
+#1 hour	5 seconds
+#2 hours	5 seconds
+#4 hours	10 seconds
+#1 day	30 seconds
+#2 days	1 minute
+#1 week	10 minutes
+#2 weeks	15 minutes
+#1 month	30 minutes
+#3 months	1 day
+#Everything else	1 day
+
+#1:
+#  id: 1
+#  name: 1s
+#  unit: second
+#  duration: 900
+
+5:
+  id: 5
+  name: 5s
+  unit: second
+  duration: 7200
+
+#10:
+#  id: 10
+#  name: 10s
+#  unit: second
+#  duration: 14400
+#
+#30:
+#  id: 30
+#  name: 30s
+#  unit: second
+#  duration: 86400
+
+60:
+  id: 60
+  name: 1m
+  unit: day
+  duration: 7
+
+#120:
+#  id: 120
+#  name: 2m
+#  unit: day
+#  duration: 7
+#
+#180:
+#  id: 180
+#  name: 3m
+#  unit: day
+#  duration: 7
+
+300:
+  id: 300
+  name: 5m
+  unit: day
+  duration: 7
+
+#600:
+#  id: 600
+#  name: 10m
+#  unit: day
+#  duration: 7
+
+900:
+  id: 900
+  name: 15m
+  unit: week
+  duration: 2
+
+#1800:
+#  id: 1800
+#  name: 30m
+#  unit: month
+#  duration: 1
+
+
+3600:
+  id: 3600
+  name: 1h
+  unit: month
+  duration: 1
+
+#7200:
+#  id: 7200
+#  name: 2h
+
+#14400:
+#  id: 14400
+#  name: 4h
+#  unit: month
+#  duration: 1
+
+86400:
+  id: 86400
+  name: 1d
+  unit: month
+  duration: 12
+
+#604800:
+#  id: 604800
+#  name: 1w
+#  unit: year
+#  duration: 3
+
+#2592000:
+#  id: 2592000
+#  name: 1m
+#  unit: year
+#  duration: 10
+
+#31557600:
+#  id: 31557600
+#  name: 1y
+#  unit: year
+#  duration: 100

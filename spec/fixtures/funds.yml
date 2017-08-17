@@ -1,0 +1,1225 @@
+# Часы работы мировых бирж http://en.wikipedia.org/wiki/List_of_stock_exchange_opening_times
+# Российская биржа http://www.finam.ru/
+
+# --------------------------------------------------- VALUTAS -----------------------------------------------------------
+
+eurusd:
+  name: eurusd
+  short_name: €/$
+  full_name: "EUR/USD"
+  category: valuta
+  product: EUR.USD
+  underlying: EUR
+  security_type: CASH
+  currency: USD
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+  url: "http://finance.yahoo.com/q?s=eurusd=x"
+  xpath_rate: "//*[@id='yfs_l10_eurusd=x']/text()"
+  watch: true
+  show_index: 101
+
+audusd:
+  name: audusd
+  short_name: A$/$
+  full_name: "AUD/USD"
+  category: valuta
+  product: AUD.USD
+  underlying: AUD
+  security_type: CASH
+  currency: USD
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+  watch: true
+  show_index: 102
+
+nzdusd:
+  name: nzdusd
+  short_name: NZ$/$
+  full_name: "NZD/USD"
+  category: valuta
+  product: NZD.USD
+  underlying: NZD
+  security_type: CASH
+  currency: USD
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+  url: "http://finance.yahoo.com/q?s=nzdusd=x"
+  xpath_rate: "//*[@id='yfs_l10_nzdusd=x']/text()"
+#  watch: true
+#  show_index: 7
+
+gbpusd:
+  name: gbpusd
+  short_name: £/$
+  full_name: "GBP/USD"
+  category: valuta
+  product: GBP.USD
+  underlying: GBP
+  security_type: CASH
+  currency: USD
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+  url: "http://finance.yahoo.com/q?s=GBPUSD=X"
+  xpath_rate: "//*[@id='yfs_l10_gbpusd=x']/text()"
+  watch: false
+  show_index: 103
+
+usdjpy:
+  name: usdjpy
+  short_name: $/¥
+  full_name: "USD/JPY"
+  underlying: USD
+  category: valuta
+  product: USD.JPY
+  security_type: CASH
+  currency: JPY
+  exchange: IDEALPRO
+  comma: 3
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+  url: "http://finance.yahoo.com/q?s=USDJPY=X"
+  xpath_rate: "//*[@id='yfs_l10_usdjpy=x']/text()"
+#  watch: true
+  show_index: 103
+
+usdchf:
+  name: usdchf
+  short_name: $/Fr
+  full_name: "USD/CHF"
+  category: valuta
+  product: USD.CHF
+  underlying: USD
+  security_type: CASH
+  currency: CHF
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+  url: "http://finance.yahoo.com/q?s=usdchf=x"
+  xpath_rate: "//*[@id='yfs_l10_usdchf=x']/text()"
+#  watch: true
+  show_index: 4
+
+usdcad:
+  name: usdcad
+  short_name: $/C$
+  full_name: "USD/CAD"
+  category: valuta
+  product: USD.CAD
+  underlying: USD
+  security_type: CASH
+  currency: CAD
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "00:00:00"
+  close_time: "23:59:59"
+#  watch: true
+  show_index: 5
+
+eurjpy:
+  name: eurjpy
+  short_name: €/¥
+  full_name: "EUR/JPY"
+  category: valuta
+  product: EUR.JPY
+  underlying: EUR
+  security_type: CASH
+  currency: EUR3
+  exchange: IDEALPRO
+  comma: 3
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+  url: "http://finance.yahoo.com/q?s=eurjpy=x"
+  xpath_rate: "//*[@id='yfs_l10_eurjpy=x']/text()"
+
+gbpjpy:
+  name: gbpjpy
+  short_name: £/¥
+  full_name: "GBP/JPY"
+  category: valuta
+  product: GBP.JPY
+  underlying: GBP
+  security_type: CASH
+  currency: EUR3
+  exchange: IDEALPRO
+  comma: 3
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+  url: "http://finance.yahoo.com/q?s=GBPJPY=X"
+  xpath_rate: "//*[@id='yfs_l10_gbpjpy=x']/text()"
+
+eurgbp:
+  name: eurgbp
+  short_name: €/£
+  full_name: "EUR/GBP"
+  category: valuta
+  product: EUR.GBP
+  underlying: EUR
+  security_type: CASH
+  currency: EUR2
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+  url: "http://finance.yahoo.com/q?s=EURGBP=X"
+  xpath_rate: "//*[@id='yfs_l10_eurgbp=x']/text()"
+
+usdrub:
+  name: usdrub
+  short_name: $/R
+  full_name: "USD/RUB"
+  category: valuta
+  product: USD.RUB
+  underlying: USD
+  security_type: CASH
+  currency_id: 4
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+eurrub:
+  name: eurrub
+  short_name: €/R
+  full_name: "EUR/RUB"
+  category: valuta
+  product: EUR.RUB
+  underlying: EUR
+  security_type: CASH
+  currency_id: 4
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+audjpy:
+  name: audjpy
+  short_name: A$/¥
+  full_name: "AUD/JPY"
+  category: valuta
+  product: AUD.JPY
+  underlying: AUD
+  security_type: CASH
+  currency: EUR3
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+cadjpy:
+  name: cadjpy
+  short_name: C$/¥
+  full_name: "CAD/JPY"
+  category: valuta
+  product: CAD.JPY
+  underlying: CAD
+  security_type: CASH
+  currency: EUR3
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+
+chfjpy:
+  name: chfjpy
+  short_name: Fr/¥
+  full_name: "CHF/JPY"
+  category: valuta
+  product: CHF.JPY
+  underlying: CHF
+  security_type: CASH
+  currency: EUR3
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+gbpcad:
+  name: gbpcad
+  short_name: £/C$
+  full_name: "GBP/CAD"
+  category: valuta
+  product: GBP.CAD
+  underlying: GBP
+  security_type: CASH
+  currency: EUR8
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+gbpaud:
+  name: gbpaud
+  short_name: £/A$
+  full_name: "GBP/AUD"
+  category: valuta
+  product: GBP.AUD
+  underlying: GBP
+  security_type: CASH
+  currency: EUR7
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+nzdchf:
+  name: nzdchf
+  short_name: NZ$/Fr
+  full_name: "NZD/CHF"
+  category: valuta
+  product: NZD.CHF
+  underlying: NZD
+  security_type: CASH
+  currency_id: 8
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+  url: "http://finance.yahoo.com/q?s=usdchf=x"
+  xpath_rate: "//*[@id='yfs_l10_usdchf=x']/text()"
+
+audnzd:
+  name: audnzd
+  short_name: A$/NZ$
+  full_name: "AUD/NZD"
+  category: valuta
+  product: AUD.NZD
+  underlying: AUD
+  security_type: CASH
+  currency: EUR5
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+euraud:
+  name: euraud
+  short_name: €/A$
+  full_name: "EUR/AUD"
+  category: valuta
+  product: EUR.AUD
+  underlying: EUR
+  security_type: CASH
+  currency: EUR7
+  exchange: IDEALPRO
+  comma: 5
+  open_time: "01:00:00"
+  close_time: "23:00:00"
+
+
+# ------------------------------------------------ COMMODITIES ---------------------------------------------------------
+
+gold:
+  name: gold
+  full_name: "Gold"
+  category: commodity
+  product: GCZ7
+  underlying: GC IND
+  trading_class: GC
+  security_type: FUT
+  product_type: Metal
+  currency: USD
+  contract_month: "2017-12-01"
+  expiration: "2016-12-27 17:15:00"
+  multiplier: 100
+  exchange: NYMEX
+  settlement_method: Physical Delivery
+  comma: 2
+  open_time: "00:00:00"
+  close_time: "23:15:00"
+  settlement_method: Physical Delivery
+  watch: true
+  show_index: 201
+
+oil:
+  name: oil
+  full_name: "Light Sweet Crude Oil"
+  category: commodity
+  product: CLU7
+  underlying: CL IND
+  trading_class: CL
+  security_type: FUT
+  currency: USD
+  contract_month: "2017-08-01"
+  expiration: "2017-08-22 17:15:00"
+  exchange: NYMEX
+  multiplier: 1000
+  product_type: Energy
+  settlement_method: Physical Delivery
+  comma: 3
+  open_time: "00:00:00"
+  close_time: "23:15:00"
+  watch: true
+  show_index: 202
+
+silver:
+  name: silver
+  full_name: "Silver"
+  category: commodity
+  product: SIX4
+  underlying: SI IND
+  trading_class: SI
+  security_type: FUT
+  product_type: Metal
+  currency: USD
+  exchange: NYMEX
+  multiplier: 5000
+  settlement_method: Physical Delivery
+  comma: 4
+  contract_month: "2014-11-01"
+  expiration: "2014-11-25 17:15:00"
+  open_time: "00:00:00"
+  close_time: "23:15:00"
+  watch: false
+
+gas:
+  name: gas
+  full_name: "Henry Hub Natural Gas"
+  category: commodity
+  product: NGG5
+  underlying: NG IND
+  trading_class: NG
+  security_type: FUT
+  product_type: Energy
+  currency: USD
+  exchange: NYMEX
+  multiplier: 10000
+  settlement_method: Physical Delivery
+  comma: 5
+  contract_month: "2015-02-01"
+  expiration: "2015-01-28 17:15:00"
+  open_time: "00:00:00"
+  close_time: "23:15:00"
+  watch: false
+
+copper:
+  name: copper
+  full_name: "Copper"
+  category: commodity
+  product: HGF5
+  underlying: HG IND
+  trading_class: HG
+  security_type: FUT
+  product_type: Metal
+  currency: USD
+  exchange: NYMEX
+  multiplier: 25000
+  settlement_method: Physical Delivery
+  comma: 5
+  contract_month: "2015-01-01"
+  expiration: "2015-01-28 17:15:00"
+  open_time: "00:00:00"
+  close_time: "23:15:00"
+  watch: false
+
+
+# --------------------------------------------------- FUTURES -----------------------------------------------------------
+
+es:
+  name: es
+  full_name: "E-mini S&P 500"
+  category: future
+  product: ESU7
+  currency: USD
+  exchange: GLOBEX
+  security_type: FUT
+  underlying: ES IND
+  multiplier: 50
+  trading_class: ES
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2017-09-01"
+  expiration: "2017-09-15 15:30:00" # in CEST / 8:30:00 CST
+  open_time: "00:00:00" # CEST
+  close_time: "23:15:00" # CEST
+#  watch: true
+  show_index: 210
+
+ym:
+  name: ym
+  full_name: "Mini Dow Jones"
+  category: future
+  product: YM DEC 16
+  currency: USD
+  exchange: ECBOT
+  security_type: FUT
+  underlying: YM IND
+  multiplier: 5
+  trading_class: YM
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2016-12-01"
+  expiration: "2016-12-16 16:30:00" # in CEST / 8:30:00 CST
+  open_time: "00:00:00" # CEST
+  close_time: "23:15:00" # CEST
+  watch: true
+  show_index: 211
+
+nq:
+  name: nq
+  full_name: "E-mini NASDAQ 100"
+  category: future
+  product: NQZ6
+  currency: USD
+  exchange: GLOBEX
+  security_type: FUT
+  underlying: NQ IND
+  multiplier: 20
+  trading_class: NQ
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2016-12-01"
+  expiration: "2016-12-16 16:30:00" # in CEST / 8:30:00 CST
+  open_time: "00:00:00" # CEST
+  close_time: "23:15:00" # CEST
+  prior_close: 4212.50
+  watch: true
+  show_index: 212
+
+fdax:
+  name: fdax
+  full_name: "DAX Futures"
+  isin: DE0008469594
+  local_symbol: FDAX SEP 17
+  category: future
+  currency: EUR
+  product: FDAX
+  exchange: DTB
+  security_type: FUT
+  underlying: DAX IND
+  multiplier: 25
+  trading_class: FDAX
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2017-09-01"
+  expiration: "2017-09-15 13:00:00"
+  open_time: "08:00:00"
+  close_time: "22:05:00"
+  watch: true
+  show_index: 213
+
+fti:
+  name: fti
+  full_name: "AEX Futures"
+  product: EOE
+  security_type: FUT
+  underlying: AEX IND
+  category: future
+  currency: EUR
+  multiplier: 200
+  exchange: FTA
+  trading_class: FTI
+  local_symbol: FTIU7
+  product_type: Equity Index
+  settlement_method: cash
+  location: Amsterdam
+  comma: 3
+  contract_month: "2017-09-01"
+  expiration: "2017-09-15 16:00:00"
+  open_time: "08:00:00"
+  close_time: "22:00:00"
+  watch: true
+  show_index: 214
+
+cac:
+  name: cac
+  full_name: "CAC 40"
+  category: future
+  product: FCEV4
+  currency: EUR
+  exchange: MONEP
+  security_type: FUT
+  underlying: PX1 IND
+  multiplier: 10
+  trading_class: FCE
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2014-10-01"
+  expiration: "2014-10-17 16:00:00" # in CEST / 8:30:00 CST
+  open_time: "00:00:00" # CEST
+  close_time: "23:15:00" # CEST
+  watch: false
+
+ta:
+  name: ta
+  full_name: "Tel Aviv 25"
+  category: future
+  product: FT25 OCT 14
+  currency: USD
+  exchange: DTB
+  security_type: FUT
+  underlying: FT25 IND
+  multiplier: 25
+  trading_class: FT25
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2014-10-01"
+  expiration: "2014-10-29 22:00:00" # in CEST / 8:30:00 CST
+  open_time: "08:30:00" # CEST
+  close_time: "22:00:00" # CEST
+  watch: false
+
+russell:
+  name: russell
+  full_name: "Russell 2000 Mini"
+  category: future
+  product: TFZ4
+  currency: USD
+  exchange: NYBOT
+  security_type: FUT
+  underlying: TF IND
+  multiplier: 100
+  trading_class: TF
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2014-12-01"
+  expiration: "2014-12-19 09:30:00" # in CEST / 8:30:00 CST
+  open_time: "08:30:00" # CEST
+  close_time: "22:00:00" # CEST
+  watch: false
+
+ftse:
+  name: ftse
+  full_name: "FTSE 100"
+  isin: GB0001383545
+  category: future
+  product: Z
+  security_type: IND
+  currency: EUR2
+  exchange:
+  location: London
+  open_time: "08:00:00"
+  close_time: "22:00:00"
+
+k200:
+  name: k200
+  full_name: "KOSPI 200"
+  category: future
+  product: 014Z
+  currency: EUR6
+  exchange: KSE
+  security_type: FUT
+  underlying: KS200 IND
+  multiplier: 500000
+  trading_class: 01
+  product_type: Equity Index
+  settlement_method: cash
+  comma: 3
+  contract_month: "2014-12-01"
+  expiration: "2014-12-14 07:50:00"
+  open_time: "02:00:00" # CET
+  close_time: "08:15:00" # CET
+#  watch: false
+
+
+ftse_mib:
+  name: ftse mib
+  full_name: "FTSE MIB"
+  category: future
+  currency: EUR2
+  open_time: "08:00:00"
+  close_time: "22:00:00"
+
+
+# --------------------------------------------------- INDEXES -----------------------------------------------------------
+# beursgorilla отстает от реального курса на 15 минут
+
+
+aex:
+  id: 401
+  name: aex
+  full_name: Amsterdam Exchange Index
+  isin: NL0000000107
+  product: AEX
+  underlying: EOE
+  currency: EUR
+  category: index
+  security_type: IND
+  exchange: FTA
+  location: Amsterdam
+  comma: 2
+  open_time: "09:00:00"
+  close_time: "17:30:00"
+  url: "http://www.beursgorilla.nl/fonds-informatie.asp?naam=AEX-INDEX&cat=koersen&subcat=1&instrumentcode=12272"
+  xpath_rate: "//td[normalize-space(text())='Laatste koers :']/following-sibling::td[1]/text()"
+
+djia:
+  id: 402
+  name: djia
+  full_name: Dow Jones Industrial Average
+  isin: US2605661048
+  product: DJIA
+  currency: USD
+  category: index
+  security_type: IND
+  exchange: Dow Jones 30
+  location: New York
+  comma: 2
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+  url: "http://bigcharts.marketwatch.com/quickchart/quickchart.asp?symb=DJIA"
+  xpath_rate: "//*[@id='quote']/tr[3]/td[1]/div/text()"
+  xpath_volume: "//*[@id='quote']/tr[3]/td[6]/div/text()"
+
+nasdaq:
+  id: 406
+  name: nasdaq
+  full_name: "NASDAQ Composite"
+  isin: US6311011026
+  category: index
+  security_type: IND
+  product: NQ
+  currency: USD
+  exchange: NASDAQ
+  location: New York
+  comma: 2
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+  url: "http://finance.yahoo.com/q?s=%5Eixic"
+  xpath_rate: "//*[@id='yfs_l10_^ixic']/text()"
+
+nikkei:
+  id: 407
+  name: nikkei
+  full_name: "Nikkei 225"
+  isin:
+  category: index
+  product: N225
+  security_type: IND
+  currency: EUR3
+  exchange: LSE
+  location: Tokyo
+  open_time: "01:00:00"
+  close_time: "07:00:00"
+  url: "http://finance.yahoo.com/q?s=%5EN225"
+  xpath_rate: "//*[@id='yfs_l10_^n225']/text()"
+
+dubai:
+  id: 408
+  name: dubai
+  full_name: "Dubai Financial Market General Index"
+  isin:
+  category: index
+  product: DFMGI
+  security_type: IND
+  currency_id:
+  exchange:
+  location: Dubai
+  open_time: "02:00:00"
+  close_time: "06:00:00"
+  url: "http://www.bloomberg.com/quote/DFMGI:IND"
+  xpath_rate: "//*[@id='primary_content']/div[1]/div[2]/span[1]/meta/@content"
+
+tadawul:
+  id: 409
+  name: tadawul
+  full_name: "Tadawul All Share TASI Index"
+  isin:
+  category: index
+  product: SASEIDX
+  security_type: IND
+  currency_id:
+  exchange:
+  location:
+  open_time: "04:00:00"
+  close_time: "08:30:00"
+  url: "http://www.bloomberg.com/quote/SASEIDX:IND"
+  xpath_rate: "//*[@id='primary_content']/div[1]/div[2]/span[1]/meta/@content"
+
+
+dax:
+  id: 413
+  name: dax
+  full_name: "Deutsche Boerse AG German Stock Index"
+  isin: DE0008469008
+  category: index
+  product: DAX
+  security_type: IND
+  currency: EUR
+  exchange: Eurex
+  location:
+  comma: 2
+  open_time: "09:00:00"
+  close_time: "17:30:00"
+  url: "http://www.bloomberg.com/quote/DAX:IND"
+  xpath_rate: "//*[@id='primary_content']/div[1]/div[2]/span[1]/meta/@content"
+
+bel:
+  id: 425
+  name: bel
+  full_name: "BEL-20"
+  isin: BE0389555039
+  category: index
+  product: BFX
+  security_type: IND
+  currency: EUR
+  exchange: Eurex
+  location: Brussels
+  open_time: "09:00:00"
+  close_time: "17:30:00"
+  url: "http://finance.yahoo.com/q?s=%5EBFX"
+  xpath_rate: "//*[@id='yfs_l10_^bfx']/text()"
+
+cnx:
+  id: 426
+  name: cnx
+  full_name: "CNX NIFTY"
+  isin:
+  category: index
+  product: NSEI
+  security_type: IND
+  currency: EUR4
+  exchange: NSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=%5ENSEI"
+  xpath_rate: "//*[@id='yfs_l10_^nsei']/text()"
+
+cac:
+  id: 411
+  name: cac
+  full_name: "CAC 40"
+  isin: FR0003500008
+  category: index
+  product:  FCHI
+  security_type: IND
+  currency: EUR
+  exchange:
+  location: Paris
+  open_time: "09:00:00"
+  close_time: "17:30:00"
+  url: "http://finance.yahoo.com/q?s=%5Efchi"
+  xpath_rate: "//*[@id='yfs_l10_^fchi']/text()"
+
+
+bse:
+  id: 418
+  name: bse
+  full_name: "Bombay Stock Exchange Sensitive Index"
+  isin:
+  category: index
+  security_type: IND
+  product: BSE 30
+  currency: EUR4
+  exchange:
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://www.bloomberg.com/quote/SENSEX:IND"
+  xpath_rate: "//*[@id='primary_content']/div[1]/div[2]/span[1]/meta/@content"
+
+
+spy:
+  id: 410
+  name: spy
+  full_name: "S&P 500"
+  isin: US78378X1072
+  product: SPY
+  security_type: IND
+  currency: USD
+  exchange: SMART
+  primary_exchange: ARCA
+  sector: funds
+  category: index
+  industry: Equity Fund
+  comma: 2
+  market_category: Growth&Income-Large Cap
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+
+kospi:
+  id: 419
+  name: kospi
+  full_name: "Korea Composite Stock Price Index"
+  isin: XC0009664639
+  product: OKS2K
+  security_type: IND
+  currency: EUR6
+  exchange: KSE
+  sector: funds
+  category: index
+  industry: Equity Fund
+  comma: 2
+  open_time: "02:00:00"
+  close_time: "08:00:00"
+
+
+# --------------------------------------------------- STOCKS -----------------------------------------------------------
+
+apple:
+  id: 515
+  name: apple
+  full_name: "Apple Inc"
+  isin: US0378331005
+  category: stock
+  product: AAPL
+  currency: USD
+  exchange: SMART
+  primary_exchange: NASDAQ
+  security_type: STK
+  sector: Technology
+  industry: Computers
+  market_category: Computers
+  location: New York
+  open_time: "10:00:00"
+  close_time: "24:00:00"
+  url: "http://finance.yahoo.com/q?s=AAPL"
+  xpath_rate: "//*[@id='yfs_l84_aapl']/text()"
+  xpath_volume: "//*[@id='yfs_v53_aapl']/text()"
+  xpath_bid: "//*[@id='yfs_b00_aapl']/text()"
+  xpath_bid_volume: "//*[@id='yfs_b60_aapl']/text()"
+  xpath_ask: "//*[@id='yfs_a00_aapl']/text()"
+  xpath_ask_volume: "//*[@id='yfs_a50_aapl']/text()"
+  prior_close: 113.99
+#  watch: false
+
+citigroup:
+  id: 516
+  name: citigroup
+  full_name: "Citigroup Inc"
+  isin:
+  category: stock
+  product:
+  currency: USD
+  exchange:
+  location: New York
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+  url: "http://www.bloomberg.com/quote/C:US"
+  xpath_rate: "//*[@id='primary_content']/div[1]/div[2]/span[1]/meta/@content"
+  xpath_volume: "//*[@id='primary_content']/div[2]/div[2]/div[1]/table/tr[1]/td[3]/text()"
+
+morgan:
+  id: 517
+  name: morgan
+  full_name: "Morgan Stanley"
+  isin:
+  category: stock
+  product:
+  currency: USD
+  exchange:
+  location: New York
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+  url: "http://www.bloomberg.com/quote/MS:US"
+  xpath_rate: "//*[@id='primary_content']/div[1]/div[2]/span[1]/meta/@content"
+  xpath_volume: "//*[@id='primary_content']/div[2]/div[2]/div[1]/table/tr[1]/td[3]/text()"
+
+boeing:
+  id: 520
+  name: boeing
+  full_name: "The Boeing Company"
+  isin:
+  category: stock
+  product: BA
+  currency: USD
+  exchange: NYSE
+  location: New York
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+  url: "http://finance.yahoo.com/q?s=BA"
+  xpath_rate: "//*[@id='yfs_l84_ba']/text()"
+  xpath_volume: "//*[@id='yfs_v53_ba']/text()"
+  xpath_bid: "//*[@id='yfs_b00_ba']/text()"
+  xpath_bid_volume: "//*[@id='yfs_b60_ba']/text()"
+  xpath_ask: "//*[@id='yfs_a00_ba']/text()"
+  xpath_ask_volume: "//*[@id='yfs_a50_ba']/text()"
+
+facebook:
+  id: 521
+  name: facebook
+  full_name: "Facebook Inc"
+  isin:
+  category: stock
+  product: FB
+  currency: USD
+  exchange: NASDAQ
+  location: New York
+  open_time: "15:30:00"
+  close_time: "22:00:00"
+  url: "http://finance.yahoo.com/q?s=FB"
+  xpath_rate: "//*[@id='yfs_l84_fb']/text()"
+  xpath_volume: "//*[@id='yfs_v53_fb']/text()"
+
+gazprom:
+  id: 522
+  name: gazprom
+  full_name: "Open Joint Stock Company Gazprom"
+  isin: RU0007661625
+  category: stock
+  product: GAZP
+  currency_id: 4
+  exchange: MCX
+  location: Moscow
+  open_time: "7:00:00"
+  close_time: "16:00:00"
+  url: "http://finance.yahoo.com/q?s=GAZP.ME"
+  xpath_rate: "//*[@id='yfs_l84_gazp.me']/text()"
+  xpath_volume: "//*[@id='yfs_v53_gazp.me']/text()"
+
+coalindia:
+  id: 501
+  name: coalindia
+  full_name: "Coal India"
+  isin:
+  category: stock
+  product: COALINDIA
+  currency: EUR4
+  exchange: BSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=COALINDIA.BO"
+  xpath_rate: "//*[@id='yfs_l84_coalindia.bo']/text()"
+  xpath_volume: "//*[@id='yfs_v53_coalindia.bo']/text()"
+  xpath_bid: "//*[@id='yfs_b00_coalindia.bo']/text()"
+  xpath_ask: "//*[@id='yfs_a00_coalindia.bo']/text()"
+
+tata:
+  id: 502
+  name: tata
+  full_name: "Tata Consultancy Services Limited"
+  isin:
+  category: stock
+  product: TCS
+  currency: EUR4
+  exchange: BSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=TCS.BO"
+  xpath_rate: "//*[@id='yfs_l84_tcs.bo']/text()"
+  xpath_volume: "//*[@id='yfs_v53_tcs.bo']/text()"
+  xpath_bid: "//*[@id='yfs_b00_tcs.bo']/text()"
+  xpath_ask: "//*[@id='yfs_a00_tcs.bo']/text()"
+
+reliance:
+  id: 503
+  name: reliance
+  full_name: "Reliance Industries Limited"
+  isin:
+  category: stock
+  product: RIL
+  currency: EUR4
+  exchange: BSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=RIL.BO"
+  xpath_rate: "//*[@id='yfs_l84_ril.bo']/text()"
+  xpath_volume: "//*[@id='yfs_v53_ril.bo']/text()"
+  xpath_bid: "//*[@id='yfs_b00_ril.bo']/text()"
+  xpath_ask: "//*[@id='yfs_a00_ril.bo']/text()"
+
+indiabank:
+  id: 504
+  name: indiabank
+  full_name: "State Bank of India"
+  isin:
+  category: stock
+  product: SBIN
+  currency: EUR4
+  exchange: NSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=SBIN.NS"
+  xpath_rate: "//*[@id='yfs_l84_sbin.ns']/text()"
+  xpath_volume: "//*[@id='yfs_v53_sbin.ns']/text()"
+  xpath_bid: "//*[@id='yfs_b00_sbin.ns']/text()"
+  xpath_ask: "//*[@id='yfs_a00_sbin.ns']/text()"
+
+idfc:
+  id: 505
+  name: idfc
+  full_name: "IDFC Limited"
+  isin:
+  category: stock
+  product: IDFC
+  currency: EUR4
+  exchange: NSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=IDFC.NS"
+  xpath_rate: "//*[@id='yfs_l84_idfc.ns']/text()"
+  xpath_volume: "//*[@id='yfs_v53_idfc.ns']/text()"
+  xpath_bid: "//*[@id='yfs_b00_idfc.ns']/text()"
+  xpath_ask: "//*[@id='yfs_a00_idfc.ns']/text()"
+
+sony:
+  id: 506
+  name: sony
+  full_name: "Sony Corporation"
+  isin:
+  category: stock
+  product: SNE
+  currency: EUR3
+  exchange: LSE
+  location: London
+  open_time: "01:00:00"
+  close_time: "07:00:00"
+  url: "http://finance.yahoo.com/q?s=SON.L"
+  xpath_rate: "//*[@id='yfs_l84_son.l']/text()"
+  xpath_volume: "//*[@id='yfs_v53_son.l']/text()"
+
+konami:
+  id: 507
+  name: konami
+  full_name: "Konami Corporation"
+  isin:
+  category: stock
+  product: KNM
+  currency: EUR3
+  exchange: LSE
+  location: London
+  open_time: "01:00:00"
+  close_time: "07:00:00"
+  url: "http://finance.yahoo.com/q?s=KNM.L"
+  xpath_rate: "//*[@id='yfs_l84_knm.l']/text()"
+  xpath_volume: "//*[@id='yfs_v53_knm.l']/text()"
+
+sberbank:
+  id: 508
+  name: sberbank
+  full_name: "Sberbank"
+  isin: RU0009029540
+  category: stock
+  product: SBER
+  currency_id: 4
+  exchange: MCX
+  location: Moscow
+  open_time: "7:00:00"
+  close_time: "16:00:00"
+  url: "http://finance.yahoo.com/q?s=SBER.ME"
+  xpath_rate: "//*[@id='yfs_l84_sber.me']/text()"
+  xpath_volume: "//*[@id='yfs_v53_sber.me']/text()"
+
+lukoil:
+  id: 509
+  name: lukoil
+  full_name: "Open Joint Stock Company Oil company LUKOIL"
+  isin: RU0009024277
+  category: stock
+  product: LKOH
+  currency_id: 4
+  exchange: MCX
+  location: Moscow
+  open_time: "7:00:00"
+  close_time: "16:00:00"
+  url: "http://finance.yahoo.com/q?s=LKOH.ME"
+  xpath_rate: "//*[@id='yfs_l84_lkoh.me']/text()"
+  xpath_volume: "//*[@id='yfs_v53_lkoh.me']/text()"
+
+bharti:
+  id: 510
+  name: bharti
+  full_name: "Bharti Airtel Limited"
+  isin:
+  category: stock
+  product: BHARTIARTL
+  currency: EUR4
+  exchange: NSE
+  location: Bombay
+  open_time: "03:45:00"
+  close_time: "10:00:00"
+  url: "http://finance.yahoo.com/q?s=bhartiartl.bo"
+  xpath_rate: "//*[@id='yfs_l84_bhartiartl.bo']/text()"
+  xpath_volume: "//*[@id='yfs_v53_bhartiartl.bo']/text()"
+
+
+# -------------------------------------------------- OPTIONS -----------------------------------------------------------
+
+#AEX_C_410:
+#  id: 401
+#  name: AEX+410
+#  full_name: "AEX CAll 410 2014-07"
+#  category: option
+#  currency: EUR
+#  exchange: FTA
+#  location: Amsterdam
+#  product: AEX C@410 JUL14
+#  local_symbol: EOE
+#  security_type: OPT
+#  underlying: AEX IND
+#  contract_month: "2014-07-01"
+#  expiration: "2014-07-18 16:00:00"
+#  strike: 410
+#  direction: Call
+#  multiplier: 100
+#  trading_class: AEX
+#  product_type: Equity Index
+#  settlement_method: cash
+#  exercise_style: European
+#  open_time: "09:01:00"
+#  close_time: "17:30:00"
+#
+#
+#AEX_P_410:
+#  id: 402
+#  name: AEX-410
+#  full_name: "AEX Put 410 2014-07"
+#  category: option
+#  currency: EUR
+#  exchange: FTA
+#  location: Amsterdam
+#  product: AEX P@410 JUL14
+#  local_symbol: EOE
+#  security_type: OPT
+#  underlying: AEX IND
+#  contract_month: "2014-07-01"
+#  expiration: "2014-07-18 16:00:00"
+#  strike: 410
+#  direction: Put
+#  multiplier: 100
+#  trading_class: AEX
+#  product_type: Equity Index
+#  settlement_method: cash
+#  exercise_style: European
+#  open_time: "09:01:00"
+#  close_time: "17:30:00"
+
+
+# -------------------------------------------------- SPRINTERS -----------------------------------------------------------
+
+#sb_420:
+#  id: 501
+#  name: SB-420.83
+#  full_name: "AEX Sprinter BEST Short 420.83"
+#  isin: NL0010746764
+#  underlying: AEX IND
+#  local_symbol: U806G
+#  category: sprinter
+#  currency: EUR
+#  exchange: AEB
+#  location: Amsterdam
+#  product: U443G
+#  security_type: IOPT
+#  underlying: AEX IND
+#  strike: 420.83
+#  direction: Put
+#  multiplier: 0.1
+#  issuer: INGBN
+#  product_type: Equity Index
+#  settlement_method: cash
+#  exercise_style: European
+#  open_time: "08:00:00"
+#  close_time: "18:30:00"

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150410033726) do
+ActiveRecord::Schema.define(version: 20161124102804) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,6 +49,27 @@ ActiveRecord::Schema.define(version: 20150410033726) do
     t.bigint "country_id", null: false
     t.index ["code"], name: "index_currencies_on_code", unique: true
     t.index ["country_id"], name: "index_currencies_on_country_id"
+  end
+
+  create_table "data", force: :cascade do |t|
+    t.bigint "fund_id", null: false
+    t.bigint "frame_id", null: false
+    t.bigint "neuron_id", null: false
+    t.datetime "time", null: false
+    t.integer "value", null: false
+    t.integer "prev_id"
+    t.integer "next_id"
+    t.index ["frame_id"], name: "index_data_on_frame_id"
+    t.index ["fund_id", "frame_id", "neuron_id", "time"], name: "data_index", unique: true
+    t.index ["fund_id"], name: "index_data_on_fund_id"
+    t.index ["neuron_id"], name: "index_data_on_neuron_id"
+    t.index ["time"], name: "index_data_on_time"
+  end
+
+  create_table "edges", force: :cascade do |t|
+    t.bigint "setting_id", null: false
+    t.index ["setting_id"], name: "edges_index", unique: true
+    t.index ["setting_id"], name: "index_edges_on_setting_id"
   end
 
   create_table "frames", force: :cascade do |t|
@@ -122,6 +143,33 @@ ActiveRecord::Schema.define(version: 20150410033726) do
     t.index ["name"], name: "hosts_index", unique: true
   end
 
+  create_table "indicators", force: :cascade do |t|
+    t.string "type", null: false
+    t.string "name", null: false
+    t.string "title", null: false
+    t.string "full_name"
+    t.integer "position"
+    t.boolean "displayed"
+    t.string "canvas"
+    t.string "table"
+    t.string "link"
+    t.index ["name"], name: "index_indicators_on_name", unique: true
+  end
+
+  create_table "nerves", force: :cascade do |t|
+    t.bigint "source_id"
+    t.bigint "recipient_id"
+    t.bigint "fund_id"
+    t.bigint "frame_id"
+    t.float "value", default: 1.0
+    t.integer "level", default: 0
+    t.index ["frame_id"], name: "index_nerves_on_frame_id"
+    t.index ["fund_id"], name: "index_nerves_on_fund_id"
+    t.index ["recipient_id"], name: "index_nerves_on_recipient_id"
+    t.index ["source_id", "recipient_id", "fund_id", "frame_id"], name: "nerves_index", unique: true
+    t.index ["source_id"], name: "index_nerves_on_source_id"
+  end
+
   create_table "neurons", force: :cascade do |t|
     t.string "type", null: false
     t.bigint "edge_id", null: false
@@ -171,6 +219,41 @@ ActiveRecord::Schema.define(version: 20150410033726) do
     t.index ["host_id"], name: "index_services_on_host_id"
     t.index ["setting_id", "fund_id", "frame_id"], name: "unique_service", unique: true
     t.index ["setting_id"], name: "index_services_on_setting_id"
+  end
+
+  create_table "settings", force: :cascade do |t|
+    t.string "name", null: false
+    t.bigint "indicator_id", null: false
+    t.integer "position"
+    t.boolean "separate"
+    t.float "max"
+    t.float "min"
+    t.string "source"
+    t.integer "period"
+    t.string "method"
+    t.string "color"
+    t.string "fill"
+    t.float "line_width"
+    t.integer "line_dash"
+    t.float "radius"
+    t.boolean "chart"
+    t.boolean "grid"
+    t.string "color_high"
+    t.string "fill_high"
+    t.string "color_low"
+    t.string "fill_low"
+    t.integer "delta"
+    t.integer "level_depth"
+    t.float "incremental_step"
+    t.float "initial_step"
+    t.float "maximum_step"
+    t.float "standard_deviations"
+    t.string "first"
+    t.string "second"
+    t.string "link"
+    t.string "description"
+    t.index ["indicator_id"], name: "index_settings_on_indicator_id"
+    t.index ["name"], name: "index_settings_on_name", unique: true
   end
 
   create_table "statuses", force: :cascade do |t|
