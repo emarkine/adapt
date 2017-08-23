@@ -46,6 +46,13 @@ project/nodes/one:
   date: 2017-07-07
   file: /home/eugene/Documents/project/nodes/one.txt
 
+
+arduino/pro-micro:
+  title: arduino/pro-micro
+  name: Pro Micro
+  file: /home/eugene/Documents/
+
+
 #:
 #  title:
 #  name:
