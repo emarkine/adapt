@@ -1,20 +1,22 @@
-default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  username: eugene
-  password: 1q2w3e4r5t
-
 development:
-  <<: *default
+  adapter: postgresql
+  host: localhost
   database: tram_development
+  password: <%= ENV['TRAM_DEV_DATABASE_PASSWORD'] %>
+  username: eugene
 
 test:
-  <<: *default
+  adapter: postgresql
+  host: localhost
   database: tram_test
+  password: <%= ENV['TRAM_TEST_DATABASE_PASSWORD'] %>
+  username: eugene
 
 production:
-  <<: *default
+  adapter: postgresql
+  pool: 5
+  host: localhost
+  encoding: unicode
   host: localhost
   database: tram_production
   username: tram_adapt
