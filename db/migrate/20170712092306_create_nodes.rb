@@ -5,7 +5,7 @@ class CreateNodes < ActiveRecord::Migration[5.1]
       t.string :title
       t.string :file
       t.date :date
-      t.timestamp 
+      t.timestamp
     end
   end
 end

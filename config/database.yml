@@ -2,15 +2,15 @@ development:
   adapter: postgresql
   host: localhost
   database: tram_development
-  password: <%= ENV['TRAM_DEV_DATABASE_PASSWORD'] %>
   username: eugene
+  password: 1q2w3e4r5t
 
 test:
   adapter: postgresql
   host: localhost
   database: tram_test
-  password: <%= ENV['TRAM_TEST_DATABASE_PASSWORD'] %>
   username: eugene
+  password: 1q2w3e4r5t
 
 production:
   adapter: postgresql
@@ -20,4 +20,4 @@ production:
   host: localhost
   database: tram_production
   username: tram_adapt
-  password: <%= ENV['TRAM_ADAPT_DATABASE_PASSWORD'] %>
+  password: <%= ENV['ADAPT_DATABASE_PASSWORD'] %>
