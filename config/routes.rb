@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   resources :nodes
   get '/node/sort/:field' => 'nodes#sort'
 
+  resources :services
+  get '/node/service/:field' => 'services#sort'
+
 end

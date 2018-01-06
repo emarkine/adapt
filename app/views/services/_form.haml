@@ -1,0 +1,19 @@
+= form_for @service, :html => {:class => 'service-form'} do |f|
+  %table{class: :form}
+    - table_form_error @service
+    - form_field f, :name
+    - form_field f, :ngroup
+    - form_field f, :position
+    - form_select f, :fund, Fund
+    - form_select f, :setting, Setting
+    - form_select f, :frame, Frame
+    - form_select f, :trigger, Service
+    - form_field f, :refresh
+    -#- form_field f, :delta
+    -#- form_date f, :date
+    -#- form_time f, :start_time
+    -#- form_time f, :stop_time
+    - form_boolean f, :active
+    - form_boolean f, :single
+    - form_submit f
+
