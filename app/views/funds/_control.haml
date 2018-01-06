@@ -1,0 +1,29 @@
+.line= render :partial => 'deals/binary'
+.line= "#{@broker.name} #{@broker.currency.sign}#{amount(@broker.balance)}"
+
+
+-#- if @broker
+-#  .line= "broker: #{@broker.name}"
+
+
+
+-#= form_tag "/funds/#{@fund.id}/select_date", :id => 'date-form' do
+-#  = select_date session[:date]
+-#  -#= f.date_select :date
+-#-#= form_for @fund, :action => :date, :method => :post, :id => 'date-form' do |f|
+-#-#  -#= f.select_date :date
+-#-#  = f.date_select :date
+-#
+-#.block{:class => 'broker'}
+-#  .label broker
+-#  =render :partial => 'brokers/connection'
+-#
+-#.block{:class => 'deal'}
+-#  .label deal
+-#  -#.strategy= render :partial => 'strategies/selector'
+-#  = render :partial => 'deals/binary'
+
+
+-#= render :partial => 'deals/opened'
+-#= render :partial => 'deals/closed'
+

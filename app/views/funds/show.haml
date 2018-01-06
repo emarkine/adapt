@@ -1,0 +1,30 @@
+.fund
+  %table{:class => 'fund'}
+    %tr
+      %td
+        .graph
+          %canvas{:id=>'canvas-fund', :width => 1100, :height => 618 }= t(:canvas_support)
+      %td
+        .control= render :partial => 'control'
+
+  - if session['histories']
+    .history= render :partial => 'histories/form', :locals => {:url => "/funds/#{@fund.id}", :hours => true}
+  = render :partial => 'indicators/list'
+  = render :partial => 'edges/list'
+
+-#%table{:class => 'fund'}
+-#  %tr
+-#    %td{:class => 'graph'}
+-#      %canvas{:id=>'canvas-fund', :width => 1100, :height => 618 }= t(:canvas_support)
+-#    %td{:class => 'control'}
+-#      = render :partial => 'control'
+-#  %tr
+-#    %td{:class => 'indicators'}
+-#      = render :partial => 'indicators/list'
+-#  %tr
+-#    %td= render :partial => 'histories/form', :locals => {:url => "/funds/#{@fund.id}", :hours => true}
+-#    %td= render :partial => 'refresh'
+-#    %td{:class => 'broker'}
+-#      = render :partial => 'brokers/connection'
+  -#.scroll= render :partial => 'scroll'
+  -#.account= render :partial => 'account'

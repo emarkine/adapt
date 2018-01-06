@@ -1,0 +1,19 @@
+= form_tag "/funds/#{@fund.id}/frame" do
+  = select_tag :frame,
+    options_for_select(Frame.names, Frame.find(session[:frame]).name), :title => 'frame'
+  -#options_for_select(%w{1s 10s 30s 1m 2m 3m 5m 10m 15m 30m 1h 2h 4h 1d}, Frame.find(session[:frame]).name), :title => 'frame'
+= link_to image_tag('tool_history.png', :title => 'History', :id => 'histories',
+:class => "tool #{session['histories'].to_s}" ), "/funds/#{@fund.id}/toolbar/histories"
+= link_to image_tag('tool_tick.png', :title => 'Ticks', :id => 'ticks',
+:class => "tool #{session['ticks'].to_s}" ), "/funds/#{@fund.id}/toolbar/ticks"
+= link_to image_tag('tool_bar.png', :title => 'Bars', :id => 'bars',
+:class => "tool #{session['bars'].to_s}" ), "/funds/#{@fund.id}/toolbar/bars"
+= link_to image_tag('tool_deal.png', :title => 'Deals', :id => 'deals',
+:class => "tool #{session['deals'].to_s}" ), "/funds/#{@fund.id}/toolbar/deals"
+
+- Indicator.all.each do |ind|
+  - if ind.displayed
+    = link_to image_tag("tool_#{ind.name}.png", :title => ind.full_name, :id => ind.name,
+    :class => "tool #{session[:indicator][ind.name].to_s}" ), "/funds/#{@fund.id}/toolbar/#{ind.name}"
+
+= render :partial => 'refresh'

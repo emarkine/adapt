@@ -1,5 +1,11 @@
 module ApplicationHelper
 
+
+  def boolean_tag(value)
+    value ? image_tag('true.gif') : image_tag('false.gif')
+  end
+
+
   def form_error(o)
     if o.errors.any?
       haml_tag :div, :id => 'error_explanation' do

@@ -1,0 +1,9 @@
+- if @broker.connected?
+  .pl
+    .label P&L:
+    .currency= @broker.currency.sign
+    = amount(Deal.pl(session[:date]))
+  .balance
+    .label Balance:
+    .currency= @broker.currency.sign
+    = amount(@broker.balance)

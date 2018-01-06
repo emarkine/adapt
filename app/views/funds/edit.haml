@@ -1,0 +1,5 @@
+-#= link_to image_tag('delete.png'), {:action => 'destroy', :id => @fund},
+  :confirm => t(:delete_question, :name => @fund.name), :method => :delete,
+  :title => t(:delete, :model => @fund.name), :class => 'delete'
+=render :partial => 'form'
+

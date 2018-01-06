@@ -1,0 +1,5 @@
+- if @fund && @fund.id
+  -#.name= link_to @fund.name, edit_fund_path(@fund)
+  = @fund.full_name
+  -#.rate= @fund.rate(@time)
+

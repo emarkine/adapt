@@ -1,0 +1,90 @@
+= form_for @fund do |f|
+  - form_error @fund
+  = f.hidden_field :store_name
+  .field
+    = f.label :name
+    = f.text_field :name
+  .field
+    = f.label :full_name
+    = f.text_field :full_name
+  .field
+    = f.label :symbol
+    = f.text_field :symbol
+  .field
+    = f.label :isin
+    = f.text_field :isin
+  .field
+    = f.label :exchange
+    = f.text_field :exchange
+  .field
+    = f.label :primary_exchange
+    = f.text_field :primary_exchange
+  .field
+    = f.label :location
+    = f.text_field :location
+  .field
+    = f.label :sector
+    = f.text_field :sector
+  .field
+    = f.label :industry
+    = f.text_field :industry
+  .field
+    = f.label :market_category
+    = f.text_field :market_category
+  .field
+    = f.label :security_type
+    = f.text_field :security_type
+  .field
+    = f.label :underlying
+    = f.text_field :underlying
+  .field
+    = f.label :contract_month
+    = f.date_select :contract_month, :include_blank => true
+  .field
+    = f.label :expiration
+    = f.datetime_select :expiration, :datetime_separator => '', :time_separator => '', :include_blank => true
+  .field
+    = f.label :multiplier
+    = f.text_field :multiplier
+  .field
+    = f.label :strike
+    = f.text_field :strike
+  .field
+    = f.label :right
+    = f.text_field :right
+  .field
+    = f.label :exercise_style
+    = f.text_field :exercise_style
+  .field
+    = f.label :symbol
+    = f.text_field :symbol
+  .field
+    = f.label :issuer
+    = f.text_field :issuer
+  .field
+    = f.label :trading_class
+    = f.text_field :trading_class
+  .field
+    = f.label :product_type
+    = f.text_field :product_type
+  .field
+    = f.label :settlement_method
+    = f.text_field :settlement_method
+  .field
+    = f.label :open_time
+    = f.time_select :open_time, :datetime_separator => '', :time_separator => ''
+  .field
+    = f.label :close_time
+    = f.time_select :close_time, :datetime_separator => '', :time_separator => ''
+  .field
+    = f.label :available_open_time
+    = f.time_select :available_open_time, :datetime_separator => '', :time_separator => '', :include_blank => true
+  .field
+    = f.label :available_close_time
+    = f.time_select :available_close_time, :datetime_separator => '', :time_separator => '', :include_blank => true
+
+  .field
+    = f.label :properties
+    = f.text_area :properties
+  .button_store
+    = image_submit_tag('store.png', :title => t(:store) )

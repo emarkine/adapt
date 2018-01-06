@@ -1,0 +1,3 @@
+= form_tag "/funds/#{@fund.id}/scroll" do
+  = range_field_tag :shift, {:min => 0, :max => 100, :value => 100}, :id => 'range-fund'
+  -#%input{ :type => 'range', :id => 'range-fund', :min => 0, :max => 100, :value => 100}

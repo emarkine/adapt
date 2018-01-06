@@ -1,0 +1,15 @@
+%table{:class => 'list'}
+  %tr
+    %th= Fund.human_attribute_name(:watch)
+    %th= Fund.human_attribute_name(:name)
+    %th= Fund.human_attribute_name(:full_name)
+    %th= Fund.human_attribute_name(:category)
+    %th= Fund.human_attribute_name(:rate)
+
+  - @funds.each do |fund|
+    %tr
+      %td{:class => 'watch', :id => fund.id}= fund.watch ? image_tag('true.gif', :class => 'watcher') : image_tag('false.gif', :class => 'watcher')
+      %td= link_to fund.name, fund, :title => fund.full_name
+      %td= fund.full_name
+      %td= fund.category
+      %td= fund.rate

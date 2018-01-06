@@ -1,0 +1,1372 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ */
+@import "variables";
+
+/*==================================================== Global ========================================================*/
+
+body, p, ol, ul, td, div, input, textarea, select {
+  font-family: arial, helvetica, sans-serif;
+  text-align: left;
+  font-size: $font-size;
+  color: $text;
+  //line-height: 18px;
+  text-align: left;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  display: block;
+  float: left;
+}
+
+table {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-size: $font-size;
+  border-collapse: collapse;
+  th, td {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+img {
+  border: 0px;
+}
+
+/*========================================================== Layout =================================================*/
+
+.center {
+  width: 80%;
+  min-width: 800px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+table.header {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 800px;
+  margin-top: 30px;
+  td.logo {
+    vertical-align: top;
+    width: 65px;
+    height: 80px;
+    //    max-height: 80px;
+    //    display: inline-block;
+    overflow: hidden;
+    //    background-color: burlywood;
+    img {
+      width: 65px;
+      height: 80px;
+    }
+    //    white-space: nowrap;
+  }
+  td.title_canvas {
+    //    float: left;
+    //    width: 600px;
+    height: 80px;
+    overflow: hidden;
+    vertical-align: top;
+
+    //    max-height: 80px;
+    padding: 0px 5px 0px 10px;
+    canvas {
+      z-index: 1;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      height: 80px;
+      width: 100%;
+      border: 1px $border solid;
+      //      background-color: yellowgreen;
+    }
+    img {
+      //      float: left;
+      z-index: 1;
+      position: relative;
+      top: 0px;
+      left: 0px;
+      //      width: 600px;
+      height: 80px;
+    }
+    #message {
+      //      float: left;
+      z-index: 2;
+      position: relative;
+      left: 0px;
+      top: -80px;
+      height: 0px;
+    }
+  }
+  td.right_block {
+    vertical-align: top;
+    //    background: yellow;
+    height: 80px;
+    //    width: auto;
+    width: 150px;
+    //    min-width: 50px;
+    //    overflow: hidden;
+    //    width: 100%;
+    //    max-height: 80px;
+    #eugenelab {
+      float: right;
+      clear: both;
+      font-size: 20pt;
+      a {
+        text-decoration: none;
+        color: $text;
+      }
+    }
+    #login {
+      float: right;
+      margin: 0px;
+      padding-left: 15px;
+      display: none;
+      form {
+        margin: 0px;
+        padding: 0px;
+        float: left;
+        width: 100%;
+        border: 0px;
+        input {
+          //          font-size: $font-size-small;
+          height: 16px;
+          float: left;
+        }
+        input.email {
+          width: 130px;
+        }
+        input.password {
+          margin-top: 5px;
+          width: 75px;
+        }
+        input[type=submit] {
+          float: right;
+          height: 22px;
+          width: 45px;
+          margin-top: 5px;
+        }
+      }
+    }
+
+    #lang {
+      float: right;
+      clear: both;
+      height: 20px;
+      padding-top: 31px;
+      margin-right: -2px;
+      //      form {
+      //        select {
+      //          text-align: right;
+      //          border-radius: 0;
+      //          background: transparent;
+      //          height: 18px;
+      //          width: auto;
+      //          width: 80px;
+      //          padding-right: 10px;
+      ////          padding: 0px 5px 0px 15px;
+      //          border: 0;
+      //          line-height: 1;
+      //          -webkit-appearance: none;
+      //          outline:none;
+      //          display: inline-block;
+      ////          width: 268px;
+      //          font-size: $font-size;
+      //          border: 1px $border solid;
+      //        }
+      //      }
+    }
+  }
+  td.main-menu {
+    width: 100%;
+    padding-top: 12px;
+    text-align: right;
+    a {
+      margin-left: 10px;
+    }
+  }
+}
+
+.lang {
+  float: right;
+  clear: both;
+  height: 24px;
+  margin-right: -2px;
+}
+
+footer {
+  padding-top: 20px;
+  clear: both;
+  height: 20px;
+  #email {
+    float: left;
+  }
+  #info {
+    padding-left: 20px;
+  }
+  #copyright {
+    //    margin: 5px;
+    float: right;
+  }
+}
+
+.header {
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-top: 10px;
+  .title {
+    float: left;
+    clear: both;
+    .lights {
+      float: left;
+      clear: both;
+      margin-left: 10px;
+      width: 145px;
+      min-width: 145px;
+    }
+    .title {
+      float: left;
+      clear: both;
+      font-weight: bold;
+      margin-left: 13px;
+    }
+    .rate {
+      float: right;
+      margin-right: 10px;
+    }
+  }
+}
+
+.light {
+  float: left;
+  margin-right: 2px;
+}
+
+.menu {
+  float: right;
+  margin-right: 10px;
+  a {
+    margin-left: 5px;
+  }
+
+}
+
+.control {
+  float: right;
+  margin-right: 10px;
+  clear: both;
+  a {
+    margin-left: 5px;
+  }
+}
+
+.main {
+  clear: both;
+  float: left;
+  //  min-width: 1400px;
+  margin-left: 10px;
+  margin-top: 5px;
+  //  width: 100%;
+  //  height: 100%;
+}
+
+/*=================================================== Toolbar =======================================================*/
+
+.toolbar {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  #frame {
+    float: left;
+    border: 1px $border solid;
+    padding: 3px;
+    text-align: center;
+    margin-right: 3px;
+    height: 26px;
+    border-radius: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    outline: none;
+    display: inline-block;
+  }
+
+  img {
+    border: 1px $border solid;
+  }
+
+  .tool.false {
+    background: white;
+  }
+  .tool.true {
+    background: lightgrey;
+    border: 1px $dark_border solid;
+  }
+
+  .tool-fund.false {
+    background: white;
+  }
+  .tool-fund.true {
+    background: lightgrey;
+    border: 1px $dark_border solid;
+  }
+
+}
+
+/*=================================================== Classes =======================================================*/
+
+.line {
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+  a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: $text;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.action {
+  float: left;
+  clear: both;
+}
+
+div.right {
+  float: right;
+  padding-right: 20px;
+}
+
+span.right {
+  float: right;
+  padding-right: 5px;
+}
+
+div.label {
+  float: left;
+  font-weight: normal;
+  margin: 0px 10px 0px 0px;
+}
+
+.show {
+  float: left;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.currency {
+  float: left;
+}
+
+table.list {
+  float: left;
+  clear: both;
+  margin-left: 2px;
+  margin-right: 20px;
+  td, th {
+    padding: 2px 4px 2px 4px;
+    border: 1px $border solid;
+  }
+  td.watch {
+    text-align: center;
+  }
+  td.right {
+    text-align: right;
+  }
+  td.arrow {
+    text-align: center;
+    border: 1px $border solid;
+    img {
+      width: 12px;
+      height: 14px;
+    }
+  }
+  th.arrow {
+    width: 36px;
+    img {
+      //      float: left;
+      width: 10px;
+      height: 14px;
+    }
+  }
+}
+
+.paginate {
+  float: left;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+.red {
+  color: red;
+  padding-right: 3px;
+}
+
+.green {
+  color: green;
+  padding-right: 3px;
+}
+
+.blue {
+  color: blue;
+  padding-right: 3px;
+}
+
+/*==================================================== Rails =========================================================*/
+.flash {
+  float: left;
+  clear: both;
+  margin: 5px;
+}
+
+#flash_info {
+  color: white;
+  background-color: yellowgreen;
+  padding: 0px 10px 0px 10px;
+}
+
+#flash_notice {
+  color: white;
+  background-color: green;
+  padding: 0px 10px 0px 10px;
+}
+
+#flash_error {
+  color: red;
+  font-weight: bold;
+  //background-color: red;
+  padding: 0px 10px 0px 10px;
+  h2 {
+    margin: 0px;
+    padding: 0px;
+  }
+  p {
+    color: red;
+  }
+  ul {
+    margin: 0px;
+    padding: 5px 10px 10px 30px;
+  }
+  li {
+    font-weight: normal;
+    color: red;
+  }
+}
+
+#flash_alert {
+  color: white;
+  background-color: blue;
+  padding: 0px 10px 0px 10px;
+}
+
+table.rails {
+  td, th {
+    border: 1px solid $border;
+    padding: 3px;
+  }
+
+}
+
+form {
+  float: left;
+  clear: both;
+  #error_explanation {
+    color: red;
+  }
+  .field {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding-top: 5px;
+    .field_with_errors {
+      label {
+        float: left;
+        padding-top: 5px;
+      }
+      input, select {
+        float: left;
+        margin-left: 10px;
+        border: 1px solid red;
+      }
+    }
+    label {
+      float: left;
+      padding-top: 5px;
+    }
+    input, select {
+      float: left;
+      margin-left: 10px;
+    }
+    textarea {
+      float: left;
+      margin-left: 10px;
+      height: 100px;
+    }
+  }
+  .actions {
+    padding-top: 5px;
+    float: right;
+    clear: both;
+  }
+}
+
+/*=================================================== Extras =========================================================*/
+
+.empty-form {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+}
+
+.upload-form {
+  position: relative;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  .wrapper {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    :hover {
+      opacity: 0.5;
+    }
+  }
+  input[type=image] {
+    position: relative;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+.check_box {
+  float: left;
+}
+
+/*==================================================== Fund =========================================================*/
+
+.fund {
+  float: left;
+  //  width: 100%;
+  //  min-width: 1500px;
+  //  display: block;
+  //  .wrapper {
+  //    white-space:nowrap;
+  //    position:relative;
+  //    float: left;
+  //    width: 100%;
+  //  }
+  .graph {
+    float: left;
+    //    display: inline-block;
+    //    *display:inline;
+    //    float: left;
+    //    display: inline-block;
+    //      display: block;
+    //    display: inline;
+    #canvas-fund {
+      float: left;
+      width: 1100px;
+      height: 618px;
+      border: 1px $border solid;
+    }
+    #range-fund {
+      float: left;
+      clear: both;
+      width: 1000px;
+    }
+  }
+  .control {
+    padding-left: 10px;
+    float: left;
+    width: 200px;
+    height: 600px;
+  }
+  .indicators {
+    float: left;
+    clear: both;
+  }
+  .history {
+    float: left;
+    clear: both;
+  }
+}
+
+.refresh {
+  float: right;
+  margin-left: 50px;
+}
+
+table.fund {
+  float: left;
+  margin-left: 3px;
+  //  min-width: 1700px;
+  //  width: 100%;
+  //  display: block;
+  td {
+    vertical-align: top;
+    //    display: inline-block;
+  }
+  td.graph {
+    float: left;
+    #canvas-fund {
+      float: left;
+      width: 1100px;
+      height: 618px;
+      border: 1px $border solid;
+    }
+    #range-fund {
+      float: left;
+      clear: both;
+      width: 1000px;
+    }
+  }
+  td.control {
+    padding-left: 10px;
+    float: left;
+    //      clear: both;
+    //      text-align: top;
+    //  clear: both;
+    //  width: 300px;
+    //      padding: 5px;
+    //      border: 1px $border solid;
+    //    .selector {
+    //      float: left;
+    //      margin-bottom: 5px;
+    //    }
+    //      .crystal {
+    //        float: left;
+    //        clear: both;
+    //        //    border: 1px $border solid;
+    //        //    width: 288px;
+    //        .error {
+    //          color: red
+    //        }
+    //      }
+  }
+  td.broker {
+    padding-left: 10px;
+    padding-top: 5px;
+    //    float: left;
+    //    clear: both;
+    //    margin-top: 10px;
+  }
+}
+
+/*=================================================== Crystal =========================================================*/
+
+.crystal {
+  float: left;
+  border: 1px $border solid;
+  padding: 5px;
+  .amount {
+    clear: both;
+    float: left;
+    font-weight: bold;
+  }
+  .profit {
+    clear: both;
+    float: left;
+    font-weight: bold;
+  }
+  .robot {
+    clear: both;
+    float: left;
+  }
+  .out {
+    clear: both;
+    float: left;
+  }
+
+}
+
+table.crystal {
+  border: 1px $border solid;
+  th {
+    padding: 2px 0px 2px 0px;
+    color: $text;
+    font-size: $font-size-small;
+    font-weight: lighter;
+    border: 1px $border solid;
+    text-align: center;
+  }
+  th.dimension {
+    font-size: $font-size-smallest;
+  }
+  tr.edge {
+    //    float: left;
+    //    clear: both;
+    //    margin-top: 2px;
+    //      margin-right: -10px;
+    //    width: 100%;
+    //      padding: 2px 1px 1px 3px;
+    //      padding: 2px;
+    //    border: 1px $border solid;
+  }
+}
+
+.button_hide_show {
+  float: right;
+  margin: 0px 0px 0px 0px;
+}
+
+.block {
+  float: left;
+  clear: both;
+  border: 1px $border solid;
+  margin-top: 15px;
+  padding: 10px 5px 5px 5px;
+  .label {
+    margin-top: -19px;
+    background: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: bold;
+  }
+}
+
+#date-form {
+  float: left;
+  margin-bottom: 15px;
+}
+
+/*================================================== Indicator =======================================================*/
+
+//#indicator-list {
+//  float: left;
+//  width: 200px;
+//  #fund-name {
+//    float: left;
+//  }
+//  #fund-rate {
+//    float: right;
+//  }
+//}
+
+.arrow {
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+
+.indicator {
+  float: left;
+  clear: both;
+  width: 1100px;
+  margin-top: 3px;
+  .title {
+    float: left;
+    font-weight: bold;
+  }
+  .state {
+    float: left;
+  }
+}
+
+.canvas-indicator {
+  float: left;
+  clear: both;
+  width: 1100px;
+  height: 100px;
+  border: 1px $border solid;
+}
+
+table.indicator {
+  float: left;
+  margin-bottom: 5px;
+  th, td {
+    border: 1px $border solid;
+    padding: 2px;
+    font-weight: normal;
+    text-align: center;
+  }
+  th.angle {
+    color: brown;
+  }
+  th.trend {
+    color: darkgreen;
+  }
+  th.turn {
+    color: darkcyan;
+  }
+
+}
+
+.set {
+  float: left;
+  margin-left: 10px;
+  a {
+    padding-left: 3px;
+    margin: 0;
+    text-decoration: none;
+    color: $text;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+/*==================================================== Edge =========================================================*/
+
+#edges {
+  padding-left: 3px;
+}
+
+.edge {
+  float: left;
+  clear: both;
+  width: 1100px;
+  margin-top: 3px;
+  .title {
+    float: left;
+    font-weight: bold;
+    padding-top: 1px;
+    padding-right: 5px;
+  }
+  .close {
+    margin-top: 3px;
+    float: right;
+  }
+}
+
+.canvas-edge {
+  float: left;
+  clear: both;
+  width: 1100px;
+  height: 100px;
+  border: 1px $border solid;
+}
+
+/*==================================================== Neuron ========================================================*/
+
+.neurons {
+  padding: 0px 5px 0px 5px;
+}
+
+.neuron {
+  float: left;
+  margin-left: 5px;
+  //a.selected {
+  //  text-decoration: underline;
+  //}
+  //a.deselected {
+  //  text-decoration: none;
+  //}
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  img {
+    float: left;
+    margin: 0px 1px 1px 1px;
+    padding: 1px;
+  }
+}
+
+td.neuron {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border: 1px $border solid;
+}
+
+a.neuron {
+  position: relative;
+  img {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    .light-img {
+      z-index: 1;
+    }
+    .arrow-img {
+      z-index: 2;
+    }
+  }
+}
+
+//.canvas-indicator.false {
+//  border: 1px $border solid;
+//  background: white;
+//}
+//
+//.canvas-indicator.true {
+//  //  background: lightgrey;
+//  border: 1px black solid;
+//}
+//
+//.range-indicator {
+//  float: left;
+//  clear: both;
+//  width: 1000px;
+//  margin-top: 10px;
+//}
+//
+//#indicator-frame {
+//  float: left;
+//}
+//
+//#indicator-form {
+//  float: left;
+//}
+
+/*=================================================== Broker =========================================================*/
+
+.connect, .apply {
+  float: left;
+  clear: both;
+  margin-top: 5px;
+  input[type=submit] {
+    //    margin-left: 5px;
+    //    padding-top: -2px;
+    //    height: 19px;
+  }
+  //  clear: both;
+}
+
+#balance {
+  float: left;
+  //  clear: both;
+  margin-left: 5px;
+  padding-top: 2px;
+}
+
+.broker-form {
+  float: left;
+}
+
+.broker_list {
+  float: left;
+  margin-top: 10px;
+}
+
+/*===================================================== Deal =========================================================*/
+
+.deal-form {
+  float: left;
+  clear: both;
+  width: 450px;
+  .field {
+    margin-bottom: 5px;
+  }
+  label {
+    width: 50px;
+    font-weight: bold;
+    text-align: right;
+    vertical-align: middle;
+    margin-top: -3px;
+  }
+}
+
+.binary-form {
+  float: left;
+  #deal_error {
+    color: red;
+    float: left;
+    clear: both;
+  }
+  input {
+    float: left;
+  }
+  input[type=checkbox] {
+    clear: both;
+    margin-top: 5px;
+  }
+  select {
+    float: left;
+  }
+  img {
+    float: left;
+    padding-top: 3px;
+    margin-left: 5px;
+  }
+  .delta {
+    float: left;
+    padding-top: 4px;
+    margin-left: 2px;
+    margin-right: 7px;
+  }
+  .sign {
+    float: left;
+    padding: 3px 8px 0px 4px;
+  }
+  .light {
+    float: left;
+    padding-top: 3px;
+    margin-left: 5px;
+  }
+}
+
+.deal {
+  float: left;
+  clear: both;
+  width: 100%;
+  .direction {
+    float: left;
+    padding-top: 3px;
+  }
+  .delta {
+    float: left;
+    padding-top: 4px;
+    margin-right: 5px;
+  }
+  .light {
+    float: left;
+    padding-top: 3px;
+    margin-left: 5px;
+  }
+  .text {
+    float: left;
+    margin-right: 4px;
+  }
+  .arrow {
+    width: 11px;
+    height: 11px;
+    margin-top: 2px;
+    margin-right: 3px;
+  }
+  .expiry {
+    float: right;
+    margin-left: 5px;
+  }
+  .profit {
+    float: right;
+    margin-left: 5px;
+  }
+}
+
+table.deals {
+  margin-top: 10px;
+  td.stat {
+    text-align: right;
+    div {
+      margin-left: 10px;
+      float: right;
+    }
+  }
+}
+
+/*================================================== Strategy ========================================================*/
+//
+//.strategy {
+//  float: left;
+//  clear: both;
+//  margin-top: 10px;
+//  .line {
+//    margin-top: 5px;
+//  }
+//  .label {
+//    font-weight: bold;
+//  }
+//}
+
+/*=================================================== Account =========================================================*/
+
+.account {
+  float: left;
+  clear: both;
+  //  position: absolute;
+  //  left: 1235px;
+  //  top: 700px;
+  position: relative;
+  left: 1015px;
+  top: -50px;
+  //  position: relative;
+  //  top: 700px;
+  border: 1px $border solid;
+  width: 200px;
+  padding: 5px;
+  .pl {
+    float: left;
+    clear: both;
+  }
+  .balance {
+    float: left;
+    clear: both;
+  }
+}
+
+/*==================================================== Entry =========================================================*/
+
+.entry {
+  float: left;
+  clear: both;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  a {
+    color: $text;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  h1 {
+    float: left;
+    clear: both;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  h2 {
+    float: left;
+    clear: both;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  h3 {
+    float: left;
+    clear: both;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+    padding: 0;
+  }
+  .date {
+    float: left;
+    clear: both;
+    margin-top: 5px;
+  }
+  .author {
+    float: left;
+    clear: both;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  .title {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+  }
+  .tags {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    a {
+      margin-right: 3px;
+    }
+  }
+  .text {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    .audio {
+      float: left;
+      margin-top: 5px;
+      clear: both;
+      width: 300px;
+    }
+    .image {
+      float: left;
+      clear: both;
+      margin-top: 5px;
+      img {
+        float: left;
+        margin: 3px;
+        clear: both;
+      }
+    }
+    .name {
+      float: left;
+      clear: both;
+      width: 100%;
+      font-size: 12px;
+      text-align: center;
+    }
+    .image.right {
+      float: right;
+    }
+  }
+  p {
+    float: left;
+    clear: both;
+    padding: 0;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+  }
+  p.aright {
+    float: right;
+  }
+  ul {
+    float: left;
+    clear: both;
+    padding: 0;
+    margin: 0px 0px 0px 20px;
+    font-size: 15px;
+    li {
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  .user {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+  }
+  .email {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+  }
+  pre {
+    float: left;
+  }
+  code {
+    color: grey;
+  }
+}
+
+.back {
+  float: left;
+  clear: both;
+  margin: 10px;
+}
+
+.entry-form {
+  float: left;
+  clear: both;
+  #entry_name {
+    width: 800px;
+  }
+  #entry_title {
+    width: 800px;
+  }
+  #entry_tag_list {
+    width: 800px;
+  }
+  #entry_text {
+    width: 800px;
+    height: 600px;
+  }
+  #entry_file {
+    width: 800px;
+  }
+}
+
+/*==================================================== History =======================================================*/
+
+.history-form {
+  float: left;
+  clear: both;
+  margin-top: 5px;
+  //  margin-bottom: 10px;
+  select {
+    float: left;
+    margin-right: 5px;
+  }
+  //  #history_week_day {
+  //    margin-left: 10px;
+  //  }
+  //  #history_week_number {
+  //    margin-left: 10px;
+  //  }
+  //  #history_fund_id {
+  //    margin-left: 10px;
+  //  }
+  //  #history_robot_id {
+  //    margin-left: 10px;
+  //  }
+  //  #history_broker_id {
+  //    margin-left: 10px;
+  //  }
+  input[type=image] {
+    float: left;
+    margin-left: 10px;
+  }
+  input[type=text] {
+    float: left;
+    margin-left: 10px;
+    margin-top: 1px;
+    width: 100px;
+    height: 12px;
+  }
+  button {
+    float: left;
+    height: 19px;
+    display: table-cell;
+    vertical-align: middle;
+    //    padding-bottom: 10px;
+  }
+}
+
+/*===================================================== Robot ========================================================*/
+
+table.robot {
+  th, td {
+    border: 1px solid $border;
+    padding: 5px;
+    vertical-align: top;
+  }
+}
+
+.robot {
+  .name {
+    float: left;
+    clear: both;
+    font-size: $font-size-big;
+  }
+  .photo {
+    float: right;
+    //    clear: both;
+  }
+}
+
+/*=================================================== Service ========================================================*/
+
+table.service {
+  th, td {
+    border: 1px solid $border;
+    padding: 5px;
+  }
+}
+
+/*==================================================== Form ==========================================================*/
+table.form {
+  th, td {
+    border: 1px solid $border;
+    padding: 5px;
+  }
+  td.error {
+    color: red;
+  }
+  td.message {
+    color: brown;
+  }
+  input[type=image] {
+    float: right;
+  }
+}
