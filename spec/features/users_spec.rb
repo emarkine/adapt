@@ -11,5 +11,9 @@ RSpec.feature 'User management: ', type: :feature do
     # expect(div(class: 'notice').text).to 'Login successful'
   end
 
+  scenario 'Shows index: list of available users' do
+    goto "#{TestHelpers::Features::URL}/users"
+  end
+
 
 end
