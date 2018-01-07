@@ -288,7 +288,9 @@ ActiveRecord::Schema.define(version: 20170712092306) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "name", null: false
+    t.string "first_name", null: false
+    t.string "last_name"
+    t.string "email", null: false
     t.string "username"
     t.string "password"
     t.date "birthday"
@@ -297,7 +299,6 @@ ActiveRecord::Schema.define(version: 20170712092306) do
     t.bigint "currency_id", null: false
     t.bigint "country_id", null: false
     t.decimal "balance", precision: 10, scale: 2, default: "0.0", null: false
-    t.string "email", null: false
     t.string "crypted_password"
     t.string "salt"
     t.datetime "created_at", null: false

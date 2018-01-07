@@ -11,8 +11,8 @@ RSpec.describe User, type: :model do
     expect(build(:user)).to be_valid
   end
 
-  it 'is invalid without a name' do
-    expect(build(:user, name: nil)).not_to be_valid
+  it 'is invalid without a first_name' do
+    expect(build(:user, first_name: nil)).not_to be_valid
   end
 
   it 'is invalid without a email' do
@@ -24,7 +24,7 @@ RSpec.describe User, type: :model do
   end
 
   it 'has a valid password' do
-    admin = User.find_by_name 'Admin'
+    admin = User.find_by_first_name 'Admin'
     expect(admin.valid_password?('123456')).to be true
   end
 

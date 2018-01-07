@@ -1,0 +1,13 @@
+.line= gravatar_for @user
+- line :name
+- line :surname
+- line :email
+- line :site
+- line :birthday
+- line_amount :balance
+.line
+  .label= User.human_attribute_name(:brokers)
+  - @user.brokers.each do |broker|
+    = link_to broker.name, {:controller => :brokers, :action => :show, :id => broker.id}
+.line
+  = button_tag t(:check_balance)

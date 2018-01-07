@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root to: 'site#index'
   resources :user_sessions
   resources :users
+  get '/user/sort/:field' => 'users#sort'
   get 'login' => 'user_sessions#new', :as => :login
   post 'logout' => 'user_sessions#destroy', :as => :logout
   get 'profile' => 'users#profile'

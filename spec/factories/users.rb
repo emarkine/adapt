@@ -3,12 +3,14 @@ require 'faker'
 FactoryGirl.define do
 
   factory :user do
-    sequence(:name) {Faker::Name.first_name}
+    sequence(:first_name) {Faker::Name.first_name}
+    sequence(:last_name) {Faker::Name.last_name}
+    sequence(:email) {Faker::Internet.email}
+    sequence(:username) {Faker::Name.first_name}
     sequence(:mobile) {Faker::PhoneNumber.cell_phone}
+    sequence(:password) {Faker::Internet.password}
     currency
     country
-    sequence(:email) {Faker::Internet.email}
-    sequence(:password) {Faker::Internet.password}
     after(:build) do |user|
       user.password_confirmation = user.password
     end
