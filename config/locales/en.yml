@@ -7,6 +7,7 @@ en:
   login_failed: Login failed
   logged_out: Logged out
   not_authenticated: Please login first
+  save: save
 
   activerecord:
     models:
@@ -18,10 +19,14 @@ en:
         email: email
         password: password
         password_confirmation: confirmation
-        name: Full Name
+        first_name: first name
+        last_name: last name
+        username: username
         mobile: mobile
         birthday: birthday
         site: site
         currency: currency
         currency_id: currency
+        country: country
+        country_id: country
         balance: balance

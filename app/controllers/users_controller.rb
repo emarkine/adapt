@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  skip_before_action :require_login, only: [:index, :new, :create]
+  skip_before_action :require_login, only: [:index, :sort, :new, :create]
 
   before_action do
     @user = User.find(params[:id]) unless params[:id].blank?
@@ -20,7 +20,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    @user = User.new(params[:user])
+    @user = User.new(user_params)
     if @user.save
       flash[:notice] = t(:message_create, :model => @user.name)
       redirect_to @broker
@@ -30,7 +30,7 @@ class UsersController < ApplicationController
   end
 
   def update
-    if @user.update_attributes(params[:user])
+    if @user.update_attributes(user_params)
       flash[:notice] = t(:message_update, :model => @user.name)
       redirect_to @user
     else
@@ -52,7 +52,15 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:first_name, :last_name, :mobil, :email, :password, :password_confirmation)
+    params.require(:user).permit(:first_name,
+                                 :last_name,
+                                 :username,
+                                 :email,
+                                 :mobil,
+                                 :site,
+                                 :birthday,
+                                 :password,
+                                 :password_confirmation)
   end
 
 end

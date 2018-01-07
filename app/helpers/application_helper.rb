@@ -23,6 +23,111 @@ module ApplicationHelper
     end
   end
 
+  def table_form_error(o)
+    if o.errors.any?
+      haml_tag :tr do
+        haml_tag :td, class: :error, colspan: 2 do
+          haml_concat t(:error_save)
+        end
+      end
+      o.errors.full_messages.each do |msg|
+        haml_tag :tr do
+          haml_tag :td, class: :message, colspan: 2 do
+            haml_concat msg
+          end
+        end
+      end
+    end
+  end
+
+  def form_field(f, name, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        mn = @model.human_attribute_name(name)
+        haml_concat mn
+      end
+      haml_tag :td do
+        haml_concat f.text_field name
+      end
+    end
+  end
+
+  def form_password(f, name, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        mn = @model.human_attribute_name(name)
+        haml_concat mn
+      end
+      haml_tag :td do
+        haml_concat f.password_field name
+      end
+    end
+  end
+
+  def form_area(f, name, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        haml_concat @model.human_attribute_name(name)
+      end
+      haml_tag :td do
+        haml_concat f.text_area name
+      end
+    end
+  end
+
+  def form_select(f, name, collection_class, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        haml_concat @model.human_attribute_name(name)
+      end
+      haml_tag :td do
+        haml_concat f.collection_select "#{name}_id", collection_class.all, :id, :name, :include_blank => true
+      end
+    end
+  end
+
+  def form_date(f, name, year = nil, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        haml_concat @model.human_attribute_name(name)
+      end
+      haml_tag :td do
+        haml_concat f.date_select name, :start_year => year, :end_year => Time.now.year
+      end
+    end
+  end
+
+  def form_time(f, name, year = nil, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        haml_concat @model.human_attribute_name(name)
+      end
+      haml_tag :td do
+        haml_concat f.time_select name, :time_separator => '', :include_blank => true
+      end
+    end
+  end
+
+  def form_boolean(f, name, _class = nil)
+    haml_tag :tr, :class => _class do
+      haml_tag :th do
+        haml_concat @model.human_attribute_name(name)
+      end
+      haml_tag :td do
+        haml_concat f.check_box name
+      end
+    end
+  end
+
+  def form_submit(f)
+    haml_tag :tr do
+      haml_tag :td, colspan: 2 do
+        # <input alt="Store" type="image" src="/assets/store-a68bb7d12213e09ab8afd1471e3cbb91.png" title="store">
+        haml_concat image_submit_tag('store.png', :title => t(:save))
+      end
+    end
+  end
+
 
   def line(name)
     haml_tag :div, :class => 'line' do

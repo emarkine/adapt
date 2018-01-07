@@ -1,5 +1,22 @@
-= form_for(:user, url: login_path) do |f|
-  - form_error @user if @user
-  = f.email_field :email, class: :email, title: User.human_attribute_name(:email)
-  = f.password_field :password, class: :password, title: User.human_attribute_name(:password)
-  = f.submit t(:login)
+= form_for(@user) do |f|
+  %table{class: :form}
+    - table_form_error @user
+    - form_field f, :first_name
+    - form_field f, :last_name
+    - form_field f, :username
+    - form_field f, :email
+    - form_field f, :mobile
+    - form_field f, :site
+    - form_date f, :birthday
+    - form_password f, :password
+    - form_password f, :password_confirmation
+    - form_submit f
+
+-#
+-#
+-#= form_for(:user, url: login_path) do |f|
+-#  - form_error @user if @user
+-#  = f.email_field :email, class: :email, title: User.human_attribute_name(:email)
+-#  = f.password_field :password, class: :password, title: User.human_attribute_name(:password)
+-#  = f.password_field :password_confirmation, class: :password, title: User.human_attribute_name(:password_confirmation)
+-#  = f.submit t(:save)

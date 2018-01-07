@@ -3,8 +3,10 @@
     %th= link_to User.human_attribute_name(:first_name), action: :sort, field: :first_name
     %th= link_to User.human_attribute_name(:last_name), action: :sort, field: :last_name
     %th= link_to User.human_attribute_name(:email), action: :sort, field: :email
+    %th= link_to User.human_attribute_name(:mobile), action: :sort, field: :mobile
   - @users.each do |user|
     %tr
       %td= link_to user.first_name, user
       %td= user.last_name
       %td= mail_to user.email
+      %td= user.mobile
