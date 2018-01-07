@@ -9,6 +9,40 @@ en:
   not_authenticated: Please login first
   save: save
 
+
+ # errors / messages
+  message_create: "%{model} was successfully created"
+  message_error: "%{model} has error"
+  message_update: "%{model} was successfully updated"
+  message_destroy: "%{model} was successfully destroyed"
+  error_save: "The following errors makes it impossible to save this form:"
+  error_count:
+    one: error
+    other: errors
+  must_be_unique: Date and Time must be unique
+  error_login: Please enter a email address and password
+  error_login_email: Please enter a registered email address
+  error_login_empty_password: Please enter a password
+  error_login_password: Please enter a valid password
+  error_login_locked: This user %{email} has been locked! Please contact info@eugenelab.com
+  message_reset_password: Password was successfully updated
+  message_should_reset_password: Your password should be reset. Activation email has been sent to %{email}
+  activate_account: activate account
+  message_activate_account: Account was successfully activated
+  message_update_profile: Your profile was successfully updated
+  error_unauthorized_access: "Unauthorized access to %{path}"
+  message_upload: "%{file} was successfully uploaded"
+  message_import: "%{file} was successfully imported"
+  message_exception: "Exception: %{message}"
+  message_cost_js: Please enter an amount and a valid percentage VAT
+  not_equal_sum: "sum of the fields should be %{sum}"
+  message_unsupported_account: "unsupported bank account: %{account}"
+  canvas_support: Your browser doesn't support the HTML5 CANVAS tag!
+  message_buy: "%{binary} was purchased"
+  show_indicator_window: "Show %{indicator}"
+  hide_indicator_window: "Hide %{indicator}"
+  close_window: "Close %{window}"
+
   activerecord:
     models:
       user:
