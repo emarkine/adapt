@@ -8,6 +8,8 @@
     - form_field f, :mobile
     - form_field f, :site
     - form_date f, :birthday
+    .line
+      = f.select :country_id, options_for_select(Country.list, @user.country_id), :include_blank => true
     - form_password f, :password
     - form_password f, :password_confirmation
     - form_submit f

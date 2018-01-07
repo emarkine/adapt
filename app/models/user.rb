@@ -4,7 +4,8 @@ class User < ApplicationRecord
   belongs_to :country
   validates :email, email: true, presence: true, uniqueness: true
   validates :first_name, presence: true
-  # validates :currency_id, presence: true
+  validates :country_id, presence: true
+  validates :currency_id, presence: true
   # validates :balance, presence: true
   validates :password, length: { minimum: 5 }, if: -> { new_record? || changes[:crypted_password] }
   validates :password, confirmation: true, if: -> { new_record? || changes[:crypted_password] }
