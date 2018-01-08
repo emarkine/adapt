@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170712092306) do
+ActiveRecord::Schema.define(version: 20180108134423) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -184,6 +184,16 @@ ActiveRecord::Schema.define(version: 20170712092306) do
     t.string "title"
     t.string "file"
     t.date "date"
+  end
+
+  create_table "parts", force: :cascade do |t|
+    t.string "name"
+    t.integer "count", default: 0
+    t.text "description"
+    t.string "link"
+    t.decimal "price", precision: 8, scale: 2
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "points", force: :cascade do |t|
