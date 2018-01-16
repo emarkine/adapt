@@ -12,7 +12,7 @@
     %th= link_to Service.human_attribute_name(:refresh), :action => :sort, :field => :refresh
     %th= link_to Service.human_attribute_name(:active), :action => :sort, :field => :active
     -#%th= link_to Service.human_attribute_name(:single), :action => :sort, :field => :single
-    -#%th= Service.human_attribute_name :host
+    %th= Service.human_attribute_name :host
     -#%th= link_to Service.human_attribute_name :status
     -#%th= Service.human_attribute_name :
   - @services.each do |service|
@@ -26,7 +26,7 @@
       %td= link_to service.setting.name, {controller: :settings, action: :show, id: service.setting.id} if service.setting
       %td= link_to service.frame.name, {controller: :services, action: :frame, name: service.frame.name}
       %td= link_to service.trigger.name, {action: :show, id: service.trigger.id} if service.trigger
-      -#%td= link_to service.host.name, {controller: :services, action: :host, name: service.host.name}
+      %td= link_to service.host.name, {controller: :services, action: :host, name: service.host.name}
       %td= service.refresh
       %td= boolean_tag(service.active?)
       -#%td= boolean_tag(service.single?)
