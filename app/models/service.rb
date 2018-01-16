@@ -3,7 +3,7 @@ class Service < ActiveRecord::Base
   belongs_to :setting
   belongs_to :fund
   belongs_to :frame
-  # belongs_to :host
+  belongs_to :host
   # has_many :statuses
 
   # иехрархические связи между сервисами для обновления
