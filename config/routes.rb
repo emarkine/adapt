@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :states
   resources :parts
   root to: 'site#index'
   resources :user_sessions

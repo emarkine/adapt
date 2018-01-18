@@ -15,7 +15,6 @@ test:
 production:
   adapter: postgresql
   pool: 5
-  host: localhost
   encoding: unicode
   host: localhost
   database: tram_production
