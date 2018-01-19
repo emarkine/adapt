@@ -34,7 +34,7 @@ audusd:
   comma: 5
   open_time: "00:00:00"
   close_time: "23:59:59"
-  watch: true
+#  watch: true
   show_index: 102
 
 nzdusd:
@@ -359,7 +359,7 @@ oil:
   comma: 3
   open_time: "00:00:00"
   close_time: "23:15:00"
-  watch: true
+#  watch: true
   show_index: 202
 
 silver:
@@ -464,7 +464,7 @@ ym:
   expiration: "2016-12-16 16:30:00" # in CEST / 8:30:00 CST
   open_time: "00:00:00" # CEST
   close_time: "23:15:00" # CEST
-  watch: true
+#  watch: true
   show_index: 211
 
 nq:
@@ -486,7 +486,7 @@ nq:
   open_time: "00:00:00" # CEST
   close_time: "23:15:00" # CEST
   prior_close: 4212.50
-  watch: true
+#  watch: true
   show_index: 212
 
 fdax:
@@ -509,7 +509,7 @@ fdax:
   expiration: "2017-09-15 13:00:00"
   open_time: "08:00:00"
   close_time: "22:05:00"
-  watch: true
+#  watch: true
   show_index: 213
 
 fti:

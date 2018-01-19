@@ -1,0 +1,31 @@
+binary:
+  name: binary
+  indicator: crystal
+
+overlap:
+  name: overlap
+  indicator: crystal
+
+#random:
+#  indicator: random
+#
+#rate:
+#  indicator: rate
+#
+#line:
+#  indicator: line
+#
+#ma:
+#  indicator: ma
+#
+#macd:
+#  indicator: macd
+#
+#rsi:
+#  indicator: rsi
+#
+#bol:
+#  indicator: bol
+#
+
+
