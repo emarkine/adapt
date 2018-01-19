@@ -1,4 +1,4 @@
-class CreateStructures < ActiveRecord::Migration
+class CreateStructures < ActiveRecord::Migration[5.1]
   def change
     create_table :structures do |t|
       t.references :crystal, index: true, null: false # к какому кристаллу относится

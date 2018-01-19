@@ -42,6 +42,14 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["code"], name: "index_countries_on_code", unique: true
   end
 
+  create_table "crystals", force: :cascade do |t|
+    t.string "name", null: false
+    t.bigint "indicator_id"
+    t.index ["indicator_id"], name: "index_crystals_on_indicator_id"
+    t.index ["name"], name: "crystals_index", unique: true
+    t.index ["name"], name: "index_crystals_on_name"
+  end
+
   create_table "currencies", force: :cascade do |t|
     t.string "name", null: false
     t.string "code", null: false
@@ -286,6 +294,15 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["service_id"], name: "index_statuses_on_service_id"
+  end
+
+  create_table "structures", force: :cascade do |t|
+    t.bigint "crystal_id", null: false
+    t.bigint "edge_id", null: false
+    t.integer "position", null: false
+    t.index ["crystal_id", "edge_id"], name: "structures_index", unique: true
+    t.index ["crystal_id"], name: "index_structures_on_crystal_id"
+    t.index ["edge_id"], name: "index_structures_on_edge_id"
   end
 
   create_table "ticks", force: :cascade do |t|
