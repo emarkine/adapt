@@ -18,7 +18,7 @@ nerve_2:
 
 nerve_3:
   id: 3
-  source_id: 511346410
+  source_id: 773785341
   recipient_id: 567588790
   fund_id: 203819921
   frame_id: 60
@@ -27,15 +27,6 @@ nerve_3:
 
 nerve_4:
   id: 4
-  source_id: 773785341
-  recipient_id: 567588790
-  fund_id: 203819921
-  frame_id: 60
-  value: 1.0
-  level: 0
-
-nerve_5:
-  id: 5
   source_id: 459727488
   recipient_id: 567588790
   fund_id: 203819921

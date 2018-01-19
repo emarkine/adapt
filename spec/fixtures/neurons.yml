@@ -152,10 +152,10 @@ ma_ema12_trend:
   position: 2
   factor: 1.0
 
-ma_ema12_reverse:
-  type: Neuron::Reverse
-  edge: ma_ema12
-  position: 3
+#ma_ema12_reverse:
+#  type: Neuron::Reverse
+#  edge: ma_ema12
+#  position: 3
 
 ma_ema12_level:
   type: Neuron::Level
@@ -185,10 +185,10 @@ ma_ema15_trend:
   edge: ma_ema15
   position: 2
 
-ma_ema15_reverse:
-  type: Neuron::Reverse
-  edge: ma_ema15
-  position: 3
+#ma_ema15_reverse:
+#  type: Neuron::Reverse
+#  edge: ma_ema15
+#  position: 3
 
 ma_ema15_level:
   type: Neuron::Level
@@ -219,10 +219,10 @@ ma_ema30_trend:
   edge: ma_ema30
   position: 2
 
-ma_ema30_reverse:
-  type: Neuron::Reverse
-  edge: ma_ema30
-  position: 3
+#ma_ema30_reverse:
+#  type: Neuron::Reverse
+#  edge: ma_ema30
+#  position: 3
 
 ma_ema30_level:
   type: Neuron::Level
@@ -252,10 +252,10 @@ ma_ema60_trend:
   edge: ma_ema60
   position: 2
 
-ma_ema60_reverse:
-  type: Neuron::Reverse
-  edge: ma_ema60
-  position: 3
+#ma_ema60_reverse:
+#  type: Neuron::Reverse
+#  edge: ma_ema60
+#  position: 3
 
 ma_ema60_level:
   type: Neuron::Level
@@ -285,10 +285,10 @@ ma_ema200_trend:
   edge: ma_sma200
   position: 2
 
-ma_sma200_reverse:
-  type: Neuron::Reverse
-  edge: ma_sma200
-  position: 3
+#ma_sma200_reverse:
+#  type: Neuron::Reverse
+#  edge: ma_sma200
+#  position: 3
 
 ma_ema200_level:
   type: Neuron::Level
@@ -318,10 +318,10 @@ ma_ema365_trend:
   edge: ma_ema365
   position: 2
 
-ma_ema365_reverse:
-  type: Neuron::Reverse
-  edge: ma_ema365
-  position: 3
+#ma_ema365_reverse:
+#  type: Neuron::Reverse
+#  edge: ma_ema365
+#  position: 3
 
 ma_ema365_level:
   type: Neuron::Level
