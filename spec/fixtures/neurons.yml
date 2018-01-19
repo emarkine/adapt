@@ -15,10 +15,10 @@ crystal_trend:
   edge: crystal
   position: 2
 
-crystal_reverse:
-  type: Neuron::Reverse
-  edge: crystal
-  position: 3
+#crystal_reverse:
+#  type: Neuron::Reverse
+#  edge: crystal
+#  position: 3
 
 crystal_level:
   type: Neuron::Level
@@ -118,10 +118,10 @@ ma_trend:
   edge: ma
   position: 2
 
-ma_reverse:
-  type: Neuron::Reverse
-  edge: ma
-  position: 3
+#ma_reverse:
+#  type: Neuron::Reverse
+#  edge: ma
+#  position: 3
 
 ma_level:
   type: Neuron::Level
@@ -333,40 +333,6 @@ ma_ema365_sign:
   edge: ma_ema365
   position: 5
 
-
-#---------------------------------------------------- ema30 -----------------------------------------------------------#
-
-ma_ema30:
-  type: Neuron::Out
-  edge: ma_ema30
-  position: 0
-
-ma_ema30_angle:
-  type: Neuron::Angle
-  edge: ma_ema30
-  factor: 0.4
-  position: 1
-
-ma_ema30_trend:
-  type: Neuron::Trend
-  edge: ma_ema30
-  position: 2
-
-ma_ema30_reverse:
-  type: Neuron::Reverse
-  edge: ma_ema30
-  position: 3
-
-ma_ema30_level:
-  type: Neuron::Level
-  edge: ma_ema30
-  position: 4
-
-ma_ema30_sign:
-  type: Neuron::Sign
-  edge: ma_ema30
-  position: 5
-
 #-------------------------------------------------- random ------------------------------------------------------------#
 
 random:
@@ -395,10 +361,10 @@ random_level:
   edge: random
   position: 4
 
-random_reverse:
-  type: Neuron::Reverse
-  edge: random
-  position: 5
+#random_reverse:
+#  type: Neuron::Reverse
+#  edge: random
+#  position: 5
 
 #---------------------------------------------------- line ------------------------------------------------------------#
 
