@@ -71,7 +71,7 @@ class Fund < ActiveRecord::Base
       else
         bar = Bar.where(fund: self, frame: Frame._5s).last
         bar = Bar.where(fund: self, frame: Frame._1m).last unless bar
-        bar.close
+        bar.close if bar
       end
     else
       tick = tick(time)

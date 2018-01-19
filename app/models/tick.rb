@@ -1,5 +1,5 @@
 class Tick < ActiveRecord::Base
-  establish_connection :remote_production unless Rails.env.production?
+  # establish_connection :remote_production unless Rails.env.production?
   # default_scope { order(:time) }
   scope :date, ->(date) { where('time >= ? and time < ?', date, date+1.day) }
   scope :time, ->(begin_time,end_time) { where('time >= ? and time < ?', begin_time, end_time) }

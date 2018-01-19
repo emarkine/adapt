@@ -19,6 +19,11 @@ class Frame < ActiveRecord::Base
     Frame.find_by_name '5s'
   end
 
+  def self._1m
+    Frame.find_by_name '1m'
+  end
+
+
   def size
     self.id
   end

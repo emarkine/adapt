@@ -256,7 +256,7 @@ namespace :neuro do
 
   # вывод или генерация нервов связанных с выходным нероном
   def nerves(edge, fund, frame, value=nil, level=nil)
-    # puts(edge.out)
+    puts(edge.out)
     edge.neurons.each_with_index do |neuron, index|
       next if index == 0
       # puts(neuron)
@@ -269,6 +269,9 @@ namespace :neuro do
       end
       if level
         nerve.level = level
+        nerve.save!
+      end
+      if nerve.id.nil?
         nerve.save!
       end
       puts nerve

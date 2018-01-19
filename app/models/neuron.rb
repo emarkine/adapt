@@ -1,6 +1,6 @@
 class Neuron < ActiveRecord::Base
-  NAMES = %w( out angle trend reverse level sign )
-  TYPES = %w( Neuron::Out Neuron::Angle Neuron::Trend Neuron::Reverse Neuron::Level Neuron::Sign )
+  NAMES = %w( out angle trend level sign )
+  TYPES = %w( Neuron::Out Neuron::Angle Neuron::Trend Neuron::Level Neuron::Sign )
   default_scope { order(:position) }
   belongs_to :edge
   has_many :data
