@@ -1,2 +1,270 @@
-rule_1:
-  frame: 1m
+nerve_1:
+  id: 1
+  source_id: 880054241
+  recipient_id: 567588790
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_2:
+  id: 2
+  source_id: 981329
+  recipient_id: 567588790
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_3:
+  id: 3
+  source_id: 511346410
+  recipient_id: 567588790
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_4:
+  id: 4
+  source_id: 773785341
+  recipient_id: 567588790
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_5:
+  id: 5
+  source_id: 459727488
+  recipient_id: 567588790
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_11:
+  id: 11
+  source_id: 880054241
+  recipient_id: 2327581
+  fund_id:
+  frame_id:
+  value: -1.0
+  level: 0
+
+nerve_12:
+  id: 12
+  source_id: 981329
+  recipient_id: 2327581
+  fund_id:
+  frame_id:
+  value: -1.0
+  level: 0
+
+nerve_13:
+  id: 13
+  source_id: 773785341
+  recipient_id: 2327581
+  fund_id:
+  frame_id:
+  value: -1.0
+  level: 0
+
+nerve_14:
+  id: 14
+  source_id: 835957104
+  recipient_id: 1068507671
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_15:
+  id: 15
+  source_id: 95012802
+  recipient_id: 1068507671
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_16:
+  id: 16
+  source_id: 974908192
+  recipient_id: 1068507671
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_17:
+  id: 17
+  source_id: 733493364
+  recipient_id: 1068507671
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_18:
+  id: 18
+  source_id: 107205320
+  recipient_id: 1068507671
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_19:
+  id: 19
+  source_id: 947266916
+  recipient_id: 725571293
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_20:
+  id: 20
+  source_id: 202134478
+  recipient_id: 725571293
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_21:
+  id: 21
+  source_id: 932633938
+  recipient_id: 725571293
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_22:
+  id: 22
+  source_id: 572370048
+  recipient_id: 725571293
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_23:
+  id: 23
+  source_id: 819738718
+  recipient_id: 725571293
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_24:
+  id: 24
+  source_id: 2327581
+  recipient_id: 1068614411
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 7
+
+nerve_25:
+  id: 25
+  source_id: 2327581
+  recipient_id: 1005217804
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 8
+
+nerve_26:
+  id: 26
+  source_id: 567187894
+  recipient_id: 1038922779
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_27:
+  id: 27
+  source_id: 364179228
+  recipient_id: 1038922779
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_28:
+  id: 28
+  source_id: 880377427
+  recipient_id: 1038922779
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_29:
+  id: 29
+  source_id: 1000673454
+  recipient_id: 1038922779
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_30:
+  id: 30
+  source_id: 20009567
+  recipient_id: 1038922779
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_31:
+  id: 31
+  source_id: 690919379
+  recipient_id: 10174559
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_32:
+  id: 32
+  source_id: 492102015
+  recipient_id: 10174559
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_33:
+  id: 33
+  source_id: 307279128
+  recipient_id: 10174559
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_34:
+  id: 34
+  source_id: 860167883
+  recipient_id: 10174559
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
+nerve_35:
+  id: 35
+  source_id: 319389177
+  recipient_id: 10174559
+  fund_id:
+  frame_id:
+  value: 1.0
+  level: 0
+
