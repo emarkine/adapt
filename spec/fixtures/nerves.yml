@@ -151,3 +151,75 @@ nerve_17:
   value: 1.0
   level: 0
 
+nerve_18:
+  id: 18
+  source_id: 375468887
+  recipient_id: 24836301
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_19:
+  id: 19
+  source_id: 572212731
+  recipient_id: 24836301
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_20:
+  id: 20
+  source_id: 202029647
+  recipient_id: 24836301
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_21:
+  id: 21
+  source_id: 699081824
+  recipient_id: 24836301
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_22:
+  id: 22
+  source_id: 912804141
+  recipient_id: 856105074
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_23:
+  id: 23
+  source_id: 557283226
+  recipient_id: 856105074
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_24:
+  id: 24
+  source_id: 254183472
+  recipient_id: 856105074
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
+nerve_25:
+  id: 25
+  source_id: 274697921
+  recipient_id: 856105074
+  fund_id: 203819921
+  frame_id: 60
+  value: 1.0
+  level: 0
+
