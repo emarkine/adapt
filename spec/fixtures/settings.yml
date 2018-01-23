@@ -515,23 +515,23 @@ ma:
   indicator: ma
   position: 0
 
-#ema12:
-#  name: ema12
-#  indicator: ma
-#  position: 1
-#  method: exponential
-#  period: 12
-#  color: LightGray
-#  line_width: 1
-
-ema24:
-  name: ema24
+ema12:
+  name: ema12
   indicator: ma
-  position: 2
+  position: 1
   method: exponential
-  period: 24
-  color: Gray
+  period: 12
+  color: LightGray
   line_width: 1
+
+#ema24:
+#  name: ema24
+#  indicator: ma
+#  position: 2
+#  method: exponential
+#  period: 24
+#  color: Gray
+#  line_width: 1
 
 ema15:
   name: ema15
