@@ -42,14 +42,6 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["code"], name: "index_countries_on_code", unique: true
   end
 
-  create_table "crystals", force: :cascade do |t|
-    t.string "name", null: false
-    t.bigint "indicator_id"
-    t.index ["indicator_id"], name: "index_crystals_on_indicator_id"
-    t.index ["name"], name: "crystals_index", unique: true
-    t.index ["name"], name: "index_crystals_on_name"
-  end
-
   create_table "currencies", force: :cascade do |t|
     t.string "name", null: false
     t.string "code", null: false
@@ -188,10 +180,31 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "nodes", force: :cascade do |t|
-    t.string "name"
-    t.string "title"
-    t.string "file"
+    t.string "type"
+    t.string "title", null: false
+    t.string "name", null: false
+    t.bigint "neuron_id"
+    t.bigint "indicator_id"
+    t.text "text"
     t.date "date"
+    t.time "time"
+    t.string "file"
+    t.integer "parent_id"
+    t.integer "next_id"
+    t.integer "prev_id"
+    t.integer "x"
+    t.integer "left_id"
+    t.integer "right_id"
+    t.integer "y"
+    t.integer "up_id"
+    t.integer "down_id"
+    t.integer "z"
+    t.integer "forward"
+    t.integer "backward"
+    t.index ["indicator_id"], name: "index_nodes_on_indicator_id"
+    t.index ["neuron_id", "indicator_id"], name: "node_neuron_indicator_index", unique: true
+    t.index ["neuron_id"], name: "index_nodes_on_neuron_id"
+    t.index ["title"], name: "node_title_index", unique: true
   end
 
   create_table "parts", force: :cascade do |t|
@@ -294,15 +307,6 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["service_id"], name: "index_statuses_on_service_id"
-  end
-
-  create_table "structures", force: :cascade do |t|
-    t.bigint "crystal_id", null: false
-    t.bigint "edge_id", null: false
-    t.integer "position", null: false
-    t.index ["crystal_id", "edge_id"], name: "structures_index", unique: true
-    t.index ["crystal_id"], name: "index_structures_on_crystal_id"
-    t.index ["edge_id"], name: "index_structures_on_edge_id"
   end
 
   create_table "ticks", force: :cascade do |t|
