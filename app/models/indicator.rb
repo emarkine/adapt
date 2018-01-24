@@ -5,6 +5,7 @@ class Indicator < ActiveRecord::Base
   include Draw
   default_scope { order(:position) }
   has_many :settings
+  has_many :nodes
   # has_many :crystals
   # has_many :neurons, :class_name => 'Neuro::Neuron'
   # belongs_to :frame
@@ -235,9 +236,17 @@ class Indicator < ActiveRecord::Base
   def self.session
     list = {}
     Indicator.all.each do |ind|
-        list[ind.name] = false
+      list[ind.name] = false
     end
     list
+  end
+
+  def node
+    nodes[0]
+  end
+
+  def out
+    node.neuron
   end
 
 end
