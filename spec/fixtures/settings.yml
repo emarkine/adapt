@@ -44,6 +44,23 @@ binary2m:
   chart: true
   position: 3
 
+binary3m:
+  name: binary3m
+  indicator: crystal
+  delta: 180
+  separate: true
+  color: '#7777ff'
+  fill: orange
+  color_high: darkgreen
+  fill_high: green
+  color_low: brown
+  fill_low: red
+  line_width: 1
+  radius: 1
+  grid: true
+  chart: true
+  position: 4
+
 binary5m:
   name: binary5m
   indicator: crystal
@@ -59,7 +76,7 @@ binary5m:
   radius: 1
   grid: true
   chart: true
-  position: 4
+  position: 5
 
 binary10m:
   name: binary10m
@@ -76,7 +93,7 @@ binary10m:
   radius: 1
   grid: true
   chart: true
-  position: 5
+  position: 6
 
 binary15m:
   name: binary15m
@@ -93,7 +110,7 @@ binary15m:
   radius: 1
   grid: true
   chart: true
-  position: 6
+  position: 7
 
 overlap:
   name: overlap

@@ -5,6 +5,7 @@ class CreateNerves < ActiveRecord::Migration[5.1]
       t.references :recipient, index: true # нейрон получатель сигнала
       t.references :fund, index: true # среда
       t.references :frame, index: true # частота
+      t.references :node, index: true # нейрвный узел
       t.float :value, :default => 1 # чувствительность связи [-1..1]
       t.integer :level, :default => 0 # порог срабатывания нейрона [0..10], 0 - все проходит, 10 - все закрыто
     end

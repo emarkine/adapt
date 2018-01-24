@@ -76,6 +76,8 @@ ActiveRecord::Schema.define(version: 20180118134453) do
 
   create_table "edges", force: :cascade do |t|
     t.bigint "setting_id", null: false
+    t.bigint "node_id"
+    t.index ["node_id"], name: "index_edges_on_node_id"
     t.index ["setting_id"], name: "edges_index", unique: true
     t.index ["setting_id"], name: "index_edges_on_setting_id"
   end
@@ -185,35 +187,6 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.float "factor", default: 1.0
     t.index ["edge_id", "position"], name: "neurons_index", unique: true
     t.index ["edge_id"], name: "index_neurons_on_edge_id"
-  end
-
-  create_table "nodes", force: :cascade do |t|
-    t.string "type"
-    t.string "title", null: false
-    t.string "name", null: false
-    t.string "description"
-    t.bigint "neuron_id"
-    t.bigint "indicator_id"
-    t.text "text"
-    t.date "date"
-    t.time "time"
-    t.string "file"
-    t.integer "parent_id"
-    t.integer "next_id"
-    t.integer "prev_id"
-    t.integer "x"
-    t.integer "left_id"
-    t.integer "right_id"
-    t.integer "y"
-    t.integer "up_id"
-    t.integer "down_id"
-    t.integer "z"
-    t.integer "forward"
-    t.integer "backward"
-    t.index ["indicator_id"], name: "index_nodes_on_indicator_id"
-    t.index ["neuron_id", "indicator_id"], name: "node_neuron_indicator_index", unique: true
-    t.index ["neuron_id"], name: "index_nodes_on_neuron_id"
-    t.index ["title"], name: "node_title_index", unique: true
   end
 
   create_table "parts", force: :cascade do |t|

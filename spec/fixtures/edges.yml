@@ -15,6 +15,9 @@ binary1m:
 binary2m:
   setting: binary2m
 
+binary3m:
+  setting: binary3m
+
 binary5m:
   setting: binary5m
 
