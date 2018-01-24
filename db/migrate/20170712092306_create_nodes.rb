@@ -23,6 +23,5 @@ class CreateNodes < ActiveRecord::Migration[5.1]
       t.integer :backward  # space z move backward
     end
     add_index(:nodes, :title, unique: true, name: :node_title_index)
-    add_index(:nodes, [:neuron_id, :indicator_id], unique: true, name: :node_neuron_indicator_index)
   end
 end

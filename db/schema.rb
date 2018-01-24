@@ -171,12 +171,14 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.bigint "recipient_id"
     t.bigint "fund_id"
     t.bigint "frame_id"
+    t.bigint "node_id"
     t.float "value", default: 1.0
     t.integer "level", default: 0
     t.index ["frame_id"], name: "index_nerves_on_frame_id"
     t.index ["fund_id"], name: "index_nerves_on_fund_id"
+    t.index ["node_id"], name: "index_nerves_on_node_id"
     t.index ["recipient_id"], name: "index_nerves_on_recipient_id"
-    t.index ["source_id", "recipient_id", "fund_id", "frame_id"], name: "nerves_index", unique: true
+    t.index ["source_id", "recipient_id", "node_id"], name: "nerves_index", unique: true
     t.index ["source_id"], name: "index_nerves_on_source_id"
   end
 
@@ -187,6 +189,30 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.float "factor", default: 1.0
     t.index ["edge_id", "position"], name: "neurons_index", unique: true
     t.index ["edge_id"], name: "index_neurons_on_edge_id"
+  end
+
+  create_table "nodes", force: :cascade do |t|
+    t.string "type"
+    t.string "title", null: false
+    t.string "name", null: false
+    t.string "description"
+    t.text "text"
+    t.date "date"
+    t.time "time"
+    t.string "file"
+    t.integer "parent_id"
+    t.integer "next_id"
+    t.integer "prev_id"
+    t.integer "x"
+    t.integer "left_id"
+    t.integer "right_id"
+    t.integer "y"
+    t.integer "up_id"
+    t.integer "down_id"
+    t.integer "z"
+    t.integer "forward"
+    t.integer "backward"
+    t.index ["title"], name: "node_title_index", unique: true
   end
 
   create_table "parts", force: :cascade do |t|
