@@ -4,6 +4,7 @@ class CreateNodes < ActiveRecord::Migration[5.1]
       t.string :type
       t.string :title, null: false, unique: true
       t.string :name, null: false
+      t.string :description
       t.references :neuron
       t.references :indicator
       t.text :text

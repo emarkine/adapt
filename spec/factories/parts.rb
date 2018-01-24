@@ -1,4 +1,4 @@
-FactoryGirl.define do
+FactoryBot.define do
   factory :part do
     name "MyString"
     count 1

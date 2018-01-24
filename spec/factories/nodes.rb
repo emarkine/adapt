@@ -1,6 +1,6 @@
 require 'faker'
 
-FactoryGirl.define do
+FactoryBot.define do
 
   factory :node do
     sequence(:name) {Faker::Name.first_name}

@@ -26,7 +26,7 @@ RSpec.feature 'Login management: ', type: :feature do
   end
 
   scenario 'User logged out' do
-    login
+    login_with_browser
     expect(url).to end_with '/profile'
     a( text: I18n.t(:logout)).click
     wait

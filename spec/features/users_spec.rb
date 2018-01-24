@@ -3,7 +3,8 @@ require 'rails_helper'
 RSpec.feature 'User management: ', type: :feature do
 
   before do
-    login
+    # User.connection
+    login_with_browser
   end
 
   scenario 'Shows profile data' do

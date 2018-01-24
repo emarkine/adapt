@@ -1,6 +1,6 @@
 require 'faker'
 
-FactoryGirl.define do
+FactoryBot.define do
 
   factory :currency do
     sequence(:name) { Faker::Internet.user_name }

@@ -1,5 +1,4 @@
 class Point < ActiveRecord::Base
-  # establish_connection :remote_production unless Rails.env.production?
   default_scope { order('time' ) }
   belongs_to :prev, class_name: :Point, foreign_key: :prev_id
   belongs_to :next, class_name: :Point, foreign_key: :next_id

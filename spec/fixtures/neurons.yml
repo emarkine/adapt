@@ -15,11 +15,6 @@ crystal_trend:
   edge: crystal
   position: 2
 
-#crystal_reverse:
-#  type: Neuron::Reverse
-#  edge: crystal
-#  position: 3
-
 crystal_level:
   type: Neuron::Level
   edge: crystal
@@ -29,6 +24,18 @@ crystal_sign:
   type: Neuron::Sign
   edge: crystal
   position: 5
+
+#----------------------------------------------------- rita -----------------------------------------------------------#
+
+rita:
+  type: Neuron::Out
+  edge: rita
+  position: 1
+
+rita_reverse:
+  type: Neuron::Reverse
+  edge: rita
+  position: 2
 
 #---------------------------------------------------- overlap ---------------------------------------------------------#
 

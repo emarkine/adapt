@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  # User.connection
   authenticates_with_sorcery!
   belongs_to :currency
   belongs_to :country

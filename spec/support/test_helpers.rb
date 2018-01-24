@@ -1,7 +1,7 @@
 module TestHelpers
   module Features
     URL = 'localhost:3001'
-    def login
+    def login_with_browser
       user = User.find_by_first_name 'Test'
       login_user(user, 'password')
     end

@@ -52,19 +52,6 @@ arduino/pro-micro:
   name: Pro Micro
   file: /home/eugene/Documents/
 
-
-mila:
-  name: mila
-  title: indicator/ma/neuron/node/mila
-  indicator: ma
-  neuron: ma
-
-masha:
-  name: masha
-  title: indicator/macd/neuron/node/masha
-  indicator: macd
-  neuron: macd
-
 sunday:
   title: sunday
   name: Воскресение
@@ -128,20 +115,34 @@ project/nodes/one:
   date: 2017-07-07
   file: /home/eugene/Documents/project/nodes/one.txt
 
-#accumulators:
-#  title: accumulators
-#  name: аккумуляторы
-#  type: box
+accumulators:
+  title: accumulators
+  name: аккумуляторы
+  type: box
+
+rita:
+  name: rita
+  title: node/indicator/ma/neuron/rita
+  indicator: rita
+  neuron: rita
+  description: нейросеть на основе признаков разворота в нейронах скользящих средних
+
+#
+#mila:
+#  name: mila
+#  title: node/indicator/ma/neuron/mila
+#  indicator: ma
+#  neuron: mila
+#
+#masha:
+#  name: masha
+#  title: node/indicator/macd/neuron/masha
+#  indicator: macd
+#  neuron: macd
+
 
 #:
 #  title:
 #  name:
-#  date: 2017-07-0
-#  file: /home/eugene/Documents/
-
-
-#:
-#  title:
-#  name:
-#  date: 2017-07-0
+#  date: 2018-01-
 #  file: /home/eugene/Documents/
