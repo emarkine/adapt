@@ -123,7 +123,7 @@ accumulators:
 rita:
   name: rita
   title: node/indicator/ma/neuron/rita
-  indicator: rita
+  indicator: ma
   neuron: rita
   description: нейросеть на основе признаков разворота в нейронах скользящих средних
 
