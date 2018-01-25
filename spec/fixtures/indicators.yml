@@ -1,11 +1,11 @@
-crystal:
-  name: crystal
-  type: Indicator::Crystal
-  title: Crystal
-  full_name: Crystal
-  link: http://marketram.com/indicator/crystal
-  position: 0
-  displayed: true
+#crystal:
+#  name: crystal
+#  type: Indicator::Crystal
+#  title: Crystal
+#  full_name: Crystal
+#  link: http://marketram.com/indicator/crystal
+#  position: 0
+#  displayed: true
 
 ma:
   name: ma

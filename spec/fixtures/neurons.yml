@@ -1,29 +1,29 @@
 #===================================================== Crystal ========================================================#
 
-crystal:
-  type: Neuron::Out
-  edge: crystal
-  position: 0
-
-crystal_angle:
-  type: Neuron::Angle
-  edge: crystal
-  position: 1
-
-crystal_trend:
-  type: Neuron::Trend
-  edge: crystal
-  position: 2
-
-crystal_level:
-  type: Neuron::Level
-  edge: crystal
-  position: 4
-
-crystal_sign:
-  type: Neuron::Sign
-  edge: crystal
-  position: 5
+#crystal:
+#  type: Neuron::Out
+#  edge: crystal
+#  position: 0
+#
+#crystal_angle:
+#  type: Neuron::Angle
+#  edge: crystal
+#  position: 1
+#
+#crystal_trend:
+#  type: Neuron::Trend
+#  edge: crystal
+#  position: 2
+#
+#crystal_level:
+#  type: Neuron::Level
+#  edge: crystal
+#  position: 4
+#
+#crystal_sign:
+#  type: Neuron::Sign
+#  edge: crystal
+#  position: 5
 
 #----------------------------------------------------- rita -----------------------------------------------------------#
 

@@ -1,121 +1,121 @@
 #----------------------------------------------------- Crystal -----------------------------------------------------------
 
-сrystal:
-  name: crystal
-  indicator: crystal
-  position: 0
-
-binary:
-  name: binary
-  indicator: crystal
-  position: 1
-
-binary1m:
-  name: binary1m
-  indicator: crystal
-  delta: 60
-  separate: true
-  color: '#7777ff'
-  fill: orange
-  color_high: darkgreen
-  fill_high: green
-  color_low: brown
-  fill_low: red
-  line_width: 1
-  radius: 1
-  grid: true
-  chart: true
-  position: 2
-
-binary2m:
-  name: binary2m
-  indicator: crystal
-  delta: 120
-  separate: true
-  color: '#7777ff'
-  fill: orange
-  color_high: darkgreen
-  fill_high: green
-  color_low: brown
-  fill_low: red
-  line_width: 1
-  radius: 1
-  grid: true
-  chart: true
-  position: 3
-
-binary3m:
-  name: binary3m
-  indicator: crystal
-  delta: 180
-  separate: true
-  color: '#7777ff'
-  fill: orange
-  color_high: darkgreen
-  fill_high: green
-  color_low: brown
-  fill_low: red
-  line_width: 1
-  radius: 1
-  grid: true
-  chart: true
-  position: 4
-
-binary5m:
-  name: binary5m
-  indicator: crystal
-  delta: 300
-  separate: true
-  color: '#7777ff'
-  fill: orange
-  color_high: darkgreen
-  fill_high: green
-  color_low: brown
-  fill_low: red
-  line_width: 1
-  radius: 1
-  grid: true
-  chart: true
-  position: 5
-
-binary10m:
-  name: binary10m
-  indicator: crystal
-  delta: 600
-  separate: true
-  color: '#7777ff'
-  fill: orange
-  color_high: darkgreen
-  fill_high: green
-  color_low: brown
-  fill_low: red
-  line_width: 1
-  radius: 1
-  grid: true
-  chart: true
-  position: 6
-
-binary15m:
-  name: binary15m
-  indicator: crystal
-  delta: 900
-  separate: true
-  color: '#7777ff'
-  fill: orange
-  color_high: darkgreen
-  fill_high: green
-  color_low: brown
-  fill_low: red
-  line_width: 1
-  radius: 1
-  grid: true
-  chart: true
-  position: 7
-
-overlap:
-  name: overlap
-  indicator: crystal
-  position: 7
+#сrystal:
+#  name: crystal
+#  indicator: crystal
+#  position: 0
+#
+#binary:
+#  name: binary
+#  indicator: crystal
+#  position: 1
+#
+#binary1m:
+#  name: binary1m
+#  indicator: crystal
+#  delta: 60
+#  separate: true
+#  color: '#7777ff'
+#  fill: orange
+#  color_high: darkgreen
+#  fill_high: green
+#  color_low: brown
+#  fill_low: red
+#  line_width: 1
+#  radius: 1
+#  grid: true
+#  chart: true
+#  position: 2
+#
+#binary2m:
+#  name: binary2m
+#  indicator: crystal
+#  delta: 120
+#  separate: true
+#  color: '#7777ff'
+#  fill: orange
+#  color_high: darkgreen
+#  fill_high: green
+#  color_low: brown
+#  fill_low: red
+#  line_width: 1
+#  radius: 1
+#  grid: true
+#  chart: true
+#  position: 3
+#
+#binary3m:
+#  name: binary3m
+#  indicator: crystal
+#  delta: 180
+#  separate: true
+#  color: '#7777ff'
+#  fill: orange
+#  color_high: darkgreen
+#  fill_high: green
+#  color_low: brown
+#  fill_low: red
+#  line_width: 1
+#  radius: 1
+#  grid: true
+#  chart: true
+#  position: 4
+#
+#binary5m:
+#  name: binary5m
+#  indicator: crystal
+#  delta: 300
+#  separate: true
+#  color: '#7777ff'
+#  fill: orange
+#  color_high: darkgreen
+#  fill_high: green
+#  color_low: brown
+#  fill_low: red
+#  line_width: 1
+#  radius: 1
+#  grid: true
+#  chart: true
+#  position: 5
+#
+#binary10m:
+#  name: binary10m
+#  indicator: crystal
+#  delta: 600
+#  separate: true
+#  color: '#7777ff'
+#  fill: orange
+#  color_high: darkgreen
+#  fill_high: green
+#  color_low: brown
+#  fill_low: red
+#  line_width: 1
+#  radius: 1
+#  grid: true
+#  chart: true
+#  position: 6
+#
+#binary15m:
+#  name: binary15m
+#  indicator: crystal
+#  delta: 900
+#  separate: true
+#  color: '#7777ff'
+#  fill: orange
+#  color_high: darkgreen
+#  fill_high: green
+#  color_low: brown
+#  fill_low: red
+#  line_width: 1
+#  radius: 1
+#  grid: true
+#  chart: true
+#  position: 7
+#
+#overlap:
+#  name: overlap
+#  indicator: crystal
+#  position: 7
 
 #======================================================= Rita =========================================================#
 
