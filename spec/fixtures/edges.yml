@@ -86,8 +86,8 @@ ma_ema60:
 # crystal: ma
 # position: 4
 
-ma_sma200:
-  setting: sma200
+#ma_sma200:
+#  setting: sma200
 # crystal: ma
 # position: 5
 

@@ -276,36 +276,36 @@ ma_ema60_sign:
 
 #--------------------------------------------------- sma200 -----------------------------------------------------------#
 
-ma_sma200:
-  type: Neuron::Out
-  edge: ma_sma200
-  position: 0
-
-ma_sma200_angle:
-  type: Neuron::Angle
-  edge: ma_sma200
-  factor: 2.0
-  position: 1
-
-ma_ema200_trend:
-  type: Neuron::Trend
-  edge: ma_sma200
-  position: 2
+#ma_sma200:
+#  type: Neuron::Out
+#  edge: ma_sma200
+#  position: 0
+#
+#ma_sma200_angle:
+#  type: Neuron::Angle
+#  edge: ma_sma200
+#  factor: 2.0
+#  position: 1
+#
+#ma_ema200_trend:
+#  type: Neuron::Trend
+#  edge: ma_sma200
+#  position: 2
 
 #ma_sma200_reverse:
 #  type: Neuron::Reverse
 #  edge: ma_sma20s0
 #  position: 3
 
-ma_ema200_level:
-  type: Neuron::Level
-  edge: ma_sma200
-  position: 4
-
-ma_sma200_sign:
-  type: Neuron::Sign
-  edge: ma_sma200
-  position: 5
+#ma_ema200_level:
+#  type: Neuron::Level
+#  edge: ma_sma200
+#  position: 4
+#
+#ma_sma200_sign:
+#  type: Neuron::Sign
+#  edge: ma_sma200
+#  position: 5
 
 #--------------------------------------------------- ema365 -----------------------------------------------------------#
 
