@@ -13,6 +13,17 @@ namespace :neuro do
 
   end
 
+  # задачи для нейроузла
+  namespace :node do
+    # создание нерова для узла
+    task :add, [:name] => :environment do |task, args|
+      raise "Usage: rake #{task}[:name]" unless args[:name]
+      node = Setting.find_by_name args[:name]
+      raise 'No node: ' + args[:name] unless node
+      puts node
+    end
+  end
+
   # задачи для грани
   namespace :edge do
 

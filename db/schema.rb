@@ -167,18 +167,14 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "nerves", force: :cascade do |t|
-    t.integer "node_id", null: false
+    t.bigint "node_id"
     t.bigint "source_id"
     t.bigint "recipient_id"
-    t.bigint "fund_id"
-    t.bigint "frame_id"
     t.float "value", default: 1.0
     t.integer "level", default: 0
-    t.index ["frame_id"], name: "index_nerves_on_frame_id"
-    t.index ["fund_id"], name: "index_nerves_on_fund_id"
+    t.index ["node_id", "source_id", "recipient_id"], name: "nerves_index", unique: true
     t.index ["node_id"], name: "index_nerves_on_node_id"
     t.index ["recipient_id"], name: "index_nerves_on_recipient_id"
-    t.index ["source_id", "recipient_id", "node_id"], name: "nerves_index", unique: true
     t.index ["source_id"], name: "index_nerves_on_source_id"
   end
 

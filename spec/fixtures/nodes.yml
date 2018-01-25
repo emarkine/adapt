@@ -120,20 +120,25 @@ accumulators:
   name: аккумуляторы
   type: box
 
+ma:
+  name: ma
+  title: node/indicator/neuron/ma
+  description: нейроузел на основе индикатора ma
+
 sign:
   name: sign
   title: node/indicator/neuron/sign
   description: нейроузел на основе признаков [-1 0 1]
 
-rita:
-  name: rita
-  title: node/indicator/ma/neuron/rita
+reverse:
+  name: reverse
+  title: node/indicator/neuron/reverse
   description: нейроузел на основе признаков разворота в нейронах скользящих средних
 
-mila:
-  name: mila
-  title: node/indicator/ma/neuron/mila
-  description: нейроузел на основе выходных нейронов скользящих средних
+#mila:
+#  name: mila
+#  title: node/indicator/ma/neuron/mila
+#  description: нейроузел на основе выходных нейронов скользящих средних
 
 #
 #masha:
