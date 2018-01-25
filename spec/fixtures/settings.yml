@@ -584,14 +584,14 @@ ema60:
   color: Blue
   line_width: 1
 
-sma200:
-  name: sma200
-  position: 6
-  indicator: ma
-  method: simple
-  period: 200
-  color: LightSlateGray
-  line_width: 1
+#sma200:
+#  name: sma200
+#  position: 6
+#  indicator: ma
+#  method: simple
+#  period: 200
+#  color: LightSlateGray
+#  line_width: 1
 
 ema365:
   name: ema365
