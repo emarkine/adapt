@@ -116,9 +116,9 @@ project/nodes/one:
   file: /home/eugene/Documents/project/nodes/one.txt
 
 accumulators:
+  type: Node::Box
   title: accumulators
   name: аккумуляторы
-  type: box
 
 ma:
   name: ma
