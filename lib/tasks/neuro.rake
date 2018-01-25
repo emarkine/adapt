@@ -15,10 +15,10 @@ namespace :neuro do
 
   # задачи для нейроузла
   namespace :node do
-    # создание нерова для узла
-    task :add, [:name] => :environment do |task, args|
+    # добавление нерва для узла
+    task :add, [:name, :source, :recipient] => :environment do |task, args|
       raise "Usage: rake #{task}[:name]" unless args[:name]
-      node = Setting.find_by_name args[:name]
+      node = Node.find_by_name args[:name]
       raise 'No node: ' + args[:name] unless node
       puts node
     end

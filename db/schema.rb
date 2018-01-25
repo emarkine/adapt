@@ -75,6 +75,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "edges", force: :cascade do |t|
+    t.string "name"
     t.bigint "setting_id", null: false
     t.bigint "node_id"
     t.index ["node_id"], name: "index_edges_on_node_id"

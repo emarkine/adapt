@@ -532,10 +532,10 @@ macd_chart:
   radius: 1
   chart: true
 
-#----------------------------------------------- Moving Average --------------------------------------------------------
+#------------------------------------------ Exponential Moving Average ------------------------------------------------#
 
-ma:
-  name: ma
+ema:
+  name: ema
   indicator: ma
   position: 0
 
@@ -548,6 +548,42 @@ ema12:
   color: LightGray
   line_width: 1
 
+ema15:
+  name: ema15
+  indicator: ma
+  position: 2
+  method: exponential
+  period: 15
+  color: LightBlue
+  line_width: 1
+
+ema30:
+  name: ema30
+  indicator: ma
+  position: 3
+  method: exponential
+  period: 30
+  color: DodgerBlue
+  line_width: 1
+
+ema60:
+  name: ema60
+  indicator: ma
+  position: 4
+  method: exponential
+  period: 60
+  color: Blue
+  line_width: 1
+
+ema360:
+  name: ema360
+  indicator: ma
+  position: 5
+  method: exponential
+  period: 360
+  color: DarkBlue
+  line_width: 1
+
 #ema24:
 #  name: ema24
 #  indicator: ma
@@ -557,33 +593,6 @@ ema12:
 #  color: Gray
 #  line_width: 1
 
-ema15:
-  name: ema15
-  indicator: ma
-  position: 3
-  method: exponential
-  period: 15
-  color: LightBlue
-  line_width: 1
-
-ema30:
-  name: ema30
-  indicator: ma
-  position: 4
-  method: exponential
-  period: 30
-  color: DodgerBlue
-  line_width: 1
-
-ema60:
-  name: ema60
-  indicator: ma
-  position: 5
-  method: exponential
-  period: 60
-  color: Blue
-  line_width: 1
-
 #sma200:
 #  name: sma200
 #  position: 6
@@ -592,15 +601,6 @@ ema60:
 #  period: 200
 #  color: LightSlateGray
 #  line_width: 1
-
-ema365:
-  name: ema365
-  indicator: ma
-  position: 7
-  method: exponential
-  period: 365
-  color: DarkBlue
-  line_width: 1
 
 #ema24:
 #  name: ema24

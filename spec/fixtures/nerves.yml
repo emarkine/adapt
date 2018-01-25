@@ -1,13 +1,3 @@
-#nerve_sign_ema12:
-#  node: sign
-#  sourse: ma_ema12_sign
-#  recipient: crystal_sign
-
-#nerve_sign_:
-#  node: sign
-#  sourse: ma__sign
-#  recipient: crystal_sign
-
 nerve_1:
   id: 1
   source_id: 880054241

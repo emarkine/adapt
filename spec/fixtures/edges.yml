@@ -61,39 +61,40 @@ sol5m:
 
 #------------------------------------------------------- MA -----------------------------------------------------------#
 
-ma:
-  setting: ma
-# crystal: ma
+ema:
+  name: ema
+  setting: ema
+  node: ema
 # position: 0
 
-ma_ema12:
+ema12:
+  name: ema12
   setting: ema12
-# crystal: ma
+  node: ema
 # position: 1
 
-ma_ema15:
+ema15:
+  name: ema15
   setting: ema15
-# crystal: ma
+  node: ema
 # position: 2
 
-ma_ema30:
+ema30:
+  name: ema30
   setting: ema30
-# crystal: ma
+  node: ema
 # position: 3
 
-ma_ema60:
+ema60:
+  name: ema60
   setting: ema60
-# crystal: ma
+  node: ema
 # position: 4
 
-#ma_sma200:
-#  setting: sma200
-# crystal: ma
-# position: 5
-
-ma_ema365:
-  setting: ema365
-# crystal: ma
+ema360:
+  name: ema360
+  setting: ema360
+  node: ema
 # position: 6
 
 

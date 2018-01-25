@@ -115,22 +115,25 @@ project/nodes/one:
   date: 2017-07-07
   file: /home/eugene/Documents/project/nodes/one.txt
 
-accumulators:
-  type: Node::Box
-  title: accumulators
-  name: аккумуляторы
+#accumulators:
+#  type: Node::Box
+#  title: accumulators
+#  name: аккумуляторы
 
-ma:
-  name: ma
-  title: node/indicator/neuron/ma
-  description: нейроузел на основе индикатора ma
+ema:
+  name: ema
+  type: 'Node::Neuro'
+  title: node/indicator/neuron/ema
+  description: нейроузел на основе суммирования экспонециальных скользящих средних ema
 
 sign:
+  type: 'Node::Neuro'
   name: sign
   title: node/indicator/neuron/sign
   description: нейроузел на основе признаков [-1 0 1]
 
 reverse:
+  type: 'Node::Neuro'
   name: reverse
   title: node/indicator/neuron/reverse
   description: нейроузел на основе признаков разворота в нейронах скользящих средних

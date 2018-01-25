@@ -1,6 +1,8 @@
 class Edge < ActiveRecord::Base
   include Draw
   belongs_to :setting
+  belongs_to :node
+  # belongs_to :node_neuro, class_name: 'Node::Neuro'
   has_many :neurons
   has_many :structures
   has_many :crystals, through: :structures
