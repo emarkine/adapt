@@ -236,22 +236,22 @@ service_144:
   created_at: &4 2016-06-01 21:04:56.000000000 Z
   updated_at: &5 2016-06-10 09:53:48.000000000 Z
 
-service_143:
-  id: 143
-  name: aex.sma.200.1m
-  setting_id: 3984119
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
-  ngroup: aex.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-06-01 21:02:32.000000000 Z
-  updated_at: &5 2016-06-10 09:54:48.000000000 Z
+#service_143:
+#  id: 143
+#  name: aex.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 203819921
+#  frame_id: 60
+#  position:
+#  trigger_id: 89
+#  ngroup: aex.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-06-01 21:02:32.000000000 Z
+#  updated_at: &5 2016-06-10 09:54:48.000000000 Z
 
 service_121:
   id: 121
@@ -542,22 +542,22 @@ service_194:
   created_at: &4 2016-10-27 10:22:59.000000000 Z
   updated_at: &5 2016-10-27 10:22:59.000000000 Z
 
-service_196:
-  id: 196
-  name: aud.sma.200.1m
-  setting_id: 3984119
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
-  ngroup: aud.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-10-27 10:25:37.000000000 Z
-  updated_at: &5 2016-10-27 10:25:37.000000000 Z
+#service_196:
+#  id: 196
+#  name: aud.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 736843643
+#  frame_id: 60
+#  position:
+#  trigger_id: 81
+#  ngroup: aud.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-10-27 10:25:37.000000000 Z
+#  updated_at: &5 2016-10-27 10:25:37.000000000 Z
 
 service_118:
   id: 118
@@ -899,22 +899,22 @@ service_137:
   created_at: &4 2016-05-12 19:37:01.000000000 Z
   updated_at: &5 2016-06-10 09:53:34.000000000 Z
 
-service_153:
-  id: 153
-  name: dax.sma.200.1m
-  setting_id: 3984119
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
-  ngroup: dax.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-06-10 09:54:42.000000000 Z
-  updated_at: &5 2016-06-10 09:54:42.000000000 Z
+#service_153:
+#  id: 153
+#  name: dax.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 317700056
+#  frame_id: 60
+#  position:
+#  trigger_id: 73
+#  ngroup: dax.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-06-10 09:54:42.000000000 Z
+#  updated_at: &5 2016-06-10 09:54:42.000000000 Z
 
 service_154:
   id: 154
@@ -1358,22 +1358,22 @@ service_132:
   created_at: &4 2016-05-08 01:16:50.000000000 Z
   updated_at: &5 2016-06-02 07:47:38.000000000 Z
 
-service_134:
-  id: 134
-  name: eur.sma.200.1m
-  setting_id: 3984119
-  fund_id: 84417837
-  frame_id: 60
-  position: 
-  trigger_id: 38
-  ngroup: eur.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-05-08 15:10:56.000000000 Z
-  updated_at: &5 2016-06-02 07:47:50.000000000 Z
+#service_134:
+#  id: 134
+#  name: eur.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 84417837
+#  frame_id: 60
+#  position:
+#  trigger_id: 38
+#  ngroup: eur.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-05-08 15:10:56.000000000 Z
+#  updated_at: &5 2016-06-02 07:47:50.000000000 Z
 
 service_138:
   id: 138
@@ -2174,22 +2174,22 @@ service_180:
   created_at: &4 2016-08-15 12:20:45.000000000 Z
   updated_at: &5 2016-12-22 07:55:08.000000000 Z
 
-service_174:
-  id: 174
-  name: gold.sma.200.1m
-  setting_id: 3984119
-  fund_id: 128523602
-  frame_id: 60
-  position: 5
-  trigger_id: 37
-  ngroup: gold.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-08-15 09:06:35.000000000 Z
-  updated_at: &5 2016-12-22 07:52:26.000000000 Z
+#service_174:
+#  id: 174
+#  name: gold.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 128523602
+#  frame_id: 60
+#  position: 5
+#  trigger_id: 37
+#  ngroup: gold.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-08-15 09:06:35.000000000 Z
+#  updated_at: &5 2016-12-22 07:52:26.000000000 Z
 
 service_232:
   id: 232
@@ -2565,22 +2565,22 @@ service_162:
   created_at: &4 2016-07-08 12:04:10.000000000 Z
   updated_at: &5 2016-07-08 12:04:10.000000000 Z
 
-service_169:
-  id: 169
-  name: nq.sma.200.1m
-  setting_id: 3984119
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
-  ngroup: nq.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-07-08 12:27:49.000000000 Z
-  updated_at: &5 2016-07-08 12:27:49.000000000 Z
+#service_169:
+#  id: 169
+#  name: nq.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 497358206
+#  frame_id: 60
+#  position:
+#  trigger_id: 69
+#  ngroup: nq.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-07-08 12:27:49.000000000 Z
+#  updated_at: &5 2016-07-08 12:27:49.000000000 Z
 
 service_161:
   id: 161
@@ -2973,22 +2973,22 @@ service_187:
   created_at: &4 2016-08-15 17:57:30.000000000 Z
   updated_at: &5 2016-08-15 17:57:30.000000000 Z
 
-service_184:
-  id: 184
-  name: oil.sma.200.1m
-  setting_id: 3984119
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
-  ngroup: oil.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-08-15 17:38:54.000000000 Z
-  updated_at: &5 2016-08-15 17:38:54.000000000 Z
+#service_184:
+#  id: 184
+#  name: oil.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 217163923
+#  frame_id: 60
+#  position:
+#  trigger_id: 77
+#  ngroup: oil.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-08-15 17:38:54.000000000 Z
+#  updated_at: &5 2016-08-15 17:38:54.000000000 Z
 
 service_188:
   id: 188
@@ -3568,22 +3568,22 @@ service_216:
   created_at: &4 2016-10-28 10:47:37.000000000 Z
   updated_at: &5 2016-10-28 10:47:37.000000000 Z
 
-service_212:
-  id: 212
-  name: ym.sma.200.1m
-  setting_id: 3984119
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
-  ngroup: ym.ind
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 60
-  created_at: &4 2016-10-28 10:36:10.000000000 Z
-  updated_at: &5 2016-10-28 10:36:10.000000000 Z
+#service_212:
+#  id: 212
+#  name: ym.sma.200.1m
+#  setting_id: 3984119
+#  fund_id: 203935143
+#  frame_id: 60
+#  position:
+#  trigger_id: 204
+#  ngroup: ym.ind
+#  host_id: 1
+#  active: true
+#  single: false
+#  action:
+#  refresh: 60
+#  created_at: &4 2016-10-28 10:36:10.000000000 Z
+#  updated_at: &5 2016-10-28 10:36:10.000000000 Z
 
 service_220:
   id: 220
