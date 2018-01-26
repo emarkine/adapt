@@ -11,7 +11,7 @@ class Node < ApplicationRecord
   belongs_to :right, class_name: :Node, foreign_key: :right_id
 
   def to_s
-    "Neuron[#{id}] #{title}, name: #{name}, edges: #{edges.size}"
+    "Node[#{id}] #{title}, name: #{name}, edges: #{edges.size}"
   end
 
 end

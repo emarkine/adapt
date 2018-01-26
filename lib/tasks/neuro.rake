@@ -15,12 +15,28 @@ namespace :neuro do
 
   # задачи для нейроузла
   namespace :node do
-    # добавление нерва для узла
-    task :add, [:name, :source, :recipient] => :environment do |task, args|
+
+    # выходной нейрон соединяется нервами со всеми другими
+    task :init, [:name] => :environment do |task, args|
       raise "Usage: rake #{task}[:name]" unless args[:name]
       node = Node.find_by_name args[:name]
       raise 'No node: ' + args[:name] unless node
       puts node
+      node.edges.each do |edge|
+        puts edge
+        nerves(node,edge)
+      end
+    end
+
+    # добавление грани для узла
+    task :add, [:node, :edge] => :environment do |task, args|
+      raise "Usage: rake #{task}[:name]" unless args[:node] && args[:edge]
+      node = Node.find_by_name args[:node]
+      raise 'No node: ' + args[:node] unless node
+      puts node
+      edge = Edge.find_by_name args[:edge]
+      raise 'No edge: ' + args[:edge] unless edge
+      puts edge
     end
   end
 
@@ -65,10 +81,10 @@ namespace :neuro do
     end
 
     # выходной нейрон соединяется со всеми другими
-    task :init, [:name, :fund, :frame, :value, :level] => :environment do |task, args|
-      raise "Usage: rake #{task}[:name, :fund=gold, :frame=1m, :value=1, :level=0]" unless args[:name]
-      edge, fund, frame = eff(args)
-      nerves(edge, fund, frame, args[:value], args[:level])
+    task :init, [:node, :edge, :value, :level] => :environment do |task, args|
+      raise "Usage: rake #{task}[:name, :value=1, :level=0]" unless args[:name]
+      edge = Edge.find_by_name args[:name]
+      nerves(edge, args[:value], args[:level])
     end
 
     # удаление одного из нейронов и его нервов
@@ -266,12 +282,12 @@ namespace :neuro do
   end
 
   # вывод или генерация нервов связанных с выходным нероном
-  def nerves(edge, fund, frame, value=nil, level=nil)
+  def nerves(node, edge, value=nil, level=nil)
     puts(edge.out)
     edge.neurons.each_with_index do |neuron, index|
       next if index == 0
       # puts(neuron)
-      nerve = Nerve.find_or_create_by(source: neuron, recipient: edge.out, fund: fund, frame: frame)
+      nerve = Nerve.find_or_create_by(node: node, source: neuron, recipient: edge.out)
       # puts(nerve)
       # response = Response.find_or_create_by(nerve: nerve, fund: fund, frame: frame)
       if value
@@ -349,7 +365,7 @@ namespace :neuro do
     [edge, fund, frame]
   end
 
-  # инициализация пероиодна по дате
+  # инициализация периода по дате
   def self.period(args)
     if args[:date]
       date = Date.parse(args[:date])
