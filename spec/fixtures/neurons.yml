@@ -128,12 +128,12 @@ ema_trend:
 ema_level:
   type: Neuron::Level
   edge: ema
-  position: 4
+  position: 3
 
 ema_sign:
   type: Neuron::Sign
   edge: ema
-  position: 5
+  position: 4
 
 #---------------------------------------------------- ema12 -----------------------------------------------------------#
 
@@ -157,12 +157,12 @@ ema12_trend:
 ema12_level:
   type: Neuron::Level
   edge: ema12
-  position: 4
+  position: 3
 
 ema12_sign:
   type: Neuron::Sign
   edge: ema12
-  position: 5
+  position: 4
 
 #---------------------------------------------------- ema15 -----------------------------------------------------------#
 
@@ -182,20 +182,15 @@ ema15_trend:
   edge: ema15
   position: 2
 
-#ema15_reverse:
-#  type: Neuron::Reverse
-#  edge: ema15
-#  position: 3
-
 ema15_level:
   type: Neuron::Level
   edge: ema15
-  position: 4
+  position: 3
 
 ema15_sign:
   type: Neuron::Sign
   edge: ema15
-  position: 5
+  position: 4
 
 #---------------------------------------------------- ema30 -----------------------------------------------------------#
 
@@ -216,53 +211,43 @@ ema30_trend:
   edge: ema30
   position: 2
 
-#ema30_reverse:
-#  type: Neuron::Reverse
-#  edge: ema30
-#  position: 3
-
 ema30_level:
   type: Neuron::Level
   edge: ema30
-  position: 4
+  position: 3
 
 ema30_sign:
   type: Neuron::Sign
   edge: ema30
-  position: 5
+  position: 4
 
 #---------------------------------------------------- ema60 -----------------------------------------------------------#
 
 ema60:
   type: Neuron::Out
-  edge: ma_ema60
+  edge: ema60
   position: 0
 
-ma_ema60_angle:
+ema60_angle:
   type: Neuron::Angle
-  edge: ma_ema60
+  edge: ema60
   factor: 0.5
   position: 1
 
-ma_ema60_trend:
+ema60_trend:
   type: Neuron::Trend
-  edge: ma_ema60
+  edge: ema60
   position: 2
 
-#ma_ema60_reverse:
-#  type: Neuron::Reverse
-#  edge: ma_ema60
-#  position: 3
-
-ma_ema60_level:
+ema60_level:
   type: Neuron::Level
-  edge: ma_ema60
-  position: 4
+  edge: ema60
+  position: 3
 
-ma_ema60_sign:
+ema60_sign:
   type: Neuron::Sign
-  edge: ma_ema60
-  position: 5
+  edge: ema60
+  position: 4
 
 #--------------------------------------------------- ema365 -----------------------------------------------------------#
 
@@ -282,20 +267,15 @@ ema360_trend:
   edge: ema360
   position: 2
 
-#ema360_reverse:
-#  type: Neuron::Reverse
-#  edge: ema360
-#  position: 3
-
 ema360_level:
   type: Neuron::Level
   edge: ema360
-  position: 4
+  position: 3
 
 ema360_sign:
   type: Neuron::Sign
   edge: ema360
-  position: 5
+  position: 4
 
 #-------------------------------------------------- random ------------------------------------------------------------#
 
