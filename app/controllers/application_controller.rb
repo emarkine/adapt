@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
 
   def init
     @controller = params[:controller]
+    @services = Service.all
     if not %w(site user_sessions).include?(@controller)
       @object_name = @controller.singularize
       @model = @controller.singularize.split('/').map {|c| c.capitalize}.join('::').constantize if @controller
