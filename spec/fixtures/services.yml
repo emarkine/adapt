@@ -137,7 +137,7 @@ service_105:
 service_156:
   id: 156
   name: aex.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 203819921
   frame_id: 60
   position: 
@@ -443,7 +443,7 @@ service_100:
 service_195:
   id: 195
   name: aud.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 736843643
   frame_id: 60
   position: 
@@ -800,7 +800,7 @@ service_148:
 service_157:
   id: 157
   name: dax.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 317700056
   frame_id: 60
   position: 
@@ -1140,7 +1140,7 @@ service_95:
 service_155:
   id: 155
   name: eur.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 84417837
   frame_id: 60
   position: 
@@ -1939,7 +1939,7 @@ service_113:
 service_173:
   id: 173
   name: gold.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 128523602
   frame_id: 60
   position: 4
@@ -2398,7 +2398,7 @@ service_167:
 service_170:
   id: 170
   name: nq.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 497358206
   frame_id: 60
   position: 
@@ -2806,7 +2806,7 @@ service_181:
 service_183:
   id: 183
   name: oil.ema.360.1m
-  setting_id: 843125330
+  setting_id: 36431554
   fund_id: 217163923
   frame_id: 60
   position: 
