@@ -1,12 +1,16 @@
 class Crystal < ActiveRecord::Base
   include CrystalsHelper
   has_many :structures
-  has_many :nodes, through: :structures
-  has_many :edges, through: :structures
-  has_many :neurons, through: :edges
+  has_many :nodes, -> { distinct }, through: :structures
+  has_many :edges, -> { distinct }, through: :structures
+  has_many :neurons, -> { distinct }, through: :edges
 
   def to_s
-    "Crystal[#{id}] #{name}, edges: #{nodes.size}, edges: #{edges.size}, neurons: #{neurons.size}"
+    "Crystal[#{id}] #{name}, nodes: #{nodes.size}, edges: #{edges.size}, neurons: #{neurons.size}"
+  end
+
+  def node
+    nodes[0]
   end
 
   def axis

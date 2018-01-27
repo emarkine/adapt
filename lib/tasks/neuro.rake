@@ -8,7 +8,6 @@ namespace :neuro do
     task :factor, [:name, :edge, :value] => :environment do |task, args|
       raise "Usage: rake #{task}[:name, :edge, :value]" unless args[:name] && args[:edge] && args[:value]
       set, edge = se(args)
-
     end
 
   end
@@ -22,22 +21,33 @@ namespace :neuro do
       node = Node.find_by_name args[:name]
       raise 'No node: ' + args[:name] unless node
       puts node
-      node.edges.each do |edge|
+      node.edges.each do |edge| # присоединение нейронов всех граней к выходному
         puts edge
         nerves(node,edge)
       end
+      axis = node.edges[0] # осевая грань
+      raise 'No axis for node: ' + args[:name] unless axis
+      puts axis
+      axis.neurons.each_with_index do |out, position| # проходим по всем нейронам осевой грани
+        node.edges.each_with_index do |edge, index| # проходим по всем граням
+          next if index == 0                        # кроме осевой
+          neuron = Neuron.find_by edge: edge, position: position # находим соответствующий нейрон в текущей грани
+          nerve = Nerve.find_or_create_by(node: node, source: neuron, recipient: out) # тянем нерв от него к центру
+          puts(nerve)
+        end
+      end
     end
 
-    # добавление грани для узла
-    task :add, [:node, :edge] => :environment do |task, args|
-      raise "Usage: rake #{task}[:name]" unless args[:node] && args[:edge]
-      node = Node.find_by_name args[:node]
-      raise 'No node: ' + args[:node] unless node
-      puts node
-      edge = Edge.find_by_name args[:edge]
-      raise 'No edge: ' + args[:edge] unless edge
-      puts edge
-    end
+    # # добавление грани для узла
+    # task :add, [:node, :edge] => :environment do |task, args|
+    #   raise "Usage: rake #{task}[:name]" unless args[:node] && args[:edge]
+    #   node = Node.find_by_name args[:node]
+    #   raise 'No node: ' + args[:node] unless node
+    #   puts node
+    #   edge = Edge.find_by_name args[:edge]
+    #   raise 'No edge: ' + args[:edge] unless edge
+    #   puts edge
+    # end
   end
 
   # задачи для грани
@@ -283,13 +293,11 @@ namespace :neuro do
 
   # вывод или генерация нервов связанных с выходным нероном
   def nerves(node, edge, value=nil, level=nil)
-    puts(edge.out)
+    # puts(edge.out)
     edge.neurons.each_with_index do |neuron, index|
       next if index == 0
       # puts(neuron)
       nerve = Nerve.find_or_create_by(node: node, source: neuron, recipient: edge.out)
-      # puts(nerve)
-      # response = Response.find_or_create_by(nerve: nerve, fund: fund, frame: frame)
       if value
         nerve.value = value
         nerve.save!

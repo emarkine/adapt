@@ -32,46 +32,56 @@
 random:
   name: random
   setting: random
+  position: 0
 
 #--------------------------------------------------- Rate -------------------------------------------------------------
 
 rate:
   name: rate
   setting: rate
+  position: 0
 
 sol1m:
   name: sol1m
   setting: sol1m
+  position: 1
 
 sol5m:
   name: sol5m
   setting: sol5m
+  position: 5
 
 #------------------------------------------------------- MA -----------------------------------------------------------#
 
 ema:
   name: ema
   setting: ema
+  position: 0
 
 ema12:
   name: ema12
   setting: ema12
+  position: 12
 
 ema15:
   name: ema15
   setting: ema15
+  position: 15
 
 ema30:
   name: ema30
   setting: ema30
+  position: 30
 
 ema60:
   name: ema60
   setting: ema60
+  position: 60
 
 ema360:
   name: ema360
   setting: ema360
+  position: 360
 
 
 #===================================================== Robots =========================================================#

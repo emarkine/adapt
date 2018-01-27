@@ -1,5 +1,5 @@
 class Structure < ActiveRecord::Base
-  default_scope { order(:position) }
+  # default_scope { order(:position) }
   belongs_to :crystal
   belongs_to :node
   belongs_to :edge

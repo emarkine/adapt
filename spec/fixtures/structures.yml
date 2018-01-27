@@ -26,13 +26,13 @@ binary_ema60:
   crystal: binary
   node: ema
   edge: ema60
-  position: 4
+  position: 0
 
 binary_ema360:
   crystal: binary
   node: ema
   edge: ema360
-  position: 5
+  position: 0
 
 #
 #binary_overlap:

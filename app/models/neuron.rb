@@ -4,6 +4,7 @@ class Neuron < ActiveRecord::Base
   default_scope { order(:position) }
   belongs_to :edge
   has_many :data
+  has_many :nerves
   has_many :sources, foreign_key: :recipient_id, class_name: :Nerve # ключ изменен для правильной агрегации
   has_many :recipients, foreign_key: :source_id, class_name: :Nerve # ключ изменен для правильной агрегации
 
@@ -20,24 +21,9 @@ class Neuron < ActiveRecord::Base
     "Neuron[#{id}] #{name}, edge: #{edge.name}, sources: #{sources.size}, recipients: #{recipients.size}, data: #{data.size}, factor: #{factor}, position: #{position}"
   end
 
-  def name
-    self.type.after('::').downcase
+  def nerves
+    sources + recipients
   end
-
-  def name=(name)
-    index = NAMES.index name
-    self.type = TYPES[index]
-  end
-
-  # # переопределение стандартного метода, для поиска по имени
-  # def self.find_or_create_by(attributes, &block)
-  #   if attributes[:name]
-  #     index = NAMES.index attributes[:name]
-  #     attributes.delete(:name)
-  #     attributes[:type] = TYPES[index]
-  #   end
-  #   ActiveRecord::Base.find_or_create_by(attributes, &block)
-  # end
 
   # возвращает ближайшее значение состояния нейрона для фонда и вермени
   # если время не передано, то последнее значение

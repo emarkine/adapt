@@ -1,4 +1,5 @@
 class Edge < ActiveRecord::Base
+  default_scope { order(:position) }
   include Draw
   belongs_to :setting
   belongs_to :node
