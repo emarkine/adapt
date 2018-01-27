@@ -2,7 +2,7 @@ class CreateCrystals < ActiveRecord::Migration[5.1]
   def change
     create_table :crystals do |t|
       t.string :name, index: true, null: false
-      t.references :indicator
+      # t.references :indicator
       # t.references :robot
       # t.references :fund
       # t.references :frame

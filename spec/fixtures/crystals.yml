@@ -1,10 +1,8 @@
 binary:
   name: binary
-  indicator: crystal
 
 overlap:
   name: overlap
-  indicator: crystal
 
 #random:
 #  indicator: random

@@ -27,22 +27,22 @@
 
 #----------------------------------------------------- rita -----------------------------------------------------------#
 
-rita:
-  type: Neuron::Out
-  edge: rita
-  position: 1
-
-rita_reverse:
-  type: Neuron::Reverse
-  edge: rita
-  position: 2
-
-#---------------------------------------------------- overlap ---------------------------------------------------------#
-
-overlap:
-  type: Neuron::Out
-  edge: overlap
-  position: 0
+#rita:
+#  type: Neuron::Out
+#  edge: rita
+#  position: 1
+#
+#rita_reverse:
+#  type: Neuron::Reverse
+#  edge: rita
+#  position: 2
+#
+##---------------------------------------------------- overlap ---------------------------------------------------------#
+#
+#overlap:
+#  type: Neuron::Out
+#  edge: overlap
+#  position: 0
 
 #overlap_angle:
 #  type: Neuron::Angle
@@ -96,41 +96,53 @@ overlap:
 #  edge: binary1m
 #  position: 4
 
-binary1m_sign:
-  type: Neuron::Sign
-  edge: binary1m
-  position: 5
+#binary1m_sign:
+#  type: Neuron::Sign
+#  edge: binary1m
+#  position: 5
 
 #==================================================== Solution ========================================================#
 
 sol1m_sign:
+  name: sol1m_sign
   type: Neuron::Sign
   edge: sol1m
-  position: 5
+  position: 1
+
+sol5m_sign:
+  name: sol5m_sign
+  type: Neuron::Sign
+  edge: sol5m
+  position: 2
 
 #======================================================= ema ===========================================================#
 
 ema:
+  name: ema
   type: Neuron::Out
   edge: ema
   position: 0
 
 ema_angle:
+  name: ema_angle
   type: Neuron::Angle
   edge: ema
   position: 1
 
 ema_trend:
+  name: ema_trend
   type: Neuron::Trend
   edge: ema
   position: 2
 
 ema_level:
+  name: ema_level
   type: Neuron::Level
   edge: ema
   position: 3
 
 ema_sign:
+  name: ema_sign
   type: Neuron::Sign
   edge: ema
   position: 4
@@ -138,28 +150,33 @@ ema_sign:
 #---------------------------------------------------- ema12 -----------------------------------------------------------#
 
 ema12:
+  name: ema12
   type: Neuron::Out
   edge: ema12
   position: 0
 
 ema12_angle:
+  name: ema12_angle
   type: Neuron::Angle
   edge: ema12
   position: 1
   factor: 0.4
 
 ema12_trend:
+  name: ema12_trend
   type: Neuron::Trend
   edge: ema12
   position: 2
   factor: 1.0
 
 ema12_level:
+  name: ema12_level
   type: Neuron::Level
   edge: ema12
   position: 3
 
 ema12_sign:
+  name: ema12_sign
   type: Neuron::Sign
   edge: ema12
   position: 4
@@ -167,27 +184,32 @@ ema12_sign:
 #---------------------------------------------------- ema15 -----------------------------------------------------------#
 
 ema15:
+  name: ema15
   type: Neuron::Out
   edge: ema15
   position: 0
 
 ema15_angle:
+  name: ema15_angle
   type: Neuron::Angle
   edge: ema15
   position: 1
   factor: 0.3
 
 ema15_trend:
+  name: ema15_trend
   type: Neuron::Trend
   edge: ema15
   position: 2
 
 ema15_level:
+  name: ema15_level
   type: Neuron::Level
   edge: ema15
   position: 3
 
 ema15_sign:
+  name: ema15_sign
   type: Neuron::Sign
   edge: ema15
   position: 4
@@ -195,28 +217,32 @@ ema15_sign:
 #---------------------------------------------------- ema30 -----------------------------------------------------------#
 
 ema30:
+  name: ema30
   type: Neuron::Out
   edge: ema30
   position: 0
 
-
 ema30_angle:
+  name: ema30_angle
   type: Neuron::Angle
   edge: ema30
   factor: 0.4
   position: 1
 
 ema30_trend:
+  name: ema30_trend
   type: Neuron::Trend
   edge: ema30
   position: 2
 
 ema30_level:
+  name: ema30_level
   type: Neuron::Level
   edge: ema30
   position: 3
 
 ema30_sign:
+  name: ema30_sign
   type: Neuron::Sign
   edge: ema30
   position: 4
@@ -224,27 +250,32 @@ ema30_sign:
 #---------------------------------------------------- ema60 -----------------------------------------------------------#
 
 ema60:
+  name: ema60
   type: Neuron::Out
   edge: ema60
   position: 0
 
 ema60_angle:
+  name: ema60_angle
   type: Neuron::Angle
   edge: ema60
   factor: 0.5
   position: 1
 
 ema60_trend:
+  name: ema60_trend
   type: Neuron::Trend
   edge: ema60
   position: 2
 
 ema60_level:
+  name: ema60_level
   type: Neuron::Level
   edge: ema60
   position: 3
 
 ema60_sign:
+  name: ema60_sign
   type: Neuron::Sign
   edge: ema60
   position: 4
@@ -252,27 +283,32 @@ ema60_sign:
 #--------------------------------------------------- ema365 -----------------------------------------------------------#
 
 ema360:
+  name: ema360
   type: Neuron::Out
   edge: ema360
   position: 0
 
 ema360_angle:
+  name: ema360_angle
   type: Neuron::Angle
   edge: ema360
   factor: 2.0
   position: 1
 
 ema360_trend:
+  name: ema360_trend
   type: Neuron::Trend
   edge: ema360
   position: 2
 
 ema360_level:
+  name: ema360_level
   type: Neuron::Level
   edge: ema360
   position: 3
 
 ema360_sign:
+  name: ema360_sign
   type: Neuron::Sign
   edge: ema360
   position: 4
@@ -280,59 +316,64 @@ ema360_sign:
 #-------------------------------------------------- random ------------------------------------------------------------#
 
 random:
+  name: random
   type: Neuron::Out
   edge: random
   position: 0
 
 random_sign:
+  name: random_sign
   type: Neuron::Sign
   edge: random
   position: 1
 
 random_angle:
+  name: random_angle
   type: Neuron::Angle
   edge: random
   position: 2
   factor: 0.1
 
 random_trend:
+  name: random_trend
   type: Neuron::Trend
   edge: random
   position: 3
 
 random_level:
+  name: random_level
   type: Neuron::Level
   edge: random
   position: 4
 
-#random_reverse:
-#  type: Neuron::Reverse
-#  edge: random
-#  position: 5
-
 #---------------------------------------------------- line ------------------------------------------------------------#
 
 line:
+  name: line
   type: Neuron::Out
   edge: line
   position: 0
 
 line_sr:
+  name: line_sr
   type: Neuron
   edge: line
   position: 1
 
 line_support:
+  name: line_support
   type: Neuron
   edge: line
   position: 2
 
 line_resistance:
+  name: line_resistance
   type: Neuron
   edge: line
   position: 3
 
 line_close:
+  name: line_close
   type: Neuron
   edge: line
   position: 4
@@ -341,27 +382,32 @@ line_close:
 
 
 sol5m:
+  name: sol5m
   type: Neuron::Out
   edge: sol5m
   position: 0
 
 sol5m_sign:
+  name: sol5m_sign
   type: Neuron::Sign
   edge: sol5m
   position: 1
 
 sol5m_angle:
+  name: sol5m_angle
   type: Neuron::Angle
   edge: sol5m
   position: 2
   factor: 0.1
 
 sol5m_trend:
+  name: sol5m_trend
   type: Neuron::Trend
   edge: sol5m
   position: 3
 
 sol5m_level:
+  name: sol5m_level
   type: Neuron::Level
   edge: sol5m
   position: 4

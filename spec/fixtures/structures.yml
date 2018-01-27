@@ -1,25 +1,52 @@
-overlap_axis:
-  crystal: overlap
-  edge: overlap
+binary_ema:
+  crystal: binary
+  node: ema
+  edge: ema
   position: 0
 
-overlap_ema12:
-  crystal: overlap
-  edge: ma_ema12
+binary_ema12:
+  crystal: binary
+  node: ema
+  edge: ema12
   position: 1
 
-binary_axis:
+binary_ema15:
   crystal: binary
-  edge: binary
-  position: 0
-
-binary_1m:
-  crystal: binary
-  edge: binary1m
-  position: 1
-
-binary_overlap:
-  crystal: binary
-  edge: overlap
+  node: ema
+  edge: ema15
   position: 2
+
+binary_ema30:
+  crystal: binary
+  node: ema
+  edge: ema30
+  position: 3
+
+binary_ema60:
+  crystal: binary
+  node: ema
+  edge: ema60
+  position: 4
+
+binary_ema360:
+  crystal: binary
+  node: ema
+  edge: ema360
+  position: 5
+
+#
+#binary_overlap:
+#  crystal: binary
+#  edge: overlap
+#  position: 2
+#overlap_axis:
+#  crystal: overlap
+#  edge: overlap
+#  position: 0
+
+#overlap_ema12:
+#  crystal: overlap
+#  edge: ma_ema12
+#  position: 1
+
 

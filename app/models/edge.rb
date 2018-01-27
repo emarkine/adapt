@@ -5,6 +5,7 @@ class Edge < ActiveRecord::Base
   # belongs_to :node_neuro, class_name: 'Node::Neuro'
   has_many :neurons
   has_many :structures
+  has_many :nodes, through: :structures
   has_many :crystals, through: :structures
 
   def self.find_by_name(name)
@@ -14,7 +15,7 @@ class Edge < ActiveRecord::Base
   end
 
   def to_s
-    "Edge[#{id}], setting: #{setting.name}, crystals: #{crystals.size}, neurons: #{neurons.size}"
+    "Edge[#{id}], setting: #{setting.name}, neurons: #{neurons.size}"
   end
 
   def name

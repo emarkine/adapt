@@ -1,26 +1,12 @@
 class Crystal < ActiveRecord::Base
   include CrystalsHelper
-  # has_many :input, :class_name => 'Neuro::Neuron', :foreign_key => :crystal_id
-  # has_one :out, :class_name => 'Neuro::OutNeuron', :foreign_key => :out_id
   has_many :structures
-  has_many :edges, :through => :structures
-  has_many :neurons, :through => :edges
-  # has_many :neurons, :class_name => 'Neuro::Neuron' #, :foreign_key => :crystal_id
-  # has_many :data_cristals, :class_name => 'Neuro::DataCristal'
-  # belongs_to :robot
-  # has_many :robots, through: :minds
-  # belongs_to :fund
-  # belongs_to :frame
-  # has_many :edges
-  # has_many :neurons
-  # attr_reader :print
-
-  belongs_to :indicator
-  has_many :structures
+  has_many :nodes, through: :structures
   has_many :edges, through: :structures
+  has_many :neurons, through: :edges
 
   def to_s
-    "Crystal[#{id}] #{name}, edges: #{edges.size}"
+    "Crystal[#{id}] #{name}, edges: #{nodes.size}, edges: #{edges.size}, neurons: #{neurons.size}"
   end
 
   def axis

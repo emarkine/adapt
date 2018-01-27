@@ -30,72 +30,48 @@
 #----------------------------------------------------- Random ---------------------------------------------------------#
 
 random:
+  name: random
   setting: random
-# crystal: random
-# position: 0
-
-#----------------------------------------------------- Random ---------------------------------------------------------#
-
-random:
-  setting: random
-# crystal: random
-# position: 0
 
 #--------------------------------------------------- Rate -------------------------------------------------------------
 
 rate:
+  name: rate
   setting: rate
-# crystal: rate
-# position: 0
 
 sol1m:
+  name: sol1m
   setting: sol1m
-# crystal: rate
-# position: 1
 
 sol5m:
+  name: sol5m
   setting: sol5m
-# crystal: rate
-# position: 2
-
 
 #------------------------------------------------------- MA -----------------------------------------------------------#
 
 ema:
   name: ema
   setting: ema
-  node: ema
-# position: 0
 
 ema12:
   name: ema12
   setting: ema12
-  node: ema
-# position: 1
 
 ema15:
   name: ema15
   setting: ema15
-  node: ema
-# position: 2
 
 ema30:
   name: ema30
   setting: ema30
-  node: ema
-# position: 3
 
 ema60:
   name: ema60
   setting: ema60
-  node: ema
-# position: 4
 
 ema360:
   name: ema360
   setting: ema360
-  node: ema
-# position: 6
 
 
 #===================================================== Robots =========================================================#
