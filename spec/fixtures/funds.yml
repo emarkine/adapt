@@ -345,13 +345,13 @@ oil:
   name: oil
   full_name: "Light Sweet Crude Oil"
   category: commodity
-  product: CLU7
+  product: CLH8
   underlying: CL IND
   trading_class: CL
   security_type: FUT
   currency: USD
-  contract_month: "2017-08-01"
-  expiration: "2017-08-22 17:15:00"
+  contract_month: "2018-03-01"
+  expiration: "2018-02-20 17:15:00"
   exchange: NYMEX
   multiplier: 1000
   product_type: Energy
