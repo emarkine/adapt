@@ -10,10 +10,9 @@ service_91:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-27 06:37:40.000000000 Z
-  updated_at: &5 2016-06-10 09:41:02.000000000 Z
+  created_at: 2015-08-27 06:37:40 UTC
+  updated_at: 2016-06-10 09:41:02 UTC
 
 service_92:
   id: 92
@@ -27,10 +26,9 @@ service_92:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-27 06:38:01.000000000 Z
-  updated_at: &5 2016-07-08 11:28:40.000000000 Z
+  created_at: 2015-08-27 06:38:01 UTC
+  updated_at: 2016-07-08 11:28:40 UTC
 
 service_89:
   id: 89
@@ -44,10 +42,9 @@ service_89:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-27 06:36:53.000000000 Z
-  updated_at: &5 2016-06-10 09:37:17.000000000 Z
+  created_at: 2015-08-27 06:36:53 UTC
+  updated_at: 2016-06-10 09:37:17 UTC
 
 service_90:
   id: 90
@@ -61,10 +58,9 @@ service_90:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-27 06:37:17.000000000 Z
-  updated_at: &5 2016-06-10 09:37:55.000000000 Z
+  created_at: 2015-08-27 06:37:17 UTC
+  updated_at: 2016-06-10 09:37:55 UTC
 
 service_142:
   id: 142
@@ -78,10 +74,9 @@ service_142:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-01 20:58:42.000000000 Z
-  updated_at: &5 2016-06-10 09:44:41.000000000 Z
+  created_at: 2016-06-01 20:58:42 UTC
+  updated_at: 2016-06-10 09:44:41 UTC
 
 service_107:
   id: 107
@@ -95,10 +90,9 @@ service_107:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2015-10-01 11:03:00.000000000 Z
-  updated_at: &5 2016-06-10 09:38:38.000000000 Z
+  created_at: 2015-10-01 11:03:00 UTC
+  updated_at: 2016-06-10 09:38:38 UTC
 
 service_106:
   id: 106
@@ -112,10 +106,9 @@ service_106:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 11:01:27.000000000 Z
-  updated_at: &5 2016-11-25 11:01:28.000000000 Z
+  created_at: 2015-10-01 11:01:27 UTC
+  updated_at: 2016-11-25 11:01:28 UTC
 
 service_105:
   id: 105
@@ -129,10 +122,9 @@ service_105:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 11:10:47.000000000 Z
-  updated_at: &5 2016-06-10 09:47:11.000000000 Z
+  created_at: 2015-10-01 11:10:47 UTC
+  updated_at: 2016-06-10 09:47:11 UTC
 
 service_156:
   id: 156
@@ -146,10 +138,9 @@ service_156:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-07 13:20:25.000000000 Z
-  updated_at: &5 2016-07-07 13:20:25.000000000 Z
+  created_at: 2016-07-07 13:20:25 UTC
+  updated_at: 2016-07-07 13:20:25 UTC
 
 service_104:
   id: 104
@@ -163,10 +154,9 @@ service_104:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 10:59:43.000000000 Z
-  updated_at: &5 2016-06-10 09:48:17.000000000 Z
+  created_at: 2015-10-01 10:59:43 UTC
+  updated_at: 2016-06-10 09:48:17 UTC
 
 service_226:
   id: 226
@@ -180,10 +170,9 @@ service_226:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 15:51:55.000000000 Z
-  updated_at: &5 2016-10-28 15:51:55.000000000 Z
+  created_at: 2016-10-28 15:51:55 UTC
+  updated_at: 2016-10-28 15:51:55 UTC
 
 service_110:
   id: 110
@@ -197,10 +186,9 @@ service_110:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-02 16:31:43.000000000 Z
-  updated_at: &5 2016-06-10 09:50:20.000000000 Z
+  created_at: 2015-10-02 16:31:43 UTC
+  updated_at: 2016-06-10 09:50:20 UTC
 
 service_122:
   id: 122
@@ -214,10 +202,9 @@ service_122:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-13 09:04:45.000000000 Z
-  updated_at: &5 2016-06-10 09:51:52.000000000 Z
+  created_at: 2015-10-13 09:04:45 UTC
+  updated_at: 2016-06-10 09:51:52 UTC
 
 service_144:
   id: 144
@@ -231,27 +218,9 @@ service_144:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-01 21:04:56.000000000 Z
-  updated_at: &5 2016-06-10 09:53:48.000000000 Z
-
-#service_143:
-#  id: 143
-#  name: aex.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 203819921
-#  frame_id: 60
-#  position:
-#  trigger_id: 89
-#  ngroup: aex.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-06-01 21:02:32.000000000 Z
-#  updated_at: &5 2016-06-10 09:54:48.000000000 Z
+  created_at: 2016-06-01 21:04:56 UTC
+  updated_at: 2016-06-10 09:53:48 UTC
 
 service_121:
   id: 121
@@ -265,10 +234,9 @@ service_121:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-13 09:03:37.000000000 Z
-  updated_at: &5 2016-10-28 10:58:57.000000000 Z
+  created_at: 2015-10-13 09:03:37 UTC
+  updated_at: 2016-10-28 10:58:57 UTC
 
 service_7:
   id: 7
@@ -282,10 +250,9 @@ service_7:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-05 20:51:18.000000000 Z
-  updated_at: &5 2016-06-10 09:36:59.000000000 Z
+  created_at: 2015-08-05 20:51:18 UTC
+  updated_at: 2016-06-10 09:36:59 UTC
 
 service_227:
   id: 227
@@ -299,10 +266,9 @@ service_227:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 15:52:53.000000000 Z
-  updated_at: &5 2016-10-28 15:52:53.000000000 Z
+  created_at: 2016-10-28 15:52:53 UTC
+  updated_at: 2016-10-28 15:52:53 UTC
 
 service_83:
   id: 83
@@ -316,10 +282,9 @@ service_83:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-27 06:28:46.000000000 Z
-  updated_at: &5 2016-10-27 09:28:28.000000000 Z
+  created_at: 2015-08-27 06:28:46 UTC
+  updated_at: 2016-10-27 09:28:28 UTC
 
 service_84:
   id: 84
@@ -333,10 +298,9 @@ service_84:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-27 06:29:14.000000000 Z
-  updated_at: &5 2016-10-27 09:28:48.000000000 Z
+  created_at: 2015-08-27 06:29:14 UTC
+  updated_at: 2016-10-27 09:28:48 UTC
 
 service_81:
   id: 81
@@ -350,10 +314,9 @@ service_81:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-27 06:27:49.000000000 Z
-  updated_at: &5 2016-10-27 09:27:32.000000000 Z
+  created_at: 2015-08-27 06:27:49 UTC
+  updated_at: 2016-10-27 09:27:32 UTC
 
 service_82:
   id: 82
@@ -367,10 +330,9 @@ service_82:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-27 06:28:21.000000000 Z
-  updated_at: &5 2016-10-27 09:28:03.000000000 Z
+  created_at: 2015-08-27 06:28:21 UTC
+  updated_at: 2016-10-27 09:28:03 UTC
 
 service_192:
   id: 192
@@ -384,10 +346,9 @@ service_192:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 09:36:28.000000000 Z
-  updated_at: &5 2016-10-27 09:36:28.000000000 Z
+  created_at: 2016-10-27 09:36:28 UTC
+  updated_at: 2016-10-27 09:36:28 UTC
 
 service_102:
   id: 102
@@ -401,10 +362,9 @@ service_102:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2015-10-01 11:03:00.000000000 Z
-  updated_at: &5 2016-10-27 09:38:21.000000000 Z
+  created_at: 2015-10-01 11:03:00 UTC
+  updated_at: 2016-10-27 09:38:21 UTC
 
 service_101:
   id: 101
@@ -418,10 +378,9 @@ service_101:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 11:01:27.000000000 Z
-  updated_at: &5 2016-11-25 11:04:57.000000000 Z
+  created_at: 2015-10-01 11:01:27 UTC
+  updated_at: 2016-11-25 11:04:57 UTC
 
 service_100:
   id: 100
@@ -435,10 +394,9 @@ service_100:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 11:10:47.000000000 Z
-  updated_at: &5 2016-10-27 09:50:51.000000000 Z
+  created_at: 2015-10-01 11:10:47 UTC
+  updated_at: 2016-10-27 09:50:51 UTC
 
 service_195:
   id: 195
@@ -452,10 +410,9 @@ service_195:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 10:24:37.000000000 Z
-  updated_at: &5 2016-10-27 10:24:37.000000000 Z
+  created_at: 2016-10-27 10:24:37 UTC
+  updated_at: 2016-10-27 10:24:37 UTC
 
 service_99:
   id: 99
@@ -469,10 +426,9 @@ service_99:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 10:59:43.000000000 Z
-  updated_at: &5 2016-10-27 09:51:19.000000000 Z
+  created_at: 2015-10-01 10:59:43 UTC
+  updated_at: 2016-10-27 09:51:19 UTC
 
 service_193:
   id: 193
@@ -486,10 +442,9 @@ service_193:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 10:07:02.000000000 Z
-  updated_at: &5 2016-10-27 19:02:59.000000000 Z
+  created_at: 2016-10-27 10:07:02 UTC
+  updated_at: 2016-10-27 19:02:59 UTC
 
 service_109:
   id: 109
@@ -503,10 +458,9 @@ service_109:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-02 16:30:55.000000000 Z
-  updated_at: &5 2016-10-27 09:52:23.000000000 Z
+  created_at: 2015-10-02 16:30:55 UTC
+  updated_at: 2016-10-27 09:52:23 UTC
 
 service_120:
   id: 120
@@ -520,10 +474,9 @@ service_120:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-12 09:09:14.000000000 Z
-  updated_at: &5 2016-10-27 10:20:55.000000000 Z
+  created_at: 2015-10-12 09:09:14 UTC
+  updated_at: 2016-10-27 10:20:55 UTC
 
 service_194:
   id: 194
@@ -537,27 +490,9 @@ service_194:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 10:22:59.000000000 Z
-  updated_at: &5 2016-10-27 10:22:59.000000000 Z
-
-#service_196:
-#  id: 196
-#  name: aud.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 736843643
-#  frame_id: 60
-#  position:
-#  trigger_id: 81
-#  ngroup: aud.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-10-27 10:25:37.000000000 Z
-#  updated_at: &5 2016-10-27 10:25:37.000000000 Z
+  created_at: 2016-10-27 10:22:59 UTC
+  updated_at: 2016-10-27 10:22:59 UTC
 
 service_118:
   id: 118
@@ -571,10 +506,9 @@ service_118:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-07 18:11:36.000000000 Z
-  updated_at: &5 2016-10-28 10:59:10.000000000 Z
+  created_at: 2015-10-07 18:11:36 UTC
+  updated_at: 2016-10-28 10:59:10 UTC
 
 service_25:
   id: 25
@@ -588,10 +522,9 @@ service_25:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 19:16:58.000000000 Z
-  updated_at: &5 2016-10-27 09:25:53.000000000 Z
+  created_at: 2015-08-06 19:16:58 UTC
+  updated_at: 2016-10-27 09:25:53 UTC
 
 service_198:
   id: 198
@@ -605,10 +538,9 @@ service_198:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 10:28:28.000000000 Z
-  updated_at: &5 2016-10-28 10:57:27.000000000 Z
+  created_at: 2016-10-27 10:28:28 UTC
+  updated_at: 2016-10-28 10:57:27 UTC
 
 service_64:
   id: 64
@@ -622,10 +554,9 @@ service_64:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-25 08:54:37.000000000 Z
-  updated_at: &5 2015-08-25 08:54:37.000000000 Z
+  created_at: 2015-08-25 08:54:37 UTC
+  updated_at: 2015-08-25 08:54:37 UTC
 
 service_65:
   id: 65
@@ -639,10 +570,9 @@ service_65:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-25 08:55:07.000000000 Z
-  updated_at: &5 2015-08-25 08:55:07.000000000 Z
+  created_at: 2015-08-25 08:55:07 UTC
+  updated_at: 2015-08-25 08:55:07 UTC
 
 service_26:
   id: 26
@@ -656,10 +586,9 @@ service_26:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 19:17:26.000000000 Z
-  updated_at: &5 2015-08-06 19:17:26.000000000 Z
+  created_at: 2015-08-06 19:17:26 UTC
+  updated_at: 2015-08-06 19:17:26 UTC
 
 service_63:
   id: 63
@@ -673,10 +602,9 @@ service_63:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-25 08:54:04.000000000 Z
-  updated_at: &5 2015-08-25 08:54:04.000000000 Z
+  created_at: 2015-08-25 08:54:04 UTC
+  updated_at: 2015-08-25 08:54:04 UTC
 
 service_75:
   id: 75
@@ -690,10 +618,9 @@ service_75:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-26 18:11:47.000000000 Z
-  updated_at: &5 2016-06-10 09:34:48.000000000 Z
+  created_at: 2015-08-26 18:11:47 UTC
+  updated_at: 2016-06-10 09:34:48 UTC
 
 service_73:
   id: 73
@@ -707,10 +634,9 @@ service_73:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-26 18:10:56.000000000 Z
-  updated_at: &5 2016-06-10 09:23:18.000000000 Z
+  created_at: 2015-08-26 18:10:56 UTC
+  updated_at: 2016-06-10 09:23:18 UTC
 
 service_74:
   id: 74
@@ -724,10 +650,9 @@ service_74:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-26 18:11:19.000000000 Z
-  updated_at: &5 2016-06-10 09:31:13.000000000 Z
+  created_at: 2015-08-26 18:11:19 UTC
+  updated_at: 2016-06-10 09:31:13 UTC
 
 service_146:
   id: 146
@@ -741,10 +666,9 @@ service_146:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-10 09:44:27.000000000 Z
-  updated_at: &5 2016-06-10 09:44:27.000000000 Z
+  created_at: 2016-06-10 09:44:27 UTC
+  updated_at: 2016-06-10 09:44:27 UTC
 
 service_145:
   id: 145
@@ -758,10 +682,9 @@ service_145:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2016-06-10 09:20:46.000000000 Z
-  updated_at: &5 2016-06-10 09:20:46.000000000 Z
+  created_at: 2016-06-10 09:20:46 UTC
+  updated_at: 2016-06-10 09:20:46 UTC
 
 service_147:
   id: 147
@@ -775,10 +698,9 @@ service_147:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-10 09:45:43.000000000 Z
-  updated_at: &5 2016-11-25 11:04:30.000000000 Z
+  created_at: 2016-06-10 09:45:43 UTC
+  updated_at: 2016-11-25 11:04:30 UTC
 
 service_148:
   id: 148
@@ -792,10 +714,9 @@ service_148:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-10 09:47:02.000000000 Z
-  updated_at: &5 2016-06-10 09:47:02.000000000 Z
+  created_at: 2016-06-10 09:47:02 UTC
+  updated_at: 2016-06-10 09:47:02 UTC
 
 service_157:
   id: 157
@@ -809,10 +730,9 @@ service_157:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-07 13:21:12.000000000 Z
-  updated_at: &5 2016-07-08 11:59:41.000000000 Z
+  created_at: 2016-07-07 13:21:12 UTC
+  updated_at: 2016-07-08 11:59:41 UTC
 
 service_149:
   id: 149
@@ -826,10 +746,9 @@ service_149:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-10 09:48:08.000000000 Z
-  updated_at: &5 2016-06-10 09:48:08.000000000 Z
+  created_at: 2016-06-10 09:48:08 UTC
+  updated_at: 2016-06-10 09:48:08 UTC
 
 service_224:
   id: 224
@@ -843,10 +762,9 @@ service_224:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 15:42:01.000000000 Z
-  updated_at: &5 2016-10-28 15:42:01.000000000 Z
+  created_at: 2016-10-28 15:42:01 UTC
+  updated_at: 2016-10-28 15:42:01 UTC
 
 service_136:
   id: 136
@@ -860,10 +778,9 @@ service_136:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-05-12 19:25:38.000000000 Z
-  updated_at: &5 2016-06-10 09:50:09.000000000 Z
+  created_at: 2016-05-12 19:25:38 UTC
+  updated_at: 2016-06-10 09:50:09 UTC
 
 service_151:
   id: 151
@@ -877,10 +794,9 @@ service_151:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-10 09:51:41.000000000 Z
-  updated_at: &5 2016-06-10 09:51:41.000000000 Z
+  created_at: 2016-06-10 09:51:41 UTC
+  updated_at: 2016-06-10 09:51:41 UTC
 
 service_137:
   id: 137
@@ -894,27 +810,9 @@ service_137:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-05-12 19:37:01.000000000 Z
-  updated_at: &5 2016-06-10 09:53:34.000000000 Z
-
-#service_153:
-#  id: 153
-#  name: dax.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 317700056
-#  frame_id: 60
-#  position:
-#  trigger_id: 73
-#  ngroup: dax.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-06-10 09:54:42.000000000 Z
-#  updated_at: &5 2016-06-10 09:54:42.000000000 Z
+  created_at: 2016-05-12 19:37:01 UTC
+  updated_at: 2016-06-10 09:53:34 UTC
 
 service_154:
   id: 154
@@ -928,10 +826,9 @@ service_154:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-06-10 09:55:55.000000000 Z
-  updated_at: &5 2016-10-28 10:59:21.000000000 Z
+  created_at: 2016-06-10 09:55:55 UTC
+  updated_at: 2016-10-28 10:59:21 UTC
 
 service_5:
   id: 5
@@ -945,10 +842,9 @@ service_5:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-05 20:49:22.000000000 Z
-  updated_at: &5 2016-06-10 09:23:48.000000000 Z
+  created_at: 2015-08-05 20:49:22 UTC
+  updated_at: 2016-06-10 09:23:48 UTC
 
 service_225:
   id: 225
@@ -962,10 +858,9 @@ service_225:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 15:42:44.000000000 Z
-  updated_at: &5 2016-10-28 15:42:44.000000000 Z
+  created_at: 2016-10-28 15:42:44 UTC
+  updated_at: 2016-10-28 15:42:44 UTC
 
 service_14:
   id: 14
@@ -979,10 +874,9 @@ service_14:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 09:47:03.000000000 Z
-  updated_at: &5 2015-08-06 09:47:03.000000000 Z
+  created_at: 2015-08-06 09:47:03 UTC
+  updated_at: 2015-08-06 09:47:03 UTC
 
 service_13:
   id: 13
@@ -996,10 +890,9 @@ service_13:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 09:46:08.000000000 Z
-  updated_at: &5 2016-05-12 20:53:52.000000000 Z
+  created_at: 2015-08-06 09:46:08 UTC
+  updated_at: 2016-05-12 20:53:52 UTC
 
 service_40:
   id: 40
@@ -1013,10 +906,9 @@ service_40:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-17 14:16:50.000000000 Z
-  updated_at: &5 2016-06-10 10:28:19.000000000 Z
+  created_at: 2015-08-17 14:16:50 UTC
+  updated_at: 2016-06-10 10:28:19 UTC
 
 service_41:
   id: 41
@@ -1030,10 +922,9 @@ service_41:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-17 14:17:28.000000000 Z
-  updated_at: &5 2016-07-08 13:45:30.000000000 Z
+  created_at: 2015-08-17 14:17:28 UTC
+  updated_at: 2016-07-08 13:45:30 UTC
 
 service_38:
   id: 38
@@ -1047,10 +938,9 @@ service_38:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-17 14:14:31.000000000 Z
-  updated_at: &5 2016-05-31 12:02:16.000000000 Z
+  created_at: 2015-08-17 14:14:31 UTC
+  updated_at: 2016-05-31 12:02:16 UTC
 
 service_39:
   id: 39
@@ -1064,10 +954,9 @@ service_39:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-17 14:15:47.000000000 Z
-  updated_at: &5 2016-06-10 10:29:27.000000000 Z
+  created_at: 2015-08-17 14:15:47 UTC
+  updated_at: 2016-06-10 10:29:27 UTC
 
 service_123:
   id: 123
@@ -1081,10 +970,25 @@ service_123:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-13 14:09:10.000000000 Z
-  updated_at: &5 2016-06-02 07:50:43.000000000 Z
+  created_at: 2015-10-13 14:09:10 UTC
+  updated_at: 2016-06-02 07:50:43 UTC
+
+service_234:
+  id: 234
+  name: eur.ema
+  setting_id: 465278206
+  fund_id: 84417837
+  frame_id: 60
+  position: 
+  trigger_id: 89
+  ngroup: eur.ind
+  host_id: 763560746
+  active: true
+  single: false
+  refresh: 60
+  created_at: 2018-01-30 14:03:00 UTC
+  updated_at: 2018-01-30 14:03:00 UTC
 
 service_97:
   id: 97
@@ -1098,10 +1002,9 @@ service_97:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2015-10-01 11:03:00.000000000 Z
-  updated_at: &5 2016-05-31 12:03:03.000000000 Z
+  created_at: 2015-10-01 11:03:00 UTC
+  updated_at: 2016-05-31 12:03:03 UTC
 
 service_96:
   id: 96
@@ -1115,10 +1018,9 @@ service_96:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 11:01:27.000000000 Z
-  updated_at: &5 2016-11-25 10:59:17.000000000 Z
+  created_at: 2015-10-01 11:01:27 UTC
+  updated_at: 2016-11-25 10:59:17 UTC
 
 service_95:
   id: 95
@@ -1132,10 +1034,9 @@ service_95:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 11:10:47.000000000 Z
-  updated_at: &5 2016-06-02 07:46:16.000000000 Z
+  created_at: 2015-10-01 11:10:47 UTC
+  updated_at: 2016-06-02 07:46:16 UTC
 
 service_155:
   id: 155
@@ -1149,10 +1050,9 @@ service_155:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-07 13:12:42.000000000 Z
-  updated_at: &5 2016-07-07 13:12:42.000000000 Z
+  created_at: 2016-07-07 13:12:42 UTC
+  updated_at: 2016-07-07 13:12:42 UTC
 
 service_94:
   id: 94
@@ -1166,10 +1066,9 @@ service_94:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 10:59:43.000000000 Z
-  updated_at: &5 2016-06-02 07:46:31.000000000 Z
+  created_at: 2015-10-01 10:59:43 UTC
+  updated_at: 2016-06-02 07:46:31 UTC
 
 service_44:
   id: 44
@@ -1183,10 +1082,9 @@ service_44:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:22:31.000000000 Z
-  updated_at: &5 2016-09-01 20:23:40.000000000 Z
+  created_at: 2015-08-21 16:22:31 UTC
+  updated_at: 2016-09-01 20:23:40 UTC
 
 service_190:
   id: 190
@@ -1200,10 +1098,9 @@ service_190:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-09-01 20:24:17.000000000 Z
-  updated_at: &5 2016-09-01 20:24:17.000000000 Z
+  created_at: 2016-09-01 20:24:17 UTC
+  updated_at: 2016-09-01 20:24:17 UTC
 
 service_45:
   id: 45
@@ -1217,10 +1114,9 @@ service_45:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:23:39.000000000 Z
-  updated_at: &5 2016-09-01 20:25:37.000000000 Z
+  created_at: 2015-08-21 16:23:39 UTC
+  updated_at: 2016-09-01 20:25:37 UTC
 
 service_16:
   id: 16
@@ -1234,10 +1130,9 @@ service_16:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 09:48:46.000000000 Z
-  updated_at: &5 2016-09-01 20:25:49.000000000 Z
+  created_at: 2015-08-06 09:48:46 UTC
+  updated_at: 2016-09-01 20:25:49 UTC
 
 service_43:
   id: 43
@@ -1251,10 +1146,9 @@ service_43:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:21:52.000000000 Z
-  updated_at: &5 2016-09-01 20:26:00.000000000 Z
+  created_at: 2015-08-21 16:21:52 UTC
+  updated_at: 2016-09-01 20:26:00 UTC
 
 service_135:
   id: 135
@@ -1268,10 +1162,9 @@ service_135:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-05-08 16:17:56.000000000 Z
-  updated_at: &5 2016-09-01 20:26:11.000000000 Z
+  created_at: 2016-05-08 16:17:56 UTC
+  updated_at: 2016-09-01 20:26:11 UTC
 
 service_172:
   id: 172
@@ -1285,10 +1178,9 @@ service_172:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 13:34:45.000000000 Z
-  updated_at: &5 2016-10-27 15:53:19.000000000 Z
+  created_at: 2016-07-08 13:34:45 UTC
+  updated_at: 2016-10-27 15:53:19 UTC
 
 service_108:
   id: 108
@@ -1302,10 +1194,9 @@ service_108:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-01 13:41:40.000000000 Z
-  updated_at: &5 2016-06-02 07:49:29.000000000 Z
+  created_at: 2015-10-01 13:41:40 UTC
+  updated_at: 2016-06-02 07:49:29 UTC
 
 service_119:
   id: 119
@@ -1319,10 +1210,9 @@ service_119:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-09 15:41:50.000000000 Z
-  updated_at: &5 2016-06-02 07:49:48.000000000 Z
+  created_at: 2015-10-09 15:41:50 UTC
+  updated_at: 2016-06-02 07:49:48 UTC
 
 service_140:
   id: 140
@@ -1336,10 +1226,9 @@ service_140:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 
-  created_at: &4 2016-05-16 19:09:34.000000000 Z
-  updated_at: &5 2016-05-16 21:24:31.000000000 Z
+  created_at: 2016-05-16 19:09:34 UTC
+  updated_at: 2016-05-16 21:24:31 UTC
 
 service_132:
   id: 132
@@ -1353,44 +1242,9 @@ service_132:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-05-08 01:16:50.000000000 Z
-  updated_at: &5 2016-06-02 07:47:38.000000000 Z
-
-#service_134:
-#  id: 134
-#  name: eur.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 84417837
-#  frame_id: 60
-#  position:
-#  trigger_id: 38
-#  ngroup: eur.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-05-08 15:10:56.000000000 Z
-#  updated_at: &5 2016-06-02 07:47:50.000000000 Z
-
-service_138:
-  id: 138
-  name: eur.sol.60.5s
-  setting_id: 797352518
-  fund_id: 84417837
-  frame_id: 5
-  position: 
-  trigger_id: 15
-  ngroup: eur
-  host_id: 1
-  active: true
-  single: false
-  action: 
-  refresh: 
-  created_at: &4 2016-05-12 20:23:59.000000000 Z
-  updated_at: &5 2016-05-16 09:29:05.000000000 Z
+  created_at: 2016-05-08 01:16:50 UTC
+  updated_at: 2016-06-02 07:47:38 UTC
 
 service_117:
   id: 117
@@ -1404,10 +1258,25 @@ service_117:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-07 17:59:39.000000000 Z
-  updated_at: &5 2016-10-28 10:59:31.000000000 Z
+  created_at: 2015-10-07 17:59:39 UTC
+  updated_at: 2016-10-28 10:59:31 UTC
+
+service_138:
+  id: 138
+  name: eur.sol.60.5s
+  setting_id: 797352518
+  fund_id: 84417837
+  frame_id: 5
+  position: 
+  trigger_id: 15
+  ngroup: eur
+  host_id: 1
+  active: true
+  single: false
+  refresh: 
+  created_at: 2016-05-12 20:23:59 UTC
+  updated_at: 2016-05-16 09:29:05 UTC
 
 service_15:
   id: 15
@@ -1421,10 +1290,9 @@ service_15:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 09:48:00.000000000 Z
-  updated_at: &5 2016-05-31 12:02:06.000000000 Z
+  created_at: 2015-08-06 09:48:00 UTC
+  updated_at: 2016-05-31 12:02:06 UTC
 
 service_197:
   id: 197
@@ -1438,10 +1306,9 @@ service_197:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 10:27:43.000000000 Z
-  updated_at: &5 2016-10-28 10:57:38.000000000 Z
+  created_at: 2016-10-27 10:27:43 UTC
+  updated_at: 2016-10-28 10:57:38 UTC
 
 service_76:
   id: 76
@@ -1455,10 +1322,9 @@ service_76:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-26 18:12:11.000000000 Z
-  updated_at: &5 2016-07-08 11:22:27.000000000 Z
+  created_at: 2015-08-26 18:12:11 UTC
+  updated_at: 2016-07-08 11:22:27 UTC
 
 service_59:
   id: 59
@@ -1472,10 +1338,9 @@ service_59:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 17:02:52.000000000 Z
-  updated_at: &5 2015-08-21 17:02:52.000000000 Z
+  created_at: 2015-08-21 17:02:52 UTC
+  updated_at: 2015-08-21 17:02:52 UTC
 
 service_60:
   id: 60
@@ -1489,10 +1354,9 @@ service_60:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 17:03:18.000000000 Z
-  updated_at: &5 2015-08-21 17:03:18.000000000 Z
+  created_at: 2015-08-21 17:03:18 UTC
+  updated_at: 2015-08-21 17:03:18 UTC
 
 service_6:
   id: 6
@@ -1506,10 +1370,9 @@ service_6:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-05 20:50:19.000000000 Z
-  updated_at: &5 2015-08-06 09:43:32.000000000 Z
+  created_at: 2015-08-05 20:50:19 UTC
+  updated_at: 2015-08-06 09:43:32 UTC
 
 service_58:
   id: 58
@@ -1523,10 +1386,9 @@ service_58:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 17:02:31.000000000 Z
-  updated_at: &5 2015-08-21 17:02:31.000000000 Z
+  created_at: 2015-08-21 17:02:31 UTC
+  updated_at: 2015-08-21 17:02:31 UTC
 
 service_53:
   id: 53
@@ -1540,10 +1402,9 @@ service_53:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:34:36.000000000 Z
-  updated_at: &5 2015-08-21 16:37:07.000000000 Z
+  created_at: 2015-08-21 16:34:36 UTC
+  updated_at: 2015-08-21 16:37:07 UTC
 
 service_54:
   id: 54
@@ -1557,10 +1418,9 @@ service_54:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:35:50.000000000 Z
-  updated_at: &5 2015-08-21 16:35:50.000000000 Z
+  created_at: 2015-08-21 16:35:50 UTC
+  updated_at: 2015-08-21 16:35:50 UTC
 
 service_8:
   id: 8
@@ -1574,10 +1434,9 @@ service_8:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-05 20:53:15.000000000 Z
-  updated_at: &5 2015-08-06 09:44:14.000000000 Z
+  created_at: 2015-08-05 20:53:15 UTC
+  updated_at: 2015-08-06 09:44:14 UTC
 
 service_52:
   id: 52
@@ -1591,10 +1450,9 @@ service_52:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:33:50.000000000 Z
-  updated_at: &5 2015-08-21 16:33:50.000000000 Z
+  created_at: 2015-08-21 16:33:50 UTC
+  updated_at: 2015-08-21 16:33:50 UTC
 
 service_126:
   id: 126
@@ -1608,10 +1466,9 @@ service_126:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2016-02-29 16:09:20.000000000 Z
-  updated_at: &5 2016-02-29 16:09:20.000000000 Z
+  created_at: 2016-02-29 16:09:20 UTC
+  updated_at: 2016-02-29 16:09:20 UTC
 
 service_127:
   id: 127
@@ -1625,10 +1482,9 @@ service_127:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2016-02-29 16:10:10.000000000 Z
-  updated_at: &5 2016-02-29 16:10:10.000000000 Z
+  created_at: 2016-02-29 16:10:10 UTC
+  updated_at: 2016-02-29 16:10:10 UTC
 
 service_124:
   id: 124
@@ -1642,10 +1498,9 @@ service_124:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-02-29 16:07:58.000000000 Z
-  updated_at: &5 2016-02-29 16:07:58.000000000 Z
+  created_at: 2016-02-29 16:07:58 UTC
+  updated_at: 2016-02-29 16:07:58 UTC
 
 service_125:
   id: 125
@@ -1659,10 +1514,9 @@ service_125:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2016-02-29 16:08:47.000000000 Z
-  updated_at: &5 2016-02-29 16:08:47.000000000 Z
+  created_at: 2016-02-29 16:08:47 UTC
+  updated_at: 2016-02-29 16:08:47 UTC
 
 service_129:
   id: 129
@@ -1676,10 +1530,9 @@ service_129:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-02-29 16:12:56.000000000 Z
-  updated_at: &5 2016-02-29 16:12:56.000000000 Z
+  created_at: 2016-02-29 16:12:56 UTC
+  updated_at: 2016-02-29 16:12:56 UTC
 
 service_131:
   id: 131
@@ -1693,10 +1546,9 @@ service_131:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-02-29 16:15:33.000000000 Z
-  updated_at: &5 2016-02-29 16:15:33.000000000 Z
+  created_at: 2016-02-29 16:15:33 UTC
+  updated_at: 2016-02-29 16:15:33 UTC
 
 service_130:
   id: 130
@@ -1710,10 +1562,9 @@ service_130:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-02-29 16:13:55.000000000 Z
-  updated_at: &5 2016-02-29 16:13:55.000000000 Z
+  created_at: 2016-02-29 16:13:55 UTC
+  updated_at: 2016-02-29 16:13:55 UTC
 
 service_20:
   id: 20
@@ -1727,10 +1578,9 @@ service_20:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 18:57:14.000000000 Z
-  updated_at: &5 2015-08-06 18:57:14.000000000 Z
+  created_at: 2015-08-06 18:57:14 UTC
+  updated_at: 2015-08-06 18:57:14 UTC
 
 service_128:
   id: 128
@@ -1744,10 +1594,9 @@ service_128:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-02-29 16:12:22.000000000 Z
-  updated_at: &5 2016-02-29 16:12:22.000000000 Z
+  created_at: 2016-02-29 16:12:22 UTC
+  updated_at: 2016-02-29 16:12:22 UTC
 
 service_19:
   id: 19
@@ -1761,10 +1610,9 @@ service_19:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 18:56:20.000000000 Z
-  updated_at: &5 2016-02-29 16:04:32.000000000 Z
+  created_at: 2015-08-06 18:56:20 UTC
+  updated_at: 2016-02-29 16:04:32 UTC
 
 service_33:
   id: 33
@@ -1778,10 +1626,9 @@ service_33:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-07 20:02:18.000000000 Z
-  updated_at: &5 2016-08-15 08:53:58.000000000 Z
+  created_at: 2015-08-07 20:02:18 UTC
+  updated_at: 2016-08-15 08:53:58 UTC
 
 service_35:
   id: 35
@@ -1795,10 +1642,9 @@ service_35:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-07 20:33:08.000000000 Z
-  updated_at: &5 2016-08-15 08:53:43.000000000 Z
+  created_at: 2015-08-07 20:33:08 UTC
+  updated_at: 2016-08-15 08:53:43 UTC
 
 service_37:
   id: 37
@@ -1812,10 +1658,9 @@ service_37:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-12 07:52:21.000000000 Z
-  updated_at: &5 2016-08-15 08:52:38.000000000 Z
+  created_at: 2015-08-12 07:52:21 UTC
+  updated_at: 2016-08-15 08:52:38 UTC
 
 service_30:
   id: 30
@@ -1829,10 +1674,9 @@ service_30:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-07 15:19:02.000000000 Z
-  updated_at: &5 2016-08-15 08:53:24.000000000 Z
+  created_at: 2015-08-07 15:19:02 UTC
+  updated_at: 2016-08-15 08:53:24 UTC
 
 service_230:
   id: 230
@@ -1846,10 +1690,9 @@ service_230:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 5
-  created_at: &4 2016-12-15 12:03:28.000000000 Z
-  updated_at: &5 2016-12-23 07:29:09.000000000 Z
+  created_at: 2016-12-15 12:03:28 UTC
+  updated_at: 2016-12-23 07:29:09 UTC
 
 service_175:
   id: 175
@@ -1863,10 +1706,9 @@ service_175:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 09:09:21.000000000 Z
-  updated_at: &5 2016-12-22 07:54:51.000000000 Z
+  created_at: 2016-08-15 09:09:21 UTC
+  updated_at: 2016-12-22 07:54:51 UTC
 
 service_233:
   id: 233
@@ -1880,10 +1722,9 @@ service_233:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 5
-  created_at: &4 2016-12-15 13:28:54.000000000 Z
-  updated_at: &5 2016-12-23 16:47:35.000000000 Z
+  created_at: 2016-12-15 13:28:54 UTC
+  updated_at: 2016-12-23 16:47:35 UTC
 
 service_115:
   id: 115
@@ -1897,10 +1738,9 @@ service_115:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2015-10-06 18:05:35.000000000 Z
-  updated_at: &5 2016-11-25 10:56:04.000000000 Z
+  created_at: 2015-10-06 18:05:35 UTC
+  updated_at: 2016-11-25 10:56:04 UTC
 
 service_229:
   id: 229
@@ -1914,10 +1754,9 @@ service_229:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-11-23 17:55:58.000000000 Z
-  updated_at: &5 2016-12-22 07:51:53.000000000 Z
+  created_at: 2016-11-23 17:55:58 UTC
+  updated_at: 2016-12-22 07:51:53 UTC
 
 service_113:
   id: 113
@@ -1931,10 +1770,9 @@ service_113:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-06 18:04:20.000000000 Z
-  updated_at: &5 2016-12-22 07:52:01.000000000 Z
+  created_at: 2015-10-06 18:04:20 UTC
+  updated_at: 2016-12-22 07:52:01 UTC
 
 service_173:
   id: 173
@@ -1948,10 +1786,9 @@ service_173:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 09:03:19.000000000 Z
-  updated_at: &5 2016-12-22 07:52:18.000000000 Z
+  created_at: 2016-08-15 09:03:19 UTC
+  updated_at: 2016-12-22 07:52:18 UTC
 
 service_112:
   id: 112
@@ -1965,10 +1802,9 @@ service_112:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-06 17:40:23.000000000 Z
-  updated_at: &5 2016-12-22 07:52:10.000000000 Z
+  created_at: 2015-10-06 17:40:23 UTC
+  updated_at: 2016-12-22 07:52:10 UTC
 
 service_34:
   id: 34
@@ -1982,10 +1818,9 @@ service_34:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-07 20:02:58.000000000 Z
-  updated_at: &5 2016-09-05 10:23:35.000000000 Z
+  created_at: 2015-08-07 20:02:58 UTC
+  updated_at: 2016-09-05 10:23:35 UTC
 
 service_191:
   id: 191
@@ -1999,10 +1834,9 @@ service_191:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2016-09-05 10:22:59.000000000 Z
-  updated_at: &5 2016-09-05 10:22:59.000000000 Z
+  created_at: 2016-09-05 10:22:59 UTC
+  updated_at: 2016-09-05 10:22:59 UTC
 
 service_36:
   id: 36
@@ -2016,10 +1850,9 @@ service_36:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-07 20:34:31.000000000 Z
-  updated_at: &5 2016-09-05 10:22:21.000000000 Z
+  created_at: 2015-08-07 20:34:31 UTC
+  updated_at: 2016-09-05 10:22:21 UTC
 
 service_2:
   id: 2
@@ -2033,10 +1866,9 @@ service_2:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-05 20:35:34.000000000 Z
-  updated_at: &5 2016-09-05 10:23:19.000000000 Z
+  created_at: 2015-08-05 20:35:34 UTC
+  updated_at: 2016-09-05 10:23:19 UTC
 
 service_32:
   id: 32
@@ -2050,10 +1882,9 @@ service_32:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-07 18:58:37.000000000 Z
-  updated_at: &5 2016-09-05 10:23:10.000000000 Z
+  created_at: 2015-08-07 18:58:37 UTC
+  updated_at: 2016-09-05 10:23:10 UTC
 
 service_42:
   id: 42
@@ -2067,10 +1898,9 @@ service_42:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-20 10:50:36.000000000 Z
-  updated_at: &5 2016-09-05 10:22:51.000000000 Z
+  created_at: 2015-08-20 10:50:36 UTC
+  updated_at: 2016-09-05 10:22:51 UTC
 
 service_200:
   id: 200
@@ -2084,10 +1914,9 @@ service_200:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 19:19:29.000000000 Z
-  updated_at: &5 2016-12-22 07:55:51.000000000 Z
+  created_at: 2016-10-27 19:19:29 UTC
+  updated_at: 2016-12-22 07:55:51 UTC
 
 service_116:
   id: 116
@@ -2101,10 +1930,9 @@ service_116:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-10-06 18:18:53.000000000 Z
-  updated_at: &5 2016-12-22 07:52:35.000000000 Z
+  created_at: 2015-10-06 18:18:53 UTC
+  updated_at: 2016-12-22 07:52:35 UTC
 
 service_231:
   id: 231
@@ -2118,10 +1946,9 @@ service_231:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 5
-  created_at: &4 2016-12-15 12:04:36.000000000 Z
-  updated_at: &5 2016-12-23 07:28:50.000000000 Z
+  created_at: 2016-12-15 12:04:36 UTC
+  updated_at: 2016-12-23 07:28:50 UTC
 
 service_228:
   id: 228
@@ -2135,10 +1962,9 @@ service_228:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 5
-  created_at: &4 2016-11-22 11:14:53.000000000 Z
-  updated_at: &5 2016-12-23 17:29:23.000000000 Z
+  created_at: 2016-11-22 11:14:53 UTC
+  updated_at: 2016-12-23 17:29:23 UTC
 
 service_176:
   id: 176
@@ -2152,10 +1978,9 @@ service_176:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 09:10:09.000000000 Z
-  updated_at: &5 2016-12-22 07:55:00.000000000 Z
+  created_at: 2016-08-15 09:10:09 UTC
+  updated_at: 2016-12-22 07:55:00 UTC
 
 service_180:
   id: 180
@@ -2169,27 +1994,9 @@ service_180:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 12:20:45.000000000 Z
-  updated_at: &5 2016-12-22 07:55:08.000000000 Z
-
-#service_174:
-#  id: 174
-#  name: gold.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 128523602
-#  frame_id: 60
-#  position: 5
-#  trigger_id: 37
-#  ngroup: gold.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-08-15 09:06:35.000000000 Z
-#  updated_at: &5 2016-12-22 07:52:26.000000000 Z
+  created_at: 2016-08-15 12:20:45 UTC
+  updated_at: 2016-12-22 07:55:08 UTC
 
 service_232:
   id: 232
@@ -2203,10 +2010,9 @@ service_232:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 5
-  created_at: &4 2016-12-15 13:01:14.000000000 Z
-  updated_at: &5 2016-12-23 18:04:13.000000000 Z
+  created_at: 2016-12-15 13:01:14 UTC
+  updated_at: 2016-12-23 18:04:13 UTC
 
 service_177:
   id: 177
@@ -2220,10 +2026,9 @@ service_177:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 09:10:58.000000000 Z
-  updated_at: &5 2016-12-22 10:31:57.000000000 Z
+  created_at: 2016-08-15 09:10:58 UTC
+  updated_at: 2016-12-22 10:31:57 UTC
 
 service_1:
   id: 1
@@ -2237,10 +2042,9 @@ service_1:
   host_id: 1
   active: true
   single: false
-  action: stop
   refresh: 60
-  created_at: &4 2015-08-05 20:31:54.000000000 Z
-  updated_at: &5 2016-08-15 08:51:24.000000000 Z
+  created_at: 2015-08-05 20:31:54 UTC
+  updated_at: 2016-08-15 08:51:24 UTC
 
 service_201:
   id: 201
@@ -2254,10 +2058,9 @@ service_201:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-27 19:20:35.000000000 Z
-  updated_at: &5 2016-12-22 07:55:59.000000000 Z
+  created_at: 2016-10-27 19:20:35 UTC
+  updated_at: 2016-12-22 07:55:59 UTC
 
 service_71:
   id: 71
@@ -2271,10 +2074,9 @@ service_71:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-26 18:05:26.000000000 Z
-  updated_at: &5 2016-07-08 11:17:53.000000000 Z
+  created_at: 2015-08-26 18:05:26 UTC
+  updated_at: 2016-07-08 11:17:53 UTC
 
 service_72:
   id: 72
@@ -2288,10 +2090,9 @@ service_72:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-26 18:06:07.000000000 Z
-  updated_at: &5 2016-07-08 11:19:56.000000000 Z
+  created_at: 2015-08-26 18:06:07 UTC
+  updated_at: 2016-07-08 11:19:56 UTC
 
 service_69:
   id: 69
@@ -2305,10 +2106,9 @@ service_69:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-26 18:04:10.000000000 Z
-  updated_at: &5 2016-07-08 11:19:06.000000000 Z
+  created_at: 2015-08-26 18:04:10 UTC
+  updated_at: 2016-07-08 11:19:06 UTC
 
 service_70:
   id: 70
@@ -2322,10 +2122,9 @@ service_70:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-26 18:04:53.000000000 Z
-  updated_at: &5 2016-07-08 11:18:46.000000000 Z
+  created_at: 2015-08-26 18:04:53 UTC
+  updated_at: 2016-07-08 11:18:46 UTC
 
 service_223:
   id: 223
@@ -2339,10 +2138,9 @@ service_223:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 13:56:11.000000000 Z
-  updated_at: &5 2016-10-28 13:56:11.000000000 Z
+  created_at: 2016-10-28 13:56:11 UTC
+  updated_at: 2016-10-28 13:56:11 UTC
 
 service_159:
   id: 159
@@ -2356,10 +2154,9 @@ service_159:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2016-07-08 11:52:05.000000000 Z
-  updated_at: &5 2016-07-08 11:52:17.000000000 Z
+  created_at: 2016-07-08 11:52:05 UTC
+  updated_at: 2016-07-08 11:52:17 UTC
 
 service_166:
   id: 166
@@ -2373,10 +2170,9 @@ service_166:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:25:09.000000000 Z
-  updated_at: &5 2016-11-25 11:04:45.000000000 Z
+  created_at: 2016-07-08 12:25:09 UTC
+  updated_at: 2016-11-25 11:04:45 UTC
 
 service_167:
   id: 167
@@ -2390,10 +2186,9 @@ service_167:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:26:00.000000000 Z
-  updated_at: &5 2016-07-08 12:26:00.000000000 Z
+  created_at: 2016-07-08 12:26:00 UTC
+  updated_at: 2016-07-08 12:26:00 UTC
 
 service_170:
   id: 170
@@ -2407,10 +2202,9 @@ service_170:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:29:37.000000000 Z
-  updated_at: &5 2016-07-08 12:29:37.000000000 Z
+  created_at: 2016-07-08 12:29:37 UTC
+  updated_at: 2016-07-08 12:29:37 UTC
 
 service_168:
   id: 168
@@ -2424,10 +2218,9 @@ service_168:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:26:54.000000000 Z
-  updated_at: &5 2016-07-08 12:26:54.000000000 Z
+  created_at: 2016-07-08 12:26:54 UTC
+  updated_at: 2016-07-08 12:26:54 UTC
 
 service_47:
   id: 47
@@ -2441,10 +2234,9 @@ service_47:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:27:25.000000000 Z
-  updated_at: &5 2015-08-21 16:27:25.000000000 Z
+  created_at: 2015-08-21 16:27:25 UTC
+  updated_at: 2015-08-21 16:27:25 UTC
 
 service_48:
   id: 48
@@ -2458,10 +2250,9 @@ service_48:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:27:51.000000000 Z
-  updated_at: &5 2015-08-21 16:27:51.000000000 Z
+  created_at: 2015-08-21 16:27:51 UTC
+  updated_at: 2015-08-21 16:27:51 UTC
 
 service_12:
   id: 12
@@ -2475,10 +2266,9 @@ service_12:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-05 20:57:20.000000000 Z
-  updated_at: &5 2015-08-06 09:44:28.000000000 Z
+  created_at: 2015-08-05 20:57:20 UTC
+  updated_at: 2015-08-06 09:44:28 UTC
 
 service_46:
   id: 46
@@ -2492,10 +2282,9 @@ service_46:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:26:58.000000000 Z
-  updated_at: &5 2015-08-21 16:26:58.000000000 Z
+  created_at: 2015-08-21 16:26:58 UTC
+  updated_at: 2015-08-21 16:26:58 UTC
 
 service_171:
   id: 171
@@ -2509,10 +2298,9 @@ service_171:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 13:15:49.000000000 Z
-  updated_at: &5 2016-10-28 13:53:08.000000000 Z
+  created_at: 2016-07-08 13:15:49 UTC
+  updated_at: 2016-10-28 13:53:08 UTC
 
 service_164:
   id: 164
@@ -2526,10 +2314,9 @@ service_164:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:06:08.000000000 Z
-  updated_at: &5 2016-07-08 12:06:08.000000000 Z
+  created_at: 2016-07-08 12:06:08 UTC
+  updated_at: 2016-07-08 12:06:08 UTC
 
 service_163:
   id: 163
@@ -2543,10 +2330,9 @@ service_163:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:05:12.000000000 Z
-  updated_at: &5 2016-07-08 12:05:12.000000000 Z
+  created_at: 2016-07-08 12:05:12 UTC
+  updated_at: 2016-07-08 12:05:12 UTC
 
 service_162:
   id: 162
@@ -2560,27 +2346,9 @@ service_162:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:04:10.000000000 Z
-  updated_at: &5 2016-07-08 12:04:10.000000000 Z
-
-#service_169:
-#  id: 169
-#  name: nq.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 497358206
-#  frame_id: 60
-#  position:
-#  trigger_id: 69
-#  ngroup: nq.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-07-08 12:27:49.000000000 Z
-#  updated_at: &5 2016-07-08 12:27:49.000000000 Z
+  created_at: 2016-07-08 12:04:10 UTC
+  updated_at: 2016-07-08 12:04:10 UTC
 
 service_161:
   id: 161
@@ -2594,10 +2362,9 @@ service_161:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-07-08 12:02:57.000000000 Z
-  updated_at: &5 2016-10-28 10:59:52.000000000 Z
+  created_at: 2016-07-08 12:02:57 UTC
+  updated_at: 2016-10-28 10:59:52 UTC
 
 service_11:
   id: 11
@@ -2611,10 +2378,9 @@ service_11:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-05 20:56:53.000000000 Z
-  updated_at: &5 2016-07-08 11:47:05.000000000 Z
+  created_at: 2015-08-05 20:56:53 UTC
+  updated_at: 2016-07-08 11:47:05 UTC
 
 service_222:
   id: 222
@@ -2628,10 +2394,9 @@ service_222:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 13:53:58.000000000 Z
-  updated_at: &5 2016-10-28 13:53:58.000000000 Z
+  created_at: 2016-10-28 13:53:58 UTC
+  updated_at: 2016-10-28 13:53:58 UTC
 
 service_29:
   id: 29
@@ -2645,10 +2410,9 @@ service_29:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 19:19:16.000000000 Z
-  updated_at: &5 2015-08-06 19:19:16.000000000 Z
+  created_at: 2015-08-06 19:19:16 UTC
+  updated_at: 2015-08-06 19:19:16 UTC
 
 service_27:
   id: 27
@@ -2662,10 +2426,9 @@ service_27:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 19:18:19.000000000 Z
-  updated_at: &5 2015-08-25 09:28:24.000000000 Z
+  created_at: 2015-08-06 19:18:19 UTC
+  updated_at: 2015-08-25 09:28:24 UTC
 
 service_79:
   id: 79
@@ -2679,10 +2442,9 @@ service_79:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-27 05:51:27.000000000 Z
-  updated_at: &5 2016-08-15 09:57:06.000000000 Z
+  created_at: 2015-08-27 05:51:27 UTC
+  updated_at: 2016-08-15 09:57:06 UTC
 
 service_80:
   id: 80
@@ -2696,10 +2458,9 @@ service_80:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-27 05:51:51.000000000 Z
-  updated_at: &5 2016-08-15 09:57:25.000000000 Z
+  created_at: 2015-08-27 05:51:51 UTC
+  updated_at: 2016-08-15 09:57:25 UTC
 
 service_77:
   id: 77
@@ -2713,10 +2474,9 @@ service_77:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-27 05:50:31.000000000 Z
-  updated_at: &5 2016-08-15 09:56:27.000000000 Z
+  created_at: 2015-08-27 05:50:31 UTC
+  updated_at: 2016-08-15 09:56:27 UTC
 
 service_78:
   id: 78
@@ -2730,10 +2490,9 @@ service_78:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-27 05:51:03.000000000 Z
-  updated_at: &5 2016-08-15 09:56:45.000000000 Z
+  created_at: 2015-08-27 05:51:03 UTC
+  updated_at: 2016-08-15 09:56:45 UTC
 
 service_189:
   id: 189
@@ -2747,10 +2506,9 @@ service_189:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 18:00:55.000000000 Z
-  updated_at: &5 2016-08-15 18:00:55.000000000 Z
+  created_at: 2016-08-15 18:00:55 UTC
+  updated_at: 2016-08-15 18:00:55 UTC
 
 service_178:
   id: 178
@@ -2764,10 +2522,9 @@ service_178:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2016-08-15 09:58:31.000000000 Z
-  updated_at: &5 2016-08-15 09:58:31.000000000 Z
+  created_at: 2016-08-15 09:58:31 UTC
+  updated_at: 2016-08-15 09:58:31 UTC
 
 service_179:
   id: 179
@@ -2781,10 +2538,9 @@ service_179:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 12:19:22.000000000 Z
-  updated_at: &5 2016-11-25 11:04:15.000000000 Z
+  created_at: 2016-08-15 12:19:22 UTC
+  updated_at: 2016-11-25 11:04:15 UTC
 
 service_181:
   id: 181
@@ -2798,10 +2554,9 @@ service_181:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:36:50.000000000 Z
-  updated_at: &5 2016-08-15 17:36:50.000000000 Z
+  created_at: 2016-08-15 17:36:50 UTC
+  updated_at: 2016-08-15 17:36:50 UTC
 
 service_183:
   id: 183
@@ -2815,10 +2570,9 @@ service_183:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:38:12.000000000 Z
-  updated_at: &5 2016-08-15 17:38:12.000000000 Z
+  created_at: 2016-08-15 17:38:12 UTC
+  updated_at: 2016-08-15 17:38:12 UTC
 
 service_182:
   id: 182
@@ -2832,10 +2586,9 @@ service_182:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:37:28.000000000 Z
-  updated_at: &5 2016-08-15 17:37:28.000000000 Z
+  created_at: 2016-08-15 17:37:28 UTC
+  updated_at: 2016-08-15 17:37:28 UTC
 
 service_56:
   id: 56
@@ -2849,10 +2602,9 @@ service_56:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 17:00:27.000000000 Z
-  updated_at: &5 2015-08-21 17:00:27.000000000 Z
+  created_at: 2015-08-21 17:00:27 UTC
+  updated_at: 2015-08-21 17:00:27 UTC
 
 service_57:
   id: 57
@@ -2866,10 +2618,9 @@ service_57:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 17:00:53.000000000 Z
-  updated_at: &5 2015-08-21 17:00:53.000000000 Z
+  created_at: 2015-08-21 17:00:53 UTC
+  updated_at: 2015-08-21 17:00:53 UTC
 
 service_4:
   id: 4
@@ -2883,10 +2634,9 @@ service_4:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-05 20:39:15.000000000 Z
-  updated_at: &5 2015-08-06 09:43:24.000000000 Z
+  created_at: 2015-08-05 20:39:15 UTC
+  updated_at: 2015-08-06 09:43:24 UTC
 
 service_55:
   id: 55
@@ -2900,10 +2650,9 @@ service_55:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:59:59.000000000 Z
-  updated_at: &5 2015-08-21 16:59:59.000000000 Z
+  created_at: 2015-08-21 16:59:59 UTC
+  updated_at: 2015-08-21 16:59:59 UTC
 
 service_202:
   id: 202
@@ -2917,10 +2666,9 @@ service_202:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 08:47:20.000000000 Z
-  updated_at: &5 2016-10-28 08:47:20.000000000 Z
+  created_at: 2016-10-28 08:47:20 UTC
+  updated_at: 2016-10-28 08:47:20 UTC
 
 service_185:
   id: 185
@@ -2934,10 +2682,9 @@ service_185:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:56:10.000000000 Z
-  updated_at: &5 2016-08-15 17:56:10.000000000 Z
+  created_at: 2016-08-15 17:56:10 UTC
+  updated_at: 2016-08-15 17:56:10 UTC
 
 service_186:
   id: 186
@@ -2951,10 +2698,9 @@ service_186:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:56:47.000000000 Z
-  updated_at: &5 2016-08-15 17:56:47.000000000 Z
+  created_at: 2016-08-15 17:56:47 UTC
+  updated_at: 2016-08-15 17:56:47 UTC
 
 service_187:
   id: 187
@@ -2968,27 +2714,9 @@ service_187:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:57:30.000000000 Z
-  updated_at: &5 2016-08-15 17:57:30.000000000 Z
-
-#service_184:
-#  id: 184
-#  name: oil.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 217163923
-#  frame_id: 60
-#  position:
-#  trigger_id: 77
-#  ngroup: oil.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-08-15 17:38:54.000000000 Z
-#  updated_at: &5 2016-08-15 17:38:54.000000000 Z
+  created_at: 2016-08-15 17:57:30 UTC
+  updated_at: 2016-08-15 17:57:30 UTC
 
 service_188:
   id: 188
@@ -3002,10 +2730,9 @@ service_188:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-08-15 17:58:40.000000000 Z
-  updated_at: &5 2016-10-28 11:00:05.000000000 Z
+  created_at: 2016-08-15 17:58:40 UTC
+  updated_at: 2016-10-28 11:00:05 UTC
 
 service_3:
   id: 3
@@ -3019,10 +2746,9 @@ service_3:
   host_id: 1
   active: true
   single: false
-  action: stop
   refresh: 60
-  created_at: &4 2015-08-05 20:36:42.000000000 Z
-  updated_at: &5 2016-08-15 09:42:42.000000000 Z
+  created_at: 2015-08-05 20:36:42 UTC
+  updated_at: 2016-08-15 09:42:42 UTC
 
 service_203:
   id: 203
@@ -3036,10 +2762,9 @@ service_203:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 08:48:06.000000000 Z
-  updated_at: &5 2016-10-28 08:49:07.000000000 Z
+  created_at: 2016-10-28 08:48:06 UTC
+  updated_at: 2016-10-28 08:49:07 UTC
 
 service_50:
   id: 50
@@ -3053,10 +2778,9 @@ service_50:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:30:43.000000000 Z
-  updated_at: &5 2015-08-21 16:30:43.000000000 Z
+  created_at: 2015-08-21 16:30:43 UTC
+  updated_at: 2015-08-21 16:30:43 UTC
 
 service_51:
   id: 51
@@ -3070,10 +2794,9 @@ service_51:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:31:35.000000000 Z
-  updated_at: &5 2015-08-21 16:31:35.000000000 Z
+  created_at: 2015-08-21 16:31:35 UTC
+  updated_at: 2015-08-21 16:31:35 UTC
 
 service_24:
   id: 24
@@ -3087,10 +2810,9 @@ service_24:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 19:02:38.000000000 Z
-  updated_at: &5 2015-08-06 19:02:38.000000000 Z
+  created_at: 2015-08-06 19:02:38 UTC
+  updated_at: 2015-08-06 19:02:38 UTC
 
 service_49:
   id: 49
@@ -3104,10 +2826,9 @@ service_49:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-21 16:30:03.000000000 Z
-  updated_at: &5 2015-08-21 16:30:03.000000000 Z
+  created_at: 2015-08-21 16:30:03 UTC
+  updated_at: 2015-08-21 16:30:03 UTC
 
 service_23:
   id: 23
@@ -3121,10 +2842,9 @@ service_23:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 19:02:09.000000000 Z
-  updated_at: &5 2015-08-25 09:28:07.000000000 Z
+  created_at: 2015-08-06 19:02:09 UTC
+  updated_at: 2015-08-25 09:28:07 UTC
 
 service_22:
   id: 22
@@ -3138,10 +2858,9 @@ service_22:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 18:58:53.000000000 Z
-  updated_at: &5 2015-08-06 18:58:53.000000000 Z
+  created_at: 2015-08-06 18:58:53 UTC
+  updated_at: 2015-08-06 18:58:53 UTC
 
 service_21:
   id: 21
@@ -3155,10 +2874,9 @@ service_21:
   host_id: 1
   active: false
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 18:58:20.000000000 Z
-  updated_at: &5 2015-08-25 09:27:57.000000000 Z
+  created_at: 2015-08-06 18:58:20 UTC
+  updated_at: 2015-08-25 09:27:57 UTC
 
 service_87:
   id: 87
@@ -3172,10 +2890,9 @@ service_87:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2015-08-27 06:34:40.000000000 Z
-  updated_at: &5 2015-08-27 06:34:40.000000000 Z
+  created_at: 2015-08-27 06:34:40 UTC
+  updated_at: 2015-08-27 06:34:40 UTC
 
 service_88:
   id: 88
@@ -3189,10 +2906,9 @@ service_88:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2015-08-27 06:35:04.000000000 Z
-  updated_at: &5 2015-08-27 06:35:04.000000000 Z
+  created_at: 2015-08-27 06:35:04 UTC
+  updated_at: 2015-08-27 06:35:04 UTC
 
 service_85:
   id: 85
@@ -3206,10 +2922,9 @@ service_85:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-27 06:33:51.000000000 Z
-  updated_at: &5 2015-08-27 06:33:51.000000000 Z
+  created_at: 2015-08-27 06:33:51 UTC
+  updated_at: 2015-08-27 06:33:51 UTC
 
 service_86:
   id: 86
@@ -3223,10 +2938,9 @@ service_86:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2015-08-27 06:34:14.000000000 Z
-  updated_at: &5 2015-08-27 06:34:14.000000000 Z
+  created_at: 2015-08-27 06:34:14 UTC
+  updated_at: 2015-08-27 06:34:14 UTC
 
 service_67:
   id: 67
@@ -3240,10 +2954,9 @@ service_67:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-25 09:25:28.000000000 Z
-  updated_at: &5 2015-08-25 09:25:28.000000000 Z
+  created_at: 2015-08-25 09:25:28 UTC
+  updated_at: 2015-08-25 09:25:28 UTC
 
 service_68:
   id: 68
@@ -3257,10 +2970,9 @@ service_68:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-25 09:26:08.000000000 Z
-  updated_at: &5 2015-08-25 09:26:08.000000000 Z
+  created_at: 2015-08-25 09:26:08 UTC
+  updated_at: 2015-08-25 09:26:08 UTC
 
 service_18:
   id: 18
@@ -3274,10 +2986,9 @@ service_18:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-06 09:50:51.000000000 Z
-  updated_at: &5 2015-08-06 09:50:51.000000000 Z
+  created_at: 2015-08-06 09:50:51 UTC
+  updated_at: 2015-08-06 09:50:51 UTC
 
 service_66:
   id: 66
@@ -3291,10 +3002,9 @@ service_66:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-25 09:25:02.000000000 Z
-  updated_at: &5 2015-08-25 09:25:02.000000000 Z
+  created_at: 2015-08-25 09:25:02 UTC
+  updated_at: 2015-08-25 09:25:02 UTC
 
 service_17:
   id: 17
@@ -3308,10 +3018,9 @@ service_17:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-06 09:49:43.000000000 Z
-  updated_at: &5 2015-08-27 06:33:32.000000000 Z
+  created_at: 2015-08-06 09:49:43 UTC
+  updated_at: 2015-08-27 06:33:32 UTC
 
 service_206:
   id: 206
@@ -3325,10 +3034,9 @@ service_206:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 900
-  created_at: &4 2016-10-28 10:29:36.000000000 Z
-  updated_at: &5 2016-10-28 10:29:36.000000000 Z
+  created_at: 2016-10-28 10:29:36 UTC
+  updated_at: 2016-10-28 10:29:36 UTC
 
 service_207:
   id: 207
@@ -3342,10 +3050,9 @@ service_207:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 3600
-  created_at: &4 2016-10-28 10:30:22.000000000 Z
-  updated_at: &5 2016-10-28 10:30:22.000000000 Z
+  created_at: 2016-10-28 10:30:22 UTC
+  updated_at: 2016-10-28 10:30:22 UTC
 
 service_204:
   id: 204
@@ -3359,10 +3066,9 @@ service_204:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:25:42.000000000 Z
-  updated_at: &5 2016-10-28 10:25:42.000000000 Z
+  created_at: 2016-10-28 10:25:42 UTC
+  updated_at: 2016-10-28 10:25:42 UTC
 
 service_205:
   id: 205
@@ -3376,10 +3082,9 @@ service_205:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 300
-  created_at: &4 2016-10-28 10:28:52.000000000 Z
-  updated_at: &5 2016-10-28 10:28:52.000000000 Z
+  created_at: 2016-10-28 10:28:52 UTC
+  updated_at: 2016-10-28 10:28:52 UTC
 
 service_215:
   id: 215
@@ -3393,10 +3098,9 @@ service_215:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:44:50.000000000 Z
-  updated_at: &5 2016-10-28 10:44:50.000000000 Z
+  created_at: 2016-10-28 10:44:50 UTC
+  updated_at: 2016-10-28 10:44:50 UTC
 
 service_208:
   id: 208
@@ -3410,10 +3114,9 @@ service_208:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 
-  created_at: &4 2016-10-28 10:31:35.000000000 Z
-  updated_at: &5 2016-10-28 10:31:35.000000000 Z
+  created_at: 2016-10-28 10:31:35 UTC
+  updated_at: 2016-10-28 10:31:35 UTC
 
 service_209:
   id: 209
@@ -3427,10 +3130,9 @@ service_209:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:34:15.000000000 Z
-  updated_at: &5 2016-11-25 11:01:43.000000000 Z
+  created_at: 2016-10-28 10:34:15 UTC
+  updated_at: 2016-11-25 11:01:43 UTC
 
 service_210:
   id: 210
@@ -3444,10 +3146,9 @@ service_210:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:34:49.000000000 Z
-  updated_at: &5 2016-10-28 10:34:49.000000000 Z
+  created_at: 2016-10-28 10:34:49 UTC
+  updated_at: 2016-10-28 10:34:49 UTC
 
 service_213:
   id: 213
@@ -3461,10 +3162,9 @@ service_213:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:36:47.000000000 Z
-  updated_at: &5 2016-10-28 10:36:47.000000000 Z
+  created_at: 2016-10-28 10:36:47 UTC
+  updated_at: 2016-10-28 10:36:47 UTC
 
 service_211:
   id: 211
@@ -3478,10 +3178,9 @@ service_211:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:35:21.000000000 Z
-  updated_at: &5 2016-10-28 10:35:21.000000000 Z
+  created_at: 2016-10-28 10:35:21 UTC
+  updated_at: 2016-10-28 10:35:21 UTC
 
 service_10:
   id: 10
@@ -3495,10 +3194,9 @@ service_10:
   host_id: 1
   active: false
   single: true
-  action: 
   refresh: 
-  created_at: &4 2015-08-05 20:56:26.000000000 Z
-  updated_at: &5 2015-08-06 09:44:21.000000000 Z
+  created_at: 2015-08-05 20:56:26 UTC
+  updated_at: 2015-08-06 09:44:21 UTC
 
 service_218:
   id: 218
@@ -3512,10 +3210,9 @@ service_218:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:51:06.000000000 Z
-  updated_at: &5 2016-10-28 10:51:06.000000000 Z
+  created_at: 2016-10-28 10:51:06 UTC
+  updated_at: 2016-10-28 10:51:06 UTC
 
 service_214:
   id: 214
@@ -3529,10 +3226,9 @@ service_214:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:44:05.000000000 Z
-  updated_at: &5 2016-10-28 10:44:05.000000000 Z
+  created_at: 2016-10-28 10:44:05 UTC
+  updated_at: 2016-10-28 10:44:05 UTC
 
 service_217:
   id: 217
@@ -3546,10 +3242,9 @@ service_217:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:50:13.000000000 Z
-  updated_at: &5 2016-10-28 10:50:13.000000000 Z
+  created_at: 2016-10-28 10:50:13 UTC
+  updated_at: 2016-10-28 10:50:13 UTC
 
 service_216:
   id: 216
@@ -3563,27 +3258,9 @@ service_216:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:47:37.000000000 Z
-  updated_at: &5 2016-10-28 10:47:37.000000000 Z
-
-#service_212:
-#  id: 212
-#  name: ym.sma.200.1m
-#  setting_id: 3984119
-#  fund_id: 203935143
-#  frame_id: 60
-#  position:
-#  trigger_id: 204
-#  ngroup: ym.ind
-#  host_id: 1
-#  active: true
-#  single: false
-#  action:
-#  refresh: 60
-#  created_at: &4 2016-10-28 10:36:10.000000000 Z
-#  updated_at: &5 2016-10-28 10:36:10.000000000 Z
+  created_at: 2016-10-28 10:47:37 UTC
+  updated_at: 2016-10-28 10:47:37 UTC
 
 service_220:
   id: 220
@@ -3597,10 +3274,9 @@ service_220:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:55:03.000000000 Z
-  updated_at: &5 2016-10-28 10:55:03.000000000 Z
+  created_at: 2016-10-28 10:55:03 UTC
+  updated_at: 2016-10-28 10:55:03 UTC
 
 service_9:
   id: 9
@@ -3614,10 +3290,9 @@ service_9:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2015-08-05 20:55:47.000000000 Z
-  updated_at: &5 2016-10-28 10:24:17.000000000 Z
+  created_at: 2015-08-05 20:55:47 UTC
+  updated_at: 2016-10-28 10:24:17 UTC
 
 service_219:
   id: 219
@@ -3631,8 +3306,7 @@ service_219:
   host_id: 1
   active: true
   single: false
-  action: 
   refresh: 60
-  created_at: &4 2016-10-28 10:53:51.000000000 Z
-  updated_at: &5 2016-10-28 10:53:51.000000000 Z
+  created_at: 2016-10-28 10:53:51 UTC
+  updated_at: 2016-10-28 10:53:51 UTC
 

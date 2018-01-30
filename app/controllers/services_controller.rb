@@ -1,9 +1,6 @@
 class ServicesController < ApplicationController
-  skip_before_action :require_login
-
-  before_action do
-    @service = Service.find(params[:id]) unless params[:id].blank?
-  end
+  # skip_before_action :require_login
+  before_action :set_service
 
   def index
     @services = Service.all
@@ -22,7 +19,7 @@ class ServicesController < ApplicationController
   end
 
   def create
-    @service = Service.new(params[:service])
+    @service = Service.new(service_params)
     if @service.save
       flash[:notice] = t(:message_create, :model => @service.name)
       redirect_to @service
@@ -32,7 +29,7 @@ class ServicesController < ApplicationController
   end
 
   def update
-    if @service.update_attributes(params[:service])
+    if @service.update_attributes(service_params)
       flash[:notice] = t(:message_update, :model => @service.name)
       redirect_to @service
     else
@@ -81,6 +78,18 @@ class ServicesController < ApplicationController
     end
     redirect_to action: :index
     # render :json => session[:show_history]
+  end
+
+
+  private
+  # Use callbacks to share common setup or constraints between actions.
+  def set_service
+    @service = Service.find(params[:id]) unless params[:id].blank?
+  end
+
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def service_params
+    params.require(:service).permit(:name, :setting_id, :fund_id, :frame_id, :position, :trigger_id, :ngroup, :host_id, :active, :single, :action, :refresh)
   end
 
 end

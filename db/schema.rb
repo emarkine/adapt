@@ -248,10 +248,9 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.integer "position"
     t.integer "trigger_id"
     t.string "ngroup"
-    t.bigint "host_id", default: 1, null: false
+    t.bigint "host_id"
     t.boolean "active"
     t.boolean "single"
-    t.string "action"
     t.integer "refresh"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -298,18 +297,14 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "states", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "statuses", force: :cascade do |t|
-    t.string "name"
+    t.string "command", null: false
     t.string "message"
-    t.bigint "service_id"
+    t.bigint "service_id", null: false
+    t.bigint "host_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["service_id"], name: "index_statuses_on_service_id"
+    t.index ["host_id"], name: "index_states_on_host_id"
+    t.index ["service_id"], name: "index_states_on_service_id"
   end
 
   create_table "structures", force: :cascade do |t|
@@ -359,5 +354,4 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
-  add_foreign_key "statuses", "services"
 end

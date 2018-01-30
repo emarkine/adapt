@@ -1,6 +1,6 @@
 user_1:
   id: 1
-  name: Test
+  first_name: Test
   username: test
   password: 
   birthday: 
@@ -17,7 +17,7 @@ user_1:
 
 user_2:
   id: 2
-  name: Admin
+  first_name: Admin
   username: admin
   password: 
   birthday: 
@@ -34,7 +34,8 @@ user_2:
 
 user_3:
   id: 3
-  name: Eugene Markine
+  first_name: Eugene
+  last_name: Markine
   username: emarkine
   password: 1q2w3e4r5t
   birthday: 
