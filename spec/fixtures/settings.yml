@@ -491,6 +491,7 @@ rsi:
 #  line_dash: 0
   radius: 1
 #  factor: 0.02
+  position: 0
 
 
 #------------------------------------ Moving Average Convergence/Divergence -------------------------------------------
@@ -498,9 +499,9 @@ rsi:
 macd:
   name: macd
   indicator: macd
-  position: 0
   first: ema15
   second: ema30
+  position: 0
 
 macd_macd:
   name: macd_macd
