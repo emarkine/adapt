@@ -1,5 +1,6 @@
 .node
   %h1= link_to @node.name, edit_node_path(@node)
+  - @node.run
 .back= link_to t(:nodes), nodes_path
 
 -#.entry

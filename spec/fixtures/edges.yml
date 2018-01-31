@@ -1,31 +1,31 @@
 #===================================================== Crystal ========================================================#
 
-#crystal:
-#  setting: crystal
-#
-#overlap:
-#  setting: overlap
-#
-#binary:
-#  setting: binary
-#
-#binary1m:
-#  setting: binary1m
-#
-#binary2m:
-#  setting: binary2m
-#
-#binary3m:
-#  setting: binary3m
-#
-#binary5m:
-#  setting: binary5m
-#
-#binary10m:
-#  setting: binary10m
-#
-#binary15m:
-#  setting: binary15m
+crystal:
+  setting: crystal
+
+overlap:
+  setting: overlap
+
+binary:
+  setting: binary
+
+binary1m:
+  setting: binary1m
+
+binary2m:
+  setting: binary2m
+
+binary3m:
+  setting: binary3m
+
+binary5m:
+  setting: binary5m
+
+binary10m:
+  setting: binary10m
+
+binary15m:
+  setting: binary15m
 
 #----------------------------------------------------- Random ---------------------------------------------------------#
 
@@ -229,3 +229,16 @@ ema360:
 #  id: 700
 #  setting: ∑
 #  crystal_id: 7
+
+
+#------------------------------------------------------ Home ----------------------------------------------------------#
+
+room:
+  name: room
+  setting: room
+  position: 0
+
+room_yacht:
+  name: room_yacht
+  setting: room_yacht
+  position: 1

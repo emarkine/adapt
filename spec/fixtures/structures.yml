@@ -2,37 +2,31 @@ binary_ema:
   crystal: binary
   node: ema
   edge: ema
-  position: 0
 
 binary_ema12:
   crystal: binary
   node: ema
   edge: ema12
-  position: 1
 
 binary_ema15:
   crystal: binary
   node: ema
   edge: ema15
-  position: 2
 
 binary_ema30:
   crystal: binary
   node: ema
   edge: ema30
-  position: 3
 
 binary_ema60:
   crystal: binary
   node: ema
   edge: ema60
-  position: 0
 
 binary_ema360:
   crystal: binary
   node: ema
   edge: ema360
-  position: 0
 
 #
 #binary_overlap:
@@ -48,5 +42,22 @@ binary_ema360:
 #  crystal: overlap
 #  edge: ma_ema12
 #  position: 1
+
+
+home_random:
+  crystal: home
+  node: nodes/random
+  edge: random
+
+home_room:
+  crystal: home
+  node: nodes/home/room
+  edge: room
+
+home_room_yacht:
+  crystal: home
+  node: nodes/home/room/yacht/window/licht/swich
+  edge: room
+
 
 

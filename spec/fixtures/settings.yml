@@ -831,3 +831,23 @@ ema360:
 #  name: line
 #  indicator: stochastic
 #
+
+#----------------------------------------------------- Rooms -----------------------------------------------------------
+
+
+room:
+  name: room
+  indicator: switch
+  position: 0
+
+room_yacht:
+  name: room_yacht
+  indicator: switch
+  position: 1
+  separate: true
+  color: gray
+  fill: lightgray
+  line_width: 1
+  line_dash: 0
+  radius: 1
+  chart: true

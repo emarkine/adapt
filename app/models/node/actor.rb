@@ -9,8 +9,10 @@ class Node::Actor < Node
   end
 
   def run
+    puts 'node.run'
     self.edges.each do |edge|
       puts edge
+      print 'Hello '
       eval @action
     end
   end

@@ -311,7 +311,6 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.bigint "crystal_id", null: false
     t.bigint "node_id", null: false
     t.bigint "edge_id", null: false
-    t.integer "position", null: false
     t.index ["crystal_id", "node_id", "edge_id"], name: "structures_index", unique: true
     t.index ["crystal_id"], name: "index_structures_on_crystal_id"
     t.index ["edge_id"], name: "index_structures_on_edge_id"
