@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  resources :states
-  resources :parts
   root to: 'site#index'
+
   resources :user_sessions
   resources :users
   get '/user/sort/:field' => 'users#sort'
@@ -21,18 +20,21 @@ Rails.application.routes.draw do
   get '/service/show_history' => 'services#show_history'
 
   resources :funds
-  get '/funds/:id/rate' => 'funds#rate'
-  post '/funds/:id/select_date' => 'funds#select_date'
-  post '/funds/:id/change_refresh' => 'funds#change_refresh'
-  match '/fund/sort/:field' => 'funds#sort', via: :get
-  post '/funds/:id/frame' => 'funds#frame'
-  get '/funds/:id/draw' => 'funds#draw'
-  get '/funds/:id/toolbar/:name' => 'funds#toolbar'
-  get '/funds/:id/watch' => 'funds#watch'
-  post '/funds/:id/scroll' => 'funds#scroll'
+  # get '/funds/:id/rate' => 'funds#rate'
+  # post '/funds/:id/select_date' => 'funds#select_date'
+  # post '/funds/:id/change_refresh' => 'funds#change_refresh'
+  # match '/fund/sort/:field' => 'funds#sort', via: :get
+  # post '/funds/:id/frame' => 'funds#frame'
+  # get '/funds/:id/draw' => 'funds#draw'
+  # get '/funds/:id/toolbar/:name' => 'funds#toolbar'
+  # get '/funds/:id/watch' => 'funds#watch'
+  # post '/funds/:id/scroll' => 'funds#scroll'
 
   # вспомогательные ресурсы без вьюх
   resources :settings
   resources :frames
+  resources :states
+  resources :hosts
+  resources :parts
 
 end
