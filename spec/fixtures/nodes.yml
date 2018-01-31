@@ -156,3 +156,11 @@ reverse:
 #  name:
 #  date: 2018-01-
 #  file: /home/eugene/Documents/
+
+nodes/apartment/yacht/licht/window:
+  type: 'Node::Actor'
+  name: узловой переключатель света
+  title: nodes/apartment/yacht/window/licht/swich
+  description: нейроузел на основе признаков разворота в нейронах скользящих средних
+  file: /home/eugene/Documents/nodes/apartment/yacht/window/licht/swich/action.rb
+

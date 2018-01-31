@@ -264,7 +264,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   create_table "settings", force: :cascade do |t|
     t.string "name", null: false
     t.bigint "indicator_id", null: false
-    t.integer "position"
+    t.integer "position", null: false
     t.boolean "separate"
     t.float "max"
     t.float "min"

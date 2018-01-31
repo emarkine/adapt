@@ -3,7 +3,7 @@ class CreateSettings < ActiveRecord::Migration[5.1]
     create_table :settings do |t|
       t.string :name, null: false # имя для этих настроек
       t.references :indicator, null: false # для какого индикатора эти настройки
-      t.integer :position # место расположения настроек для сортировки
+      t.integer :position, null: false  # место расположения настроек для сортировки
       # t.string :title # имя которое отображается в заголовке на странице
       # t.references :fund # специфические настройки для определенного фонда
       # t.references :frame # специфические настройки для определенного таймфрейма
