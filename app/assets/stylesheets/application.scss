@@ -415,6 +415,14 @@ table.list {
       height: 14px;
     }
   }
+  form.button_to {
+    input[type=submit] {
+      border:1px solid $border;
+      margin: 1px;
+      padding: 1px 3px 1px 3px;
+      //height: 20px;
+    }
+  }
 }
 
 .paginate {

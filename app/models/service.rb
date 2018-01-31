@@ -4,7 +4,7 @@ class Service < ActiveRecord::Base
   belongs_to :fund
   belongs_to :frame
   belongs_to :host
-  # has_many :statuses
+  has_many :states
 
   # иехрархические связи между сервисами для обновления
   belongs_to :trigger, class_name: :Service, foreign_key: :trigger_id
@@ -35,11 +35,9 @@ class Service < ActiveRecord::Base
     Service.where(setting: setting, fund: fund, frame: frame).first
   end
 
-  def self.start(params)
+  def start
     @time = Time.now.to_ms
-    # @print = true
-    srv = Service.get(params)
-    if srv.nil?
+    if service.state == SATE_OK
       Service.create(params)
     elsif !srv.running?
       Command.start(srv, params)
@@ -47,6 +45,25 @@ class Service < ActiveRecord::Base
     puts srv if @print
     srv
   end
+
+  def run(date=nil)
+    case setting.name
+      when 'tick'
+        cmd = "bin/tick -fund #{fund.name}"
+      when 'history'
+        if date
+          cmd = "bin/history -fund #{fund.name} -frame #{frame.name} -date #{date}"
+        else
+          cmd = "bin/history -fund #{fund.name} -frame #{frame.name}"
+        end
+    end
+    system(cmd) if cmd
+  end
+
+  def stop
+
+  end
+
 
   def self.create(params)
 
@@ -73,22 +90,8 @@ class Service < ActiveRecord::Base
     self.status == 'accepted'
   end
 
-  def run(date=nil)
-    case setting.name
-      when 'tick'
-        cmd = "bin/tick -fund #{fund.name}"
-      when 'history'
-        if date
-          cmd = "bin/history -fund #{fund.name} -frame #{frame.name} -date #{date}"
-        else
-          cmd = "bin/history -fund #{fund.name} -frame #{frame.name}"
-        end
-    end
-    system(cmd) if cmd
-  end
-
   def status
-    self.statuses.empty? ? '' : self.statuses.last.name
+    self.states.empty? ? '' : self.states.last.message
   end
 
   # def update_statuses

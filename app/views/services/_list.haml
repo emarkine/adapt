@@ -4,31 +4,33 @@
   %tr
     %th= link_to Service.human_attribute_name(:name), :action => :sort, :field => :name
     %th= link_to Service.human_attribute_name(:ngroup), :action => :sort, :field => :ngroup
+    %th= link_to Service.human_attribute_name(:host), :action => :sort, :field => :host
     -#%th= link_to Service.human_attribute_name(:position), :action => :sort, :field => :position
     %th= link_to Service.human_attribute_name(:fund), :action => :sort, :field => :fund
     %th= link_to Service.human_attribute_name(:setting), :action => :sort, :field => :setting
     %th= link_to Service.human_attribute_name(:frame), :action => :sort, :field => :frame
     %th= link_to Service.human_attribute_name(:trigger), :action => :sort, :field => :trigger
-    %th= link_to Service.human_attribute_name(:host), :action => :sort, :field => :host
     %th= link_to Service.human_attribute_name(:refresh), :action => :sort, :field => :refresh
-    %th= link_to Service.human_attribute_name(:active), :action => :sort, :field => :active
-    -#%th= link_to Service.human_attribute_name(:single), :action => :sort, :field => :single
-    -#%th= link_to Service.human_attribute_name :status
+    -#%th= link_to Service.human_attribute_name(:active), :action => :sort, :field => :active
+    %th
+    %th= link_to Service.human_attribute_name(:state), :action => :sort, :field => :command
     -#%th= Service.human_attribute_name :
   - @services.each do |service|
     %tr
       %td= link_to service.sname, {action: :show, id: service.id}
       -#%td= link_to service.sname, {action: :edit, id: service.id}
       %td= service.ngroup
+      %td= link_to service.host.name, {controller: :services, action: :host, name: service.host.name} if service.host
       -#%td= service.position
       -#%td= link_to service.group, {controller: :services, action: :group, name: service.group} if service.group
       %td= link_to service.fund.name, {controller: :funds, action: :show, id: service.fund.id} if service.fund
       %td= link_to service.setting.name, {controller: :settings, action: :show, id: service.setting.id} if service.setting
       %td= link_to service.frame.name, {controller: :services, action: :frame, name: service.frame.name} if service.frame
       %td= link_to service.trigger.name, {action: :show, id: service.trigger.id} if service.trigger
-      %td= link_to service.host.name, {controller: :services, action: :host, name: service.host.name} if service.host
       %td= service.refresh
-      %td= boolean_tag(service.active?)
+      %td= button_to 'start', "/service/start/#{service.id}"
+      %td= service.status
+      -#%td= boolean_tag(service.active?)
       -#%td= boolean_tag(service.single?)
       -#%td= link_to service.status, {controller: :services, action: :status, id: service.id}
 
