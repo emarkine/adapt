@@ -1,7 +1,7 @@
 class CreatePoints < ActiveRecord::Migration[5.1]
   def change
     create_table :points do |t|
-      # t.string :name
+      t.string :name
       t.references :setting
       # t.references :indicator
       t.references :fund

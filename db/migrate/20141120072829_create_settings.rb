@@ -5,8 +5,8 @@ class CreateSettings < ActiveRecord::Migration[5.1]
       t.references :indicator, null: false # для какого индикатора эти настройки
       t.integer :position, null: false  # место расположения настроек для сортировки
       # t.string :title # имя которое отображается в заголовке на странице
-      # t.references :fund # специфические настройки для определенного фонда
-      # t.references :frame # специфические настройки для определенного таймфрейма
+      t.references :fund # специфические настройки для определенного фонда
+      t.references :frame # специфические настройки для определенного таймфрейма
       t.boolean :separate # индикатор рисуется в отдельном окне
       t.float :max # максимально возможное значение индикатора
       t.float :min # минимально возможное значение индикатора
