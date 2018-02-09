@@ -56,9 +56,10 @@ group :development do
 end
 
 group :test do
+  gem 'fabrication'
   gem 'database_cleaner'
   gem 'rspec-rails'
-  gem 'factory_bot_rails', :require => false
+  gem 'factory_bot_rails', '~> 4.0', require: false
 end
 
 # IB libraries

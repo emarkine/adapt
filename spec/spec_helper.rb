@@ -1,6 +1,7 @@
-require 'factory_bot_rails'
+# require 'factory_bot_rails'
+require 'fabrication'
 require 'faker'
-require 'sorcery'
+# require 'sorcery'
 require 'support/authentication'
 require 'watir/rspec'
 
@@ -20,11 +21,6 @@ require 'watir/rspec'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
-
-  # sorcery
-  config.include Sorcery::TestHelpers::Rails::Controller, type: :controller
-  config.include Sorcery::TestHelpers::Rails::Integration, type: :feature
-  config.include AuthenticationForFeatureRequest, type: :feature
 
   # rspec-expectations config goes here. You can use an alternate
   # assertion/expectation library such as wrong or the stdlib/minitest
