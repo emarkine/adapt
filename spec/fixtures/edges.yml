@@ -1,31 +1,49 @@
 #===================================================== Crystal ========================================================#
 
 crystal:
+  name: crystal
   setting: crystal
+  position: 0
 
 overlap:
+  name: overlap
   setting: overlap
+  position: 1
 
 binary:
+  name: binary
   setting: binary
+  position: 2
 
 binary1m:
+  name: binary1m
   setting: binary1m
+  position: 3
 
 binary2m:
+  name: binary2m
   setting: binary2m
+  position: 4
 
 binary3m:
+  name: binary3m
   setting: binary3m
+  position: 5
 
 binary5m:
+  name: binary5m
   setting: binary5m
+  position: 6
 
 binary10m:
+  name: binary10m
   setting: binary10m
+  position: 7
 
 binary15m:
+  name: binary15m
   setting: binary15m
+  position: 8
 
 #----------------------------------------------------- Random ---------------------------------------------------------#
 

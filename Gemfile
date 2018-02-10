@@ -74,4 +74,4 @@ gem 'sorcery'
 gem 'thin'
 
 gem 'db-model'
-gem 'nodes', '~> 0.2.3'
+gem 'nodes'

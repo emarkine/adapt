@@ -6,6 +6,7 @@ class Node < ApplicationRecord
   has_many :crystals, through: :structures
   has_many :neurons, through: :edges
   has_many :nerves, class_name: :Nerve, foreign_key: :node_id
+
   # belongs_to :parent, class_name: :Node, foreign_key: :parent_id
   # belongs_to :next, class_name: :Node, foreign_key: :next_id
   # belongs_to :prev, class_name: :Node, foreign_key: :prev_id

@@ -62,7 +62,6 @@ sunday:
 introspection:
   title: introspection
   name: Самоанализ
-  parent: sunday
   date: 2017-02-19
   time: '21:59:00'
   file: aac
