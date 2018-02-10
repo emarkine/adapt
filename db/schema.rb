@@ -186,6 +186,33 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["edge_id"], name: "index_neurons_on_edge_id"
   end
 
+  create_table "nodes", force: :cascade do |t|
+    t.string "type"
+    t.string "title", null: false
+    t.string "name", null: false
+    t.string "description"
+    t.text "text"
+    t.date "date"
+    t.time "time"
+    t.string "file"
+    t.integer "x"
+    t.integer "y"
+    t.integer "z"
+    t.index ["title"], name: "node_title_index", unique: true
+  end
+
+  create_table "nodes_nodes", force: :cascade do |t|
+    t.integer "parent_id"
+    t.integer "next_id"
+    t.integer "prev_id"
+    t.integer "left_id"
+    t.integer "right_id"
+    t.integer "up_id"
+    t.integer "down_id"
+    t.integer "forward_id"
+    t.integer "backward_id"
+  end
+
   create_table "parts", force: :cascade do |t|
     t.string "name"
     t.integer "count", default: 0
