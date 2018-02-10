@@ -4,7 +4,7 @@ class User < ApplicationRecord
   belongs_to :currency
   belongs_to :country
   validates :email, email: true, presence: true, uniqueness: true
-  validates :first_name, presence: true
+  validates :name, presence: true
   validates :country_id, presence: true
   validates :currency_id, presence: true
   # validates :balance, presence: true

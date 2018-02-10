@@ -169,3 +169,9 @@ nodes/home/room/yacht/window/licht/swich:
   description: узловой переключатель света
   file: /home/eugene/Documents/nodes/nodes/home/room/yacht/window/licht/swich/action.rb
 
+test:
+#  type: 'Node::Neuro'
+  name: test
+  title: test
+  description: тестовый узел
+

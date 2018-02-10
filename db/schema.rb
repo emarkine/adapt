@@ -186,30 +186,6 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["edge_id"], name: "index_neurons_on_edge_id"
   end
 
-  create_table "nodes", force: :cascade do |t|
-    t.string "type"
-    t.string "title", null: false
-    t.string "name", null: false
-    t.string "description"
-    t.text "text"
-    t.date "date"
-    t.time "time"
-    t.string "file"
-    t.integer "parent_id"
-    t.integer "next_id"
-    t.integer "prev_id"
-    t.integer "x"
-    t.integer "left_id"
-    t.integer "right_id"
-    t.integer "y"
-    t.integer "up_id"
-    t.integer "down_id"
-    t.integer "z"
-    t.integer "forward_id"
-    t.integer "backward_id"
-    t.index ["title"], name: "node_title_index", unique: true
-  end
-
   create_table "parts", force: :cascade do |t|
     t.string "name"
     t.integer "count", default: 0
@@ -333,10 +309,8 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "users", force: :cascade do |t|
-    t.string "first_name", null: false
-    t.string "last_name"
+    t.string "name", null: false
     t.string "email", null: false
-    t.string "username"
     t.string "password"
     t.date "birthday"
     t.string "mobile"

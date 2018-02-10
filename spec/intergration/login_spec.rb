@@ -3,8 +3,10 @@ require 'rails_helper'
 RSpec.feature 'Login management: ', type: :feature do
 
   before do
-    @user = create(:user)
-    login_user_post(@user.username, 'secret')
+    # @user = Fabricate(:user)
+    # @user = create(:user)
+    @user = User.find 1
+    # login_user_post(@user.email, 'secret')
   end
 
   scenario 'Signing in with correct credentials' do
