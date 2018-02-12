@@ -1,26 +1,25 @@
 # require 'rails_helper'
 
 RSpec.describe Currency, type: :model do
-  let(:currency)  { create :currency }
+  let(:currency)  { Currency.USD }
 
   it 'has a valid factory'  do
     expect(currency).to be_valid
   end
 
-  it 'has a valid build factory'  do
-    expect(build(:currency)).to be_valid
-  end
-
   it 'is invalid without a name' do
-    expect(build(:currency, name: nil)).not_to be_valid
+    currency.name = nil
+    expect(currency).not_to be_valid
   end
 
   it 'is invalid without a code' do
-    expect(build(:currency, code: nil)).not_to be_valid
+    currency.code = nil
+    expect(currency).not_to be_valid
   end
 
   it 'is invalid without a country' do
-    expect(build(:currency, country: nil)).not_to be_valid
+    currency.country = nil
+    expect(currency).not_to be_valid
   end
 
 

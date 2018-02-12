@@ -2,7 +2,8 @@
 
 RSpec.describe "States", type: :request do
   describe "GET /states" do
-    it "works! (now write some real specs)" do
+    it "works" do
+      login_user_post
       get states_path
       expect(response).to have_http_status(200)
     end

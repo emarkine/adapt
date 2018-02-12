@@ -5,7 +5,7 @@ RSpec.feature 'Login management: ', type: :feature do
   before do
     # @user = Fabricate(:user)
     # @user = create(:user)
-    @user = User.find 1
+    # @user = User.find_by_name 'test'
     # login_user_post(@user.email, 'secret')
   end
 

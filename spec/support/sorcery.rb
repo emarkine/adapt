@@ -7,16 +7,17 @@ RSpec.configure do |config|
   config.include AuthenticationForFeatureRequest, type: :feature
 end
 
-module Sorcery
-  module TestHelpers
-    module Rails
-      def login_user_post(user, password)
-        page.driver.post(sessions_url, {username: user, password: password})
-      end
-
-      def logout_user_get
-        page.driver.get(logout_url)
-      end
-    end
-  end
-end
+# module Sorcery
+#   module TestHelpers
+#     module Rails
+#       def login_user_post
+#         # User.connection
+#         page.driver.post sessions_url, {email: 'test@marketram.com', password: 'password'}
+#       end
+#
+#       def logout_user_get
+#         page.driver.get(logout_url)
+#       end
+#     end
+#   end
+# end

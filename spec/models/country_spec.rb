@@ -1,22 +1,24 @@
 # require 'rails_helper'
 
 RSpec.describe Country, type: :model do
-  let(:country)  { create :country }
+  let(:country)  { Country.local }
 
   it 'has a valid factory'  do
     expect(country).to be_valid
   end
 
   it 'has a valid build factory'  do
-    expect(build(:country)).to be_valid
+    expect(country).to be_valid
   end
 
   it 'is invalid without a name' do
-    expect(build(:country, name: nil)).not_to be_valid
+    country.name = nil
+    expect(country).not_to be_valid
   end
 
   it 'is invalid without a code' do
-    expect(build(:country, code: nil)).not_to be_valid
+    country.code = nil
+    expect(country).not_to be_valid
   end
 
   it 'has a local' do
