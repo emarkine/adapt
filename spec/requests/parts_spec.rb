@@ -2,8 +2,8 @@
 
 RSpec.describe "Parts", type: :request do
   describe "GET /parts" do
-    it "works! (now write some real specs)" do
-      login_user_post
+    it "works" do
+      authenticate
       get parts_path
       expect(response).to have_http_status(200)
     end

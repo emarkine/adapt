@@ -42,12 +42,6 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["code"], name: "index_countries_on_code", unique: true
   end
 
-  create_table "crystals", force: :cascade do |t|
-    t.string "name", null: false
-    t.index ["name"], name: "crystals_index", unique: true
-    t.index ["name"], name: "index_crystals_on_name"
-  end
-
   create_table "currencies", force: :cascade do |t|
     t.string "name", null: false
     t.string "code", null: false
@@ -73,9 +67,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "edges", force: :cascade do |t|
-    t.string "name", null: false
     t.bigint "setting_id", null: false
-    t.integer "position", null: false
     t.index ["setting_id"], name: "edges_index", unique: true
     t.index ["setting_id"], name: "index_edges_on_setting_id"
   end
@@ -165,20 +157,21 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "nerves", force: :cascade do |t|
-    t.bigint "node_id"
     t.bigint "source_id"
     t.bigint "recipient_id"
+    t.bigint "fund_id"
+    t.bigint "frame_id"
     t.float "value", default: 1.0
     t.integer "level", default: 0
-    t.index ["node_id", "source_id", "recipient_id"], name: "nerves_index", unique: true
-    t.index ["node_id"], name: "index_nerves_on_node_id"
+    t.index ["frame_id"], name: "index_nerves_on_frame_id"
+    t.index ["fund_id"], name: "index_nerves_on_fund_id"
     t.index ["recipient_id"], name: "index_nerves_on_recipient_id"
+    t.index ["source_id", "recipient_id", "fund_id", "frame_id"], name: "nerves_index", unique: true
     t.index ["source_id"], name: "index_nerves_on_source_id"
   end
 
   create_table "neurons", force: :cascade do |t|
     t.string "type", null: false
-    t.string "name", null: false
     t.bigint "edge_id", null: false
     t.integer "position", null: false
     t.float "factor", default: 1.0
@@ -195,22 +188,19 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.date "date"
     t.time "time"
     t.string "file"
-    t.integer "x"
-    t.integer "y"
-    t.integer "z"
-    t.index ["title"], name: "node_title_index", unique: true
-  end
-
-  create_table "nodes_nodes", force: :cascade do |t|
     t.integer "parent_id"
     t.integer "next_id"
     t.integer "prev_id"
+    t.integer "x"
     t.integer "left_id"
     t.integer "right_id"
+    t.integer "y"
     t.integer "up_id"
     t.integer "down_id"
+    t.integer "z"
     t.integer "forward_id"
     t.integer "backward_id"
+    t.index ["title"], name: "node_title_index", unique: true
   end
 
   create_table "parts", force: :cascade do |t|
@@ -251,9 +241,10 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.integer "position"
     t.integer "trigger_id"
     t.string "ngroup"
-    t.bigint "host_id"
+    t.bigint "host_id", default: 1, null: false
     t.boolean "active"
     t.boolean "single"
+    t.string "action"
     t.integer "refresh"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -267,7 +258,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   create_table "settings", force: :cascade do |t|
     t.string "name", null: false
     t.bigint "indicator_id", null: false
-    t.integer "position", null: false
+    t.integer "position"
     t.boolean "separate"
     t.float "max"
     t.float "min"
@@ -300,24 +291,18 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "states", force: :cascade do |t|
-    t.string "command", null: false
-    t.string "message"
-    t.bigint "service_id", null: false
-    t.bigint "host_id", null: false
+    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["host_id"], name: "index_states_on_host_id"
-    t.index ["service_id"], name: "index_states_on_service_id"
   end
 
-  create_table "structures", force: :cascade do |t|
-    t.bigint "crystal_id", null: false
-    t.bigint "node_id", null: false
-    t.bigint "edge_id", null: false
-    t.index ["crystal_id", "node_id", "edge_id"], name: "structures_index", unique: true
-    t.index ["crystal_id"], name: "index_structures_on_crystal_id"
-    t.index ["edge_id"], name: "index_structures_on_edge_id"
-    t.index ["node_id"], name: "index_structures_on_node_id"
+  create_table "statuses", force: :cascade do |t|
+    t.string "name"
+    t.string "message"
+    t.bigint "service_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["service_id"], name: "index_statuses_on_service_id"
   end
 
   create_table "ticks", force: :cascade do |t|
@@ -354,4 +339,5 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
+  add_foreign_key "statuses", "services"
 end
