@@ -338,7 +338,7 @@ gold:
   open_time: "00:00:00"
   close_time: "23:15:00"
   settlement_method: Physical Delivery
-  watch: false
+  watch: true
   show_index: 201
 
 oil:
@@ -359,7 +359,7 @@ oil:
   comma: 3
   open_time: "00:00:00"
   close_time: "23:15:00"
-  watch: true
+  watch: false
   show_index: 202
 
 silver:
