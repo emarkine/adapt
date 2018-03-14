@@ -1,8 +1,7 @@
 user_1:
   id: 1
-  first_name: Test
-  username: test
-  password: 
+  name: Test
+  password:
   birthday: 
   mobile: 0612345678
   site: 
@@ -17,9 +16,8 @@ user_1:
 
 user_2:
   id: 2
-  first_name: Admin
-  username: admin
-  password: 
+  name: Admin
+  password:
   birthday: 
   mobile: 0612345678
   site: 
@@ -34,9 +32,7 @@ user_2:
 
 user_3:
   id: 3
-  first_name: Eugene
-  last_name: Markine
-  username: emarkine
+  name: Eugene Markine
   password: 1q2w3e4r5t
   birthday: 
   mobile: 0628736786

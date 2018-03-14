@@ -323,14 +323,14 @@ gold:
   name: gold
   full_name: "Gold"
   category: commodity
-  product: GCG8
+  product: GCJ8
   underlying: GC IND
   trading_class: GC
   security_type: FUT
   product_type: Metal
   currency: USD
-  contract_month: "2018-02-01"
-  expiration: "2018-02-26 17:15:00"
+  contract_month: "2018-04-01"
+  expiration: "2018-04-26 17:15:00"
   multiplier: 100
   exchange: NYMEX
   settlement_method: Physical Delivery
@@ -523,13 +523,13 @@ fti:
   multiplier: 200
   exchange: FTA
   trading_class: FTI
-  local_symbol: FTIG8
+  local_symbol: FTIH8
   product_type: Equity Index
   settlement_method: cash
   location: Amsterdam
   comma: 3
-  contract_month: "2018-02-01"
-  expiration: "2018-02-16 16:00:00"
+  contract_month: "2018-03-01"
+  expiration: "2018-03-16 16:00:00"
   open_time: "08:00:00"
   close_time: "22:00:00"
   watch: true
