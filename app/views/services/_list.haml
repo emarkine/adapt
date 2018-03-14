@@ -4,8 +4,8 @@
   %tr
     %th= link_to Service.human_attribute_name(:name), :action => :sort, :field => :name
     %th= link_to Service.human_attribute_name(:ngroup), :action => :sort, :field => :ngroup
+    %th= link_to Service.human_attribute_name(:position), :action => :sort, :field => :position
     %th= link_to Service.human_attribute_name(:host), :action => :sort, :field => :host
-    -#%th= link_to Service.human_attribute_name(:position), :action => :sort, :field => :position
     %th= link_to Service.human_attribute_name(:fund), :action => :sort, :field => :fund
     %th= link_to Service.human_attribute_name(:setting), :action => :sort, :field => :setting
     %th= link_to Service.human_attribute_name(:frame), :action => :sort, :field => :frame
@@ -20,8 +20,8 @@
       %td= link_to service.sname, {action: :show, id: service.id}
       -#%td= link_to service.sname, {action: :edit, id: service.id}
       %td= service.ngroup
+      %td= service.position
       %td= link_to service.host.name, {controller: :services, action: :host, name: service.host.name} if service.host
-      -#%td= service.position
       -#%td= link_to service.group, {controller: :services, action: :group, name: service.group} if service.group
       %td= link_to service.fund.name, {controller: :funds, action: :show, id: service.fund.id} if service.fund
       %td= link_to service.setting.name, {controller: :settings, action: :show, id: service.setting.id} if service.setting
