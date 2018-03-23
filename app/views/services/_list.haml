@@ -1,6 +1,6 @@
 %table{class: 'list'}
   %tr
-    %th{colspan: 10}=link_to image_tag('create.png'), new_service_path, :title => t(:add_new,:model=>Service.model_name.human)
+    %th{colspan: 11}=link_to image_tag('create.png'), new_service_path, :title => t(:add_new,:model=>Service.model_name.human)
   %tr
     %th= link_to Service.human_attribute_name(:name), :action => :sort, :field => :name
     %th= link_to Service.human_attribute_name(:ngroup), :action => :sort, :field => :ngroup
@@ -11,8 +11,7 @@
     %th= link_to Service.human_attribute_name(:frame), :action => :sort, :field => :frame
     %th= link_to Service.human_attribute_name(:trigger), :action => :sort, :field => :trigger
     %th= link_to Service.human_attribute_name(:refresh), :action => :sort, :field => :refresh
-    -#%th= link_to Service.human_attribute_name(:active), :action => :sort, :field => :active
-    %th
+    %th= link_to Service.human_attribute_name(:action), :action => :sort, :field => :action
     %th= link_to Service.human_attribute_name(:state), :action => :sort, :field => :command
     -#%th= Service.human_attribute_name :
   - @services.each do |service|

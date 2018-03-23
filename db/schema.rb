@@ -237,6 +237,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.boolean "active"
     t.boolean "single"
     t.integer "refresh"
+    t.string "action"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["frame_id"], name: "index_services_on_frame_id"

@@ -13,6 +13,7 @@ class CreateServices < ActiveRecord::Migration[5.1]
       t.boolean :active # запускается ли сервис по умолчанию
       t.boolean :single # признак одиночного/одноразового сервиса (напр. history)
       t.integer :refresh # время обновления данных - run метод сервиса
+      t.string :action # команда сервису
       # t.references :crystal, null: false  # нейрокристал
       # t.string :status, null: false, :default => 'stopped'  # состояние сервиса
       # t.date :date # поле нужно для работы в Java

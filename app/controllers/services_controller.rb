@@ -1,4 +1,5 @@
 class ServicesController < ApplicationController
+
   # skip_before_action :require_login
   before_action :set_service
 
@@ -80,6 +81,16 @@ class ServicesController < ApplicationController
     # render :json => session[:show_history]
   end
 
+  # def sort
+  #   if session[:sort_direction] == 'DESC'
+  #     session[:sort_direction] = 'ASC'
+  #   else
+  #     session[:sort_direction] = 'DESC'
+  #   end
+  #   # @services = Service.joins(params[:field])
+  #   @services = Service.order "#{params[:field]} #{session[:sort_direction]}"
+  #   render action: :index
+  # end
 
   private
   # Use callbacks to share common setup or constraints between actions.

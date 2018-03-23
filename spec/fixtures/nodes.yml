@@ -26,6 +26,7 @@ nodes/random:
   type: 'Node::Neuro'
   name: random
   title: nodes/random
+  description: генератор случайных чисел
 
 nodes/home/room/yacht/window/licht/swich:
   type: 'Node::Actor'

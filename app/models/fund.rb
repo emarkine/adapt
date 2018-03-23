@@ -32,7 +32,8 @@ class Fund < ActiveRecord::Base
 
     def to_s
       # "Fund[#{name}], indicators: #{indicators.size}]"
-      "Fund[#{name}] #{currency.sign}#{rate}"
+      # "Fund[#{name}] #{currency.sign}#{rate}"
+      "Fund[#{name}]"
     end
 
   # время последнего тика

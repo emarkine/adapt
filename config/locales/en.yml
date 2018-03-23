@@ -11,6 +11,9 @@ en:
 
 
  # errors / messages
+  add_new: "add new %{model}"
+  delete: "delete %{model}"
+  delete_question: "Are you sure to delete %{name}?"
   message_create: "%{model} was successfully created"
   message_error: "%{model} has error"
   message_update: "%{model} was successfully updated"
@@ -48,6 +51,12 @@ en:
       user:
         one: user
         other: users
+      service:
+        one: service
+        other: services
+      node:
+        one: node
+        other: nodes
     attributes:
       user:
         email: email
@@ -64,3 +73,32 @@ en:
         country: country
         country_id: country
         balance: balance
+      service:
+        name: name
+        ngroup: group
+        position: position
+        setting: setting
+        setting_id: setting
+        fund: fund
+        fund_id: fund
+        frame: frame
+        frame_id: frame
+        host: host
+        host_id: host
+        trigger: trigger
+        trigger_id: trigger
+        status: status
+        refresh: refresh
+        delta: delta
+        date: date
+        start_time: start time
+        stop_time: stop time
+        active: active
+        single: single
+        action: action
+        state: state
+      node:
+        name: name
+        title: title
+        description: description
+        file: file
