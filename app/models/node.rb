@@ -1,11 +1,11 @@
 class Node < ApplicationRecord
   validates :title, presence: true, uniqueness: true
   validates :name, presence: true
-  # has_many :structures
-  # has_many :edges, through: :structures
-  # has_many :crystals, through: :structures
-  # has_many :neurons, through: :edges
-  # has_many :nerves, class_name: :Nerve, foreign_key: :node_id
+  has_many :structures
+  has_many :edges, through: :structures
+  has_many :crystals, through: :structures
+  has_many :neurons, through: :edges
+  has_many :nerves, class_name: :Nerve, foreign_key: :node_id
 
   # belongs_to :parent, class_name: :Node, foreign_key: :parent_id
   # belongs_to :next, class_name: :Node, foreign_key: :next_id

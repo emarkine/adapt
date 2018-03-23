@@ -1,3 +1,35 @@
+#======================================================= test ===========================================================#
+
+test:
+  name: test
+  type: Neuron::Out
+  edge: test
+  position: 0
+
+test_angle:
+  name: test_angle
+  type: Neuron::Angle
+  edge: test
+  position: 1
+
+test_trend:
+  name: test_trend
+  type: Neuron::Trend
+  edge: test
+  position: 2
+
+test_level:
+  name: test_level
+  type: Neuron::Level
+  edge: test
+  position: 3
+
+test_sign:
+  name: test_sign
+  type: Neuron::Sign
+  edge: test
+  position: 4
+
 #===================================================== Crystal ========================================================#
 
 #crystal:
