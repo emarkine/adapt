@@ -1,176 +1,36 @@
-project/nodes/thursday-is-nodes-day:
-  title: project/nodes/thursday-is-nodes-day
-  name: Четверг - это день узлов
-  date: 2017-05-18
-  file: /home/eugene/Documents/project/nodes/doc/thursday-is-nodes-day.txt
-
-project/nodes/motivation:
-  title: project/nodes/motivation
-  name: Motivation
-  date: 2017-05-21
-  file: /home/eugene/Documents/project/nodes/doc/motivation.txt
-
-project/nodes/description/hash:
-  title: project/nodes/description/hash
-  name: Hash
-  date: 2017-05-22
-  file: /home/eugene/Documents/project/nodes/doc/description/hash.txt
-
-project/nodes/description/one-man-system:
-  title: project/nodes/description/one-man-system
-  name: One Man System
-  date: 2017-05-22
-  file: /home/eugene/Documents/project/nodes/doc/description/one-man-system.txt
-
-project/nodes/description/tags:
-  title: project/nodes/description/tags
-  name: Tags
-  date: 2017-05-22
-  file: /home/eugene/Documents/project/nodes/doc/description/tags.txt
-
-project/nodes/porting-users-to-nodes:
-  title: project/nodes/porting-users-to-nodes
-  name: Перенос пользователей на узлы
-  date: 2017-07-05
-  file: /home/eugene/Documents/project/nodes/porting-users-to-nodes.txt
-
-project/multitasking-and-fatigue:
-  title: project/multitasking-and-fatigue
-  name: Многозадачность и усталость
-  date: 2017-07-07
-  file: /home/eugene/Documents/project/multitasking-and-fatigue.txt
-
-project/nodes/one:
-  title: project/nodes/one
-  name: nodes/one
-  date: 2017-07-07
-  file: /home/eugene/Documents/project/nodes/one.txt
-
-
-arduino/pro-micro:
-  title: arduino/pro-micro
-  name: Pro Micro
-  file: /home/eugene/Documents/
-
-sunday:
-  title: sunday
-  name: Воскресение
-  date: 2017-02-19
-  time: '21:59:00'
-  file: txt
-
-introspection:
-  title: introspection
-  name: Самоанализ
-  date: 2017-02-19
-  time: '21:59:00'
-  file: aac
-
-project/nodes/thursday-is-nodes-day:
-  title: project/nodes/thursday-is-nodes-day
-  name: Четверг - это день узлов
-  date: 2017-05-18
-  file: /home/eugene/Documents/project/nodes/doc/thursday-is-nodes-day.txt
-
-project/nodes/motivation:
-  title: project/nodes/motivation
-  name: Motivation
-  date: 2017-05-21
-  file: /home/eugene/Documents/project/nodes/doc/motivation.txt
-
-project/nodes/description/hash:
-  title: project/nodes/description/hash
-  name: Hash
-  date: 2017-05-22
-  file: /home/eugene/Documents/project/nodes/doc/description/hash.txt
-
-project/nodes/description/one-man-system:
-  title: project/nodes/description/one-man-system
-  name: One Man System
-  date: 2017-05-22
-  file: /home/eugene/Documents/project/nodes/doc/description/one-man-system.txt
-
-project/nodes/description/tags:
-  title: project/nodes/description/tags
-  name: Tags
-  date: 2017-05-22
-  file: /home/eugene/Documents/project/nodes/doc/description/tags.txt
-
-project/nodes/porting-users-to-nodes:
-  title: project/nodes/porting-users-to-nodes
-  name: Перенос пользователей на узлы
-  date: 2017-07-05
-  file: /home/eugene/Documents/project/nodes/porting-users-to-nodes.txt
-
-project/multitasking-and-fatigue:
-  title: project/multitasking-and-fatigue
-  name: Многозадачность и усталость
-  date: 2017-07-07
-  file: /home/eugene/Documents/project/multitasking-and-fatigue.txt
-
-project/nodes/one:
-  title: project/nodes/one
-  name: nodes/one
-  date: 2017-07-07
-  file: /home/eugene/Documents/project/nodes/one.txt
-
-#accumulators:
-#  type: Node::Box
-#  title: accumulators
-#  name: аккумуляторы
-
-ema:
-  name: ema
-  type: 'Node::Neuro'
-  title: node/indicator/neuron/ema
-  description: нейроузел на основе суммирования экспонециальных скользящих средних ema
-
-sign:
-  type: 'Node::Neuro'
-  name: sign
-  title: node/indicator/neuron/sign
-  description: нейроузел на основе признаков [-1 0 1]
-
-reverse:
-  type: 'Node::Neuro'
-  name: reverse
-  title: node/indicator/neuron/reverse
-  description: нейроузел на основе признаков разворота в нейронах скользящих средних
-
-#mila:
-#  name: mila
-#  title: node/indicator/ma/neuron/mila
-#  description: нейроузел на основе выходных нейронов скользящих средних
-
-#
-#masha:
-#  name: masha
-#  title: node/indicator/macd/neuron/masha
-#  indicator: macd
-#  neuron: macd
-
-
-#:
-#  title:
-#  name:
-#  date: 2018-01-
-#  file: /home/eugene/Documents/
-
-nodes/random:
-  type: 'Node::Random'
-  name: random
-  title: nodes/random
-
-nodes/home/room/yacht/window/licht/swich:
-  type: 'Node::Actor'
-  name: swicher
-  title: nodes/home/room/yacht/window/licht/swich
-  description: узловой переключатель света
-  file: /home/eugene/Documents/nodes/nodes/home/room/yacht/window/licht/swich/action.rb
-
 test:
 #  type: 'Node::Neuro'
   name: test
   title: test
   description: тестовый узел
+
+ema:
+#  type: 'Node::Neuro'
+  name: ema
+  title: node/indicator/neuron/ema
+  description: нейроузел на основе суммирования экспонециальных скользящих средних ema
+
+sign:
+#  type: 'Node::Neuro'
+  name: sign
+  title: node/indicator/neuron/sign
+  description: нейроузел на основе признаков [-1 0 1]
+
+reverse:
+#  type: 'Node::Neuro'
+  name: reverse
+  title: node/indicator/neuron/reverse
+  description: нейроузел на основе признаков разворота в нейронах скользящих средних
+
+nodes/random:
+#  type: 'Node::Neuro'
+  name: random
+  title: nodes/random
+
+nodes/home/room/yacht/window/licht/swich:
+#  type: 'Node::Actor'
+  name: swicher
+  title: nodes/home/room/yacht/window/licht/swich
+  description: узловой переключатель света
+  file: /home/eugene/Documents/nodes/nodes/home/room/yacht/window/licht/swich/action.rb
 

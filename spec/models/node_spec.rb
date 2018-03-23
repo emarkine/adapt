@@ -1,7 +1,6 @@
 require 'rails_helper'
 
-module Nodes
-  RSpec.describe Node, type: :model do
+RSpec.describe Node, type: :model do
     fixtures :nodes
     let(:node)  { Node.find_by_name 'test' }
 
@@ -21,5 +20,4 @@ module Nodes
     #   expect(build(:node, title: nil)).not_to be_valid
     # end
 
-  end
 end

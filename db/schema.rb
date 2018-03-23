@@ -191,26 +191,8 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.string "title", null: false
     t.string "name", null: false
     t.string "description"
-    t.text "text"
-    t.date "date"
-    t.time "time"
     t.string "file"
-    t.integer "x"
-    t.integer "y"
-    t.integer "z"
     t.index ["title"], name: "node_title_index", unique: true
-  end
-
-  create_table "nodes_nodes", force: :cascade do |t|
-    t.integer "parent"
-    t.integer "next"
-    t.integer "prev"
-    t.integer "left"
-    t.integer "right"
-    t.integer "up"
-    t.integer "down"
-    t.integer "forward"
-    t.integer "backward"
   end
 
   create_table "parts", force: :cascade do |t|

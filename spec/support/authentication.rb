@@ -1,4 +1,8 @@
+require 'rails_helper'
+
 module TestHelpers
+  include Sorcery::TestHelpers::Rails::Integration
+
   module Features
     URL = 'localhost:3001'
 
@@ -13,9 +17,10 @@ module TestHelpers
   end
   module Requests
     def authenticate
-      post sessions_url, params: {session: {email: user.email, password: "123123"}}
-      assert_redirected_to workflows_path
-      assert_equal session[:user_id].to_i, user.id
+      user = User.find_by_name 'test'
+      post user_sessions_path, params: {email: user.email, password: 'password'}
+      # follow_redirect!
+      # assert_equal session[:user_id].to_i, user.id
     end
   end
 end
