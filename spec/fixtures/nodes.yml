@@ -1,35 +1,35 @@
 test:
-  type: 'Node::Neuro'
+#  type: 'Node::Neuro'
   name: test
   title: test
   description: тестовый узел
 
 ema:
-  type: 'Node::Neuro'
+#  type: 'Node::Neuro'
   name: ema
   title: node/indicator/neuron/ema
   description: нейроузел на основе суммирования экспонециальных скользящих средних ema
 
 sign:
-  type: 'Node::Neuro'
+#  type: 'Node::Neuro'
   name: sign
   title: node/indicator/neuron/sign
   description: нейроузел на основе признаков [-1 0 1]
 
 reverse:
-  type: 'Node::Neuro'
+#  type: 'Node::Neuro'
   name: reverse
   title: node/indicator/neuron/reverse
   description: нейроузел на основе признаков разворота в нейронах скользящих средних
 
 nodes/random:
-  type: 'Node::Neuro'
+#  type: 'Node::Neuro'
   name: random
   title: nodes/random
   description: генератор случайных чисел
 
 nodes/home/room/yacht/window/licht/swich:
-  type: 'Node::Actor'
+#  type: 'Node::Actor'
   name: swicher
   title: nodes/home/room/yacht/window/licht/swich
   description: узловой переключатель света

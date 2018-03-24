@@ -21,4 +21,8 @@ class Node < ApplicationRecord
     "Node[#{id}] #{title}, name: #{name}, edges: #{edges.size}, nerves: #{nerves.size}"
   end
 
+  def run
+    puts "Node[#{name}] is running"
+  end
+
 end

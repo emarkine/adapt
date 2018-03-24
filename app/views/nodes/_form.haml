@@ -1,4 +1,7 @@
-= form_for @node, :html => {:class => 'node-form'} do |f|
-  - form_error @node
-  .field= f.text_field :name
-  .actions= image_submit_tag('nodes/save.png', :title => t(:save_node) )
+= form_for @node do |f|
+  %table{class: :form}
+    - form_error @node
+    - form_field f, :name
+    - form_field f, :title
+    - form_field f, :description
+    - form_submit f
