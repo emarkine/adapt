@@ -1,13 +1,19 @@
 en:
   login: login
-  logout: logout
-  profile: profile
-  register: register
   login_success: Login successful
   login_failed: Login failed
   logged_out: Logged out
   not_authenticated: Please login first
   save: save
+
+  menu:
+    login: login
+    logout: logout
+    profile: profile
+    register: register
+    services: services
+#    neurons: neurons
+    nodes: nodes
 
 
  # errors / messages

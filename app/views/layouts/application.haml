@@ -8,16 +8,9 @@
     %link{:rel => 'icon', :href => image_path('favicon.ico'), :type => 'image/ico'}
 
   %body
-    .nav
-      - if current_user
-        = link_to t(:profile), '/profile'
-        = link_to t(:logout), :logout, method: :post
-      - else
-        = link_to t(:register), new_user_path
-        = link_to t(:login), :login
-
     .flash
       .notice= flash[:notice]
       .alert= flash[:alert]
+    .menu= render :partial => 'layouts/menu'
 
     = yield

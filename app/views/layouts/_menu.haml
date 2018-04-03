@@ -1,0 +1,8 @@
+- if current_user
+  = link_to t('menu.nodes'), '/nodes'
+  = link_to t('menu.services'), '/services'
+  = link_to t('menu.profile'), '/profile'
+  = link_to t('menu.logout'), '/logout', method: :post
+- else
+  -#= link_to t(:register), new_user_path
+  = link_to t('menu.login'), '/login'
