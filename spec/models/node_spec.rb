@@ -1,11 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe Node, type: :model do
-    fixtures :nodes
-    fixtures :structures
-    fixtures :edges
-    fixtures :neurons
-    fixtures :crystals
 
     let(:node)  { Node.find_by_name 'test' }
 

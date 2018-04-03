@@ -28,3 +28,8 @@ USER_EUGENE = User.create({ id: 3, name: 'Eugene Markin', currency: USD, country
                      password: 'secret123', password_confirmation: 'secret123' } )
 USER_EUGENE.save!
 
+fixtures :nodes
+fixtures :structures
+fixtures :edges
+fixtures :neurons
+fixtures :crystals
