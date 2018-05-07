@@ -15,5 +15,4 @@ production:
   <<: *default
   pool: 5
   encoding: unicode
-  host: localhost
   database: adapt_production
