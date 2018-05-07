@@ -17,4 +17,3 @@ production:
   encoding: unicode
   host: localhost
   database: adapt_production
-  username: adapt
