@@ -164,16 +164,15 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["name"], name: "index_indicators_on_name", unique: true
   end
 
-  create_table "nerves", force: :cascade do |t|
-    t.bigint "node_id"
-    t.bigint "source_id"
-    t.bigint "recipient_id"
-    t.float "value", default: 1.0
+  create_table "lines", force: :cascade do |t|
+    t.bigint "node_id", null: false
+    t.bigint "source_id", null: false
+    t.bigint "target_id", null: false
+    t.integer "value", default: 1
     t.integer "level", default: 0
-    t.index ["node_id", "source_id", "recipient_id"], name: "nerves_index", unique: true
-    t.index ["node_id"], name: "index_nerves_on_node_id"
-    t.index ["recipient_id"], name: "index_nerves_on_recipient_id"
-    t.index ["source_id"], name: "index_nerves_on_source_id"
+    t.index ["node_id"], name: "index_lines_on_node_id"
+    t.index ["source_id"], name: "index_lines_on_source_id"
+    t.index ["target_id"], name: "index_lines_on_target_id"
   end
 
   create_table "neurons", force: :cascade do |t|

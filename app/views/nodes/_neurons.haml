@@ -4,9 +4,9 @@
     %th= 'value'
     %th= 'level'
     %th= 'recipient'
-  - @node.nerves.each do |nerve|
+  - @node.lines.each do |line|
     %tr
-      %td= nerve.source.name
-      %td= nerve.value
-      %td= nerve.level
-      %td= nerve.recipient.name
+      %td= line.source.name
+      %td= line.value
+      %td= line.level
+      %td= line.target.name

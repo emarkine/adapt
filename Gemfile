@@ -73,5 +73,5 @@ gem 'haml-rails'
 gem 'sorcery'
 gem 'thin'
 
-gem 'db-model'
-gem 'nodes'
+gem 'db-model', '~> 0.2.2'
+# gem 'nodes'

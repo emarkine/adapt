@@ -32,7 +32,7 @@ RSpec.feature 'Login management: ', type: :feature do
   scenario 'User logged out' do
     login_with_browser
     expect(url).to end_with '/profile'
-    a( text: I18n.t(:logout)).click
+    a( text: I18n.t('menu.logout')).click
     wait
     expect(div(class: 'notice').text).to have_text I18n.t(:logged_out)
   end

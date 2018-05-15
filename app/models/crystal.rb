@@ -1,4 +1,4 @@
-class Crystal < ActiveRecord::Base
+class Crystal < ApplicationRecord
   include CrystalsHelper
   has_many :structures
   has_many :nodes, -> { distinct }, through: :structures

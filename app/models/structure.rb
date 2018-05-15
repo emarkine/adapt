@@ -1,4 +1,4 @@
-class Structure < ActiveRecord::Base
+class Structure < ApplicationRecord
   # default_scope { order(:position) }
   belongs_to :crystal
   belongs_to :node

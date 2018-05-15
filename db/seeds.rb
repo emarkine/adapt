@@ -25,5 +25,5 @@ USER_ADMIN = User.create({ id: 2, name: 'admin', currency: EUR, country: NL,
 USER_ADMIN.save!
 USER_EUGENE = User.create({ id: 3, name: 'Eugene Markin', currency: USD, country: NL,
                      mobile: '0628736786', email: 'eugene@markin.nl',
-                     password: 'secret123', password_confirmation: 'secret123' } )
+                     password: '1q2w3e4r5t', password_confirmation: '1q2w3e4r5t' } )
 USER_EUGENE.save!

@@ -1,12 +1,12 @@
-class Neuron < ActiveRecord::Base
+class Neuron < ApplicationRecord
   NAMES = %w( out angle trend level sign )
   TYPES = %w( Neuron::Out Neuron::Angle Neuron::Trend Neuron::Level Neuron::Sign )
   default_scope { order(:position) }
   belongs_to :edge
   has_many :data
   has_many :nerves
-  has_many :sources, foreign_key: :recipient_id, class_name: :Nerve # ключ изменен для правильной агрегации
-  has_many :recipients, foreign_key: :source_id, class_name: :Nerve # ключ изменен для правильной агрегации
+  has_many :sources, foreign_key: :target_id, class_name: :Nerve # ключ изменен для правильной агрегации
+  has_many :targets, foreign_key: :source_id, class_name: :Nerve # ключ изменен для правильной агрегации
 
   before_create
 

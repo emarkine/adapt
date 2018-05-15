@@ -1,0 +1,357 @@
+test.test_one.test_two:
+  node: test
+  source: test_one
+  target: test_two
+  value: 1
+  level: 0
+
+test.test_two.test_one:
+  node: test
+  source: test_two
+  target: test_one
+  value: 1
+  level: 0
+
+ema.ema_angle.ema:
+  node: ema
+  source: ema_angle
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema_trend.ema:
+  node: ema
+  source: ema_trend
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema_level.ema:
+  node: ema
+  source: ema_level
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema_sign.ema:
+  node: ema
+  source: ema_sign
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema12_angle.ema12:
+  node: ema
+  source: ema12_angle
+  target: ema12
+  value: 1
+  level: 0
+
+ema.ema12_trend.ema12:
+  node: ema
+  source: ema12_trend
+  target: ema12
+  value: 1
+  level: 0
+
+ema.ema12_level.ema12:
+  node: ema
+  source: ema12_level
+  target: ema12
+  value: 1
+  level: 0
+
+ema.ema12_sign.ema12:
+  node: ema
+  source: ema12_sign
+  target: ema12
+  value: 1
+  level: 0
+
+ema.ema15_angle.ema15:
+  node: ema
+  source: ema15_angle
+  target: ema15
+  value: 1
+  level: 0
+
+ema.ema15_trend.ema15:
+  node: ema
+  source: ema15_trend
+  target: ema15
+  value: 1
+  level: 0
+
+ema.ema15_level.ema15:
+  node: ema
+  source: ema15_level
+  target: ema15
+  value: 1
+  level: 0
+
+ema.ema15_sign.ema15:
+  node: ema
+  source: ema15_sign
+  target: ema15
+  value: 1
+  level: 0
+
+ema.ema30_angle.ema30:
+  node: ema
+  source: ema30_angle
+  target: ema30
+  value: 1
+  level: 0
+
+ema.ema30_trend.ema30:
+  node: ema
+  source: ema30_trend
+  target: ema30
+  value: 1
+  level: 0
+
+ema.ema30_level.ema30:
+  node: ema
+  source: ema30_level
+  target: ema30
+  value: 1
+  level: 0
+
+ema.ema30_sign.ema30:
+  node: ema
+  source: ema30_sign
+  target: ema30
+  value: 1
+  level: 0
+
+ema.ema60_angle.ema60:
+  node: ema
+  source: ema60_angle
+  target: ema60
+  value: 1
+  level: 0
+
+ema.ema60_trend.ema60:
+  node: ema
+  source: ema60_trend
+  target: ema60
+  value: 1
+  level: 0
+
+ema.ema60_level.ema60:
+  node: ema
+  source: ema60_level
+  target: ema60
+  value: 1
+  level: 0
+
+ema.ema60_sign.ema60:
+  node: ema
+  source: ema60_sign
+  target: ema60
+  value: 1
+  level: 0
+
+ema.ema360_angle.ema360:
+  node: ema
+  source: ema360_angle
+  target: ema360
+  value: 1
+  level: 0
+
+ema.ema360_trend.ema360:
+  node: ema
+  source: ema360_trend
+  target: ema360
+  value: 1
+  level: 0
+
+ema.ema360_level.ema360:
+  node: ema
+  source: ema360_level
+  target: ema360
+  value: 1
+  level: 0
+
+ema.ema360_sign.ema360:
+  node: ema
+  source: ema360_sign
+  target: ema360
+  value: 1
+  level: 0
+
+ema.ema12.ema:
+  node: ema
+  source: ema12
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema15.ema:
+  node: ema
+  source: ema15
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema30.ema:
+  node: ema
+  source: ema30
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema60.ema:
+  node: ema
+  source: ema60
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema360.ema:
+  node: ema
+  source: ema360
+  target: ema
+  value: 1
+  level: 0
+
+ema.ema12_angle.ema_angle:
+  node: ema
+  source: ema12_angle
+  target: ema_angle
+  value: 1
+  level: 0
+
+ema.ema15_angle.ema_angle:
+  node: ema
+  source: ema15_angle
+  target: ema_angle
+  value: 1
+  level: 0
+
+ema.ema30_angle.ema_angle:
+  node: ema
+  source: ema30_angle
+  target: ema_angle
+  value: 1
+  level: 0
+
+ema.ema60_angle.ema_angle:
+  node: ema
+  source: ema60_angle
+  target: ema_angle
+  value: 1
+  level: 0
+
+ema.ema360_angle.ema_angle:
+  node: ema
+  source: ema360_angle
+  target: ema_angle
+  value: 1
+  level: 0
+
+ema.ema12_trend.ema_trend:
+  node: ema
+  source: ema12_trend
+  target: ema_trend
+  value: 1
+  level: 0
+
+ema.ema15_trend.ema_trend:
+  node: ema
+  source: ema15_trend
+  target: ema_trend
+  value: 1
+  level: 0
+
+ema.ema30_trend.ema_trend:
+  node: ema
+  source: ema30_trend
+  target: ema_trend
+  value: 1
+  level: 0
+
+ema.ema60_trend.ema_trend:
+  node: ema
+  source: ema60_trend
+  target: ema_trend
+  value: 1
+  level: 0
+
+ema.ema360_trend.ema_trend:
+  node: ema
+  source: ema360_trend
+  target: ema_trend
+  value: 1
+  level: 0
+
+ema.ema12_level.ema_level:
+  node: ema
+  source: ema12_level
+  target: ema_level
+  value: 1
+  level: 0
+
+ema.ema15_level.ema_level:
+  node: ema
+  source: ema15_level
+  target: ema_level
+  value: 1
+  level: 0
+
+ema.ema30_level.ema_level:
+  node: ema
+  source: ema30_level
+  target: ema_level
+  value: 1
+  level: 0
+
+ema.ema60_level.ema_level:
+  node: ema
+  source: ema60_level
+  target: ema_level
+  value: 1
+  level: 0
+
+ema.ema360_level.ema_level:
+  node: ema
+  source: ema360_level
+  target: ema_level
+  value: 1
+  level: 0
+
+ema.ema12_sign.ema_sign:
+  node: ema
+  source: ema12_sign
+  target: ema_sign
+  value: 1
+  level: 0
+
+ema.ema15_sign.ema_sign:
+  node: ema
+  source: ema15_sign
+  target: ema_sign
+  value: 1
+  level: 0
+
+ema.ema30_sign.ema_sign:
+  node: ema
+  source: ema30_sign
+  target: ema_sign
+  value: 1
+  level: 0
+
+ema.ema60_sign.ema_sign:
+  node: ema
+  source: ema60_sign
+  target: ema_sign
+  value: 1
+  level: 0
+
+ema.ema360_sign.ema_sign:
+  node: ema
+  source: ema360_sign
+  target: ema_sign
+  value: 1
+  level: 0
+

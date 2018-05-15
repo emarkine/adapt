@@ -1,4 +1,4 @@
-class Edge < ActiveRecord::Base
+class Edge < ApplicationRecord
   default_scope { order(:position) }
   include Draw
   belongs_to :setting

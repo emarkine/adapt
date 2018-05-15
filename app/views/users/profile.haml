@@ -1,14 +1,11 @@
 .line= gravatar_for @user
 .line= mail_to @user.email, @user.name
--
 .line
   = @user.currency.sign
   = number_with_precision(@user.balance, :precision => 2, :separator => '.', :delimiter => '')
-
+-#.line= button_tag t(:logout)
 -#.line=
 -#- line :email
 -#- line :site
 -#- line :birthday
 -#
--#.line
-  = button_tag 'logout'
