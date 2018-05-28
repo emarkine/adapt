@@ -1,10 +1,10 @@
 class CreateStates < ActiveRecord::Migration[5.1]
   def change
     create_table :states do |t|
-      t.string :name, null: false # состояние
+      t.string :name # состояние
       t.string :message # сообщение от сервиса
-      t.references :service, null: false  # сервис
-      t.datetime :time, null: false, index: true # время
+      t.references :service# сервис
+      t.datetime :time # время
     end
   end
 end
