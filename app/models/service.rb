@@ -27,6 +27,11 @@ class Service < ActiveRecord::Base
     n.blank? ? id : n
   end
 
+  def state
+    states.last.name unless states.empty?
+  end
+
+
   def group
     self.ngroup
   end
