@@ -4,7 +4,7 @@ class ServicesController < ApplicationController
   before_action :set_service
 
   def index
-    @services = Service.all
+    @services = Service.list
     # @services.collect! { |service| service if service.setting.name != 'history' }.compact! unless session[:show_history] # убираем из списка все history сервисы
     # @services.collect! { |service| service if service.setting && service.setting.name != 'history' }.compact! unless session[:show_history] # убираем из списка все history сервисы
   end
@@ -81,26 +81,12 @@ class ServicesController < ApplicationController
     # render :json => session[:show_history]
   end
 
-  # def sort
-  #   if session[:sort_direction] == 'DESC'
-  #     session[:sort_direction] = 'ASC'
-  #   else
-  #     session[:sort_direction] = 'DESC'
-  #   end
-  #   # @services = Service.joins(params[:field])
-  #   @services = Service.order "#{params[:field]} #{session[:sort_direction]}"
-  #   render action: :index
-  # end
-
   private
-  # Use callbacks to share common setup or constraints between actions.
   def set_service
     @service = Service.find(params[:id]) unless params[:id].blank?
   end
-
-  # Never trust parameters from the scary internet, only allow the white list through.
   def service_params
-    params.require(:service).permit(:name, :setting_id, :fund_id, :frame_id, :position, :trigger_id, :ngroup, :host_id, :active, :single, :action, :refresh)
+    params.require(:service).permit(:name, :setting_id, :fund_id, :frame_id, :position, :trigger_id, :ngroup, :host_id, :active, :single, :action, :refresh, :status)
   end
 
 end

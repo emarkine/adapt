@@ -244,11 +244,15 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.integer "position"
     t.integer "trigger_id"
     t.string "ngroup"
-    t.bigint "host_id"
+    t.bigint "host_id", default: 1, null: false
     t.boolean "active"
     t.boolean "single"
-    t.integer "refresh"
     t.string "action"
+    t.integer "refresh"
+    t.string "status"
+    t.string "message"
+    t.time "start_time"
+    t.time "stop_time"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["frame_id"], name: "index_services_on_frame_id"

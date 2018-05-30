@@ -983,7 +983,7 @@ service_234:
   position: 5
   trigger_id: 89
   ngroup: eur.ind
-  host_id: 763560746
+  host_id: 1
   active: true
   single: false
   refresh: 60

@@ -6,6 +6,23 @@ en:
   not_authenticated: Please login first
   save: save
 
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%d %B %Y %H:%M:%S"
+      standard: "%H:%M:%S %d-%m-%Y"
+      d_m_y: "%d-%m-%Y"
+      date: "%d %b"
+      long_date: "%d %B %Y"
+      h_m: "%H:%M"
+      h_m_s: "%H:%M:%S"
+      day_month: "%d-%m"
+      month: "%B"
+      year: "%Y"
+      day: "%A"
+      mon: "%b"
+
   menu:
     login: login
     logout: logout
@@ -82,7 +99,7 @@ en:
       service:
         name: name
         ngroup: group
-        position: position
+        position: p
         setting: setting
         setting_id: setting
         fund: fund
@@ -103,6 +120,7 @@ en:
         single: single
         action: action
         state: state
+        updated: updated
       node:
         name: name
         title: title

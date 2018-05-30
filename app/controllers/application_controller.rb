@@ -24,7 +24,6 @@ class ApplicationController < ActionController::Base
       session[:sort] = params[:field]
       session[:sort_direction] = 'ASC'
     end
-
     list = @model.all
     if session[:sort_direction] == 'ASC'
       list.to_a.sort! do |one, two|

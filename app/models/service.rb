@@ -1,5 +1,5 @@
 class Service < ActiveRecord::Base
-  # default_scope { order(:name) }
+  default_scope { order(:name) }
   belongs_to :setting
   belongs_to :fund
   belongs_to :frame
@@ -13,6 +13,10 @@ class Service < ActiveRecord::Base
   validates :name, :setting_id, :fund_id, :frame_id, :presence => true
 
   # after_save :update_statuses
+
+  def self.list
+    Service.where.not(status: nil)
+  end
 
   def to_s
     s = "Service[#{name ? name : id}]: #{setting} #{fund} #{frame}"
