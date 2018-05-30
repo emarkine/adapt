@@ -99,9 +99,9 @@ class Service < ActiveRecord::Base
     self.status == 'accepted'
   end
 
-  def status
-    self.states.empty? ? '' : self.states.last.message
-  end
+  # def status
+  #   self.states.empty? ? '' : self.states.last.message
+  # end
 
   # def update_statuses
   #   Status.update_statuses(self)
