@@ -4,7 +4,11 @@ class ServicesController < ApplicationController
   before_action :set_service
 
   def index
-    @services = Service.list
+    if session[:show_all]
+      @services = Service.all
+    else
+      @services = Service.list
+    end
     # @services.collect! { |service| service if service.setting.name != 'history' }.compact! unless session[:show_history] # убираем из списка все history сервисы
     # @services.collect! { |service| service if service.setting && service.setting.name != 'history' }.compact! unless session[:show_history] # убираем из списка все history сервисы
   end
@@ -79,6 +83,16 @@ class ServicesController < ApplicationController
     end
     redirect_to action: :index
     # render :json => session[:show_history]
+  end
+
+  def show_all
+    session[:show_all] = true
+    redirect_to action: :index
+  end
+
+  def hide_all
+    session[:show_all] = false
+    redirect_to action: :index
   end
 
   private

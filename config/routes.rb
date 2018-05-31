@@ -19,6 +19,8 @@ Rails.application.routes.draw do
   get '/services/frame/:name' => 'services#frame'
   get '/services/host/:name' => 'services#host'
   get '/service/show_history' => 'services#show_history'
+  get '/service/show_all' => 'services#show_all'
+  get '/service/hide_all' => 'services#hide_all'
 
   resources :funds
   # get '/funds/:id/rate' => 'funds#rate'

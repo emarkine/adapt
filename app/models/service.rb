@@ -1,5 +1,5 @@
 class Service < ActiveRecord::Base
-  default_scope { order(:name) }
+  default_scope { order(:updated_at) }
   belongs_to :setting
   belongs_to :fund
   belongs_to :frame

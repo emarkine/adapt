@@ -1,0 +1,18 @@
+.service-control {
+  clear: both;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+.new-service {
+  float: left;
+  clear: none;
+}
+
+.show-all {
+  float: right;
+  img {
+    margin-bottom: -5px;
+  }
+}

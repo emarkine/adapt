@@ -68,6 +68,8 @@ en:
   show_indicator_window: "Show %{indicator}"
   hide_indicator_window: "Hide %{indicator}"
   close_window: "Close %{window}"
+  show_all: show all
+  hide_all: hide all
 
   activerecord:
     models:

@@ -1,6 +1,9 @@
 %table{class: 'list'}
   %tr
-    %th{colspan: 11}=link_to image_tag('create.png'), new_service_path, :title => t(:add_new,:model=>Service.model_name.human)
+    %td{colspan: 11}
+      .service-control
+        = link_to image_tag('create.png'), new_service_path, title: t(:add_new,:model=>Service.model_name.human), class: 'new-service'
+        = render partial: 'show_all'
   %tr
     %th= link_to Service.human_attribute_name(:name), :action => :sort, :field => :name
     %th= link_to Service.human_attribute_name(:ngroup), :action => :sort, :field => :ngroup

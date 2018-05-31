@@ -1,0 +1,11 @@
+.show-all
+  - if session[:show_all] == true
+    = link_to image_tag('true.gif'), {action: :hide_all}, title: t(:hide_all)
+  - else
+    = link_to image_tag('false.gif'), {action: :show_all}, title: t(:show_all)
+
+-#= form_tag({controller: :services, action: :show_all}, class: 'show-all-form') do |f|
+  - if session[:show_all] == true
+    = submit_tag t(:hide_all)
+  - else
+    = submit_tag t(:show_all)
