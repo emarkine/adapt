@@ -5,12 +5,64 @@ class ServicesController < ApplicationController
 
   def index
     if session[:show_all]
-      @services = Service.all
+      @services = Service.order(updated_at: :desc)
     else
-      @services = Service.list
+      @services = Service.where.not(status: nil).order(updated_at: :desc)
     end
-    # @services.collect! { |service| service if service.setting.name != 'history' }.compact! unless session[:show_history] # убираем из списка все history сервисы
-    # @services.collect! { |service| service if service.setting && service.setting.name != 'history' }.compact! unless session[:show_history] # убираем из списка все history сервисы
+  end
+
+  def sort
+    name = params[:field]
+    if session[:sort] == name #change sort direction
+      if session[:sort_direction] == 'asc'
+        session[:sort_direction] = 'desc'
+      else
+        session[:sort_direction] = 'asc'
+      end
+    else # create new sort direction
+      session[:sort] = name
+      session[:sort_direction] = 'asc'
+    end
+    dir = session[:sort_direction].to_sym
+    if Service.reflections.keys.index(name)
+      if session[:show_all]
+        @services = Service.order(updated_at: :desc)
+      else
+        @services = Service.where.not(status: nil).order(updated_at: :desc)
+      end
+      if name == 'trigger'
+        if dir == :asc
+          @services = @services.to_a.sort do |one, two|
+            a = one.send(session[:sort])
+            b = two.send(session[:sort])
+            (a and b) ? a <=> b : (a ? -1 : 1)
+          end
+        else
+          @services = @services.sort do |one, two|
+            a = one.send(session[:sort])
+            b = two.send(session[:sort])
+            (b and a) ? b <=> a : (b ? -1 : 1)
+          end
+        end
+      else
+        if dir == :asc
+          @services = @services.to_a.sort_by(&name.to_sym)
+        else
+          @services = @services.to_a.sort_by(&name.to_sym).reverse!
+        end
+      end
+
+      # @services = Service.includes(name.to_sym).order("#{name}.name DESC")
+      # @services = Service.order(name.to_sym => dir)
+    else
+      if session[:show_all]
+        @services = Service.order(name.to_sym => dir)
+      else
+        @services = Service.where.not(status: nil).order(name.to_sym => dir)
+      end
+    end
+
+    render action: :index
   end
 
   def show
@@ -99,6 +151,7 @@ class ServicesController < ApplicationController
   def set_service
     @service = Service.find(params[:id]) unless params[:id].blank?
   end
+
   def service_params
     params.require(:service).permit(:name, :setting_id, :fund_id, :frame_id, :position, :trigger_id, :ngroup, :host_id, :active, :single, :action, :refresh, :status)
   end

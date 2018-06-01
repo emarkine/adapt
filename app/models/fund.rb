@@ -36,6 +36,10 @@ class Fund < ActiveRecord::Base
       "Fund[#{name}]"
     end
 
+  def <=>(other)
+    self.name <=> other.name
+  end
+
   # время последнего тика
   # def time
   #   self.ticks.last.time

@@ -1,4 +1,6 @@
 class Frame < ActiveRecord::Base
+  has_many :services
+
   LIST = %w( 1s 10s 30s 1m 2m 3m 5m 10m 30m 1h 1d)
   TOKENS = {
       's' => 1,
@@ -35,5 +37,10 @@ class Frame < ActiveRecord::Base
   def to_s
     "Frame[#{id}] #{name}"
   end
+
+  def <=>(other)
+    self.id <=> other.id
+  end
+
 
 end

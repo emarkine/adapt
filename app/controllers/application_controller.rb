@@ -13,34 +13,34 @@ class ApplicationController < ActionController::Base
   end
 
   # ASC | DESC
-  def sort
-    if session[:sort] == params[:field] #change sort direction
-      if session[:sort_direction] == 'DESC'
-        session[:sort_direction] = 'ASC'
-      else
-        session[:sort_direction] = 'DESC'
-      end
-    else # create new sort direction
-      session[:sort] = params[:field]
-      session[:sort_direction] = 'ASC'
-    end
-    list = @model.all
-    if session[:sort_direction] == 'ASC'
-      list.to_a.sort! do |one, two|
-        a = one.send(session[:sort])
-        b = two.send(session[:sort])
-        (a and b) ? a <=> b : (a ? -1 : 1)
-      end
-    else
-      list.to_a.sort! do |one, two|
-        a = one.send(session[:sort])
-        b = two.send(session[:sort])
-        (b and a) ? b <=> a : (b ? -1 : 1)
-      end
-    end
-    instance_variable_set("@#{@controller}", list)
-    render action: :index
-  end
+  # def sort
+  #   if session[:sort] == params[:field] #change sort direction
+  #     if session[:sort_direction] == 'DESC'
+  #       session[:sort_direction] = 'ASC'
+  #     else
+  #       session[:sort_direction] = 'DESC'
+  #     end
+  #   else # create new sort direction
+  #     session[:sort] = params[:field]
+  #     session[:sort_direction] = 'ASC'
+  #   end
+  #   list = @model.all
+  #   if session[:sort_direction] == 'ASC'
+  #     list.to_a.sort! do |one, two|
+  #       a = one.send(session[:sort])
+  #       b = two.send(session[:sort])
+  #       (a and b) ? a <=> b : (a ? -1 : 1)
+  #     end
+  #   else
+  #     list.to_a.sort! do |one, two|
+  #       a = one.send(session[:sort])
+  #       b = two.send(session[:sort])
+  #       (b and a) ? b <=> a : (b ? -1 : 1)
+  #     end
+  #   end
+  #   instance_variable_set("@#{@controller}", list)
+  #   render action: :index
+  # end
 
   private
   def not_authenticated

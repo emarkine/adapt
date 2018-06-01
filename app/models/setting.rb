@@ -3,6 +3,7 @@ class Setting < ActiveRecord::Base
   belongs_to :indicator
   has_one :edge
   has_many :points
+  has_many :services
 
   validates :name, :presence => true, :uniqueness => true
 
@@ -35,6 +36,10 @@ class Setting < ActiveRecord::Base
   # Последняя точка
   def point
     points.last
+  end
+
+  def <=>(other)
+    self.name <=> other.name
   end
 
 end

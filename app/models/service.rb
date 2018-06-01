@@ -1,5 +1,6 @@
 class Service < ActiveRecord::Base
-  default_scope { order('updated_at DESC') }
+
+  # default_scope { order('updated_at DESC') }
   belongs_to :setting
   belongs_to :fund
   belongs_to :frame
@@ -18,11 +19,17 @@ class Service < ActiveRecord::Base
     Service.where.not(status: nil)
   end
 
+  include Comparable
+  def <=>(other)
+    return 0 if other.nil?
+    return 1 unless other.name
+    return -1 unless self.name
+    self.name <=> other.name
+   end
+
+
   def to_s
-    s = "Service[#{name ? name : id}]: #{setting} #{fund} #{frame}"
-    # s += ", status: #{status}"
-    # s += ", #{Time.now.to_ms - @time} ms" if @time
-    s
+    "Service[#{id}] #{name}: #{setting.name} #{fund.name} #{frame.name}"
   end
 
   # отображаемое имя, если name явно не задано, то выводим id
