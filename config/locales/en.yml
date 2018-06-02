@@ -5,6 +5,7 @@ en:
   logged_out: Logged out
   not_authenticated: Please login first
   save: save
+  edit: edit
 
   time:
     formats:
@@ -123,6 +124,7 @@ en:
         action: action
         state: state
         updated: updated
+        updated_at: updated
       node:
         name: name
         title: title

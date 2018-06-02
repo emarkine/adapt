@@ -238,16 +238,15 @@ ActiveRecord::Schema.define(version: 20180118134453) do
 
   create_table "services", force: :cascade do |t|
     t.string "name", null: false
+    t.string "ngroup"
     t.bigint "setting_id"
     t.bigint "fund_id", null: false
     t.bigint "frame_id", default: 60, null: false
-    t.integer "position"
-    t.integer "trigger_id"
-    t.string "ngroup"
     t.bigint "host_id", default: 1, null: false
+    t.integer "trigger_id"
+    t.integer "position"
     t.boolean "active"
     t.boolean "single"
-    t.string "action"
     t.integer "refresh"
     t.string "status"
     t.string "message"

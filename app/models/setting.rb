@@ -27,7 +27,7 @@ class Setting < ActiveRecord::Base
 
   def to_s
     s = "Setting[#{name}]"
-    s += " indicator: #{indicator.name}"
+    s += " indicator: #{indicator.name}" if indicator
     s += ", period: #{period}" if period
     s += ", method: #{method}" if method
     s

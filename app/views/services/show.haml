@@ -1,5 +1,2 @@
-= link_to image_tag('remove.png'), url_for(action: :destroy, id: @service), method: :delete,
-      data: { confirm: t(:delete_question, :name => @service.name)},
-      title:  t(:delete, :model => Service.model_name.human), class: :delete
-= render :partial => 'view'
-.line= link_to image_tag('edit.png'), {action: :edit, id: @service.id}, :title => t(:edit,:model=>@service.name)
+.service= render partial: 'view'
+- edit
