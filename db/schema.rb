@@ -237,7 +237,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "services", force: :cascade do |t|
-    t.string "name"
+    t.string "name", null: false
     t.bigint "setting_id"
     t.bigint "fund_id", null: false
     t.bigint "frame_id", default: 60, null: false
@@ -258,7 +258,8 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.index ["frame_id"], name: "index_services_on_frame_id"
     t.index ["fund_id"], name: "index_services_on_fund_id"
     t.index ["host_id"], name: "index_services_on_host_id"
-    t.index ["setting_id", "fund_id", "frame_id"], name: "unique_service", unique: true
+    t.index ["name"], name: "index_services_on_name"
+    t.index ["name"], name: "unique_service", unique: true
     t.index ["setting_id"], name: "index_services_on_setting_id"
   end
 

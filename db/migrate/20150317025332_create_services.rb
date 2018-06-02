@@ -1,7 +1,7 @@
 class CreateServices < ActiveRecord::Migration[5.1]
   def change
     create_table :services do |t|
-      t.string :name # необязательное имя сервиса
+      t.string :name, null: false, index: true # обязательное и уникальное имя сервиса
       # t.references :indicator # индикатор
       t.references :setting # специфически установки индикатора
       t.references :fund, null: false # фонд
@@ -23,13 +23,8 @@ class CreateServices < ActiveRecord::Migration[5.1]
       # t.integer :delta # установка времени задержки для этого сервиса
       t.timestamps
     end
-    add_index(:services, [:setting_id, :fund_id, :frame_id], :name => 'unique_service', :unique => true)
-    # create_table :statuses do |t|
-    #   t.string :name
-    #   t.string :message
-    #   t.references :service, index: true, foreign_key: true
-    #   t.timestamps null: false
-    # end
+    add_index(:services, [:name], :name => 'unique_service', :unique => true)
+    # add_index(:services, [:setting_id, :fund_id, :frame_id], :name => 'unique_service', :unique => true)
   end
 
 end
