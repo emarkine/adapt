@@ -14,14 +14,16 @@
 #3 months	1 day
 #Everything else	1 day
 
-1:
-  id: 1
+1s:
+#  id: 1
+  seconds: 1
   name: 1s
   unit: second
   duration: 900
 
-5:
-  id: 5
+5s:
+#  id: 5
+  seconds: 5
   name: 5s
   unit: second
   duration: 7200
@@ -38,8 +40,9 @@
 #  unit: second
 #  duration: 86400
 
-60:
-  id: 60
+1m:
+#  id: 60
+  seconds: 60
   name: 1m
   unit: day
   duration: 7
@@ -50,14 +53,16 @@
 #  unit: day
 #  duration: 7
 #
+
 #180:
 #  id: 180
 #  name: 3m
 #  unit: day
 #  duration: 7
 
-300:
-  id: 300
+5m:
+#  id: 300
+  seconds: 300
   name: 5m
   unit: day
   duration: 7
@@ -68,8 +73,9 @@
 #  unit: day
 #  duration: 7
 
-900:
-  id: 900
+15m:
+#  id: 900
+  seconds: 900
   name: 15m
   unit: week
   duration: 2
@@ -81,8 +87,9 @@
 #  duration: 1
 
 
-3600:
-  id: 3600
+1h:
+#  id: 3600
+  seconds: 3600
   name: 1h
   unit: month
   duration: 1
@@ -97,8 +104,9 @@
 #  unit: month
 #  duration: 1
 
-86400:
-  id: 86400
+1d:
+#  id: 86400
+  seconds: 86400
   name: 1d
   unit: month
   duration: 12
