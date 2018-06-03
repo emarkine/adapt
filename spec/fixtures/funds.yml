@@ -1,5 +1,16 @@
-# Часы работы мировых бирж http://en.wikipedia.org/wiki/List_of_stock_exchange_opening_times
-# Российская биржа http://www.finam.ru/
+# ---------------------------------------------------- ROOMS -----------------------------------------------------------
+
+apartment:
+  name: apartment
+  short_name: apartment
+  full_name: Apartment NeuroRooms
+  category: index
+  currency: EUR
+  comma: 2
+  location: Amsterdam
+  open_time: "00:00:00" # CEST
+  close_time: "23:55:00" # CEST
+  show_index: 100
 
 # --------------------------------------------------- VALUTAS -----------------------------------------------------------
 

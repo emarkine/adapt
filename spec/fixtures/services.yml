@@ -1,3317 +1,2592 @@
-service_91:
-  id: 91
+aex.bar.15m:
   name: aex.bar.15m
-  setting_id: 922717355
-  fund_id: 203819921
-  frame_id: 900
-  position: 
-  trigger_id: 7
   ngroup: aex.tick
-  host_id: 1
+  setting: bar
+  fund: fti
+  frame: 15m
+  host: 1
+  trigger: aex.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-27 06:37:40 UTC
   updated_at: 2016-06-10 09:41:02 UTC
 
-service_92:
-  id: 92
+aex.bar.1h:
   name: aex.bar.1h
-  setting_id: 922717355
-  fund_id: 203819921
-  frame_id: 3600
-  position: 
-  trigger_id: 7
   ngroup: aex.tick
-  host_id: 1
+  setting: bar
+  fund: fti
+  frame: 1h
+  host: 1
+  trigger: aex.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-27 06:38:01 UTC
   updated_at: 2016-07-08 11:28:40 UTC
 
-service_89:
-  id: 89
+aex.bar.1m:
   name: aex.bar.1m
-  setting_id: 922717355
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 7
   ngroup: aex.tick
-  host_id: 1
+  setting: bar
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-27 06:36:53 UTC
   updated_at: 2016-06-10 09:37:17 UTC
 
-service_90:
-  id: 90
+aex.bar.5m:
   name: aex.bar.5m
-  setting_id: 922717355
-  fund_id: 203819921
-  frame_id: 300
-  position: 
-  trigger_id: 7
   ngroup: aex.tick
-  host_id: 1
+  setting: bar
+  fund: fti
+  frame: 5m
+  host: 1
+  trigger: aex.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-27 06:37:17 UTC
   updated_at: 2016-06-10 09:37:55 UTC
 
-service_142:
-  id: 142
+aex.bol.1m:
   name: aex.bol.1m
-  setting_id: 309566535
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: bol
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-01 20:58:42 UTC
   updated_at: 2016-06-10 09:44:41 UTC
 
-service_107:
-  id: 107
+aex.ema.12.5s:
   name: aex.ema.12.5s
-  setting_id: 421779419
-  fund_id: 203819921
-  frame_id: 5
-  position: 
-  trigger_id: 7
   ngroup: aex.tick
-  host_id: 1
+  setting: ema12
+  fund: fti
+  frame: 5s
+  host: 1
+  trigger: aex.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2015-10-01 11:03:00 UTC
   updated_at: 2016-06-10 09:38:38 UTC
 
-service_106:
-  id: 106
+aex.ema.15.1m:
   name: aex.ema.15.1m
-  setting_id: 122110586
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: ema15
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 11:01:27 UTC
   updated_at: 2016-11-25 11:01:28 UTC
 
-service_105:
-  id: 105
+aex.ema.30.1m:
   name: aex.ema.30.1m
-  setting_id: 85709944
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: ema30
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 11:10:47 UTC
   updated_at: 2016-06-10 09:47:11 UTC
 
-service_156:
-  id: 156
+aex.ema.360.1m:
   name: aex.ema.360.1m
-  setting_id: 36431554
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: ema360
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-07 13:20:25 UTC
   updated_at: 2016-07-07 13:20:25 UTC
 
-service_104:
-  id: 104
+aex.ema.60.1m:
   name: aex.ema.60.1m
-  setting_id: 946610226
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: ema60
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 10:59:43 UTC
   updated_at: 2016-06-10 09:48:17 UTC
 
-service_226:
-  id: 226
+aex.line.1m:
   name: aex.line.1m
-  setting_id: 286569721
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: line
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 15:51:55 UTC
   updated_at: 2016-10-28 15:51:55 UTC
 
-service_110:
-  id: 110
+aex.macd.1m:
   name: aex.macd.1m
-  setting_id: 621989106
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: macd
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-02 16:31:43 UTC
   updated_at: 2016-06-10 09:50:20 UTC
 
-service_122:
-  id: 122
+aex.rsi.1m:
   name: aex.rsi.1m
-  setting_id: 407410407
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: rsi
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-13 09:04:45 UTC
   updated_at: 2016-06-10 09:51:52 UTC
 
-service_144:
-  id: 144
+aex.sar.1m:
   name: aex.sar.1m
-  setting_id: 723207662
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: sar
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-01 21:04:56 UTC
   updated_at: 2016-06-10 09:53:48 UTC
 
-service_121:
-  id: 121
+aex.sol5m.1m:
   name: aex.sol5m.1m
-  setting_id: 199911235
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: sol5m
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-13 09:03:37 UTC
   updated_at: 2016-10-28 10:58:57 UTC
 
-service_7:
-  id: 7
+aex.tick:
   name: aex.tick
-  setting_id: 380606668
-  fund_id: 203819921
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: aex.tick
-  host_id: 1
+  setting: tick
+  fund: fti
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   status: test
   created_at: 2015-08-05 20:51:18 UTC
   updated_at: 2016-06-10 09:36:59 UTC
 
-service_227:
-  id: 227
+aex.trend.1m:
   name: aex.trend.1m
-  setting_id: 888877993
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 89
   ngroup: aex.ind
-  host_id: 1
+  setting: trend
+  fund: fti
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 15:52:53 UTC
   updated_at: 2016-10-28 15:52:53 UTC
 
-service_83:
-  id: 83
+aud.bar.15m:
   name: aud.bar.15m
-  setting_id: 922717355
-  fund_id: 736843643
-  frame_id: 900
-  position: 
-  trigger_id: 25
   ngroup: aud.tick
-  host_id: 1
+  setting: bar
+  fund: audusd
+  frame: 15m
+  host: 1
+  trigger: aud.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-27 06:28:46 UTC
   updated_at: 2016-10-27 09:28:28 UTC
 
-service_84:
-  id: 84
+aud.bar.1h:
   name: aud.bar.1h
-  setting_id: 922717355
-  fund_id: 736843643
-  frame_id: 3600
-  position: 
-  trigger_id: 25
   ngroup: aud.tick
-  host_id: 1
+  setting: bar
+  fund: audusd
+  frame: 1h
+  host: 1
+  trigger: aud.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-27 06:29:14 UTC
   updated_at: 2016-10-27 09:28:48 UTC
 
-service_81:
-  id: 81
+aud.bar.1m:
   name: aud.bar.1m
-  setting_id: 922717355
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 25
   ngroup: aud.tick
-  host_id: 1
+  setting: bar
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-27 06:27:49 UTC
   updated_at: 2016-10-27 09:27:32 UTC
 
-service_82:
-  id: 82
+aud.bar.5m:
   name: aud.bar.5m
-  setting_id: 922717355
-  fund_id: 736843643
-  frame_id: 300
-  position: 
-  trigger_id: 25
   ngroup: aud.tick
-  host_id: 1
+  setting: bar
+  fund: audusd
+  frame: 5m
+  host: 1
+  trigger: aud.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-27 06:28:21 UTC
   updated_at: 2016-10-27 09:28:03 UTC
 
-service_192:
-  id: 192
+aud.bol.1m:
   name: aud.bol.1m
-  setting_id: 309566535
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: bol
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 09:36:28 UTC
   updated_at: 2016-10-27 09:36:28 UTC
 
-service_102:
-  id: 102
+aud.ema.12.5s:
   name: aud.ema.12.5s
-  setting_id: 421779419
-  fund_id: 736843643
-  frame_id: 5
-  position: 
-  trigger_id: 25
   ngroup: aud.tick
-  host_id: 1
+  setting: ema12
+  fund: audusd
+  frame: 5s
+  host: 1
+  trigger: aud.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2015-10-01 11:03:00 UTC
   updated_at: 2016-10-27 09:38:21 UTC
 
-service_101:
-  id: 101
+aud.ema.15.1m:
   name: aud.ema.15.1m
-  setting_id: 122110586
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: ema15
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 11:01:27 UTC
   updated_at: 2016-11-25 11:04:57 UTC
 
-service_100:
-  id: 100
+aud.ema.30.1m:
   name: aud.ema.30.1m
-  setting_id: 85709944
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: ema30
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 11:10:47 UTC
   updated_at: 2016-10-27 09:50:51 UTC
 
-service_195:
-  id: 195
+aud.ema.360.1m:
   name: aud.ema.360.1m
-  setting_id: 36431554
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: ema360
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 10:24:37 UTC
   updated_at: 2016-10-27 10:24:37 UTC
 
-service_99:
-  id: 99
+aud.ema.60.1m:
   name: aud.ema.60.1m
-  setting_id: 946610226
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: ema60
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 10:59:43 UTC
   updated_at: 2016-10-27 09:51:19 UTC
 
-service_193:
-  id: 193
+aud.line.1m:
   name: aud.line.1m
-  setting_id: 286569721
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: line
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 10:07:02 UTC
   updated_at: 2016-10-27 19:02:59 UTC
 
-service_109:
-  id: 109
+aud.macd.1m:
   name: aud.macd.1m
-  setting_id: 621989106
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: macd
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-02 16:30:55 UTC
   updated_at: 2016-10-27 09:52:23 UTC
 
-service_120:
-  id: 120
+aud.rsi.1m:
   name: aud.rsi.1m
-  setting_id: 407410407
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: rsi
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-12 09:09:14 UTC
   updated_at: 2016-10-27 10:20:55 UTC
 
-service_194:
-  id: 194
+aud.sar.1m:
   name: aud.sar.1m
-  setting_id: 723207662
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: sar
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 10:22:59 UTC
   updated_at: 2016-10-27 10:22:59 UTC
 
-service_118:
-  id: 118
+aud.sol5m.1m:
   name: aud.sol5m.1m
-  setting_id: 199911235
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: sol5m
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-07 18:11:36 UTC
   updated_at: 2016-10-28 10:59:10 UTC
 
-service_25:
-  id: 25
+aud.tick:
   name: aud.tick
-  setting_id: 380606668
-  fund_id: 736843643
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: aud.tick
-  host_id: 1
+  setting: tick
+  fund: audusd
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-06 19:16:58 UTC
   updated_at: 2016-10-27 09:25:53 UTC
 
-service_198:
-  id: 198
+aud.trend.1m:
   name: aud.trend.1m
-  setting_id: 888877993
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 81
   ngroup: aud.ind
-  host_id: 1
+  setting: trend
+  fund: audusd
+  frame: 1m
+  host: 1
+  trigger: aud.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 10:28:28 UTC
   updated_at: 2016-10-28 10:57:27 UTC
 
-service_64:
-  id: 64
+audusd.history.15m:
   name: audusd.history.15m
-  setting_id: 666529867
-  fund_id: 736843643
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: audusd
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-25 08:54:37 UTC
   updated_at: 2015-08-25 08:54:37 UTC
 
-service_65:
-  id: 65
+audusd.history.1h:
   name: audusd.history.1h
-  setting_id: 666529867
-  fund_id: 736843643
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: audusd
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-25 08:55:07 UTC
   updated_at: 2015-08-25 08:55:07 UTC
 
-service_26:
-  id: 26
+audusd.history.1m:
   name: audusd.history.1m
-  setting_id: 666529867
-  fund_id: 736843643
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: audusd
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 19:17:26 UTC
   updated_at: 2015-08-06 19:17:26 UTC
 
-service_63:
-  id: 63
+audusd.history.5m:
   name: audusd.history.5m
-  setting_id: 666529867
-  fund_id: 736843643
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: audusd
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-25 08:54:04 UTC
   updated_at: 2015-08-25 08:54:04 UTC
 
-service_75:
-  id: 75
+dax.bar.15m:
   name: dax.bar.15m
-  setting_id: 922717355
-  fund_id: 317700056
-  frame_id: 900
-  position: 
-  trigger_id: 5
   ngroup: dax.tick
-  host_id: 1
+  setting: bar
+  fund: fdax
+  frame: 15m
+  host: 1
+  trigger: dax.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-26 18:11:47 UTC
   updated_at: 2016-06-10 09:34:48 UTC
 
-service_73:
-  id: 73
+dax.bar.1m:
   name: dax.bar.1m
-  setting_id: 922717355
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 5
   ngroup: dax.tick
-  host_id: 1
+  setting: bar
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-26 18:10:56 UTC
   updated_at: 2016-06-10 09:23:18 UTC
 
-service_74:
-  id: 74
+dax.bar.5m:
   name: dax.bar.5m
-  setting_id: 922717355
-  fund_id: 317700056
-  frame_id: 300
-  position: 
-  trigger_id: 5
   ngroup: dax.tick
-  host_id: 1
+  setting: bar
+  fund: fdax
+  frame: 5m
+  host: 1
+  trigger: dax.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-26 18:11:19 UTC
   updated_at: 2016-06-10 09:31:13 UTC
 
-service_146:
-  id: 146
+dax.bol.1m:
   name: dax.bol.1m
-  setting_id: 309566535
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: bol
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-10 09:44:27 UTC
   updated_at: 2016-06-10 09:44:27 UTC
 
-service_145:
-  id: 145
+dax.ema.12.5s:
   name: dax.ema.12.5s
-  setting_id: 421779419
-  fund_id: 317700056
-  frame_id: 5
-  position: 
-  trigger_id: 5
   ngroup: dax.tick
-  host_id: 1
+  setting: ema12
+  fund: fdax
+  frame: 5s
+  host: 1
+  trigger: dax.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2016-06-10 09:20:46 UTC
   updated_at: 2016-06-10 09:20:46 UTC
 
-service_147:
-  id: 147
+dax.ema.15.1m:
   name: dax.ema.15.1m
-  setting_id: 122110586
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: ema15
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-10 09:45:43 UTC
   updated_at: 2016-11-25 11:04:30 UTC
 
-service_148:
-  id: 148
+dax.ema.30.1m:
   name: dax.ema.30.1m
-  setting_id: 85709944
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: ema30
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-10 09:47:02 UTC
   updated_at: 2016-06-10 09:47:02 UTC
 
-service_157:
-  id: 157
+dax.ema.360.1m:
   name: dax.ema.360.1m
-  setting_id: 36431554
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: ema360
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-07 13:21:12 UTC
   updated_at: 2016-07-08 11:59:41 UTC
 
-service_149:
-  id: 149
+dax.ema.60.1m:
   name: dax.ema.60.1m
-  setting_id: 946610226
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: ema60
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-10 09:48:08 UTC
   updated_at: 2016-06-10 09:48:08 UTC
 
-service_224:
-  id: 224
+dax.line.1m:
   name: dax.line.1m
-  setting_id: 286569721
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: line
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 15:42:01 UTC
   updated_at: 2016-10-28 15:42:01 UTC
 
-service_136:
-  id: 136
+dax.macd.1m:
   name: dax.macd.1m
-  setting_id: 621989106
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: macd
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-05-12 19:25:38 UTC
   updated_at: 2016-06-10 09:50:09 UTC
 
-service_151:
-  id: 151
+dax.rsi.1m:
   name: dax.rsi.1m
-  setting_id: 407410407
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: rsi
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-10 09:51:41 UTC
   updated_at: 2016-06-10 09:51:41 UTC
 
-service_137:
-  id: 137
+dax.sar.1m:
   name: dax.sar.1m
-  setting_id: 723207662
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: sar
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-05-12 19:37:01 UTC
   updated_at: 2016-06-10 09:53:34 UTC
 
-service_154:
-  id: 154
+dax.sol5m.1m:
   name: dax.sol5m.1m
-  setting_id: 199911235
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: sol5m
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-06-10 09:55:55 UTC
   updated_at: 2016-10-28 10:59:21 UTC
 
-service_5:
-  id: 5
+dax.tick:
   name: dax.tick
-  setting_id: 380606668
-  fund_id: 317700056
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: dax.tick
-  host_id: 1
+  setting: tick
+  fund: fdax
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-05 20:49:22 UTC
   updated_at: 2016-06-10 09:23:48 UTC
 
-service_225:
-  id: 225
+dax.trend.1m:
   name: dax.trend.1m
-  setting_id: 888877993
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 73
   ngroup: dax.ind
-  host_id: 1
+  setting: trend
+  fund: fdax
+  frame: 1m
+  host: 1
+  trigger: dax.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 15:42:44 UTC
   updated_at: 2016-10-28 15:42:44 UTC
 
-service_14:
-  id: 14
+es.history.1m:
   name: es.history.1m
-  setting_id: 666529867
-  fund_id: 274705821
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: es
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 09:47:03 UTC
   updated_at: 2015-08-06 09:47:03 UTC
 
-service_13:
-  id: 13
+es.tick:
   name: es.tick
-  setting_id: 380606668
-  fund_id: 274705821
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: ticker.future
-  host_id: 1
+  setting: tick
+  fund: es
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-06 09:46:08 UTC
   updated_at: 2016-05-12 20:53:52 UTC
 
-service_40:
-  id: 40
+eur.bar.15m:
   name: eur.bar.15m
-  setting_id: 922717355
-  fund_id: 84417837
-  frame_id: 900
-  position: 
-  trigger_id: 15
   ngroup: eur.tick
-  host_id: 1
+  setting: bar
+  fund: eurusd
+  frame: 15m
+  host: 1
+  trigger: eur.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-17 14:16:50 UTC
   updated_at: 2016-06-10 10:28:19 UTC
 
-service_41:
-  id: 41
+eur.bar.1h:
   name: eur.bar.1h
-  setting_id: 922717355
-  fund_id: 84417837
-  frame_id: 3600
-  position: 
-  trigger_id: 15
   ngroup: eur.tick
-  host_id: 1
+  setting: bar
+  fund: eurusd
+  frame: 1h
+  host: 1
+  trigger: eur.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-17 14:17:28 UTC
   updated_at: 2016-07-08 13:45:30 UTC
 
-service_38:
-  id: 38
+eur.bar.1m:
   name: eur.bar.1m
-  setting_id: 922717355
-  fund_id: 84417837
-  frame_id: 60
-  position: 
-  trigger_id: 15
   ngroup: eur.tick
-  host_id: 1
+  setting: bar
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-17 14:14:31 UTC
   updated_at: 2016-05-31 12:02:16 UTC
 
-service_39:
-  id: 39
+eur.bar.5m:
   name: eur.bar.5m
-  setting_id: 922717355
-  fund_id: 84417837
-  frame_id: 300
-  position: 
-  trigger_id: 15
   ngroup: eur.tick
-  host_id: 1
+  setting: bar
+  fund: eurusd
+  frame: 5m
+  host: 1
+  trigger: eur.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-17 14:15:47 UTC
   updated_at: 2016-06-10 10:29:27 UTC
 
-service_123:
-  id: 123
+eur.bol.1m:
   name: eur.bol.1m
-  setting_id: 309566535
-  fund_id: 84417837
-  frame_id: 60
-  position: 6
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: bol
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 6
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-13 14:09:10 UTC
   updated_at: 2016-06-02 07:50:43 UTC
 
-service_234:
-  id: 234
+eur.ema:
   name: eur.ema
-  setting_id: 465278206
-  fund_id: 84417837
-  frame_id: 60
-  position: 5
-  trigger_id: 89
   ngroup: eur.ind
-  host_id: 1
+  setting: ema
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: aex.bar.1m
+  position: 5
   active: true
-  single: false
   refresh: 60
   status: test
   created_at: 2018-01-30 14:03:00 UTC
   updated_at: 2018-01-30 14:03:00 UTC
 
-service_97:
-  id: 97
+eur.ema.12.5s:
   name: eur.ema.12.5s
-  setting_id: 421779419
-  fund_id: 84417837
-  frame_id: 5
-  position: 
-  trigger_id: 15
   ngroup: eur.tick
-  host_id: 1
+  setting: ema12
+  fund: eurusd
+  frame: 5s
+  host: 1
+  trigger: eur.tick
   active: true
-  single: false
   status: test
-  refresh:
   created_at: 2015-10-01 11:03:00 UTC
   updated_at: 2016-05-31 12:03:03 UTC
 
-service_96:
-  id: 96
+eur.ema.15.1m:
   name: eur.ema.15.1m
-  setting_id: 122110586
-  fund_id: 84417837
-  frame_id: 60
-  position: 1
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: ema15
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 1
   active: true
-  single: false
-  status: test
   refresh: 60
+  status: test
   created_at: 2015-10-01 11:01:27 UTC
   updated_at: 2016-11-25 10:59:17 UTC
 
-service_95:
-  id: 95
+eur.ema.30.1m:
   name: eur.ema.30.1m
-  setting_id: 85709944
-  fund_id: 84417837
-  frame_id: 60
-  position: 2
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: ema30
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 2
   active: true
-  single: false
-  status: test
   refresh: 60
+  status: test
   created_at: 2015-10-01 11:10:47 UTC
   updated_at: 2016-06-02 07:46:16 UTC
 
-service_155:
-  id: 155
+eur.ema.360.1m:
   name: eur.ema.360.1m
-  setting_id: 36431554
-  fund_id: 84417837
-  frame_id: 60
-  position: 4
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: ema360
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 4
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-07 13:12:42 UTC
   updated_at: 2016-07-07 13:12:42 UTC
 
-service_94:
-  id: 94
+eur.ema.60.1m:
   name: eur.ema.60.1m
-  setting_id: 946610226
-  fund_id: 84417837
-  frame_id: 60
-  position: 3
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: ema60
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 3
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 10:59:43 UTC
   updated_at: 2016-06-02 07:46:31 UTC
 
-service_44:
-  id: 44
+eur.history.15m:
   name: eur.history.15m
-  setting_id: 666529867
-  fund_id: 84417837
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: eur.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: eurusd
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:22:31 UTC
   updated_at: 2016-09-01 20:23:40 UTC
 
-service_190:
-  id: 190
+eur.history.1d:
   name: eur.history.1d
-  setting_id: 666529867
-  fund_id: 84417837
-  frame_id: 86400
-  position: 
-  trigger_id: 
   ngroup: eur.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: eurusd
+  frame: 1d
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-09-01 20:24:17 UTC
   updated_at: 2016-09-01 20:24:17 UTC
 
-service_45:
-  id: 45
+eur.history.1h:
   name: eur.history.1h
-  setting_id: 666529867
-  fund_id: 84417837
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: eur.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: eurusd
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:23:39 UTC
   updated_at: 2016-09-01 20:25:37 UTC
 
-service_16:
-  id: 16
+eur.history.1m:
   name: eur.history.1m
-  setting_id: 666529867
-  fund_id: 84417837
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: eur.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: eurusd
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 09:48:46 UTC
   updated_at: 2016-09-01 20:25:49 UTC
 
-service_43:
-  id: 43
+eur.history.5m:
   name: eur.history.5m
-  setting_id: 666529867
-  fund_id: 84417837
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: eur.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: eurusd
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:21:52 UTC
   updated_at: 2016-09-01 20:26:00 UTC
 
-service_135:
-  id: 135
+eur.history.5s:
   name: eur.history.5s
-  setting_id: 666529867
-  fund_id: 84417837
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: eur.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: eurusd
+  frame: 5s
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-05-08 16:17:56 UTC
   updated_at: 2016-09-01 20:26:11 UTC
 
-service_172:
-  id: 172
+eur.line.1m:
   name: eur.line.1m
-  setting_id: 286569721
-  fund_id: 84417837
-  frame_id: 60
-  position: 7
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: line
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 7
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 13:34:45 UTC
   updated_at: 2016-10-27 15:53:19 UTC
 
-service_108:
-  id: 108
+eur.macd.1m:
   name: eur.macd.1m
-  setting_id: 621989106
-  fund_id: 84417837
-  frame_id: 60
-  position: 8
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: macd
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 8
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-01 13:41:40 UTC
   updated_at: 2016-06-02 07:49:29 UTC
 
-service_119:
-  id: 119
+eur.rsi.1m:
   name: eur.rsi.1m
-  setting_id: 407410407
-  fund_id: 84417837
-  frame_id: 60
-  position: 9
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: rsi
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 9
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-09 15:41:50 UTC
   updated_at: 2016-06-02 07:49:48 UTC
 
-service_140:
-  id: 140
+eur.rsi.5s:
   name: eur.rsi.5s
-  setting_id: 407410407
-  fund_id: 84417837
-  frame_id: 5
-  position: 
-  trigger_id: 15
   ngroup: eur
-  host_id: 1
-  active: false
-  single: false
-  refresh: 
+  setting: rsi
+  fund: eurusd
+  frame: 5s
+  host: 1
+  trigger: eur.tick
   created_at: 2016-05-16 19:09:34 UTC
   updated_at: 2016-05-16 21:24:31 UTC
 
-service_132:
-  id: 132
+eur.sar.1m:
   name: eur.sar.1m
-  setting_id: 723207662
-  fund_id: 84417837
-  frame_id: 60
-  position: 10
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: sar
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 10
   active: true
-  single: false
   refresh: 60
   created_at: 2016-05-08 01:16:50 UTC
   updated_at: 2016-06-02 07:47:38 UTC
 
-service_117:
-  id: 117
+eur.sol5m.1m:
   name: eur.sol5m.1m
-  setting_id: 199911235
-  fund_id: 84417837
-  frame_id: 60
-  position: 11
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: sol5m
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
+  position: 11
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-07 17:59:39 UTC
   updated_at: 2016-10-28 10:59:31 UTC
 
-service_138:
-  id: 138
+eur.sol.60.5s:
   name: eur.sol.60.5s
-  setting_id: 797352518
-  fund_id: 84417837
-  frame_id: 5
-  position: 
-  trigger_id: 15
   ngroup: eur
-  host_id: 1
+  setting: sol1m
+  fund: eurusd
+  frame: 5s
+  host: 1
+  trigger: eur.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2016-05-12 20:23:59 UTC
   updated_at: 2016-05-16 09:29:05 UTC
 
-service_15:
-  id: 15
+eur.tick:
   name: eur.tick
-  setting_id: 380606668
-  fund_id: 84417837
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: eur.tick
-  host_id: 1
+  setting: tick
+  fund: eurusd
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-06 09:48:00 UTC
   updated_at: 2016-05-31 12:02:06 UTC
 
-service_197:
-  id: 197
+eur.trend.1m:
   name: eur.trend.1m
-  setting_id: 888877993
-  fund_id: 84417837
-  frame_id: 60
-  position: 
-  trigger_id: 38
   ngroup: eur.ind
-  host_id: 1
+  setting: trend
+  fund: eurusd
+  frame: 1m
+  host: 1
+  trigger: eur.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 10:27:43 UTC
   updated_at: 2016-10-28 10:57:38 UTC
 
-service_76:
-  id: 76
+fdax.bar.1h:
   name: fdax.bar.1h
-  setting_id: 922717355
-  fund_id: 317700056
-  frame_id: 3600
-  position: 
-  trigger_id: 5
   ngroup: dax.tick
-  host_id: 1
+  setting: bar
+  fund: fdax
+  frame: 1h
+  host: 1
+  trigger: dax.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-26 18:12:11 UTC
   updated_at: 2016-07-08 11:22:27 UTC
 
-service_59:
-  id: 59
+fdax.history.15m:
   name: fdax.history.15m
-  setting_id: 666529867
-  fund_id: 317700056
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fdax
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 17:02:52 UTC
   updated_at: 2015-08-21 17:02:52 UTC
 
-service_60:
-  id: 60
+fdax.history.1h:
   name: fdax.history.1h
-  setting_id: 666529867
-  fund_id: 317700056
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fdax
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 17:03:18 UTC
   updated_at: 2015-08-21 17:03:18 UTC
 
-service_6:
-  id: 6
+fdax.history.1m:
   name: fdax.history.1m
-  setting_id: 666529867
-  fund_id: 317700056
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fdax
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-05 20:50:19 UTC
   updated_at: 2015-08-06 09:43:32 UTC
 
-service_58:
-  id: 58
+fdax.history.5m:
   name: fdax.history.5m
-  setting_id: 666529867
-  fund_id: 317700056
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fdax
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 17:02:31 UTC
   updated_at: 2015-08-21 17:02:31 UTC
 
-service_53:
-  id: 53
+fti.history.15m:
   name: fti.history.15m
-  setting_id: 666529867
-  fund_id: 203819921
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fti
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:34:36 UTC
   updated_at: 2015-08-21 16:37:07 UTC
 
-service_54:
-  id: 54
+fti.history.1h:
   name: fti.history.1h
-  setting_id: 666529867
-  fund_id: 203819921
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fti
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:35:50 UTC
   updated_at: 2015-08-21 16:35:50 UTC
 
-service_8:
-  id: 8
+fti.history.1m:
   name: fti.history.1m
-  setting_id: 666529867
-  fund_id: 203819921
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fti
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-05 20:53:15 UTC
   updated_at: 2015-08-06 09:44:14 UTC
 
-service_52:
-  id: 52
+fti.history.5m:
   name: fti.history.5m
-  setting_id: 666529867
-  fund_id: 203819921
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: fti
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:33:50 UTC
   updated_at: 2015-08-21 16:33:50 UTC
 
-service_126:
-  id: 126
+gbpusd.bar.15m:
   name: gbpusd.bar.15m
-  setting_id: 922717355
-  fund_id: 805912383
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: gbpusd
-  host_id: 1
+  setting: bar
+  fund: gbpusd
+  frame: 15m
+  host: 1
   active: true
-  single: false
   refresh: 900
   created_at: 2016-02-29 16:09:20 UTC
   updated_at: 2016-02-29 16:09:20 UTC
 
-service_127:
-  id: 127
+gbpusd.bar.1h:
   name: gbpusd.bar.1h
-  setting_id: 922717355
-  fund_id: 805912383
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: gbpusd
-  host_id: 1
+  setting: bar
+  fund: gbpusd
+  frame: 1h
+  host: 1
   active: true
-  single: false
   refresh: 3600
   created_at: 2016-02-29 16:10:10 UTC
   updated_at: 2016-02-29 16:10:10 UTC
 
-service_124:
-  id: 124
+gbpusd.bar.1m:
   name: gbpusd.bar.1m
-  setting_id: 922717355
-  fund_id: 805912383
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: gbpusd
-  host_id: 1
+  setting: bar
+  fund: gbpusd
+  frame: 1m
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2016-02-29 16:07:58 UTC
   updated_at: 2016-02-29 16:07:58 UTC
 
-service_125:
-  id: 125
+gbpusd.bar.5m:
   name: gbpusd.bar.5m
-  setting_id: 922717355
-  fund_id: 805912383
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: gbpusd
-  host_id: 1
+  setting: bar
+  fund: gbpusd
+  frame: 5m
+  host: 1
   active: true
-  single: false
   refresh: 300
   created_at: 2016-02-29 16:08:47 UTC
   updated_at: 2016-02-29 16:08:47 UTC
 
-service_129:
-  id: 129
+gbpusd.history.15m:
   name: gbpusd.history.15m
-  setting_id: 666529867
-  fund_id: 805912383
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gbpusd
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-02-29 16:12:56 UTC
   updated_at: 2016-02-29 16:12:56 UTC
 
-service_131:
-  id: 131
+gbpusd.history.1d:
   name: gbpusd.history.1d
-  setting_id: 666529867
-  fund_id: 805912383
-  frame_id: 86400
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gbpusd
+  frame: 1d
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-02-29 16:15:33 UTC
   updated_at: 2016-02-29 16:15:33 UTC
 
-service_130:
-  id: 130
+gbpusd.history.1h:
   name: gbpusd.history.1h
-  setting_id: 666529867
-  fund_id: 805912383
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gbpusd
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-02-29 16:13:55 UTC
   updated_at: 2016-02-29 16:13:55 UTC
 
-service_20:
-  id: 20
+gbpusd.history.1m:
   name: gbpusd.history.1m
-  setting_id: 666529867
-  fund_id: 805912383
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gbpusd
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 18:57:14 UTC
   updated_at: 2015-08-06 18:57:14 UTC
 
-service_128:
-  id: 128
+gbpusd.history.5m:
   name: gbpusd.history.5m
-  setting_id: 666529867
-  fund_id: 805912383
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gbpusd
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-02-29 16:12:22 UTC
   updated_at: 2016-02-29 16:12:22 UTC
 
-service_19:
-  id: 19
+gbpusd.tick:
   name: gbpusd.tick
-  setting_id: 380606668
-  fund_id: 805912383
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: gbpusd
-  host_id: 1
+  setting: tick
+  fund: gbpusd
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-06 18:56:20 UTC
   updated_at: 2016-02-29 16:04:32 UTC
 
-service_33:
-  id: 33
+gold.bar.15m:
   name: gold.bar.15m
-  setting_id: 922717355
-  fund_id: 128523602
-  frame_id: 900
-  position: 
-  trigger_id: 1
   ngroup: gold.tick
-  host_id: 1
+  setting: bar
+  fund: gold
+  frame: 15m
+  host: 1
+  trigger: gold.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-07 20:02:18 UTC
   updated_at: 2016-08-15 08:53:58 UTC
 
-service_35:
-  id: 35
+gold.bar.1h:
   name: gold.bar.1h
-  setting_id: 922717355
-  fund_id: 128523602
-  frame_id: 3600
-  position: 
-  trigger_id: 1
   ngroup: gold.tick
-  host_id: 1
+  setting: bar
+  fund: gold
+  frame: 1h
+  host: 1
+  trigger: gold.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-07 20:33:08 UTC
   updated_at: 2016-08-15 08:53:43 UTC
 
-service_37:
-  id: 37
+gold.bar.1m:
   name: gold.bar.1m
-  setting_id: 922717355
-  fund_id: 128523602
-  frame_id: 60
-  position: 
-  trigger_id: 1
   ngroup: gold.tick
-  host_id: 1
+  setting: bar
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-12 07:52:21 UTC
   updated_at: 2016-08-15 08:52:38 UTC
 
-service_30:
-  id: 30
+gold.bar.5m:
   name: gold.bar.5m
-  setting_id: 922717355
-  fund_id: 128523602
-  frame_id: 300
-  position: 
-  trigger_id: 1
   ngroup: gold.tick
-  host_id: 1
+  setting: bar
+  fund: gold
+  frame: 5m
+  host: 1
+  trigger: gold.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-07 15:19:02 UTC
   updated_at: 2016-08-15 08:53:24 UTC
 
-service_230:
-  id: 230
+gold.binary1m.5s:
   name: gold.binary1m.5s
-  setting_id: 270950609
-  fund_id: 128523602
-  frame_id: 5
-  position: 2
-  trigger_id: 
   ngroup: gold.crystal
-  host_id: 1
+  setting: binary1m
+  fund: gold
+  frame: 5s
+  host: 1
+  position: 2
   active: true
-  single: false
   refresh: 5
   created_at: 2016-12-15 12:03:28 UTC
   updated_at: 2016-12-23 07:29:09 UTC
 
-service_175:
-  id: 175
+gold.bol.1m:
   name: gold.bol.1m
-  setting_id: 309566535
-  fund_id: 128523602
-  frame_id: 60
-  position: 7
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: bol
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 7
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 09:09:21 UTC
   updated_at: 2016-12-22 07:54:51 UTC
 
-service_233:
-  id: 233
+gold.crystal.5s:
   name: gold.crystal.5s
-  setting_id: 558685874
-  fund_id: 128523602
-  frame_id: 5
-  position: 5
-  trigger_id: 
   ngroup: gold.crystal
-  host_id: 1
-  active: false
-  single: false
+  setting: crystal
+  fund: gold
+  frame: 5s
+  host: 1
+  position: 5
   refresh: 5
   created_at: 2016-12-15 13:28:54 UTC
   updated_at: 2016-12-23 16:47:35 UTC
 
-service_115:
-  id: 115
+gold.ema.12.5s:
   name: gold.ema.12.5s
-  setting_id: 421779419
-  fund_id: 128523602
-  frame_id: 5
-  position: 
-  trigger_id: 1
   ngroup: gold.tick
-  host_id: 1
+  setting: ema12
+  fund: gold
+  frame: 5s
+  host: 1
+  trigger: gold.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2015-10-06 18:05:35 UTC
   updated_at: 2016-11-25 10:56:04 UTC
 
-service_229:
-  id: 229
+gold.ema.15.1m:
   name: gold.ema.15.1m
-  setting_id: 122110586
-  fund_id: 128523602
-  frame_id: 60
-  position: 1
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: ema15
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2016-11-23 17:55:58 UTC
   updated_at: 2016-12-22 07:51:53 UTC
 
-service_113:
-  id: 113
+gold.ema.30.1m:
   name: gold.ema.30.1m
-  setting_id: 85709944
-  fund_id: 128523602
-  frame_id: 60
-  position: 2
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: ema30
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 2
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-06 18:04:20 UTC
   updated_at: 2016-12-22 07:52:01 UTC
 
-service_173:
-  id: 173
+gold.ema.360.1m:
   name: gold.ema.360.1m
-  setting_id: 36431554
-  fund_id: 128523602
-  frame_id: 60
-  position: 4
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: ema360
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 4
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 09:03:19 UTC
   updated_at: 2016-12-22 07:52:18 UTC
 
-service_112:
-  id: 112
+gold.ema.60.1m:
   name: gold.ema.60.1m
-  setting_id: 946610226
-  fund_id: 128523602
-  frame_id: 60
-  position: 3
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: ema60
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 3
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-06 17:40:23 UTC
   updated_at: 2016-12-22 07:52:10 UTC
 
-service_34:
-  id: 34
+gold.history.15m:
   name: gold.history.15m
-  setting_id: 666529867
-  fund_id: 128523602
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: gold.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gold
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-07 20:02:58 UTC
   updated_at: 2016-09-05 10:23:35 UTC
 
-service_191:
-  id: 191
+gold.history.1d:
   name: gold.history.1d
-  setting_id: 666529867
-  fund_id: 128523602
-  frame_id: 86400
-  position: 
-  trigger_id: 
   ngroup: gold.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gold
+  frame: 1d
+  host: 1
   single: true
-  refresh: 
   created_at: 2016-09-05 10:22:59 UTC
   updated_at: 2016-09-05 10:22:59 UTC
 
-service_36:
-  id: 36
+gold.history.1h:
   name: gold.history.1h
-  setting_id: 666529867
-  fund_id: 128523602
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: gold.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gold
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-07 20:34:31 UTC
   updated_at: 2016-09-05 10:22:21 UTC
 
-service_2:
-  id: 2
+gold.history.1m:
   name: gold.history.1m
-  setting_id: 666529867
-  fund_id: 128523602
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: gold.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gold
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-05 20:35:34 UTC
   updated_at: 2016-09-05 10:23:19 UTC
 
-service_32:
-  id: 32
+gold.history.5m:
   name: gold.history.5m
-  setting_id: 666529867
-  fund_id: 128523602
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: gold.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gold
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-07 18:58:37 UTC
   updated_at: 2016-09-05 10:23:10 UTC
 
-service_42:
-  id: 42
+gold.history.5s:
   name: gold.history.5s
-  setting_id: 666529867
-  fund_id: 128523602
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: gold.history
-  host_id: 1
-  active: false
+  setting: history
+  fund: gold
+  frame: 5s
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-20 10:50:36 UTC
   updated_at: 2016-09-05 10:22:51 UTC
 
-service_200:
-  id: 200
+gold.line.1m:
   name: gold.line.1m
-  setting_id: 286569721
-  fund_id: 128523602
-  frame_id: 60
-  position: 10
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: line
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 10
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 19:19:29 UTC
   updated_at: 2016-12-22 07:55:51 UTC
 
-service_116:
-  id: 116
+gold.macd.1m:
   name: gold.macd.1m
-  setting_id: 621989106
-  fund_id: 128523602
-  frame_id: 60
-  position: 6
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: macd
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 6
   active: true
-  single: false
   refresh: 60
   created_at: 2015-10-06 18:18:53 UTC
   updated_at: 2016-12-22 07:52:35 UTC
 
-service_231:
-  id: 231
+gold.overlap.5s:
   name: gold.overlap.5s
-  setting_id: 2327581
-  fund_id: 128523602
-  frame_id: 5
-  position: 1
-  trigger_id: 
   ngroup: gold.crystal
-  host_id: 1
+  setting: overlap
+  fund: gold
+  frame: 5s
+  host: 1
+  position: 1
   active: true
-  single: false
   refresh: 5
   created_at: 2016-12-15 12:04:36 UTC
   updated_at: 2016-12-23 07:28:50 UTC
 
-service_228:
-  id: 228
+gold.random.5s:
   name: gold.random.5s
-  setting_id: 373021397
-  fund_id: 128523602
-  frame_id: 5
-  position: 4
-  trigger_id: 
   ngroup: gold.crystal
-  host_id: 1
-  active: false
-  single: false
+  setting: random
+  fund: gold
+  frame: 5s
+  host: 1
+  position: 4
   refresh: 5
   created_at: 2016-11-22 11:14:53 UTC
   updated_at: 2016-12-23 17:29:23 UTC
 
-service_176:
-  id: 176
+gold.rsi.1m:
   name: gold.rsi.1m
-  setting_id: 407410407
-  fund_id: 128523602
-  frame_id: 60
-  position: 8
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: rsi
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 8
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 09:10:09 UTC
   updated_at: 2016-12-22 07:55:00 UTC
 
-service_180:
-  id: 180
+gold.sar.1m:
   name: gold.sar.1m
-  setting_id: 723207662
-  fund_id: 128523602
-  frame_id: 60
-  position: 9
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: sar
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 9
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 12:20:45 UTC
   updated_at: 2016-12-22 07:55:08 UTC
 
-service_232:
-  id: 232
+gold.sol1m.5s:
   name: gold.sol1m.5s
-  setting_id: 797352518
-  fund_id: 128523602
-  frame_id: 5
-  position: 3
-  trigger_id: 
   ngroup: gold.crystal
-  host_id: 1
+  setting: sol1m
+  fund: gold
+  frame: 5s
+  host: 1
+  position: 3
   active: true
-  single: false
   refresh: 5
   created_at: 2016-12-15 13:01:14 UTC
   updated_at: 2016-12-23 18:04:13 UTC
 
-service_177:
-  id: 177
+gold.sol5m.1m:
   name: gold.sol5m.1m
-  setting_id: 199911235
-  fund_id: 128523602
-  frame_id: 60
-  position: 12
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
-  active: false
-  single: false
+  setting: sol5m
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 12
   refresh: 60
   created_at: 2016-08-15 09:10:58 UTC
   updated_at: 2016-12-22 10:31:57 UTC
 
-service_1:
-  id: 1
+gold.tick:
   name: gold.tick
-  setting_id: 380606668
-  fund_id: 128523602
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: gold.tick
-  host_id: 1
+  setting: tick
+  fund: gold
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-05 20:31:54 UTC
   updated_at: 2016-08-15 08:51:24 UTC
 
-service_201:
-  id: 201
+gold.trend.1m:
   name: gold.trend.1m
-  setting_id: 888877993
-  fund_id: 128523602
-  frame_id: 60
-  position: 11
-  trigger_id: 37
   ngroup: gold.ind
-  host_id: 1
+  setting: trend
+  fund: gold
+  frame: 1m
+  host: 1
+  trigger: gold.bar.1m
+  position: 11
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-27 19:20:35 UTC
   updated_at: 2016-12-22 07:55:59 UTC
 
-service_71:
-  id: 71
+nq.bar.15m:
   name: nq.bar.15m
-  setting_id: 922717355
-  fund_id: 497358206
-  frame_id: 900
-  position: 
-  trigger_id: 11
   ngroup: nq.tick
-  host_id: 1
+  setting: bar
+  fund: nq
+  frame: 15m
+  host: 1
+  trigger: nq.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-26 18:05:26 UTC
   updated_at: 2016-07-08 11:17:53 UTC
 
-service_72:
-  id: 72
+nq.bar.1h:
   name: nq.bar.1h
-  setting_id: 922717355
-  fund_id: 497358206
-  frame_id: 3600
-  position: 
-  trigger_id: 11
   ngroup: nq.tick
-  host_id: 1
+  setting: bar
+  fund: nq
+  frame: 1h
+  host: 1
+  trigger: nq.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-26 18:06:07 UTC
   updated_at: 2016-07-08 11:19:56 UTC
 
-service_69:
-  id: 69
+nq.bar.1m:
   name: nq.bar.1m
-  setting_id: 922717355
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 11
   ngroup: nq.tick
-  host_id: 1
+  setting: bar
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-26 18:04:10 UTC
   updated_at: 2016-07-08 11:19:06 UTC
 
-service_70:
-  id: 70
+nq.bar.5m:
   name: nq.bar.5m
-  setting_id: 922717355
-  fund_id: 497358206
-  frame_id: 300
-  position: 
-  trigger_id: 11
   ngroup: nq.tick
-  host_id: 1
+  setting: bar
+  fund: nq
+  frame: 5m
+  host: 1
+  trigger: nq.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-26 18:04:53 UTC
   updated_at: 2016-07-08 11:18:46 UTC
 
-service_223:
-  id: 223
+nq.bol.1m:
   name: nq.bol.1m
-  setting_id: 309566535
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: bol
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 13:56:11 UTC
   updated_at: 2016-10-28 13:56:11 UTC
 
-service_159:
-  id: 159
+nq.ema.12.5s:
   name: nq.ema.12.5s
-  setting_id: 421779419
-  fund_id: 497358206
-  frame_id: 5
-  position: 
-  trigger_id: 11
   ngroup: nq.tick
-  host_id: 1
+  setting: ema12
+  fund: nq
+  frame: 5s
+  host: 1
+  trigger: nq.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2016-07-08 11:52:05 UTC
   updated_at: 2016-07-08 11:52:17 UTC
 
-service_166:
-  id: 166
+nq.ema.15.1m:
   name: nq.ema.15.1m
-  setting_id: 122110586
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: ema15
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:25:09 UTC
   updated_at: 2016-11-25 11:04:45 UTC
 
-service_167:
-  id: 167
+nq.ema.30.1m:
   name: nq.ema.30.1m
-  setting_id: 85709944
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: ema30
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:26:00 UTC
   updated_at: 2016-07-08 12:26:00 UTC
 
-service_170:
-  id: 170
+nq.ema.360.1m:
   name: nq.ema.360.1m
-  setting_id: 36431554
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: ema360
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:29:37 UTC
   updated_at: 2016-07-08 12:29:37 UTC
 
-service_168:
-  id: 168
+nq.ema.60.1m:
   name: nq.ema.60.1m
-  setting_id: 946610226
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: ema60
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:26:54 UTC
   updated_at: 2016-07-08 12:26:54 UTC
 
-service_47:
-  id: 47
+nq.history.15m:
   name: nq.history.15m
-  setting_id: 666529867
-  fund_id: 497358206
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: nq
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:27:25 UTC
   updated_at: 2015-08-21 16:27:25 UTC
 
-service_48:
-  id: 48
+nq.history.1h:
   name: nq.history.1h
-  setting_id: 666529867
-  fund_id: 497358206
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: nq
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:27:51 UTC
   updated_at: 2015-08-21 16:27:51 UTC
 
-service_12:
-  id: 12
+nq.history.1m:
   name: nq.history.1m
-  setting_id: 666529867
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: nq
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-05 20:57:20 UTC
   updated_at: 2015-08-06 09:44:28 UTC
 
-service_46:
-  id: 46
+nq.history.5m:
   name: nq.history.5m
-  setting_id: 666529867
-  fund_id: 497358206
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: nq
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:26:58 UTC
   updated_at: 2015-08-21 16:26:58 UTC
 
-service_171:
-  id: 171
+nq.line.1m:
   name: nq.line.1m
-  setting_id: 286569721
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: line
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 13:15:49 UTC
   updated_at: 2016-10-28 13:53:08 UTC
 
-service_164:
-  id: 164
+nq.macd.1m:
   name: nq.macd.1m
-  setting_id: 621989106
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: macd
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:06:08 UTC
   updated_at: 2016-07-08 12:06:08 UTC
 
-service_163:
-  id: 163
+nq.rsi.1m:
   name: nq.rsi.1m
-  setting_id: 407410407
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: rsi
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:05:12 UTC
   updated_at: 2016-07-08 12:05:12 UTC
 
-service_162:
-  id: 162
+nq.sar.1m:
   name: nq.sar.1m
-  setting_id: 723207662
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: sar
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:04:10 UTC
   updated_at: 2016-07-08 12:04:10 UTC
 
-service_161:
-  id: 161
+nq.sol5m.1m:
   name: nq.sol5m.1m
-  setting_id: 199911235
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: sol5m
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-07-08 12:02:57 UTC
   updated_at: 2016-10-28 10:59:52 UTC
 
-service_11:
-  id: 11
+nq.tick:
   name: nq.tick
-  setting_id: 380606668
-  fund_id: 497358206
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: nq.tick
-  host_id: 1
+  setting: tick
+  fund: nq
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-05 20:56:53 UTC
   updated_at: 2016-07-08 11:47:05 UTC
 
-service_222:
-  id: 222
+nq.trend.1m:
   name: nq.trend.1m
-  setting_id: 888877993
-  fund_id: 497358206
-  frame_id: 60
-  position: 
-  trigger_id: 69
   ngroup: nq.ind
-  host_id: 1
+  setting: trend
+  fund: nq
+  frame: 1m
+  host: 1
+  trigger: nq.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 13:53:58 UTC
   updated_at: 2016-10-28 13:53:58 UTC
 
-service_29:
-  id: 29
+nzdusd.history.1m:
   name: nzdusd.history.1m
-  setting_id: 666529867
-  fund_id: 418214526
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: nzdusd
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 19:19:16 UTC
   updated_at: 2015-08-06 19:19:16 UTC
 
-service_27:
-  id: 27
+nzdusd.tick:
   name: nzdusd.tick
-  setting_id: 380606668
-  fund_id: 418214526
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: ticker.valuta
-  host_id: 1
-  active: false
-  single: false
+  setting: tick
+  fund: nzdusd
+  frame: 5s
+  host: 1
   refresh: 60
   created_at: 2015-08-06 19:18:19 UTC
   updated_at: 2015-08-25 09:28:24 UTC
 
-service_79:
-  id: 79
+oil.bar.15m:
   name: oil.bar.15m
-  setting_id: 922717355
-  fund_id: 217163923
-  frame_id: 900
-  position: 
-  trigger_id: 3
   ngroup: oil.tick
-  host_id: 1
+  setting: bar
+  fund: oil
+  frame: 15m
+  host: 1
+  trigger: oil.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-27 05:51:27 UTC
   updated_at: 2016-08-15 09:57:06 UTC
 
-service_80:
-  id: 80
+oil.bar.1h:
   name: oil.bar.1h
-  setting_id: 922717355
-  fund_id: 217163923
-  frame_id: 3600
-  position: 
-  trigger_id: 3
   ngroup: oil.tick
-  host_id: 1
+  setting: bar
+  fund: oil
+  frame: 1h
+  host: 1
+  trigger: oil.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-27 05:51:51 UTC
   updated_at: 2016-08-15 09:57:25 UTC
 
-service_77:
-  id: 77
+oil.bar.1m:
   name: oil.bar.1m
-  setting_id: 922717355
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 3
   ngroup: oil.tick
-  host_id: 1
+  setting: bar
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-27 05:50:31 UTC
   updated_at: 2016-08-15 09:56:27 UTC
 
-service_78:
-  id: 78
+oil.bar.5m:
   name: oil.bar.5m
-  setting_id: 922717355
-  fund_id: 217163923
-  frame_id: 300
-  position: 
-  trigger_id: 3
   ngroup: oil.tick
-  host_id: 1
+  setting: bar
+  fund: oil
+  frame: 5m
+  host: 1
+  trigger: oil.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-27 05:51:03 UTC
   updated_at: 2016-08-15 09:56:45 UTC
 
-service_189:
-  id: 189
+oil.bol.1m:
   name: oil.bol.1m
-  setting_id: 309566535
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: bol
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 18:00:55 UTC
   updated_at: 2016-08-15 18:00:55 UTC
 
-service_178:
-  id: 178
+oil.ema.12.5s:
   name: oil.ema.12.5s
-  setting_id: 421779419
-  fund_id: 217163923
-  frame_id: 5
-  position: 
-  trigger_id: 3
   ngroup: oil.tick
-  host_id: 1
+  setting: ema12
+  fund: oil
+  frame: 5s
+  host: 1
+  trigger: oil.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2016-08-15 09:58:31 UTC
   updated_at: 2016-08-15 09:58:31 UTC
 
-service_179:
-  id: 179
+oil.ema.15.1m:
   name: oil.ema.15.1m
-  setting_id: 122110586
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: ema15
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 12:19:22 UTC
   updated_at: 2016-11-25 11:04:15 UTC
 
-service_181:
-  id: 181
+oil.ema.30.1m:
   name: oil.ema.30.1m
-  setting_id: 85709944
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: ema30
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:36:50 UTC
   updated_at: 2016-08-15 17:36:50 UTC
 
-service_183:
-  id: 183
+oil.ema.360.1m:
   name: oil.ema.360.1m
-  setting_id: 36431554
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: ema360
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:38:12 UTC
   updated_at: 2016-08-15 17:38:12 UTC
 
-service_182:
-  id: 182
+oil.ema.60.1m:
   name: oil.ema.60.1m
-  setting_id: 946610226
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: ema60
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:37:28 UTC
   updated_at: 2016-08-15 17:37:28 UTC
 
-service_56:
-  id: 56
+oil.history.15m:
   name: oil.history.15m
-  setting_id: 666529867
-  fund_id: 217163923
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: oil
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 17:00:27 UTC
   updated_at: 2015-08-21 17:00:27 UTC
 
-service_57:
-  id: 57
+oil.history.1h:
   name: oil.history.1h
-  setting_id: 666529867
-  fund_id: 217163923
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: oil
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 17:00:53 UTC
   updated_at: 2015-08-21 17:00:53 UTC
 
-service_4:
-  id: 4
+oil.history.1m:
   name: oil.history.1m
-  setting_id: 666529867
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: oil
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-05 20:39:15 UTC
   updated_at: 2015-08-06 09:43:24 UTC
 
-service_55:
-  id: 55
+oil.history.5m:
   name: oil.history.5m
-  setting_id: 666529867
-  fund_id: 217163923
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: oil
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:59:59 UTC
   updated_at: 2015-08-21 16:59:59 UTC
 
-service_202:
-  id: 202
+oil.line.1m:
   name: oil.line.1m
-  setting_id: 286569721
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: line
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 08:47:20 UTC
   updated_at: 2016-10-28 08:47:20 UTC
 
-service_185:
-  id: 185
+oil.macd.1m:
   name: oil.macd.1m
-  setting_id: 621989106
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: macd
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:56:10 UTC
   updated_at: 2016-08-15 17:56:10 UTC
 
-service_186:
-  id: 186
+oil.rsi.1m:
   name: oil.rsi.1m
-  setting_id: 407410407
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: rsi
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:56:47 UTC
   updated_at: 2016-08-15 17:56:47 UTC
 
-service_187:
-  id: 187
+oil.sar.1m:
   name: oil.sar.1m
-  setting_id: 723207662
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: sar
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:57:30 UTC
   updated_at: 2016-08-15 17:57:30 UTC
 
-service_188:
-  id: 188
+oil.sol5m.1m:
   name: oil.sol5m.1m
-  setting_id: 199911235
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: sol5m
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-08-15 17:58:40 UTC
   updated_at: 2016-10-28 11:00:05 UTC
 
-service_3:
-  id: 3
+oil.tick:
   name: oil.tick
-  setting_id: 380606668
-  fund_id: 217163923
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: oil.tick
-  host_id: 1
+  setting: tick
+  fund: oil
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-05 20:36:42 UTC
   updated_at: 2016-08-15 09:42:42 UTC
 
-service_203:
-  id: 203
+oil.trend.1m:
   name: oil.trend.1m
-  setting_id: 888877993
-  fund_id: 217163923
-  frame_id: 60
-  position: 
-  trigger_id: 77
   ngroup: oil.ind
-  host_id: 1
+  setting: trend
+  fund: oil
+  frame: 1m
+  host: 1
+  trigger: oil.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 08:48:06 UTC
   updated_at: 2016-10-28 08:49:07 UTC
 
-service_50:
-  id: 50
+usdcad.history.15m:
   name: usdcad.history.15m
-  setting_id: 666529867
-  fund_id: 481512774
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdcad
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:30:43 UTC
   updated_at: 2015-08-21 16:30:43 UTC
 
-service_51:
-  id: 51
+usdcad.history.1h:
   name: usdcad.history.1h
-  setting_id: 666529867
-  fund_id: 481512774
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdcad
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:31:35 UTC
   updated_at: 2015-08-21 16:31:35 UTC
 
-service_24:
-  id: 24
+usdcad.history.1m:
   name: usdcad.history.1m
-  setting_id: 666529867
-  fund_id: 481512774
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdcad
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 19:02:38 UTC
   updated_at: 2015-08-06 19:02:38 UTC
 
-service_49:
-  id: 49
+usdcad.history.5m:
   name: usdcad.history.5m
-  setting_id: 666529867
-  fund_id: 481512774
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdcad
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-21 16:30:03 UTC
   updated_at: 2015-08-21 16:30:03 UTC
 
-service_23:
-  id: 23
+usdcad.tick:
   name: usdcad.tick
-  setting_id: 380606668
-  fund_id: 481512774
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: ticker.valuta
-  host_id: 1
-  active: false
-  single: false
+  setting: tick
+  fund: usdcad
+  frame: 5s
+  host: 1
   refresh: 60
   created_at: 2015-08-06 19:02:09 UTC
   updated_at: 2015-08-25 09:28:07 UTC
 
-service_22:
-  id: 22
+usdchf.history.1m:
   name: usdchf.history.1m
-  setting_id: 666529867
-  fund_id: 595564323
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdchf
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 18:58:53 UTC
   updated_at: 2015-08-06 18:58:53 UTC
 
-service_21:
-  id: 21
+usdchf.tick:
   name: usdchf.tick
-  setting_id: 380606668
-  fund_id: 595564323
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: ticker.valuta
-  host_id: 1
-  active: false
-  single: false
+  setting: tick
+  fund: usdchf
+  frame: 5s
+  host: 1
   refresh: 60
   created_at: 2015-08-06 18:58:20 UTC
   updated_at: 2015-08-25 09:27:57 UTC
 
-service_87:
-  id: 87
+usdjpy.bar.15m:
   name: usdjpy.bar.15m
-  setting_id: 922717355
-  fund_id: 599603460
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: usdjpy
-  host_id: 1
+  setting: bar
+  fund: usdjpy
+  frame: 15m
+  host: 1
   active: true
-  single: false
   refresh: 900
   created_at: 2015-08-27 06:34:40 UTC
   updated_at: 2015-08-27 06:34:40 UTC
 
-service_88:
-  id: 88
+usdjpy.bar.1h:
   name: usdjpy.bar.1h
-  setting_id: 922717355
-  fund_id: 599603460
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: usdjpy
-  host_id: 1
+  setting: bar
+  fund: usdjpy
+  frame: 1h
+  host: 1
   active: true
-  single: false
   refresh: 3600
   created_at: 2015-08-27 06:35:04 UTC
   updated_at: 2015-08-27 06:35:04 UTC
 
-service_85:
-  id: 85
+usdjpy.bar.1m:
   name: usdjpy.bar.1m
-  setting_id: 922717355
-  fund_id: 599603460
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: usdjpy
-  host_id: 1
+  setting: bar
+  fund: usdjpy
+  frame: 1m
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-27 06:33:51 UTC
   updated_at: 2015-08-27 06:33:51 UTC
 
-service_86:
-  id: 86
+usdjpy.bar.5m:
   name: usdjpy.bar.5m
-  setting_id: 922717355
-  fund_id: 599603460
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: usdjpy
-  host_id: 1
+  setting: bar
+  fund: usdjpy
+  frame: 5m
+  host: 1
   active: true
-  single: false
   refresh: 300
   created_at: 2015-08-27 06:34:14 UTC
   updated_at: 2015-08-27 06:34:14 UTC
 
-service_67:
-  id: 67
+usdjpy.history.15m:
   name: usdjpy.history.15m
-  setting_id: 666529867
-  fund_id: 599603460
-  frame_id: 900
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdjpy
+  frame: 15m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-25 09:25:28 UTC
   updated_at: 2015-08-25 09:25:28 UTC
 
-service_68:
-  id: 68
+usdjpy.history.1h:
   name: usdjpy.history.1h
-  setting_id: 666529867
-  fund_id: 599603460
-  frame_id: 3600
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdjpy
+  frame: 1h
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-25 09:26:08 UTC
   updated_at: 2015-08-25 09:26:08 UTC
 
-service_18:
-  id: 18
+usdjpy.history.1m:
   name: usdjpy.history.1m
-  setting_id: 666529867
-  fund_id: 599603460
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdjpy
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-06 09:50:51 UTC
   updated_at: 2015-08-06 09:50:51 UTC
 
-service_66:
-  id: 66
+usdjpy.history.5m:
   name: usdjpy.history.5m
-  setting_id: 666529867
-  fund_id: 599603460
-  frame_id: 300
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: usdjpy
+  frame: 5m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-25 09:25:02 UTC
   updated_at: 2015-08-25 09:25:02 UTC
 
-service_17:
-  id: 17
+usdjpy.tick:
   name: usdjpy.tick
-  setting_id: 380606668
-  fund_id: 599603460
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: usdjpy
-  host_id: 1
+  setting: tick
+  fund: usdjpy
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-06 09:49:43 UTC
   updated_at: 2015-08-27 06:33:32 UTC
 
-service_206:
-  id: 206
+ym.bar.15m:
   name: ym.bar.15m
-  setting_id: 922717355
-  fund_id: 203935143
-  frame_id: 900
-  position: 
-  trigger_id: 9
   ngroup: ym.tick
-  host_id: 1
+  setting: bar
+  fund: ym
+  frame: 15m
+  host: 1
+  trigger: ym.tick
   active: true
-  single: false
   refresh: 900
   created_at: 2016-10-28 10:29:36 UTC
   updated_at: 2016-10-28 10:29:36 UTC
 
-service_207:
-  id: 207
+ym.bar.1h:
   name: ym.bar.1h
-  setting_id: 922717355
-  fund_id: 203935143
-  frame_id: 3600
-  position: 
-  trigger_id: 9
   ngroup: ym.tick
-  host_id: 1
+  setting: bar
+  fund: ym
+  frame: 1h
+  host: 1
+  trigger: ym.tick
   active: true
-  single: false
   refresh: 3600
   created_at: 2016-10-28 10:30:22 UTC
   updated_at: 2016-10-28 10:30:22 UTC
 
-service_204:
-  id: 204
+ym.bar.1m:
   name: ym.bar.1m
-  setting_id: 922717355
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 9
   ngroup: ym.tick
-  host_id: 1
+  setting: bar
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.tick
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:25:42 UTC
   updated_at: 2016-10-28 10:25:42 UTC
 
-service_205:
-  id: 205
+ym.bar.5m:
   name: ym.bar.5m
-  setting_id: 922717355
-  fund_id: 203935143
-  frame_id: 300
-  position: 
-  trigger_id: 9
   ngroup: ym.tick
-  host_id: 1
+  setting: bar
+  fund: ym
+  frame: 5m
+  host: 1
+  trigger: ym.tick
   active: true
-  single: false
   refresh: 300
   created_at: 2016-10-28 10:28:52 UTC
   updated_at: 2016-10-28 10:28:52 UTC
 
-service_215:
-  id: 215
+ym.bol.1m:
   name: ym.bol.1m
-  setting_id: 309566535
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: bol
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:44:50 UTC
   updated_at: 2016-10-28 10:44:50 UTC
 
-service_208:
-  id: 208
+ym.ema.12.5s:
   name: ym.ema.12.5s
-  setting_id: 421779419
-  fund_id: 203935143
-  frame_id: 5
-  position: 
-  trigger_id: 9
   ngroup: ym.tick
-  host_id: 1
+  setting: ema12
+  fund: ym
+  frame: 5s
+  host: 1
+  trigger: ym.tick
   active: true
-  single: false
-  refresh: 
   created_at: 2016-10-28 10:31:35 UTC
   updated_at: 2016-10-28 10:31:35 UTC
 
-service_209:
-  id: 209
+ym.ema.15.1m:
   name: ym.ema.15.1m
-  setting_id: 122110586
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: ema15
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:34:15 UTC
   updated_at: 2016-11-25 11:01:43 UTC
 
-service_210:
-  id: 210
+ym.ema.30.1m:
   name: ym.ema.30.1m
-  setting_id: 85709944
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: ema30
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:34:49 UTC
   updated_at: 2016-10-28 10:34:49 UTC
 
-service_213:
-  id: 213
+ym.ema.360.1m:
   name: ym.ema.360.1m
-  setting_id: 36431554
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: ema360
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:36:47 UTC
   updated_at: 2016-10-28 10:36:47 UTC
 
-service_211:
-  id: 211
+ym.ema.60.1m:
   name: ym.ema.60.1m
-  setting_id: 946610226
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: ema60
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:35:21 UTC
   updated_at: 2016-10-28 10:35:21 UTC
 
-service_10:
-  id: 10
+ym.history.1m:
   name: ym.history.1m
-  setting_id: 666529867
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 
   ngroup: history
-  host_id: 1
-  active: false
+  setting: history
+  fund: ym
+  frame: 1m
+  host: 1
   single: true
-  refresh: 
   created_at: 2015-08-05 20:56:26 UTC
   updated_at: 2015-08-06 09:44:21 UTC
 
-service_218:
-  id: 218
+ym.line.1m:
   name: ym.line.1m
-  setting_id: 286569721
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: line
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:51:06 UTC
   updated_at: 2016-10-28 10:51:06 UTC
 
-service_214:
-  id: 214
+ym.macd.1m:
   name: ym.macd.1m
-  setting_id: 621989106
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: macd
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:44:05 UTC
   updated_at: 2016-10-28 10:44:05 UTC
 
-service_217:
-  id: 217
+ym.rsi.1m:
   name: ym.rsi.1m
-  setting_id: 407410407
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: rsi
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:50:13 UTC
   updated_at: 2016-10-28 10:50:13 UTC
 
-service_216:
-  id: 216
+ym.sar.1m:
   name: ym.sar.1m
-  setting_id: 723207662
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: sar
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:47:37 UTC
   updated_at: 2016-10-28 10:47:37 UTC
 
-service_220:
-  id: 220
+ym.sol5m.1m:
   name: ym.sol5m.1m
-  setting_id: 199911235
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: sol5m
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:55:03 UTC
   updated_at: 2016-10-28 10:55:03 UTC
 
-service_9:
-  id: 9
+ym.tick:
   name: ym.tick
-  setting_id: 380606668
-  fund_id: 203935143
-  frame_id: 5
-  position: 
-  trigger_id: 
   ngroup: ym.tick
-  host_id: 1
+  setting: tick
+  fund: ym
+  frame: 5s
+  host: 1
   active: true
-  single: false
   refresh: 60
   created_at: 2015-08-05 20:55:47 UTC
   updated_at: 2016-10-28 10:24:17 UTC
 
-service_219:
-  id: 219
+ym.trend.1m:
   name: ym.trend.1m
-  setting_id: 888877993
-  fund_id: 203935143
-  frame_id: 60
-  position: 
-  trigger_id: 204
   ngroup: ym.ind
-  host_id: 1
+  setting: trend
+  fund: ym
+  frame: 1m
+  host: 1
+  trigger: ym.bar.1m
   active: true
-  single: false
   refresh: 60
   created_at: 2016-10-28 10:53:51 UTC
   updated_at: 2016-10-28 10:53:51 UTC
+
+state.teak:
+  name: state.teak
+  ngroup: state
+  setting: state
+  fund: apartment
+  frame: 1s
+  host: teak
+  refresh: 60
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-06-03 18:08:31 UTC
 

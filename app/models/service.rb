@@ -4,14 +4,15 @@ class Service < ActiveRecord::Base
   belongs_to :setting
   belongs_to :fund
   belongs_to :frame
-  belongs_to :host
+  belongs_to :host, optional: true
   has_many :states
 
   # иехрархические связи между сервисами для обновления
-  belongs_to :trigger, class_name: :Service, foreign_key: :trigger_id
+  belongs_to :trigger, class_name: :Service, foreign_key: :trigger_id, optional: true
   has_many :updatable, class_name: :Service, foreign_key: :trigger_id
 
-  validates :name, :setting_id, :fund_id, :frame_id, :presence => true
+  validates :name, presence: true, uniqueness: true
+  validates :setting_id, :fund_id, :frame_id, presence: true
 
   # after_save :update_statuses
 

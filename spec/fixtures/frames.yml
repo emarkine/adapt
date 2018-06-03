@@ -14,11 +14,11 @@
 #3 months	1 day
 #Everything else	1 day
 
-#1:
-#  id: 1
-#  name: 1s
-#  unit: second
-#  duration: 900
+1:
+  id: 1
+  name: 1s
+  unit: second
+  duration: 900
 
 5:
   id: 5
