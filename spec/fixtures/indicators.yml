@@ -1,3 +1,11 @@
+state:
+  name: state
+  type: Indicator::State
+  title: State
+  full_name: State
+  position: 0
+  displayed: true
+
 #crystal:
 #  name: crystal
 #  type: Indicator::Crystal
