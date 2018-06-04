@@ -1,8 +1,8 @@
 #!/bin/bash
-# Copyright 2004-16 EugeneLab
+# Copyright 2004-18 EugeneLab
 
 # clean all time records
-rake cat:redo[datum]
-rake cat:redo[point]
-rake cat:redo[bar]
-rake cat:redo[tick]
+rake db:model:redo[datum]
+rake db:model:redo[point]
+rake db:model:redo[bar]
+rake db:model:redo[tick]
