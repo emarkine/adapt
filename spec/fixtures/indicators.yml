@@ -17,8 +17,8 @@ door:
 bell:
   name: bell
   type: Indicator::Bell
-  title: Door
-  full_name: Apartment Door
+  title: Bell
+  full_name: Bell
   position: 1
   displayed: false
 

@@ -1,0 +1,8 @@
+#!/bin/bash
+# Copyright 2004-16 EugeneLab
+
+# clean all time records
+rake cat:redo[datum]
+rake cat:redo[point]
+rake cat:redo[bar]
+rake cat:redo[tick]
