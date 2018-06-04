@@ -4,7 +4,7 @@ state:
   title: State
   full_name: State
   position: 0
-  displayed: true
+  displayed: false
 
 door:
   name: door
@@ -12,7 +12,7 @@ door:
   title: Door
   full_name: Door
   position: 1
-  displayed: true
+  displayed: false
 
 bell:
   name: bell
@@ -20,7 +20,7 @@ bell:
   title: Door
   full_name: Apartment Door
   position: 1
-  displayed: true
+  displayed: false
 
 #crystal:
 #  name: crystal
