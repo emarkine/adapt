@@ -5,6 +5,32 @@ state:
   indicator: state
   position: 0
 
+bell.building:
+  name: bell.building
+  indicator: bell
+  frequency: 1000
+  duration: 1000
+  position: 1
+
+door.building:
+  name: door.building
+  indicator: door
+  duration: 5000
+  position: 2
+
+bell.apartment:
+  name: bell.apartment
+  indicator: bell
+  frequency: 2000
+  duration: 2000
+  position: 3
+
+door.apartment:
+  name: door.apartment
+  indicator: door
+  duration: 10000
+  position: 4
+
 #----------------------------------------------------- Crystal -----------------------------------------------------------
 
 сrystal:

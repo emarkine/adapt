@@ -83,6 +83,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   create_table "frames", force: :cascade do |t|
     t.string "name"
     t.string "unit"
+    t.integer "ms"
     t.integer "duration"
     t.index ["name"], name: "index_frames_on_name", unique: true
   end
@@ -295,6 +296,8 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.string "second"
     t.string "link"
     t.string "description"
+    t.integer "frequency"
+    t.integer "duration"
     t.index ["frame_id"], name: "index_settings_on_frame_id"
     t.index ["fund_id"], name: "index_settings_on_fund_id"
     t.index ["indicator_id"], name: "index_settings_on_indicator_id"

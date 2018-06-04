@@ -2586,7 +2586,61 @@ state.teak:
   fund: apartment
   frame: 1s
   host: teak
-  refresh: 60
+  active: true
+  refresh: 1
+  status: test
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-06-03 18:08:31 UTC
+
+node.bell.building:
+  name: node.bell.building
+  ngroup: node
+  setting: bell.building
+  fund: apartment
+  frame: 100ms
+  host: teak
+  active: true
+  refresh: 1
+  status: test
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-06-03 18:08:31 UTC
+
+node.bell.apartment:
+  name: node.bell.apartment
+  ngroup: node
+  setting: bell.apartment
+  fund: apartment
+  frame: 100ms
+  host: teak
+  active: true
+  refresh: 1
+  status: test
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-06-03 18:08:31 UTC
+
+node.door.building:
+  name: node.door.building
+  ngroup: node
+  setting: door.building
+  fund: apartment
+  frame: 1s
+  host: teak
+  active: true
+  refresh: 1
+  status: test
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-06-03 18:08:31 UTC
+
+node.door.apartment:
+  name: node.door.apartment
+  ngroup: node
+  setting: door.apartment
+  fund: apartment
+  frame: 1s
+  host: teak
+  active: true
+  refresh: 1
+  status: test
   created_at: 2018-06-03 18:08:31 UTC
   updated_at: 2018-06-03 18:08:31 UTC
 

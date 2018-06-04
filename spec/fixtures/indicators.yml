@@ -6,6 +6,22 @@ state:
   position: 0
   displayed: true
 
+door:
+  name: door
+  type: Indicator::Door
+  title: Door
+  full_name: Door
+  position: 1
+  displayed: true
+
+bell:
+  name: bell
+  type: Indicator::Bell
+  title: Door
+  full_name: Apartment Door
+  position: 1
+  displayed: true
+
 #crystal:
 #  name: crystal
 #  type: Indicator::Crystal

@@ -3,8 +3,8 @@ class CreateFrames < ActiveRecord::Migration[5.1]
     create_table :frames do |t|
       t.string :name
       t.string :unit
-      # t.integer :ms
-      t.integer :seconds
+      t.integer :ms
+      # t.integer :seconds
       t.integer :duration
     end
     add_index(:frames, :name, :unique => true)

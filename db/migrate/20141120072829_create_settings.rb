@@ -58,6 +58,11 @@ class CreateSettings < ActiveRecord::Migration[5.1]
       t.string :link # ссылка на описание
       t.string :description # описание на русском
 
+      # apartment set
+      t.integer :frequency # частота на которой звучит звонок в Hz
+      t.integer :duration # длительность звонока или действия в ms
+
+
       # t.timestamps
     end
 
