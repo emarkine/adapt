@@ -534,13 +534,13 @@ fti:
   multiplier: 200
   exchange: FTA
   trading_class: FTI
-  local_symbol: FTIH8
+  local_symbol: FTIN8
   product_type: Equity Index
   settlement_method: cash
   location: Amsterdam
   comma: 3
-  contract_month: "2018-03-01"
-  expiration: "2018-03-16 16:00:00"
+  contract_month: "2018-07-01"
+  expiration: "2018-07-20 16:00:00"
   open_time: "08:00:00"
   close_time: "22:00:00"
   watch: true
