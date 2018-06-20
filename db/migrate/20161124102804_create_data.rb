@@ -9,6 +9,6 @@ class CreateData < ActiveRecord::Migration[5.1]
       t.integer :prev_id # предыдущее данное
       t.integer :next_id # следующее данное
     end
-    add_index(:data, [:fund_id, :frame_id, :neuron_id, :time], :unique => true, :name => 'data_index')
+    # add_index(:data, [:fund_id, :frame_id, :neuron_id, :time], :unique => true, :name => 'data_index')
   end
 end
