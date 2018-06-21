@@ -10,12 +10,14 @@ bell.building:
   indicator: bell
   frequency: 1000
   duration: 1000
+  separate: true
   position: 1
 
 door.building:
   name: door.building
   indicator: door
   duration: 5000
+  separate: true
   position: 2
 
 bell.apartment:
@@ -23,12 +25,14 @@ bell.apartment:
   indicator: bell
   frequency: 2000
   duration: 2000
+  separate: true
   position: 3
 
 door.apartment:
   name: door.apartment
   indicator: door
   duration: 10000
+  separate: true
   position: 4
 
 #----------------------------------------------------- Crystal -----------------------------------------------------------
