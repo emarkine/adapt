@@ -11,6 +11,7 @@ bell.building:
   frequency: 1000
   duration: 1000
   separate: true
+  color: blue
   position: 1
 
 door.building:
@@ -25,6 +26,7 @@ bell.apartment:
   indicator: bell
   frequency: 2000
   duration: 2000
+  color: green
   separate: true
   position: 3
 
