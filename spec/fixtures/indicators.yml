@@ -13,6 +13,7 @@ door:
   full_name: Door
   position: 1
   displayed: false
+  canvas: Door
 
 bell:
   name: bell
@@ -21,6 +22,7 @@ bell:
   full_name: Bell
   position: 1
   displayed: false
+  canvas: Bell
 
 #crystal:
 #  name: crystal
