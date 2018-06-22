@@ -3,7 +3,7 @@
 microphone:
   name: microphone
   type: Neuron::Out
-  edge: test
+  edge: microphone
   position: 0
 
 microphone_angle:
