@@ -42,5 +42,9 @@ class Frame < ActiveRecord::Base
     self.id <=> other.id
   end
 
+  def seconds
+    self.ms / 1000
+  end
+
 
 end

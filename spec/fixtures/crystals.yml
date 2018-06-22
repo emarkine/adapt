@@ -1,3 +1,6 @@
+microphone:
+  name: microphone
+
 test:
   name: test
 

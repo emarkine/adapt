@@ -1,3 +1,37 @@
+#==================================================== microphone ===========================================================#
+
+microphone:
+  name: microphone
+  type: Neuron::Out
+  edge: test
+  position: 0
+
+microphone_angle:
+  name: microphone_angle
+  type: Neuron::Angle
+  edge: microphone
+  position: 1
+  factor: 0.4
+
+microphone_trend:
+  name: microphone_trend
+  type: Neuron::Trend
+  edge: microphone
+  position: 2
+  factor: 1.0
+
+microphone_level:
+  name: microphone_level
+  type: Neuron::Level
+  edge: microphone
+  position: 3
+
+microphone_sign:
+  name: microphone_sign
+  type: Neuron::Sign
+  edge: microphone
+  position: 4
+
 #======================================================= test ===========================================================#
 
 test:

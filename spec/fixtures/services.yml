@@ -2644,3 +2644,13 @@ node.door.apartment:
   created_at: 2018-06-03 18:08:31 UTC
   updated_at: 2018-06-03 18:08:31 UTC
 
+node.microphone:
+  name: node.microphone
+  ngroup: node
+  setting: microphone
+  fund: apartment
+  frame: 1s
+  host: gate
+  active: true
+  refresh: 1
+  status: test

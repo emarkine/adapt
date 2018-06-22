@@ -1,3 +1,8 @@
+microphone:
+  crystal: microphone
+  node: microphone
+  edge: microphone
+
 test_test:
   crystal: test
   node: test

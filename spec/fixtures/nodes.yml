@@ -1,3 +1,9 @@
+microphone:
+  type: 'Node::Microphone'
+  name: microphone
+  title: microphone
+  description: обработка сигнала с микрофона
+
 test:
 #  type: 'Node::Neuro'
   name: test

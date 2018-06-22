@@ -1,3 +1,12 @@
+microphone:
+  name: microphone
+  type: Indicator::Microphone
+  title: Microphone
+  full_name: USB Microphone
+  position: 1
+  displayed: false
+  canvas: Microphone
+
 state:
   name: state
   type: Indicator::State
@@ -11,7 +20,7 @@ door:
   type: Indicator::Door
   title: Door
   full_name: Door
-  position: 1
+  position: 2
   displayed: false
   canvas: Door
 
@@ -20,7 +29,7 @@ bell:
   type: Indicator::Bell
   title: Bell
   full_name: Bell
-  position: 1
+  position: 3
   displayed: false
   canvas: Bell
 

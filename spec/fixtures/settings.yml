@@ -1,3 +1,12 @@
+#-------------------------------------------------- microphone -----------------------------------------------------------
+
+microphone:
+  name: microphone
+  indicator: microphone
+  separate: true
+  color: blue
+  position: 1
+
 #----------------------------------------------------- State -----------------------------------------------------------
 
 state:
@@ -28,14 +37,14 @@ bell.apartment:
   duration: 2000
   color: green
   separate: true
-  position: 3
+  position: 1
 
 door.apartment:
   name: door.apartment
   indicator: door
   duration: 10000
   separate: true
-  position: 4
+  position: 2
 
 #----------------------------------------------------- Crystal -----------------------------------------------------------
 
