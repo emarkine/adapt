@@ -2613,7 +2613,7 @@ node.microphone:
   setting: microphone
   fund: apartment
   frame: 1s
-  host: gate
+  host: teak
   active: true
   refresh: 1
   status: test
