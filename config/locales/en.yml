@@ -117,6 +117,7 @@ en:
         refresh: refresh
         delta: delta
         date: date
+        command: command
         start_time: start time
         stop_time: stop time
         active: active

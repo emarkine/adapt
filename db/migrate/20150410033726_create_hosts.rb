@@ -3,6 +3,7 @@ class CreateHosts < ActiveRecord::Migration[5.1]
     create_table :hosts do |t|
       t.string :name # имя хоста
       t.string :model # модель компьютера
+      t.string :mac # его MAC адрес
       t.string :ip # его IP адрес
       t.string :speed # скорость загрузки/передачи Mbit/s
       t.string :processor # какой процессор

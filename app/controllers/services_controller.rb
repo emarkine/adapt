@@ -153,7 +153,9 @@ class ServicesController < ApplicationController
   end
 
   def service_params
-    params.require(:service).permit(:name, :setting_id, :fund_id, :frame_id, :position, :trigger_id, :ngroup, :host_id, :active, :single, :action, :refresh, :status)
+    params.require(:service).permit(:name, :setting_id, :fund_id, :frame_id, :position, :trigger_id,
+                                    :ngroup, :host_id, :active, :single, :action, :refresh, :status,
+                                    :command, :start_time, :stop_time)
   end
 
 end

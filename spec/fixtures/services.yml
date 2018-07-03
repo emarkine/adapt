@@ -4,7 +4,7 @@ aex.bar.15m:
   setting: bar
   fund: fti
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: aex.tick
   active: true
   refresh: 900
@@ -17,7 +17,7 @@ aex.bar.1h:
   setting: bar
   fund: fti
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: aex.tick
   active: true
   refresh: 3600
@@ -30,7 +30,7 @@ aex.bar.1m:
   setting: bar
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.tick
   active: true
   refresh: 60
@@ -43,7 +43,7 @@ aex.bar.5m:
   setting: bar
   fund: fti
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: aex.tick
   active: true
   refresh: 300
@@ -56,7 +56,7 @@ aex.bol.1m:
   setting: bol
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -69,7 +69,7 @@ aex.ema.12.5s:
   setting: ema12
   fund: fti
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: aex.tick
   active: true
   created_at: 2015-10-01 11:03:00 UTC
@@ -81,7 +81,7 @@ aex.ema.15.1m:
   setting: ema15
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -94,7 +94,7 @@ aex.ema.30.1m:
   setting: ema30
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -107,7 +107,7 @@ aex.ema.360.1m:
   setting: ema360
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -120,7 +120,7 @@ aex.ema.60.1m:
   setting: ema60
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -133,7 +133,7 @@ aex.line.1m:
   setting: line
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -146,7 +146,7 @@ aex.macd.1m:
   setting: macd
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -159,7 +159,7 @@ aex.rsi.1m:
   setting: rsi
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -172,7 +172,7 @@ aex.sar.1m:
   setting: sar
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -185,7 +185,7 @@ aex.sol5m.1m:
   setting: sol5m
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -198,7 +198,7 @@ aex.tick:
   setting: tick
   fund: fti
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   status: test
@@ -211,7 +211,7 @@ aex.trend.1m:
   setting: trend
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   active: true
   refresh: 60
@@ -224,7 +224,7 @@ aud.bar.15m:
   setting: bar
   fund: audusd
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: aud.tick
   active: true
   refresh: 900
@@ -237,7 +237,7 @@ aud.bar.1h:
   setting: bar
   fund: audusd
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: aud.tick
   active: true
   refresh: 3600
@@ -250,7 +250,7 @@ aud.bar.1m:
   setting: bar
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.tick
   active: true
   refresh: 60
@@ -263,7 +263,7 @@ aud.bar.5m:
   setting: bar
   fund: audusd
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: aud.tick
   active: true
   refresh: 300
@@ -276,7 +276,7 @@ aud.bol.1m:
   setting: bol
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -289,7 +289,7 @@ aud.ema.12.5s:
   setting: ema12
   fund: audusd
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: aud.tick
   active: true
   created_at: 2015-10-01 11:03:00 UTC
@@ -301,7 +301,7 @@ aud.ema.15.1m:
   setting: ema15
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -314,7 +314,7 @@ aud.ema.30.1m:
   setting: ema30
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -327,7 +327,7 @@ aud.ema.360.1m:
   setting: ema360
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -340,7 +340,7 @@ aud.ema.60.1m:
   setting: ema60
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -353,7 +353,7 @@ aud.line.1m:
   setting: line
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -366,7 +366,7 @@ aud.macd.1m:
   setting: macd
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -379,7 +379,7 @@ aud.rsi.1m:
   setting: rsi
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -392,7 +392,7 @@ aud.sar.1m:
   setting: sar
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -405,7 +405,7 @@ aud.sol5m.1m:
   setting: sol5m
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -418,7 +418,7 @@ aud.tick:
   setting: tick
   fund: audusd
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-06 19:16:58 UTC
@@ -430,7 +430,7 @@ aud.trend.1m:
   setting: trend
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aud.bar.1m
   active: true
   refresh: 60
@@ -443,7 +443,7 @@ audusd.history.15m:
   setting: history
   fund: audusd
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-25 08:54:37 UTC
   updated_at: 2015-08-25 08:54:37 UTC
@@ -454,7 +454,7 @@ audusd.history.1h:
   setting: history
   fund: audusd
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-25 08:55:07 UTC
   updated_at: 2015-08-25 08:55:07 UTC
@@ -465,7 +465,7 @@ audusd.history.1m:
   setting: history
   fund: audusd
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 19:17:26 UTC
   updated_at: 2015-08-06 19:17:26 UTC
@@ -476,7 +476,7 @@ audusd.history.5m:
   setting: history
   fund: audusd
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-25 08:54:04 UTC
   updated_at: 2015-08-25 08:54:04 UTC
@@ -487,7 +487,7 @@ dax.bar.15m:
   setting: bar
   fund: fdax
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: dax.tick
   active: true
   refresh: 900
@@ -500,7 +500,7 @@ dax.bar.1m:
   setting: bar
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.tick
   active: true
   refresh: 60
@@ -513,7 +513,7 @@ dax.bar.5m:
   setting: bar
   fund: fdax
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: dax.tick
   active: true
   refresh: 300
@@ -526,7 +526,7 @@ dax.bol.1m:
   setting: bol
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -539,7 +539,7 @@ dax.ema.12.5s:
   setting: ema12
   fund: fdax
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: dax.tick
   active: true
   created_at: 2016-06-10 09:20:46 UTC
@@ -551,7 +551,7 @@ dax.ema.15.1m:
   setting: ema15
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -564,7 +564,7 @@ dax.ema.30.1m:
   setting: ema30
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -577,7 +577,7 @@ dax.ema.360.1m:
   setting: ema360
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -590,7 +590,7 @@ dax.ema.60.1m:
   setting: ema60
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -603,7 +603,7 @@ dax.line.1m:
   setting: line
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -616,7 +616,7 @@ dax.macd.1m:
   setting: macd
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -629,7 +629,7 @@ dax.rsi.1m:
   setting: rsi
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -642,7 +642,7 @@ dax.sar.1m:
   setting: sar
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -655,7 +655,7 @@ dax.sol5m.1m:
   setting: sol5m
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -668,7 +668,7 @@ dax.tick:
   setting: tick
   fund: fdax
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-05 20:49:22 UTC
@@ -680,7 +680,7 @@ dax.trend.1m:
   setting: trend
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: dax.bar.1m
   active: true
   refresh: 60
@@ -693,7 +693,7 @@ es.history.1m:
   setting: history
   fund: es
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 09:47:03 UTC
   updated_at: 2015-08-06 09:47:03 UTC
@@ -704,7 +704,7 @@ es.tick:
   setting: tick
   fund: es
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-06 09:46:08 UTC
@@ -716,7 +716,7 @@ eur.bar.15m:
   setting: bar
   fund: eurusd
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: eur.tick
   active: true
   refresh: 900
@@ -729,7 +729,7 @@ eur.bar.1h:
   setting: bar
   fund: eurusd
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: eur.tick
   active: true
   refresh: 3600
@@ -742,7 +742,7 @@ eur.bar.1m:
   setting: bar
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.tick
   active: true
   refresh: 60
@@ -755,7 +755,7 @@ eur.bar.5m:
   setting: bar
   fund: eurusd
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: eur.tick
   active: true
   refresh: 300
@@ -768,7 +768,7 @@ eur.bol.1m:
   setting: bol
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 6
   active: true
@@ -782,7 +782,7 @@ eur.ema:
   setting: ema
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: aex.bar.1m
   position: 5
   active: true
@@ -797,7 +797,7 @@ eur.ema.12.5s:
   setting: ema12
   fund: eurusd
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: eur.tick
   active: true
   status: test
@@ -810,7 +810,7 @@ eur.ema.15.1m:
   setting: ema15
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 1
   active: true
@@ -825,7 +825,7 @@ eur.ema.30.1m:
   setting: ema30
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 2
   active: true
@@ -840,7 +840,7 @@ eur.ema.360.1m:
   setting: ema360
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 4
   active: true
@@ -854,7 +854,7 @@ eur.ema.60.1m:
   setting: ema60
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 3
   active: true
@@ -868,7 +868,7 @@ eur.history.15m:
   setting: history
   fund: eurusd
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:22:31 UTC
   updated_at: 2016-09-01 20:23:40 UTC
@@ -879,7 +879,7 @@ eur.history.1d:
   setting: history
   fund: eurusd
   frame: 1d
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-09-01 20:24:17 UTC
   updated_at: 2016-09-01 20:24:17 UTC
@@ -890,7 +890,7 @@ eur.history.1h:
   setting: history
   fund: eurusd
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:23:39 UTC
   updated_at: 2016-09-01 20:25:37 UTC
@@ -901,7 +901,7 @@ eur.history.1m:
   setting: history
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 09:48:46 UTC
   updated_at: 2016-09-01 20:25:49 UTC
@@ -912,7 +912,7 @@ eur.history.5m:
   setting: history
   fund: eurusd
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:21:52 UTC
   updated_at: 2016-09-01 20:26:00 UTC
@@ -923,7 +923,7 @@ eur.history.5s:
   setting: history
   fund: eurusd
   frame: 5s
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-05-08 16:17:56 UTC
   updated_at: 2016-09-01 20:26:11 UTC
@@ -934,7 +934,7 @@ eur.line.1m:
   setting: line
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 7
   active: true
@@ -948,7 +948,7 @@ eur.macd.1m:
   setting: macd
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 8
   active: true
@@ -962,7 +962,7 @@ eur.rsi.1m:
   setting: rsi
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 9
   active: true
@@ -976,7 +976,7 @@ eur.rsi.5s:
   setting: rsi
   fund: eurusd
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: eur.tick
   created_at: 2016-05-16 19:09:34 UTC
   updated_at: 2016-05-16 21:24:31 UTC
@@ -987,7 +987,7 @@ eur.sar.1m:
   setting: sar
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 10
   active: true
@@ -1001,7 +1001,7 @@ eur.sol5m.1m:
   setting: sol5m
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   position: 11
   active: true
@@ -1015,7 +1015,7 @@ eur.sol.60.5s:
   setting: sol1m
   fund: eurusd
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: eur.tick
   active: true
   created_at: 2016-05-12 20:23:59 UTC
@@ -1027,7 +1027,7 @@ eur.tick:
   setting: tick
   fund: eurusd
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-06 09:48:00 UTC
@@ -1039,7 +1039,7 @@ eur.trend.1m:
   setting: trend
   fund: eurusd
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: eur.bar.1m
   active: true
   refresh: 60
@@ -1052,7 +1052,7 @@ fdax.bar.1h:
   setting: bar
   fund: fdax
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: dax.tick
   active: true
   refresh: 3600
@@ -1065,7 +1065,7 @@ fdax.history.15m:
   setting: history
   fund: fdax
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 17:02:52 UTC
   updated_at: 2015-08-21 17:02:52 UTC
@@ -1076,7 +1076,7 @@ fdax.history.1h:
   setting: history
   fund: fdax
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 17:03:18 UTC
   updated_at: 2015-08-21 17:03:18 UTC
@@ -1087,7 +1087,7 @@ fdax.history.1m:
   setting: history
   fund: fdax
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-05 20:50:19 UTC
   updated_at: 2015-08-06 09:43:32 UTC
@@ -1098,7 +1098,7 @@ fdax.history.5m:
   setting: history
   fund: fdax
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 17:02:31 UTC
   updated_at: 2015-08-21 17:02:31 UTC
@@ -1109,7 +1109,7 @@ fti.history.15m:
   setting: history
   fund: fti
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:34:36 UTC
   updated_at: 2015-08-21 16:37:07 UTC
@@ -1120,7 +1120,7 @@ fti.history.1h:
   setting: history
   fund: fti
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:35:50 UTC
   updated_at: 2015-08-21 16:35:50 UTC
@@ -1131,7 +1131,7 @@ fti.history.1m:
   setting: history
   fund: fti
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-05 20:53:15 UTC
   updated_at: 2015-08-06 09:44:14 UTC
@@ -1142,7 +1142,7 @@ fti.history.5m:
   setting: history
   fund: fti
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:33:50 UTC
   updated_at: 2015-08-21 16:33:50 UTC
@@ -1153,7 +1153,7 @@ gbpusd.bar.15m:
   setting: bar
   fund: gbpusd
   frame: 15m
-  host: 1
+  host: 428078759
   active: true
   refresh: 900
   created_at: 2016-02-29 16:09:20 UTC
@@ -1165,7 +1165,7 @@ gbpusd.bar.1h:
   setting: bar
   fund: gbpusd
   frame: 1h
-  host: 1
+  host: 428078759
   active: true
   refresh: 3600
   created_at: 2016-02-29 16:10:10 UTC
@@ -1177,7 +1177,7 @@ gbpusd.bar.1m:
   setting: bar
   fund: gbpusd
   frame: 1m
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2016-02-29 16:07:58 UTC
@@ -1189,7 +1189,7 @@ gbpusd.bar.5m:
   setting: bar
   fund: gbpusd
   frame: 5m
-  host: 1
+  host: 428078759
   active: true
   refresh: 300
   created_at: 2016-02-29 16:08:47 UTC
@@ -1201,7 +1201,7 @@ gbpusd.history.15m:
   setting: history
   fund: gbpusd
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-02-29 16:12:56 UTC
   updated_at: 2016-02-29 16:12:56 UTC
@@ -1212,7 +1212,7 @@ gbpusd.history.1d:
   setting: history
   fund: gbpusd
   frame: 1d
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-02-29 16:15:33 UTC
   updated_at: 2016-02-29 16:15:33 UTC
@@ -1223,7 +1223,7 @@ gbpusd.history.1h:
   setting: history
   fund: gbpusd
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-02-29 16:13:55 UTC
   updated_at: 2016-02-29 16:13:55 UTC
@@ -1234,7 +1234,7 @@ gbpusd.history.1m:
   setting: history
   fund: gbpusd
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 18:57:14 UTC
   updated_at: 2015-08-06 18:57:14 UTC
@@ -1245,7 +1245,7 @@ gbpusd.history.5m:
   setting: history
   fund: gbpusd
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-02-29 16:12:22 UTC
   updated_at: 2016-02-29 16:12:22 UTC
@@ -1256,7 +1256,7 @@ gbpusd.tick:
   setting: tick
   fund: gbpusd
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-06 18:56:20 UTC
@@ -1268,7 +1268,7 @@ gold.bar.15m:
   setting: bar
   fund: gold
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: gold.tick
   active: true
   refresh: 900
@@ -1281,7 +1281,7 @@ gold.bar.1h:
   setting: bar
   fund: gold
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: gold.tick
   active: true
   refresh: 3600
@@ -1294,7 +1294,7 @@ gold.bar.1m:
   setting: bar
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.tick
   active: true
   refresh: 60
@@ -1307,7 +1307,7 @@ gold.bar.5m:
   setting: bar
   fund: gold
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: gold.tick
   active: true
   refresh: 300
@@ -1320,7 +1320,7 @@ gold.binary1m.5s:
   setting: binary1m
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   position: 2
   active: true
   refresh: 5
@@ -1333,7 +1333,7 @@ gold.bol.1m:
   setting: bol
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 7
   active: true
@@ -1344,10 +1344,10 @@ gold.bol.1m:
 gold.crystal.5s:
   name: gold.crystal.5s
   ngroup: gold.crystal
-  setting: crystal
+  setting: 494433438
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   position: 5
   refresh: 5
   created_at: 2016-12-15 13:28:54 UTC
@@ -1359,7 +1359,7 @@ gold.ema.12.5s:
   setting: ema12
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: gold.tick
   active: true
   created_at: 2015-10-06 18:05:35 UTC
@@ -1371,7 +1371,7 @@ gold.ema.15.1m:
   setting: ema15
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 1
   active: true
@@ -1385,7 +1385,7 @@ gold.ema.30.1m:
   setting: ema30
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 2
   active: true
@@ -1399,7 +1399,7 @@ gold.ema.360.1m:
   setting: ema360
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 4
   active: true
@@ -1413,7 +1413,7 @@ gold.ema.60.1m:
   setting: ema60
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 3
   active: true
@@ -1427,7 +1427,7 @@ gold.history.15m:
   setting: history
   fund: gold
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-07 20:02:58 UTC
   updated_at: 2016-09-05 10:23:35 UTC
@@ -1438,7 +1438,7 @@ gold.history.1d:
   setting: history
   fund: gold
   frame: 1d
-  host: 1
+  host: 428078759
   single: true
   created_at: 2016-09-05 10:22:59 UTC
   updated_at: 2016-09-05 10:22:59 UTC
@@ -1449,7 +1449,7 @@ gold.history.1h:
   setting: history
   fund: gold
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-07 20:34:31 UTC
   updated_at: 2016-09-05 10:22:21 UTC
@@ -1460,7 +1460,7 @@ gold.history.1m:
   setting: history
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-05 20:35:34 UTC
   updated_at: 2016-09-05 10:23:19 UTC
@@ -1471,7 +1471,7 @@ gold.history.5m:
   setting: history
   fund: gold
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-07 18:58:37 UTC
   updated_at: 2016-09-05 10:23:10 UTC
@@ -1482,7 +1482,7 @@ gold.history.5s:
   setting: history
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-20 10:50:36 UTC
   updated_at: 2016-09-05 10:22:51 UTC
@@ -1493,7 +1493,7 @@ gold.line.1m:
   setting: line
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 10
   active: true
@@ -1507,7 +1507,7 @@ gold.macd.1m:
   setting: macd
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 6
   active: true
@@ -1521,7 +1521,7 @@ gold.overlap.5s:
   setting: overlap
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   position: 1
   active: true
   refresh: 5
@@ -1534,7 +1534,7 @@ gold.random.5s:
   setting: random
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   position: 4
   refresh: 5
   created_at: 2016-11-22 11:14:53 UTC
@@ -1546,7 +1546,7 @@ gold.rsi.1m:
   setting: rsi
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 8
   active: true
@@ -1560,7 +1560,7 @@ gold.sar.1m:
   setting: sar
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 9
   active: true
@@ -1574,7 +1574,7 @@ gold.sol1m.5s:
   setting: sol1m
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   position: 3
   active: true
   refresh: 5
@@ -1587,7 +1587,7 @@ gold.sol5m.1m:
   setting: sol5m
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 12
   refresh: 60
@@ -1600,7 +1600,7 @@ gold.tick:
   setting: tick
   fund: gold
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-05 20:31:54 UTC
@@ -1612,7 +1612,7 @@ gold.trend.1m:
   setting: trend
   fund: gold
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: gold.bar.1m
   position: 11
   active: true
@@ -1626,7 +1626,7 @@ nq.bar.15m:
   setting: bar
   fund: nq
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: nq.tick
   active: true
   refresh: 900
@@ -1639,7 +1639,7 @@ nq.bar.1h:
   setting: bar
   fund: nq
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: nq.tick
   active: true
   refresh: 3600
@@ -1652,7 +1652,7 @@ nq.bar.1m:
   setting: bar
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.tick
   active: true
   refresh: 60
@@ -1665,7 +1665,7 @@ nq.bar.5m:
   setting: bar
   fund: nq
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: nq.tick
   active: true
   refresh: 300
@@ -1678,7 +1678,7 @@ nq.bol.1m:
   setting: bol
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1691,7 +1691,7 @@ nq.ema.12.5s:
   setting: ema12
   fund: nq
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: nq.tick
   active: true
   created_at: 2016-07-08 11:52:05 UTC
@@ -1703,7 +1703,7 @@ nq.ema.15.1m:
   setting: ema15
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1716,7 +1716,7 @@ nq.ema.30.1m:
   setting: ema30
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1729,7 +1729,7 @@ nq.ema.360.1m:
   setting: ema360
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1742,7 +1742,7 @@ nq.ema.60.1m:
   setting: ema60
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1755,7 +1755,7 @@ nq.history.15m:
   setting: history
   fund: nq
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:27:25 UTC
   updated_at: 2015-08-21 16:27:25 UTC
@@ -1766,7 +1766,7 @@ nq.history.1h:
   setting: history
   fund: nq
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:27:51 UTC
   updated_at: 2015-08-21 16:27:51 UTC
@@ -1777,7 +1777,7 @@ nq.history.1m:
   setting: history
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-05 20:57:20 UTC
   updated_at: 2015-08-06 09:44:28 UTC
@@ -1788,7 +1788,7 @@ nq.history.5m:
   setting: history
   fund: nq
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:26:58 UTC
   updated_at: 2015-08-21 16:26:58 UTC
@@ -1799,7 +1799,7 @@ nq.line.1m:
   setting: line
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1812,7 +1812,7 @@ nq.macd.1m:
   setting: macd
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1825,7 +1825,7 @@ nq.rsi.1m:
   setting: rsi
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1838,7 +1838,7 @@ nq.sar.1m:
   setting: sar
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1851,7 +1851,7 @@ nq.sol5m.1m:
   setting: sol5m
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1864,7 +1864,7 @@ nq.tick:
   setting: tick
   fund: nq
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-05 20:56:53 UTC
@@ -1876,7 +1876,7 @@ nq.trend.1m:
   setting: trend
   fund: nq
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: nq.bar.1m
   active: true
   refresh: 60
@@ -1889,7 +1889,7 @@ nzdusd.history.1m:
   setting: history
   fund: nzdusd
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 19:19:16 UTC
   updated_at: 2015-08-06 19:19:16 UTC
@@ -1900,7 +1900,7 @@ nzdusd.tick:
   setting: tick
   fund: nzdusd
   frame: 5s
-  host: 1
+  host: 428078759
   refresh: 60
   created_at: 2015-08-06 19:18:19 UTC
   updated_at: 2015-08-25 09:28:24 UTC
@@ -1911,7 +1911,7 @@ oil.bar.15m:
   setting: bar
   fund: oil
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: oil.tick
   active: true
   refresh: 900
@@ -1924,7 +1924,7 @@ oil.bar.1h:
   setting: bar
   fund: oil
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: oil.tick
   active: true
   refresh: 3600
@@ -1937,7 +1937,7 @@ oil.bar.1m:
   setting: bar
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.tick
   active: true
   refresh: 60
@@ -1950,7 +1950,7 @@ oil.bar.5m:
   setting: bar
   fund: oil
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: oil.tick
   active: true
   refresh: 300
@@ -1963,7 +1963,7 @@ oil.bol.1m:
   setting: bol
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -1976,7 +1976,7 @@ oil.ema.12.5s:
   setting: ema12
   fund: oil
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: oil.tick
   active: true
   created_at: 2016-08-15 09:58:31 UTC
@@ -1988,7 +1988,7 @@ oil.ema.15.1m:
   setting: ema15
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2001,7 +2001,7 @@ oil.ema.30.1m:
   setting: ema30
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2014,7 +2014,7 @@ oil.ema.360.1m:
   setting: ema360
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2027,7 +2027,7 @@ oil.ema.60.1m:
   setting: ema60
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2040,7 +2040,7 @@ oil.history.15m:
   setting: history
   fund: oil
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 17:00:27 UTC
   updated_at: 2015-08-21 17:00:27 UTC
@@ -2051,7 +2051,7 @@ oil.history.1h:
   setting: history
   fund: oil
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 17:00:53 UTC
   updated_at: 2015-08-21 17:00:53 UTC
@@ -2062,7 +2062,7 @@ oil.history.1m:
   setting: history
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-05 20:39:15 UTC
   updated_at: 2015-08-06 09:43:24 UTC
@@ -2073,7 +2073,7 @@ oil.history.5m:
   setting: history
   fund: oil
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:59:59 UTC
   updated_at: 2015-08-21 16:59:59 UTC
@@ -2084,7 +2084,7 @@ oil.line.1m:
   setting: line
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2097,7 +2097,7 @@ oil.macd.1m:
   setting: macd
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2110,7 +2110,7 @@ oil.rsi.1m:
   setting: rsi
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2123,7 +2123,7 @@ oil.sar.1m:
   setting: sar
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2136,7 +2136,7 @@ oil.sol5m.1m:
   setting: sol5m
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2149,7 +2149,7 @@ oil.tick:
   setting: tick
   fund: oil
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-05 20:36:42 UTC
@@ -2161,7 +2161,7 @@ oil.trend.1m:
   setting: trend
   fund: oil
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: oil.bar.1m
   active: true
   refresh: 60
@@ -2174,7 +2174,7 @@ usdcad.history.15m:
   setting: history
   fund: usdcad
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:30:43 UTC
   updated_at: 2015-08-21 16:30:43 UTC
@@ -2185,7 +2185,7 @@ usdcad.history.1h:
   setting: history
   fund: usdcad
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:31:35 UTC
   updated_at: 2015-08-21 16:31:35 UTC
@@ -2196,7 +2196,7 @@ usdcad.history.1m:
   setting: history
   fund: usdcad
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 19:02:38 UTC
   updated_at: 2015-08-06 19:02:38 UTC
@@ -2207,7 +2207,7 @@ usdcad.history.5m:
   setting: history
   fund: usdcad
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-21 16:30:03 UTC
   updated_at: 2015-08-21 16:30:03 UTC
@@ -2218,7 +2218,7 @@ usdcad.tick:
   setting: tick
   fund: usdcad
   frame: 5s
-  host: 1
+  host: 428078759
   refresh: 60
   created_at: 2015-08-06 19:02:09 UTC
   updated_at: 2015-08-25 09:28:07 UTC
@@ -2229,7 +2229,7 @@ usdchf.history.1m:
   setting: history
   fund: usdchf
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 18:58:53 UTC
   updated_at: 2015-08-06 18:58:53 UTC
@@ -2240,7 +2240,7 @@ usdchf.tick:
   setting: tick
   fund: usdchf
   frame: 5s
-  host: 1
+  host: 428078759
   refresh: 60
   created_at: 2015-08-06 18:58:20 UTC
   updated_at: 2015-08-25 09:27:57 UTC
@@ -2251,7 +2251,7 @@ usdjpy.bar.15m:
   setting: bar
   fund: usdjpy
   frame: 15m
-  host: 1
+  host: 428078759
   active: true
   refresh: 900
   created_at: 2015-08-27 06:34:40 UTC
@@ -2263,7 +2263,7 @@ usdjpy.bar.1h:
   setting: bar
   fund: usdjpy
   frame: 1h
-  host: 1
+  host: 428078759
   active: true
   refresh: 3600
   created_at: 2015-08-27 06:35:04 UTC
@@ -2275,7 +2275,7 @@ usdjpy.bar.1m:
   setting: bar
   fund: usdjpy
   frame: 1m
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-27 06:33:51 UTC
@@ -2287,7 +2287,7 @@ usdjpy.bar.5m:
   setting: bar
   fund: usdjpy
   frame: 5m
-  host: 1
+  host: 428078759
   active: true
   refresh: 300
   created_at: 2015-08-27 06:34:14 UTC
@@ -2299,7 +2299,7 @@ usdjpy.history.15m:
   setting: history
   fund: usdjpy
   frame: 15m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-25 09:25:28 UTC
   updated_at: 2015-08-25 09:25:28 UTC
@@ -2310,7 +2310,7 @@ usdjpy.history.1h:
   setting: history
   fund: usdjpy
   frame: 1h
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-25 09:26:08 UTC
   updated_at: 2015-08-25 09:26:08 UTC
@@ -2321,7 +2321,7 @@ usdjpy.history.1m:
   setting: history
   fund: usdjpy
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-06 09:50:51 UTC
   updated_at: 2015-08-06 09:50:51 UTC
@@ -2332,7 +2332,7 @@ usdjpy.history.5m:
   setting: history
   fund: usdjpy
   frame: 5m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-25 09:25:02 UTC
   updated_at: 2015-08-25 09:25:02 UTC
@@ -2343,7 +2343,7 @@ usdjpy.tick:
   setting: tick
   fund: usdjpy
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-06 09:49:43 UTC
@@ -2355,7 +2355,7 @@ ym.bar.15m:
   setting: bar
   fund: ym
   frame: 15m
-  host: 1
+  host: 428078759
   trigger: ym.tick
   active: true
   refresh: 900
@@ -2368,7 +2368,7 @@ ym.bar.1h:
   setting: bar
   fund: ym
   frame: 1h
-  host: 1
+  host: 428078759
   trigger: ym.tick
   active: true
   refresh: 3600
@@ -2381,7 +2381,7 @@ ym.bar.1m:
   setting: bar
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.tick
   active: true
   refresh: 60
@@ -2394,7 +2394,7 @@ ym.bar.5m:
   setting: bar
   fund: ym
   frame: 5m
-  host: 1
+  host: 428078759
   trigger: ym.tick
   active: true
   refresh: 300
@@ -2407,7 +2407,7 @@ ym.bol.1m:
   setting: bol
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2420,7 +2420,7 @@ ym.ema.12.5s:
   setting: ema12
   fund: ym
   frame: 5s
-  host: 1
+  host: 428078759
   trigger: ym.tick
   active: true
   created_at: 2016-10-28 10:31:35 UTC
@@ -2432,7 +2432,7 @@ ym.ema.15.1m:
   setting: ema15
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2445,7 +2445,7 @@ ym.ema.30.1m:
   setting: ema30
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2458,7 +2458,7 @@ ym.ema.360.1m:
   setting: ema360
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2471,7 +2471,7 @@ ym.ema.60.1m:
   setting: ema60
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2484,7 +2484,7 @@ ym.history.1m:
   setting: history
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   single: true
   created_at: 2015-08-05 20:56:26 UTC
   updated_at: 2015-08-06 09:44:21 UTC
@@ -2495,7 +2495,7 @@ ym.line.1m:
   setting: line
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2508,7 +2508,7 @@ ym.macd.1m:
   setting: macd
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2521,7 +2521,7 @@ ym.rsi.1m:
   setting: rsi
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2534,7 +2534,7 @@ ym.sar.1m:
   setting: sar
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2547,7 +2547,7 @@ ym.sol5m.1m:
   setting: sol5m
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
@@ -2560,7 +2560,7 @@ ym.tick:
   setting: tick
   fund: ym
   frame: 5s
-  host: 1
+  host: 428078759
   active: true
   refresh: 60
   created_at: 2015-08-05 20:55:47 UTC
@@ -2572,51 +2572,12 @@ ym.trend.1m:
   setting: trend
   fund: ym
   frame: 1m
-  host: 1
+  host: 428078759
   trigger: ym.bar.1m
   active: true
   refresh: 60
   created_at: 2016-10-28 10:53:51 UTC
   updated_at: 2016-10-28 10:53:51 UTC
-
-state.teak:
-  name: state.teak
-  ngroup: state
-  setting: state
-  fund: apartment
-  frame: 1s
-  host: teak
-  active: true
-  refresh: 1
-  status: test
-  created_at: 2018-06-03 18:08:31 UTC
-  updated_at: 2018-06-03 18:08:31 UTC
-
-node.bell.building:
-  name: node.bell.building
-  ngroup: node
-  setting: bell.building
-  fund: apartment
-  frame: 100ms
-  host: teak
-  active: true
-  refresh: 1
-  status: test
-  created_at: 2018-06-03 18:08:31 UTC
-  updated_at: 2018-06-03 18:08:31 UTC
-
-node.bell.apartment:
-  name: node.bell.apartment
-  ngroup: node
-  setting: bell.apartment
-  fund: apartment
-  frame: 100ms
-  host: teak
-  active: true
-  refresh: 1
-  status: test
-  created_at: 2018-06-03 18:08:31 UTC
-  updated_at: 2018-06-03 18:08:31 UTC
 
 node.door.building:
   name: node.door.building
@@ -2628,6 +2589,7 @@ node.door.building:
   active: true
   refresh: 1
   status: test
+  command: node/door/building
   created_at: 2018-06-03 18:08:31 UTC
   updated_at: 2018-06-03 18:08:31 UTC
 
@@ -2641,6 +2603,7 @@ node.door.apartment:
   active: true
   refresh: 1
   status: test
+  command: node/door/apartment
   created_at: 2018-06-03 18:08:31 UTC
   updated_at: 2018-06-03 18:08:31 UTC
 
@@ -2654,3 +2617,49 @@ node.microphone:
   active: true
   refresh: 1
   status: test
+  command: node/microphone
+  created_at: 2018-07-02 20:00:23 UTC
+  updated_at: 2018-07-02 20:00:23 UTC
+
+node.bell.building:
+  name: node.bell.building
+  ngroup: node
+  setting: bell.building
+  fund: apartment
+  frame: 100ms
+  host: teak
+  refresh: 1
+  status: test
+  command: node/bell/building
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-07-03 17:59:25 UTC
+
+node.bell.apartment:
+  name: node.bell.apartment
+  ngroup: node
+  setting: bell.apartment
+  fund: apartment
+  frame: 100ms
+  host: teak
+  refresh: 1
+  status: test
+  command: node/bell/building
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-07-03 17:59:47 UTC
+
+state.teak:
+  name: state.teak
+  ngroup: state
+  setting: state
+  fund: apartment
+  frame: 1s
+  host: teak
+  active: true
+  refresh: 1
+  status: run
+  command: state/teak
+  start_time: 2000-01-01 00:00:00 UTC
+  stop_time: 2000-01-01 00:00:00 UTC
+  created_at: 2018-06-03 18:08:31 UTC
+  updated_at: 2018-07-03 18:22:59 UTC
+

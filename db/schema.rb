@@ -135,6 +135,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   create_table "hosts", force: :cascade do |t|
     t.string "name"
     t.string "model"
+    t.string "mac"
     t.string "ip"
     t.string "speed"
     t.string "processor"
@@ -251,6 +252,7 @@ ActiveRecord::Schema.define(version: 20180118134453) do
     t.integer "refresh"
     t.string "status"
     t.string "message"
+    t.string "command"
     t.time "start_time"
     t.time "stop_time"
     t.datetime "created_at", null: false
