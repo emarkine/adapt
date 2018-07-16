@@ -8,6 +8,6 @@ class CreateStates < ActiveRecord::Migration[5.1]
       t.integer :ms, null: false, :limit => 8
       # t.datetime :time # время
     end
-    add_index(:states, [:service_id, :ms], name: 'unique_states', :unique => true)
+    # add_index(:states, [:service_id, :ms], name: 'unique_states', :unique => true)
   end
 end
