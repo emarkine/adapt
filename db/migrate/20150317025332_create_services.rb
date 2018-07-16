@@ -18,7 +18,7 @@ class CreateServices < ActiveRecord::Migration[5.1]
       t.string :status  # состояние сервиса
       t.string :message  # сообщение от сервиса
       # t.date :date # поле нужно для работы в Java
-      t.string :command  # команда для запуска сервиса
+      t.string :command  # команды для работы с сервисом
       t.time :start_time # время точки начала работы сервиса
       t.time :stop_time # время точки окончания работы сервиса
       # t.integer :delta # установка времени задержки для этого сервиса

@@ -17,7 +17,7 @@
     %th= link_to Service.human_attribute_name(:active), :action => :sort, :field => :active
     %th= link_to Service.human_attribute_name(:status), :action => :sort, :field => :status
     %th= link_to Service.human_attribute_name(:updated), :action => :sort, :field => :updated_at
-    -#%th= link_to Service.human_attribute_name(:action), :action => :sort, :field => :action
+    %th= Service.human_attribute_name(:action)
     -#%th= Service.human_attribute_name :
   - @services.each do |service|
     %tr
@@ -34,8 +34,13 @@
       %td= service.refresh
       %td= boolean_tag(service.active?)
       -#%td= button_to 'start', "/service/start/#{service.id}"
-      %td{title: service.message}= service.status
-      %td{title: l(service.updated_at, format: :standard)}= l(service.updated_at, format: :h_m_s)
+      %td{title: service.message}= service.state.name if service.state
+      %td{title: (l(service.state.time, format: :standard) if service.state)}= l(service.state.time, format: :h_m_s) if service.state
       -#%td= boolean_tag(service.single?)
-      -#%td= link_to service.status, {controller: :services, action: :status, id: service.id}
+      %td
+        = link_to 'load', {action: :action, name: :load, id: service.id}
+        = link_to 'start', {action: :action, name: :start, id: service.id}
+        = link_to 'check', {action: :action, name: :check, id: service.id}
+        = link_to 'stop', {action: :action, name: :stop, id: service.id}
+        = link_to 'unload', {action: :action, name: :unload, id: service.id}
 

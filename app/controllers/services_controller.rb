@@ -147,6 +147,20 @@ class ServicesController < ApplicationController
     redirect_to action: :index
   end
 
+  def action
+    state = State.new
+    state.service = @service
+    state.name = params[:name]
+    state.ms = Time.now.to_ms
+    state.save!
+    redirect_to action: :index
+    # case params[:name]
+    #   when 'start'
+    #     @service.command
+    #   when 'stop'
+    # end
+  end
+
   private
   def set_service
     @service = Service.find(params[:id]) unless params[:id].blank?

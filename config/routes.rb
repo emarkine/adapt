@@ -14,6 +14,7 @@ Rails.application.routes.draw do
 
   resources :services
   get '/service/sort/:field' => 'services#sort'
+  get '/service/:id/action/:name' => 'services#action'
   get '/service/:id/status' => 'services#status'
   get '/services/group/:name' => 'services#group'
   get '/services/frame/:name' => 'services#frame'

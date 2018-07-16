@@ -307,13 +307,11 @@ ActiveRecord::Schema.define(version: 20180118134453) do
   end
 
   create_table "states", force: :cascade do |t|
-    t.string "command", null: false
+    t.string "name", null: false
     t.string "message"
     t.bigint "service_id", null: false
-    t.bigint "host_id", null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.index ["host_id"], name: "index_states_on_host_id"
+    t.bigint "ms", null: false
+    t.index ["service_id", "ms"], name: "unique_states", unique: true
     t.index ["service_id"], name: "index_states_on_service_id"
   end
 
